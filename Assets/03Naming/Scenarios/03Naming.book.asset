@@ -66,15 +66,30 @@ MonoBehaviour:
     - rowIndex: 3
       debugIndex: 3
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u308C\u306F\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
       - EndScenario
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     name: Assets/03Naming/Scenarios/03Naming.xls:Start
     type: 1
-    textLength: 126
+    textLength: 136
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
     entityIndexTbl: 
     entityDataList: []
   gridList:
@@ -110,7 +125,7 @@ MonoBehaviour:
     type: 1
     textLength: 166
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -138,7 +153,7 @@ MonoBehaviour:
     type: 1
     textLength: 112
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -152,7 +167,7 @@ MonoBehaviour:
     type: 1
     textLength: 13
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -181,7 +196,7 @@ MonoBehaviour:
     type: 1
     textLength: 109
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -208,7 +223,7 @@ MonoBehaviour:
     type: 1
     textLength: 112
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -235,7 +250,7 @@ MonoBehaviour:
     type: 1
     textLength: 106
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -332,7 +347,7 @@ MonoBehaviour:
     type: 1
     textLength: 93
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -350,7 +365,7 @@ MonoBehaviour:
     type: 1
     textLength: 37
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -376,7 +391,7 @@ MonoBehaviour:
     type: 1
     textLength: 50
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -403,7 +418,7 @@ MonoBehaviour:
     type: 1
     textLength: 16
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -418,7 +433,7 @@ MonoBehaviour:
     type: 1
     textLength: 27
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -431,7 +446,7 @@ MonoBehaviour:
     type: 1
     textLength: 3
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -455,7 +470,7 @@ MonoBehaviour:
     type: 1
     textLength: 66
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -508,12 +523,27 @@ MonoBehaviour:
     - rowIndex: 3
       debugIndex: 3
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u308C\u306F\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
       - EndScenario
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     name: Assets/03Naming/Scenarios/03Naming.xls:Start
     type: 1
-    textLength: 126
+    textLength: 136
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}

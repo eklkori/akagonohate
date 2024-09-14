@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chapterName: Boot
   dataList:
-  - {fileID: 11400000, guid: eeda48af8c2d67c4b8c26256749dd2e7, type: 2}
+  - {fileID: 11400000, guid: a8974610812878c47b7924097b3ebcd1, type: 2}
   settingList:
   - rows:
     - rowIndex: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
     type: 1
     textLength: 166
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
     type: 1
     textLength: 112
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -90,7 +90,7 @@ MonoBehaviour:
     type: 1
     textLength: 13
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
     type: 1
     textLength: 109
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
     type: 1
     textLength: 112
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
     type: 1
     textLength: 106
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -270,7 +270,7 @@ MonoBehaviour:
     type: 1
     textLength: 93
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
     type: 1
     textLength: 37
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -314,7 +314,7 @@ MonoBehaviour:
     type: 1
     textLength: 50
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
     type: 1
     textLength: 16
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
     type: 1
     textLength: 27
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -369,5 +369,5 @@ MonoBehaviour:
     type: 1
     textLength: 3
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: e84fb7eba9a36bf43a92da8d2605af57, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 7537d75ae7963c544ba664e6af4c964c, type: 3}
   customDataList: []

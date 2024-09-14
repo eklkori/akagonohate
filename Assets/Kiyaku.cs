@@ -15,7 +15,7 @@ public class Kiyaku : MonoBehaviour
     public void KiyakuOK()
     {
         if (Input.GetMouseButtonUp(0)) {
-            SceneManager.LoadScene("03Naming");
+            SceneManager.LoadScene("03Naming/03Naming");
         }
     }
 }

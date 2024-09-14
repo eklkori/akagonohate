@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cab81039de910d46b45716c62533e69, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
-  tutorealFlg: 0
+  tutorealFlg: 1

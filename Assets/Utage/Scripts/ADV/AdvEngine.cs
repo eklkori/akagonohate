@@ -783,20 +783,18 @@ namespace Utage
 		/// <param name="label">ジャンプ先のラベル</param>
 		public void JumpScenario(string label)
 		{
-            Debug.Log("a");
+            Debug.Log(label);
             if (ScenarioPlayer.MainThread.IsPlaying)
 			{
 				if (ScenarioPlayer.IsPausing)
 				{
-					Debug.Log("t");
 					ScenarioPlayer.Resume();
 				}
-                Debug.Log("i");
                 ScenarioPlayer.MainThread.JumpManager.RegistoreLabel(label);
 			}
 			else
 			{
-                Debug.Log("f");
+                //会話シーンとして正常に呼び出されたときはこの分岐に入る
                 StartScenario(label, 0);
 			}
 		}

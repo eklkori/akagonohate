@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chapterDataList:
   - chapterName: Boot
-    scenarioDir: {fileID: 102900000, guid: a80074b273ad1f84a84c7dcef4e08f47, type: 3}
+    scenarioDir: {fileID: 102900000, guid: e661161f9bc716a4e8c163555ecc50d4, type: 3}
     excelList: []
-  scenarios: {fileID: 11400000, guid: 615f408f1bf00094d85198de93f67ceb, type: 2}
+  scenarios: {fileID: 11400000, guid: e4949d86dde445240923649296c2a8d5, type: 2}
   enableCommentOutOnImport: 1
   scenarioFileReaderSettings:
-  - {fileID: 11400000, guid: 09e92e04ab4abf348ad5a34f70adad17, type: 2}
-  - {fileID: 11400000, guid: 92f0446643554de40b3bdebcd00b821d, type: 2}
+  - {fileID: 11400000, guid: da4bd72178d0a18438694155d1312ad4, type: 2}
+  - {fileID: 11400000, guid: 5b89f82915703fa4cb7f4c0c363d4d97, type: 2}
   resourceDir: {fileID: 0}
   checkExt: 0
-  customProjectSetting: {fileID: 11400000, guid: a08e31b0fce6c754282870a2aac0c863, type: 2}
+  customProjectSetting: {fileID: 11400000, guid: 47faadf9e9351744bb7976484d46fdd9, type: 2}
   customImportSpriteFolders:
-  - {fileID: 102900000, guid: d0d42f09157e6e84ca41243482a08955, type: 3}
-  - {fileID: 102900000, guid: add4aae960acca448a08984e1fcf7e56, type: 3}
-  - {fileID: 102900000, guid: 0e350b31e5d087644b80291ed943a84a, type: 3}
-  - {fileID: 102900000, guid: e162347d0203fca42977041f845132d2, type: 3}
-  - {fileID: 102900000, guid: f38c36558942d9443b6ac99033413fdb, type: 3}
+  - {fileID: 102900000, guid: 8390bd05de13944458564efc579e42ad, type: 3}
+  - {fileID: 102900000, guid: 5c249b9ae98ad514b842af7ddef1d1f6, type: 3}
+  - {fileID: 102900000, guid: 8cdccc7f82a500442bc1a514a70f6388, type: 3}
+  - {fileID: 102900000, guid: c99add818a1875743b3c7b837f1532d7, type: 3}
+  - {fileID: 102900000, guid: 6024774494674c741860f3def252dc39, type: 3}
   customImportAudioFolders:
-  - {fileID: 102900000, guid: fc17b2ec5d82f5c458d35662f4ffc63e, type: 3}
-  - {fileID: 102900000, guid: e94f4b7dff7fa6844a8ae47643bfb4c8, type: 3}
-  - {fileID: 102900000, guid: f8c905a6dfd2d5f4f97cff3ed0d1b769, type: 3}
-  - {fileID: 102900000, guid: 3bda1920b2dca034ebade08316b7c6d9, type: 3}
+  - {fileID: 102900000, guid: fce72342619b33f40a8ec374ed153b14, type: 3}
+  - {fileID: 102900000, guid: 7b45719a81f571b4cbc4232b6dc14b4c, type: 3}
+  - {fileID: 102900000, guid: 0c3eb421f7b25a84ea4a7337ad4e2efd, type: 3}
+  - {fileID: 102900000, guid: 42bfc2c457676c14e8fcad17fe153aaf, type: 3}
   quickImportType: 0
   parseFormula: 0
   parseNumreic: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DBManager : MonoBehaviour
 {
@@ -12,12 +13,25 @@ public class DBManager : MonoBehaviour
     }
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        AkagonohateData akago = ScriptableObject.CreateInstance("AkagonohateData") as AkagonohateData;
+        akago = akagoDB.akagoList[0];
+        if (Input.GetMouseButtonUp(0))
+        {
+            if (akago.tutorealFlg == 0)
+            {
+                akago.tutorealFlg = 1;
+                SceneManager.LoadScene("02Kiyaku");
+            }
+            else
+            {
+                SceneManager.LoadScene("05Home");
+            }
+        }
     }
 }
