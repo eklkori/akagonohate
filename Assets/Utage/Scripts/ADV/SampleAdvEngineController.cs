@@ -4,9 +4,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using Utage;
 using UtageExtensions;
+//↓紅子の果用に追加
+using UnityEngine.UI;
 
 public class SampleAdvEngineController : MonoBehaviour
 {
+    //紅子の果用新規追加処理　START
+
+    //※シーン遷移と同時にシナリオをスタートさせる処理
+    [SerializeField]
+    private Button btn;
+    void Start()
+    {
+        btn.onClick.Invoke();
+    }
+
+    //紅子の果用新規追加処理　END
+
     // ADVエンジン
     public AdvEngine AdvEngine { get { return advEngine; } }
     [SerializeField]

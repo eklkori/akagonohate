@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c4aa17f89b11d4596f9f9d5dc89489, type: 3}
   m_Name: CustomProjectSetting
   m_EditorClassIdentifier: 
-  language: {fileID: 11400000, guid: 569101a9cb053a5468fe5f77f2cd5098, type: 2}
+  language: {fileID: 11400000, guid: 9522d8251c89de042bf862cd86f6e923, type: 2}
   useSheetNameToScenarioLabel: 1
   customDataSettings:
     dataContainerCreators: []

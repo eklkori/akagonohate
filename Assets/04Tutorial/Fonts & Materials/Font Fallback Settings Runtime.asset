@@ -12,22 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073f97970fd04bfaacdc7550589b1837, type: 3}
   m_Name: Font Fallback Settings Runtime
   m_EditorClassIdentifier: 
-  fontSettings: {fileID: 11400000, guid: 9775da20c4b865c4384d9c58cd4a7f2d, type: 2}
-  font: {fileID: 11400000, guid: 06fbf28a470b0e64882f6df07774abc1, type: 2}
+  fontSettings: {fileID: 11400000, guid: e36e30ccbb5bf7049b5058fa8b6e369e, type: 2}
+  font: {fileID: 11400000, guid: c7431a0b6db6fe649a4ecf12b86038bf, type: 2}
   fallbackFontsPath: Fonts & Materials
   localizeFallbacks:
   - language: English
     fallbackNames:
-    - 04TutoriaNotoSansJP0 SDF
+    - 04TutorialNotoSansJP0 SDF
   - language: Japanese
     fallbackNames:
-    - 04TutoriaNotoSansJP0 SDF
+    - 04TutorialNotoSansJP0 SDF
   - language: Korean
     fallbackNames:
-    - 04TutoriaNotoSansKR0 SDF
+    - 04TutorialNotoSansKR0 SDF
   - language: ChineseSimplified
     fallbackNames:
-    - 04TutoriaNotoSansSC0 SDF
+    - 04TutorialNotoSansSC0 SDF
   - language: ChineseTraditional
     fallbackNames:
-    - 04TutoriaNotoSansTC0 SDF
+    - 04TutorialNotoSansTC0 SDF

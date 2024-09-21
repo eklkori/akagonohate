@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41d6e2b1b8e4199ae434d9e49e78169, type: 3}
   m_Name: Font Fallback Settings Editor
   m_EditorClassIdentifier: 
-  font: {fileID: 11400000, guid: 06fbf28a470b0e64882f6df07774abc1, type: 2}
+  font: {fileID: 11400000, guid: c7431a0b6db6fe649a4ecf12b86038bf, type: 2}
   localizeFallbacks:
   - language: English
     fallbacks:
-    - {fileID: 11400000, guid: 1cc0a7b882d358747b89f5da7ddc5d0d, type: 2}
+    - {fileID: 11400000, guid: 27509014ee2ce674798ff40559f6d869, type: 2}
   - language: Japanese
     fallbacks:
-    - {fileID: 11400000, guid: 1cc0a7b882d358747b89f5da7ddc5d0d, type: 2}
+    - {fileID: 11400000, guid: 27509014ee2ce674798ff40559f6d869, type: 2}
   - language: Korean
     fallbacks:
-    - {fileID: 11400000, guid: e95ec2563c82e6143b3aa6b422c1d318, type: 2}
+    - {fileID: 11400000, guid: 7de034e125e5b9c439c06bdb76bd4d94, type: 2}
   - language: ChineseSimplified
     fallbacks:
-    - {fileID: 11400000, guid: 108c716194b9537408fd9efc910df964, type: 2}
+    - {fileID: 11400000, guid: 26e0e10705f181e4e9b980292850a4e6, type: 2}
   - language: ChineseTraditional
     fallbacks:
-    - {fileID: 11400000, guid: f8c8cd3f0b2d291458544921e8b6ae01, type: 2}
+    - {fileID: 11400000, guid: 6dd9e30788593044db6d34da4b15ada8, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chapterName: Boot
   dataList:
-  - {fileID: 11400000, guid: da3b8c51ec61c9c4c863810e93113255, type: 2}
+  - {fileID: 11400000, guid: aca04c65d226c3e448c20225f6ce6546, type: 2}
   settingList:
   - rows:
     - rowIndex: 0
@@ -44,11 +44,59 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Character
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u76F4\u5B50"
+      - 
+      - "\u4EEE"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naokokari.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u5EB7\u5B50"
+      - 
+      - "\u4EEE"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasukokari.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Character
     type: 1
-    textLength: 166
+    textLength: 212
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -72,11 +120,41 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Texture
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u591C\u306E\u8857"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 2
+      - 
+      - machiYoru.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u5C4B\u6577\u5ECA\u4E0B"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 2.5
+      - 
+      - yashikiRouka.jpg
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Texture
     type: 1
-    textLength: 112
+    textLength: 156
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -86,11 +164,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Particle
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Particle
     type: 1
     textLength: 13
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -115,11 +193,53 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Layer
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u30AD\u30E3\u30E9\u4E2D\u592E"
+      - Character
+      - 0
+      - -600
+      - 200
+      - 
+      - .85
+      - .85
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - Character
+      - -500
+      - -600
+      - 190
+      - 
+      - .85
+      - .85
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - Character
+      - 500
+      - -600
+      - 190
+      - 
+      - .85
+      - .85
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Layer
     type: 1
-    textLength: 109
+    textLength: 196
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -142,11 +262,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:EyeBlink
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:EyeBlink
     type: 1
     textLength: 112
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -169,11 +289,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:LipSynch
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:LipSynch
     type: 1
     textLength: 106
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -266,11 +386,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Animation
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Animation
     type: 1
     textLength: 93
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -284,11 +404,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Sound
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Sound
     type: 1
     textLength: 37
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -310,11 +430,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Param
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Param
     type: 1
     textLength: 50
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -337,11 +457,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:ParamTbl{}
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:ParamTbl{}
     type: 1
     textLength: 16
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -352,11 +472,11 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:SceneGallery
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:SceneGallery
     type: 1
     textLength: 27
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
     - rowIndex: 0
       debugIndex: 0
@@ -365,9 +485,9 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    name: Assets/04Tutoria/Scenarios/04Tutoria.xls:Localize
+    name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Localize
     type: 1
     textLength: 3
     headerRow: 0
-    sourceAssetInEditor: {fileID: 102900000, guid: 2ee8da909508b764db5eabbf6754d0bd, type: 3}
+    sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   customDataList: []

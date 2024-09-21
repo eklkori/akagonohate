@@ -19,7 +19,6 @@ public class GoTutorial : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             SceneManager.LoadScene("04Tutorial");
-            //JumpScenarioAsync("test", null);
         }
     }
 }

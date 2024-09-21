@@ -1410,6 +1410,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 631416908}
+    - target: {fileID: 1704184389744777511, guid: 4ad2dde41c6e03b4f94432be4bad521f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: modoru
+      objectReference: {fileID: 0}
     - target: {fileID: 5112844370499310784, guid: 4ad2dde41c6e03b4f94432be4bad521f, type: 3}
       propertyPath: m_Name
       value: modoru

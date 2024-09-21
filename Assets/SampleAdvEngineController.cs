@@ -3,9 +3,19 @@ using System.Collections;
 using UnityEngine;
 using Utage;
 using UtageExtensions;
+using UnityEngine.UI;
 
 public class SampleAdvEngineController : MonoBehaviour
 {
+    //紅子の果用新規追加処理　START
+    [SerializeField]
+    private Button btn;
+    void Start()
+    {
+        btn.onClick.Invoke();
+    }
+    //紅子の果用新規追加処理　END
+
     // ADVエンジン
     public AdvEngine AdvEngine { get { return advEngine; } }
     [SerializeField]

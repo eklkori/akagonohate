@@ -19,17 +19,19 @@ public class DBManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AkagonohateData akago = ScriptableObject.CreateInstance("AkagonohateData") as AkagonohateData;
-        akago = akagoDB.akagoList[0];
+        //AkagonohateData akago = ScriptableObject.CreateInstance("AkagonohateData") as AkagonohateData;
+        //akago = akagoDB.akagoList[0];
         if (Input.GetMouseButtonUp(0))
         {
-            if (akago.tutorealFlg == 0)
+            if (AkagonohateData.tutorealFlg == 0)
             {
-                akago.tutorealFlg = 1;
+                AkagonohateData.tutorealFlg = 1;
+                Debug.Log(AkagonohateData.tutorealFlg);
                 SceneManager.LoadScene("02Kiyaku");
             }
             else
             {
+                Debug.Log(AkagonohateData.tutorealFlg);
                 SceneManager.LoadScene("05Home");
             }
         }

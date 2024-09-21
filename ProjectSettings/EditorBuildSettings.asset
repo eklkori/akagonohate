@@ -17,18 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/03Naming.unity
     guid: e86b29c4da45cf445b4ff7a74d481621
-  - enabled: 0
-    path: Assets/04Tutorial.unity
-    guid: 9bfdcdfda89f9454cad3d24cd729a4b0
   - enabled: 1
-    path: Assets/04Tutorial/04Tutorial.unity
-    guid: 9dee0aaaf80c91949aa9d46a9635a59d
+    path: Assets/04Tutorial.unity
+    guid: 41572b1c97546f045bd13270f5ca9eda
   - enabled: 1
     path: Assets/05Home.unity
     guid: c2bd6999d43ec4b4baf6a2357036c312
   - enabled: 1
     path: Assets/06Tansaku.unity
     guid: 097f47611bc125345a103154d7d76634
+  - enabled: 1
+    path: Assets/10RunwaySet.unity
+    guid: 69e7b8ec4f6b6fe45884407158851e5d
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f45bf6fcba1885641aaf2e570950eaf2, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: a439c6d7e75b49c4482bf84b16b25319, type: 2}

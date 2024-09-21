@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u30B5\u30A6\u30F3\u30C9\u540D"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 06fbf28a470b0e64882f6df07774abc1, type: 2}
-  m_sharedMaterial: {fileID: 5448154608910584420, guid: 1cc0a7b882d358747b89f5da7ddc5d0d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7431a0b6db6fe649a4ecf12b86038bf, type: 2}
+  m_sharedMaterial: {fileID: 5448154608910584420, guid: 27509014ee2ce674798ff40559f6d869, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b3a99a8f299d6e84294e8762424ea5b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ab5fec2c460a9a74eac1377064bada87, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7338c13e8f0b4173bd506c6aa80f0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clicked: {fileID: 8300000, guid: 1d9b50e593e33ad48baca54f3371edc1, type: 3}
-  highlited: {fileID: 8300000, guid: f526515848597a946af0e463ff53f835, type: 3}
+  clicked: {fileID: 8300000, guid: 283c1989dd542ff4bb4afbae63348682, type: 3}
+  highlited: {fileID: 8300000, guid: b6045683112ee334e9e1a748d1e3bfa8, type: 3}
   clickedPlayMode: 0
   highlitedPlayMode: 0
