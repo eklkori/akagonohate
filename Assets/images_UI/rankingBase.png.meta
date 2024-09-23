@@ -1,0 +1,4196 @@
+fileFormatVersion: 2
+guid: cc59ff89e02d6be4aa3791df3cd9e5d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4997332755203097420
+    second: rankingBase_0
+  - first:
+      213: 3746098747520022917
+    second: rankingBase_1
+  - first:
+      213: 5027431150299012144
+    second: rankingBase_2
+  - first:
+      213: -7773475900167648688
+    second: rankingBase_3
+  - first:
+      213: -6812997331480306210
+    second: rankingBase_4
+  - first:
+      213: 7162144211875696600
+    second: rankingBase_5
+  - first:
+      213: -3177765387107675083
+    second: rankingBase_6
+  - first:
+      213: -8616998838722246041
+    second: rankingBase_7
+  - first:
+      213: 5815232701444661660
+    second: rankingBase_8
+  - first:
+      213: -3798691282866830742
+    second: rankingBase_9
+  - first:
+      213: -8040496177979033140
+    second: rankingBase_10
+  - first:
+      213: -7568610821162874674
+    second: rankingBase_11
+  - first:
+      213: 8077847028762477492
+    second: rankingBase_12
+  - first:
+      213: -1680168910916293637
+    second: rankingBase_13
+  - first:
+      213: 7732671548922738773
+    second: rankingBase_14
+  - first:
+      213: 2915715974105963088
+    second: rankingBase_15
+  - first:
+      213: 5697739295605773577
+    second: rankingBase_16
+  - first:
+      213: -5463264093410360842
+    second: rankingBase_17
+  - first:
+      213: 6735949609127405966
+    second: rankingBase_18
+  - first:
+      213: -3816630260838714892
+    second: rankingBase_19
+  - first:
+      213: 6504898359264412254
+    second: rankingBase_20
+  - first:
+      213: -2036098123790424171
+    second: rankingBase_21
+  - first:
+      213: -4972116672245642467
+    second: rankingBase_22
+  - first:
+      213: 210934175519505382
+    second: rankingBase_23
+  - first:
+      213: -6384544836649417739
+    second: rankingBase_24
+  - first:
+      213: 3518567039955953951
+    second: rankingBase_25
+  - first:
+      213: -664525027204165632
+    second: rankingBase_26
+  - first:
+      213: 4533513266165201907
+    second: rankingBase_27
+  - first:
+      213: 8204608786076841202
+    second: rankingBase_28
+  - first:
+      213: -7156968959660684215
+    second: rankingBase_29
+  - first:
+      213: -2466457558573535227
+    second: rankingBase_30
+  - first:
+      213: 4193446581869041435
+    second: rankingBase_31
+  - first:
+      213: -2235447781423677597
+    second: rankingBase_32
+  - first:
+      213: 1013947231595130211
+    second: rankingBase_33
+  - first:
+      213: -4035697174291227658
+    second: rankingBase_34
+  - first:
+      213: 4162526283920336207
+    second: rankingBase_35
+  - first:
+      213: -6722840861553142487
+    second: rankingBase_36
+  - first:
+      213: -5819423011453928858
+    second: rankingBase_37
+  - first:
+      213: 3274878976744662270
+    second: rankingBase_38
+  - first:
+      213: 275075531487285985
+    second: rankingBase_39
+  - first:
+      213: 538766156692439764
+    second: rankingBase_40
+  - first:
+      213: -4597844512548275717
+    second: rankingBase_41
+  - first:
+      213: -9102938315499179127
+    second: rankingBase_42
+  - first:
+      213: 4336423996147220937
+    second: rankingBase_43
+  - first:
+      213: -8756547533771881707
+    second: rankingBase_44
+  - first:
+      213: 1406648650694607114
+    second: rankingBase_45
+  - first:
+      213: -6047330111902143127
+    second: rankingBase_46
+  - first:
+      213: -3866457177881553561
+    second: rankingBase_47
+  - first:
+      213: 1478404008290656867
+    second: rankingBase_48
+  - first:
+      213: 3378360172243010828
+    second: rankingBase_49
+  - first:
+      213: 785584906298514926
+    second: rankingBase_50
+  - first:
+      213: -635266099610041713
+    second: rankingBase_51
+  - first:
+      213: -1075265808786130649
+    second: rankingBase_52
+  - first:
+      213: 6986630230513551862
+    second: rankingBase_53
+  - first:
+      213: 2102829686383996260
+    second: rankingBase_54
+  - first:
+      213: 2204705530728408460
+    second: rankingBase_55
+  - first:
+      213: -5850248867471602871
+    second: rankingBase_56
+  - first:
+      213: -6838441211088554685
+    second: rankingBase_57
+  - first:
+      213: 1820831935435232148
+    second: rankingBase_58
+  - first:
+      213: -756248744073573658
+    second: rankingBase_59
+  - first:
+      213: 7593341534873160862
+    second: rankingBase_60
+  - first:
+      213: 8740375768954466525
+    second: rankingBase_61
+  - first:
+      213: -1353205348656320839
+    second: rankingBase_62
+  - first:
+      213: 3992581427015359098
+    second: rankingBase_63
+  - first:
+      213: -360592912692187306
+    second: rankingBase_64
+  - first:
+      213: 3250708928128621136
+    second: rankingBase_65
+  - first:
+      213: 4871017020358621087
+    second: rankingBase_66
+  - first:
+      213: 39727441294862325
+    second: rankingBase_67
+  - first:
+      213: 9087805508983963162
+    second: rankingBase_68
+  - first:
+      213: 2447309621326311366
+    second: rankingBase_69
+  - first:
+      213: -992505649802276843
+    second: rankingBase_70
+  - first:
+      213: -9187774529989504142
+    second: rankingBase_71
+  - first:
+      213: -3496498977986881741
+    second: rankingBase_72
+  - first:
+      213: -1592662160068194201
+    second: rankingBase_73
+  - first:
+      213: 6948517823192340845
+    second: rankingBase_74
+  - first:
+      213: 2813586854783050667
+    second: rankingBase_75
+  - first:
+      213: 8438154003186765748
+    second: rankingBase_76
+  - first:
+      213: 7830370724635077849
+    second: rankingBase_77
+  - first:
+      213: 4326060209497842666
+    second: rankingBase_78
+  - first:
+      213: -8705160355758776528
+    second: rankingBase_79
+  - first:
+      213: 819944220382985143
+    second: rankingBase_80
+  - first:
+      213: 2023120607544240237
+    second: rankingBase_81
+  - first:
+      213: -329572599626689223
+    second: rankingBase_82
+  - first:
+      213: 8138172106144292635
+    second: rankingBase_83
+  - first:
+      213: 3598746923375632596
+    second: rankingBase_84
+  - first:
+      213: -6701376909806971820
+    second: rankingBase_85
+  - first:
+      213: -4188628681578863402
+    second: rankingBase_86
+  - first:
+      213: -8825064561157593186
+    second: rankingBase_87
+  - first:
+      213: 1865083412719790775
+    second: rankingBase_88
+  - first:
+      213: 6320708083291672001
+    second: rankingBase_89
+  - first:
+      213: 2124506922713231584
+    second: rankingBase_90
+  - first:
+      213: 1191731298275014448
+    second: rankingBase_91
+  - first:
+      213: -2322429105228208142
+    second: rankingBase_92
+  - first:
+      213: -7427665458422789915
+    second: rankingBase_93
+  - first:
+      213: 5740656090021044436
+    second: rankingBase_94
+  - first:
+      213: 5205971106890917124
+    second: rankingBase_95
+  - first:
+      213: 2091540745637832797
+    second: rankingBase_96
+  - first:
+      213: -3259275433434349718
+    second: rankingBase_97
+  - first:
+      213: -6118890350472269498
+    second: rankingBase_98
+  - first:
+      213: 6966617062447926467
+    second: rankingBase_99
+  - first:
+      213: -1868349899526275171
+    second: rankingBase_100
+  - first:
+      213: -3143170191245790365
+    second: rankingBase_101
+  - first:
+      213: -8902773515800403932
+    second: rankingBase_102
+  - first:
+      213: -4500667851321997997
+    second: rankingBase_103
+  - first:
+      213: 394596172707803156
+    second: rankingBase_104
+  - first:
+      213: -6323101692447777253
+    second: rankingBase_105
+  - first:
+      213: -2048299582493554218
+    second: rankingBase_106
+  - first:
+      213: 3799661527215499690
+    second: rankingBase_107
+  - first:
+      213: -6487729408388893143
+    second: rankingBase_108
+  - first:
+      213: 7208186477852032604
+    second: rankingBase_109
+  - first:
+      213: 2608867357881773572
+    second: rankingBase_110
+  - first:
+      213: 7153068006632007433
+    second: rankingBase_111
+  - first:
+      213: -6964885182143802771
+    second: rankingBase_112
+  - first:
+      213: 487250824009025181
+    second: rankingBase_113
+  - first:
+      213: -7585329402527541985
+    second: rankingBase_114
+  - first:
+      213: 4749533624575738800
+    second: rankingBase_115
+  - first:
+      213: 7255919730504390336
+    second: rankingBase_116
+  - first:
+      213: 1145854877437803255
+    second: rankingBase_117
+  - first:
+      213: -8415860818992961838
+    second: rankingBase_118
+  - first:
+      213: 136795423258701590
+    second: rankingBase_119
+  - first:
+      213: 7290760552942353699
+    second: rankingBase_120
+  - first:
+      213: -8043886942561249003
+    second: rankingBase_121
+  - first:
+      213: -7073875242920280190
+    second: rankingBase_122
+  - first:
+      213: -2373050949564747090
+    second: rankingBase_123
+  - first:
+      213: 107641484482074062
+    second: rankingBase_124
+  - first:
+      213: 99643304161034715
+    second: rankingBase_125
+  - first:
+      213: 737199233648021028
+    second: rankingBase_126
+  - first:
+      213: 7522055672974615838
+    second: rankingBase_127
+  - first:
+      213: -6627198682295587093
+    second: rankingBase_128
+  - first:
+      213: -5236205552748637605
+    second: rankingBase_129
+  - first:
+      213: 1914549300820305291
+    second: rankingBase_130
+  - first:
+      213: 8884587453008029484
+    second: rankingBase_131
+  - first:
+      213: 3163713135547142423
+    second: rankingBase_132
+  - first:
+      213: 3032489721689476416
+    second: rankingBase_133
+  - first:
+      213: 1516857069064084752
+    second: rankingBase_134
+  - first:
+      213: -4978186911722133531
+    second: rankingBase_135
+  - first:
+      213: 5206894587256413192
+    second: rankingBase_136
+  - first:
+      213: -2713815804466133791
+    second: rankingBase_137
+  - first:
+      213: -2269284904505521061
+    second: rankingBase_138
+  - first:
+      213: -9130937876984901981
+    second: rankingBase_139
+  - first:
+      213: -881335803421403219
+    second: rankingBase_140
+  - first:
+      213: -7001821188413982377
+    second: rankingBase_141
+  - first:
+      213: 1855931226255899083
+    second: rankingBase_142
+  - first:
+      213: -3928606244928794833
+    second: rankingBase_143
+  - first:
+      213: -3568313655261393434
+    second: rankingBase_144
+  - first:
+      213: -7677068593780142533
+    second: rankingBase_145
+  - first:
+      213: 4038208692125631432
+    second: rankingBase_146
+  - first:
+      213: -483216204695195825
+    second: rankingBase_147
+  - first:
+      213: -572985636580368886
+    second: rankingBase_148
+  - first:
+      213: 3995264622662272616
+    second: rankingBase_149
+  - first:
+      213: 8402633274553020899
+    second: rankingBase_150
+  - first:
+      213: 2081816927720236978
+    second: rankingBase_151
+  - first:
+      213: -1705075370173924883
+    second: rankingBase_152
+  - first:
+      213: -8279373195067840707
+    second: rankingBase_153
+  - first:
+      213: 6317575982776860424
+    second: rankingBase_154
+  - first:
+      213: 2245674115832848944
+    second: rankingBase_155
+  - first:
+      213: -2913969173526372302
+    second: rankingBase_156
+  - first:
+      213: 4698243627326625328
+    second: rankingBase_157
+  - first:
+      213: 4016677738928811977
+    second: rankingBase_158
+  - first:
+      213: -3218441008320382742
+    second: rankingBase_159
+  - first:
+      213: 7838208665059080599
+    second: rankingBase_160
+  - first:
+      213: 8277116074266446946
+    second: rankingBase_161
+  - first:
+      213: -1549823311066909285
+    second: rankingBase_162
+  - first:
+      213: 7276461632194500897
+    second: rankingBase_163
+  - first:
+      213: 2041693081933423503
+    second: rankingBase_164
+  - first:
+      213: 451458639465254504
+    second: rankingBase_165
+  - first:
+      213: 6408873849614609668
+    second: rankingBase_166
+  - first:
+      213: 939369244674533291
+    second: rankingBase_167
+  - first:
+      213: 7090561718306918825
+    second: rankingBase_168
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rankingBase_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 412
+        width: 429
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c430e42f9a71a5540800000000000000
+      internalID: 4997332755203097420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 328
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589777396f0dcf330800000000000000
+      internalID: 3746098747520022917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 360
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c5e46aef505c540800000000000000
+      internalID: 5027431150299012144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 322
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a827cbad01f1490800000000000000
+      internalID: -7773475900167648688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 326
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd9e69160f5371a0800000000000000
+      internalID: -6812997331480306210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df88fac63c056360800000000000000
+      internalID: 7162144211875696600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5345ae9873f46e3d0800000000000000
+      internalID: -3177765387107675083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ac10406354a6880800000000000000
+      internalID: -8616998838722246041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9128dfd45bd3b050800000000000000
+      internalID: 5815232701444661660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6289519766584bc0800000000000000
+      internalID: -3798691282866830742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc97ca5935b6a6090800000000000000
+      internalID: -8040496177979033140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8c861fe84e6f690800000000000000
+      internalID: -7568610821162874674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3055b03174a1070800000000000000
+      internalID: 8077847028762477492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbed260747dea8e0800000000000000
+      internalID: -1680168910916293637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5583f46edc7ff4b60800000000000000
+      internalID: 7732671548922738773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a9486fa34b67820800000000000000
+      internalID: 2915715974105963088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905dd5193bf621f40800000000000000
+      internalID: 5697739295605773577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1012ea0469e24b0800000000000000
+      internalID: -5463264093410360842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8968fc1b76ea7d50800000000000000
+      internalID: 6735949609127405966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1b3b7cffa980bc0800000000000000
+      internalID: -3816630260838714892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_20
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e520af3e79a064a50800000000000000
+      internalID: 6504898359264412254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_21
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597e1ab4b835eb3e0800000000000000
+      internalID: -2036098123790424171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b4001ea3e7ffab0800000000000000
+      internalID: -4972116672245642467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_23
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb74dad3836de200800000000000000
+      internalID: 210934175519505382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_24
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f305fe3c4a8567a0800000000000000
+      internalID: -6384544836649417739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19e8f6a41674d030800000000000000
+      internalID: 3518567039955953951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0009321320227c6f0800000000000000
+      internalID: -664525027204165632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_27
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb3c46cb464aee30800000000000000
+      internalID: 4533513266165201907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4b8279830acd170800000000000000
+      internalID: 8204608786076841202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_29
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c8de286a65dac90800000000000000
+      internalID: -7156968959660684215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500b5a71be165cdd0800000000000000
+      internalID: -2466457558573535227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1751e8c27d123a30800000000000000
+      internalID: 4193446581869041435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_32
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f7e4236181af0e0800000000000000
+      internalID: -2235447781423677597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_33
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 303
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36de73092a3421e00800000000000000
+      internalID: 1013947231595130211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_34
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 303
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbd2515dc25ef7c0800000000000000
+      internalID: -4035697174291227658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 232
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f456c49e99344c930800000000000000
+      internalID: 4162526283920336207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_36
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 262
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925d4a50bdba3b2a0800000000000000
+      internalID: -6722840861553142487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_37
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 227
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66afd8c8a914d3fa0800000000000000
+      internalID: -5819423011453928858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_38
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 231
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4a24b0415b27d20800000000000000
+      internalID: 3274878976744662270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e293bc0db341d300800000000000000
+      internalID: 275075531487285985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2c7aa07f41a7700800000000000000
+      internalID: 538766156692439764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9b419b6cc2130c0800000000000000
+      internalID: -4597844512548275717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983f06cd4dddba180800000000000000
+      internalID: -9102938315499179127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1c5dd26a21e2c30800000000000000
+      internalID: 4336423996147220937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_44
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51344b6896e7a7680800000000000000
+      internalID: -8756547533771881707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_45
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a014f6cbe7b658310800000000000000
+      internalID: 1406648650694607114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_46
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96dac88ad41931ca0800000000000000
+      internalID: -6047330111902143127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_47
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7655c1d9ea5975ac0800000000000000
+      internalID: -3866457177881553561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_48
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362ada4dc98548410800000000000000
+      internalID: 1478404008290656867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c054fd56da852ee20800000000000000
+      internalID: 3378360172243010828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_50
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedd4d06f45f6ea00800000000000000
+      internalID: 785584906298514926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_51
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8245e229d41f27f0800000000000000
+      internalID: -635266099610041713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_52
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729fd24a173e311f0800000000000000
+      internalID: -1075265808786130649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_53
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f904ca8d2f75f060800000000000000
+      internalID: 6986630230513551862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_54
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d60106570ce2d10800000000000000
+      internalID: 2102829686383996260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_55
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85e769cfffa89e10800000000000000
+      internalID: 2204705530728408460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b49b6a6adbfcea0800000000000000
+      internalID: -5850248867471602871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_57
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345bcab33f9f811a0800000000000000
+      internalID: -6838441211088554685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_58
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493dd438ff4e44910800000000000000
+      internalID: 1820831935435232148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_59
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eac8a726c34185f0800000000000000
+      internalID: -756248744073573658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_60
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c855c05e7f06960800000000000000
+      internalID: 7593341534873160862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_61
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 217
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd076ff047d0c4970800000000000000
+      internalID: 8740375768954466525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_62
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be6e2da7e2783de0800000000000000
+      internalID: -1353205348656320839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_63
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a921e77af786730800000000000000
+      internalID: 3992581427015359098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_64
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f657a08aaeefaf0800000000000000
+      internalID: -360592912692187306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_65
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a1c411c86dc1d20800000000000000
+      internalID: 3250708928128621136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_66
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f977b591c24599340800000000000000
+      internalID: 4871017020358621087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_67
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7273ab5e32d8000800000000000000
+      internalID: 39727441294862325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_68
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 217
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eb3de06fe5e1e70800000000000000
+      internalID: 9087805508983963162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_69
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfec8a522796f120800000000000000
+      internalID: 2447309621326311366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_70
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 176
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51097f9be59e932f0800000000000000
+      internalID: -992505649802276843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_71
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 146
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273189f6eb77e7080800000000000000
+      internalID: -9187774529989504142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 150
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337539b64b0f97fc0800000000000000
+      internalID: -3496498977986881741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_73
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760dde5243ab5e9e0800000000000000
+      internalID: -1592662160068194201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_74
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6999d635281e6060800000000000000
+      internalID: 6948517823192340845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba36d00665edb0720800000000000000
+      internalID: 2813586854783050667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_76
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfccffcb585a1570800000000000000
+      internalID: 8438154003186765748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_77
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dced7ddfa01bac60800000000000000
+      internalID: 7830370724635077849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_78
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3221017d0490c30800000000000000
+      internalID: 4326060209497842666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_79
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f5f2247ce013780800000000000000
+      internalID: -8705160355758776528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_80
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbff879ce6016b00800000000000000
+      internalID: 819944220382985143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_81
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68627e3971931c10800000000000000
+      internalID: 2023120607544240237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9359c8f777f1d6bf0800000000000000
+      internalID: -329572599626689223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_83
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f19b3a96890f070800000000000000
+      internalID: 8138172106144292635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_84
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0a554824151f130800000000000000
+      internalID: 3598746923375632596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_85
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45453f8b43deff2a0800000000000000
+      internalID: -6701376909806971820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_86
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4aa7a08600fd5c0800000000000000
+      internalID: -4188628681578863402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_87
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e972050f982178580800000000000000
+      internalID: -8825064561157593186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_88
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bae2a37b7b12e910800000000000000
+      internalID: 1865083412719790775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_89
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd4a81638aa7b750800000000000000
+      internalID: 6320708083291672001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_90
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e03e234ac3cb7d10800000000000000
+      internalID: 2124506922713231584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_91
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037b56d3d41e98010800000000000000
+      internalID: 1191731298275014448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_92
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f728d6980315cfd0800000000000000
+      internalID: -2322429105228208142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_93
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e845487e91abe890800000000000000
+      internalID: -7427665458422789915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_94
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0236f6c48eaaf40800000000000000
+      internalID: 5740656090021044436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_95
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4052e29a3235f3840800000000000000
+      internalID: 5205971106890917124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_96
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58aff80a35a60d10800000000000000
+      internalID: 2091540745637832797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_97
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ffcfcf24ab4c2d0800000000000000
+      internalID: -3259275433434349718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_98
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641f88045a5551ba0800000000000000
+      internalID: -6118890350472269498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_99
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc426dbe456ea060800000000000000
+      internalID: 6966617062447926467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_100
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f79925aa94216e0800000000000000
+      internalID: -1868349899526275171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_101
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 132
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363b2324d573164d0800000000000000
+      internalID: -3143170191245790365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_102
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 132
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42026f208aef27480800000000000000
+      internalID: -8902773515800403932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_103
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 78
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3558eed4f6a6a81c0800000000000000
+      internalID: -4500667851321997997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_104
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 103
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4103affd023e97500800000000000000
+      internalID: 394596172707803156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e9afe0384df38a0800000000000000
+      internalID: -6323101692447777253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d904efc16af293e0800000000000000
+      internalID: -2048299582493554218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_107
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9e56c070c1bb430800000000000000
+      internalID: 3799661527215499690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_108
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926ff1ef974f6f5a0800000000000000
+      internalID: -6487729408388893143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ef427396f980460800000000000000
+      internalID: 7208186477852032604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ea7a42a0f843420800000000000000
+      internalID: 2608867357881773572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_111
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9072385147dc44360800000000000000
+      internalID: 7153068006632007433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62dfe014d1c75f90800000000000000
+      internalID: -6964885182143802771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_113
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d960399fa0013c600800000000000000
+      internalID: 487250824009025181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f151502e81f7bb690800000000000000
+      internalID: -7585329402527541985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_115
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b34c9ddaabb9e140800000000000000
+      internalID: 4749533624575738800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_116
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c656772d8432b460800000000000000
+      internalID: 7255919730504390336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_117
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa34d5a0f4e6ef00800000000000000
+      internalID: 1145854877437803255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_118
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6ebcc9c2bd43b80800000000000000
+      internalID: -8415860818992961838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_119
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61feb3276bef5e100800000000000000
+      internalID: 136795423258701590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_120
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d3f84481cfd2560800000000000000
+      internalID: 7290760552942353699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_121
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519db3fa17f5e5090800000000000000
+      internalID: -8043886942561249003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_122
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f7e4012fb84dd90800000000000000
+      internalID: -7073875242920280190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_123
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea23a4dfbba311fd0800000000000000
+      internalID: -2373050949564747090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_124
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec556ad1c5b6e7100800000000000000
+      internalID: 107641484482074062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_125
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1c3c4ae01026100800000000000000
+      internalID: 99643304161034715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_126
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ec7421cce0b3a00800000000000000
+      internalID: 737199233648021028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_127
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e152d50f7c5b36860800000000000000
+      internalID: 7522055672974615838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_128
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beea5dd29e57704a0800000000000000
+      internalID: -6627198682295587093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_129
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b525d79dac24557b0800000000000000
+      internalID: -5236205552748637605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_130
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85ed540278d19a10800000000000000
+      internalID: 1914549300820305291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_131
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27af6847356c4b70800000000000000
+      internalID: 8884587453008029484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_132
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711568fa554c7eb20800000000000000
+      internalID: 3163713135547142423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_133
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 66
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d0356c551951a20800000000000000
+      internalID: 3032489721689476416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_134
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 66
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dda98b775fc0510800000000000000
+      internalID: 1516857069064084752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_135
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 66
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7ad4d116de9eab0800000000000000
+      internalID: -4978186911722133531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_136
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c92503a0b924840800000000000000
+      internalID: 5206894587256413192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_137
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 36
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e484fc77e6965ad0800000000000000
+      internalID: -2713815804466133791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_138
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 10
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ccacc0761e180e0800000000000000
+      internalID: -2269284904505521061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_139
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aec720f064684180800000000000000
+      internalID: -9130937876984901981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_140
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7db3d91cdd4c3f0800000000000000
+      internalID: -881335803421403219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_141
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759f7c3f9b884de90800000000000000
+      internalID: -7001821188413982377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_142
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9b98cfd9791c910800000000000000
+      internalID: 1855931226255899083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_143
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f43a45f69ca79c0800000000000000
+      internalID: -3928606244928794833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_144
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed08f2e2adca7ec0800000000000000
+      internalID: -3568313655261393434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_145
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e4d6fe9c2957590800000000000000
+      internalID: -7677068593780142533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_146
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c30b0ff8699a0830800000000000000
+      internalID: 4038208692125631432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_147
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f2e690c654b49f0800000000000000
+      internalID: -483216204695195825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_148
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ed93e69985c08f0800000000000000
+      internalID: -572985636580368886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_149
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8664879a108027730800000000000000
+      internalID: 3995264622662272616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_150
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e13c93b1762c9470800000000000000
+      internalID: 8402633274553020899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_151
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7e820477914ec10800000000000000
+      internalID: 2081816927720236978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_152
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9f3851cfa5658e0800000000000000
+      internalID: -1705075370173924883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_153
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d372711f1f1c91d80800000000000000
+      internalID: -8279373195067840707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_154
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f34f662e98ca750800000000000000
+      internalID: 6317575982776860424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_155
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032a183d5bc3a2f10800000000000000
+      internalID: 2245674115832848944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_156
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230a58db9708f87d0800000000000000
+      internalID: -2913969173526372302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_157
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036db0bcfa3833140800000000000000
+      internalID: 4698243627326625328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_158
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf221e4f1b1eb730800000000000000
+      internalID: 4016677738928811977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_159
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8738874fcc553d0800000000000000
+      internalID: -3218441008320382742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_160
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7993c349049e6cc60800000000000000
+      internalID: 7838208665059080599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_161
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cc35b27393ed270800000000000000
+      internalID: 8277116074266446946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_162
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95bc3fe8ebed7ae0800000000000000
+      internalID: -1549823311066909285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_163
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12956b85d4f2bf460800000000000000
+      internalID: 7276461632194500897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_164
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83a3096a0d855c10800000000000000
+      internalID: 2041693081933423503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_165
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e8b1c9d37e34600800000000000000
+      internalID: 451458639465254504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_166
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40da1908fc4e0f850800000000000000
+      internalID: 6408873849614609668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_167
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7a0cdd95f490d00800000000000000
+      internalID: 939369244674533291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rankingBase_168
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1daadb05cb66260800000000000000
+      internalID: 7090561718306918825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

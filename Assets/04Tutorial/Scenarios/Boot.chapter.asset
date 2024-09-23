@@ -430,9 +430,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - TEnd
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Param
     type: 1
-    textLength: 50
+    textLength: 58
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:

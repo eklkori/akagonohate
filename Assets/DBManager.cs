@@ -21,7 +21,7 @@ public class DBManager : MonoBehaviour
     {
         //AkagonohateData akago = ScriptableObject.CreateInstance("AkagonohateData") as AkagonohateData;
         //akago = akagoDB.akagoList[0];
-        if (Input.GetMouseButtonUp(0))
+        /*if (Input.GetMouseButtonUp(0))
         {
             if (AkagonohateData.tutorealFlg == 0)
             {
@@ -34,6 +34,6 @@ public class DBManager : MonoBehaviour
                 Debug.Log(AkagonohateData.tutorealFlg);
                 SceneManager.LoadScene("05Home");
             }
-        }
+        }*/
     }
 }

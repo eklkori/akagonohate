@@ -711,7 +711,6 @@ GameObject:
   - component: {fileID: 590993131}
   - component: {fileID: 590993130}
   - component: {fileID: 590993129}
-  - component: {fileID: 590993133}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -805,20 +804,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &590993133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590993128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a240bd26bdcab4e91b019280f110bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  btn: {fileID: 0}
-  advEngine: {fileID: 0}
 --- !u!1 &1028526826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1159,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: kakutei
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1466703387940105975, guid: 43cdabea6174a9c45b3c8ed44de0b7dd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1245,7 +1231,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1996339057}
-  - component: {fileID: 1996339056}
   m_Layer: 0
   m_Name: SampleAdvEngineController
   m_TagString: Untagged
@@ -1253,20 +1238,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1996339056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996339055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a240bd26bdcab4e91b019280f110bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  btn: {fileID: 0}
-  advEngine: {fileID: 0}
 --- !u!4 &1996339057
 Transform:
   m_ObjectHideFlags: 0

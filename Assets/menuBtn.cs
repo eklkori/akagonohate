@@ -33,6 +33,8 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject giftBtnSumi;
     [SerializeField] GameObject giftBtnMi;
     [SerializeField] GameObject giftBase;
+    [SerializeField] GameObject ScrollCredit;
+    [SerializeField] GameObject ScrollRiyokiyaku;
     [SerializeField] GameObject yondemiru;
     [SerializeField] GameObject textA;
     [SerializeField] GameObject haikei;
@@ -84,6 +86,7 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(false);
             haikei.SetActive(false);
             haikeiC.SetActive(true);
+            ScrollCredit.SetActive(true);
         }
     }
 
@@ -126,6 +129,7 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(false);
             haikei.SetActive(false);
             haikeiR.SetActive(true);
+            ScrollRiyokiyaku.SetActive(true);
         }
     }
 
@@ -190,7 +194,7 @@ public class menuBtn : MonoBehaviour
         {
             batsuG.SetActive(true);
             giftT.SetActive(true);
-            //giftBtnBase.SetActive(true);
+            giftBtnBase.SetActive(true);
             giftBtnSumi.SetActive(true);
             giftBtnMi.SetActive(false);
             //giftBase.SetActive(true);
@@ -206,7 +210,7 @@ public class menuBtn : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
-            //giftBtnBase.SetActive(true);
+            giftBtnBase.SetActive(true);
             giftBtnSumi.SetActive(false);
             giftBtnMi.SetActive(true);
             //giftBase.SetActive(true);
@@ -253,6 +257,7 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(true);
             haikei.SetActive(true);
             haikeiC.SetActive(false);
+            ScrollCredit.SetActive(false);
         }
     }
 
@@ -295,6 +300,7 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(true);
             haikei.SetActive(true);
             haikeiR.SetActive(false);
+            ScrollRiyokiyaku.SetActive(false);
         }
     }
 
@@ -359,7 +365,7 @@ public class menuBtn : MonoBehaviour
         {
             batsuG.SetActive(false);
             giftT.SetActive(false);
-            //giftBtnBase.SetActive(false);
+            giftBtnBase.SetActive(false);
             giftBtnMi.SetActive(false);
             giftBtnSumi.SetActive(false);
             //giftBase.SetActive(false);

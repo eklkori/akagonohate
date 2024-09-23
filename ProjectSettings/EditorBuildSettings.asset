@@ -27,6 +27,12 @@ EditorBuildSettings:
     path: Assets/06Tansaku.unity
     guid: 097f47611bc125345a103154d7d76634
   - enabled: 1
+    path: Assets/07Kaiwa.unity
+    guid: 16eecd2f6ab26c844b2fa24b516a2ea3
+  - enabled: 1
+    path: Assets/08Mitsugu.unity
+    guid: f6f218aac0acd0c4a9bab119b4560148
+  - enabled: 1
     path: Assets/10RunwaySet.unity
     guid: 69e7b8ec4f6b6fe45884407158851e5d
   m_configObjects:

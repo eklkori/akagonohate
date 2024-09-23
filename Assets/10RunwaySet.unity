@@ -196,7 +196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 632395397}
-  - component: {fileID: 632395396}
+  - component: {fileID: 632395398}
   m_Layer: 0
   m_Name: CRunwaySet
   m_TagString: Untagged
@@ -204,18 +204,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &632395396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632395395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ae2f2827f46608468ac884b6f13a6ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &632395397
 Transform:
   m_ObjectHideFlags: 0
@@ -231,6 +219,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &632395398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632395395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41f2c6c684cafd47820c2b01f77db3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1202743727
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,10 +510,14 @@ PrefabInstance:
     - target: {fileID: 1704184389744777511, guid: 4ad2dde41c6e03b4f94432be4bad521f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 632395396}
+      objectReference: {fileID: 632395398}
     - target: {fileID: 1704184389744777511, guid: 4ad2dde41c6e03b4f94432be4bad521f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: modoru
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704184389744777511, guid: 4ad2dde41c6e03b4f94432be4bad521f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gamenseni, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5112844370499310784, guid: 4ad2dde41c6e03b4f94432be4bad521f, type: 3}
       propertyPath: m_Name

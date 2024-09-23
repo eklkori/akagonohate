@@ -156,6 +156,21 @@ MonoBehaviour:
     - rowIndex: 9
       debugIndex: 10
       strings:
+      - Param
+      - TEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 11
+      strings:
       - EndScenario
       - 
       - 
@@ -170,7 +185,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Start
     type: 1
-    textLength: 182
+    textLength: 193
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
     entityIndexTbl: 
@@ -590,9 +605,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - TEnd
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Param
     type: 1
-    textLength: 50
+    textLength: 58
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -831,6 +855,21 @@ MonoBehaviour:
     - rowIndex: 10
       debugIndex: 10
       strings:
+      - Param
+      - TEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
       - EndScenario
       - 
       - 
@@ -845,6 +884,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Start
     type: 1
-    textLength: 182
+    textLength: 193
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}

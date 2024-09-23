@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f183272568e6f94382e3b59c0de76cd, type: 3}
+  m_Name: 07Kaiwa.project
+  m_EditorClassIdentifier: 
+  chapterDataList:
+  - chapterName: Boot
+    scenarioDir: {fileID: 102900000, guid: d64d53f8638959b47a6878baba526fb8, type: 3}
+    excelList: []
+  scenarios: {fileID: 11400000, guid: 5d94a262e9b3f1045ab418d3ccf9fb4a, type: 2}
+  enableCommentOutOnImport: 1
+  scenarioFileReaderSettings:
+  - {fileID: 11400000, guid: 1bfc0c8b92d670f4b8c807422f736a48, type: 2}
+  - {fileID: 11400000, guid: 6e75a8e11e5d8cf45828f1acb4004de9, type: 2}
+  resourceDir: {fileID: 0}
+  checkExt: 0
+  customProjectSetting: {fileID: 11400000, guid: c0715411ccb60ed4f99dc42de0765dde, type: 2}
+  customImportSpriteFolders:
+  - {fileID: 102900000, guid: 8ce33c8acadd42f45a383ea92e7711f1, type: 3}
+  - {fileID: 102900000, guid: b3bdef6a205e4d2409a8bd457d8c2ff7, type: 3}
+  - {fileID: 102900000, guid: 3667355910c8c8144af1b3c411cce9a6, type: 3}
+  - {fileID: 102900000, guid: c66ef89f02c725b4cb9a0af250c3e7e6, type: 3}
+  - {fileID: 102900000, guid: 975c700ca53fb84498e76a12e99ca122, type: 3}
+  customImportAudioFolders:
+  - {fileID: 102900000, guid: cd327a042c97fe34e900db5dbda3a586, type: 3}
+  - {fileID: 102900000, guid: 35dc1ca1385afdf439c08a21d19b9dcc, type: 3}
+  - {fileID: 102900000, guid: 7ee8e9be6ab686e469f9d028bcbb11ff, type: 3}
+  - {fileID: 102900000, guid: e442943e58d94484f8de1f77ce1a5c22, type: 3}
+  quickImportType: 0
+  parseFormula: 0
+  parseNumreic: 0
+  checkWhiteSpace: 1
+  checkWaitType: 0
+  checkWhiteSpaceEndOfCell: 1
+  checkTextCount: 1
+  checkTextCountAllLanguage: 0
+  autoImportType: 1
+  checkBlankRowCountOnImport: 1000
+  checkColumnCountOnImport: 500

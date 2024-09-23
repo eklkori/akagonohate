@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: a1a42ad85fd1b4e4f876108c5af44371
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1024505540239375564
+    second: housyuTextBase_0
+  - first:
+      213: -1835435657315698347
+    second: housyuTextBase_1
+  - first:
+      213: -2945716337486679422
+    second: housyuTextBase_2
+  - first:
+      213: -705261225240568654
+    second: housyuTextBase_3
+  - first:
+      213: -7586147269824200707
+    second: housyuTextBase_4
+  - first:
+      213: 6166243023043824921
+    second: housyuTextBase_5
+  - first:
+      213: -1493566768371962913
+    second: housyuTextBase_6
+  - first:
+      213: 694061199110018259
+    second: housyuTextBase_7
+  - first:
+      213: 5366335473383356746
+    second: housyuTextBase_8
+  - first:
+      213: -5033609392064407386
+    second: housyuTextBase_9
+  - first:
+      213: 2518924989602303132
+    second: housyuTextBase_10
+  - first:
+      213: 2643660218495561884
+    second: housyuTextBase_11
+  - first:
+      213: -5388333589155075281
+    second: housyuTextBase_12
+  - first:
+      213: -7103074257858952475
+    second: housyuTextBase_13
+  - first:
+      213: 8738461782508408302
+    second: housyuTextBase_14
+  - first:
+      213: -2730122544947750149
+    second: housyuTextBase_15
+  - first:
+      213: -3971052151258820327
+    second: housyuTextBase_16
+  - first:
+      213: -5700028924669140172
+    second: housyuTextBase_17
+  - first:
+      213: -3814284820655017018
+    second: housyuTextBase_18
+  - first:
+      213: 7808410348241111853
+    second: housyuTextBase_19
+  - first:
+      213: 1306089980023274054
+    second: housyuTextBase_20
+  - first:
+      213: -3790530476928398261
+    second: housyuTextBase_21
+  - first:
+      213: 6881011788277881186
+    second: housyuTextBase_22
+  - first:
+      213: -2970004630514451167
+    second: housyuTextBase_23
+  - first:
+      213: -8017654615776185285
+    second: housyuTextBase_24
+  - first:
+      213: -4226788422454734061
+    second: housyuTextBase_25
+  - first:
+      213: -1406368558497118679
+    second: housyuTextBase_26
+  - first:
+      213: -8380168871127279930
+    second: housyuTextBase_27
+  - first:
+      213: 7109016938409334557
+    second: housyuTextBase_28
+  - first:
+      213: -5627376086528303857
+    second: housyuTextBase_29
+  - first:
+      213: 1348441147992582376
+    second: housyuTextBase_30
+  - first:
+      213: 8104599895834079241
+    second: housyuTextBase_31
+  - first:
+      213: 3879838873607875021
+    second: housyuTextBase_32
+  - first:
+      213: -1422700573886883113
+    second: housyuTextBase_33
+  - first:
+      213: -7443852585444047988
+    second: housyuTextBase_34
+  - first:
+      213: -3753575071744243400
+    second: housyuTextBase_35
+  - first:
+      213: -7036152875178887342
+    second: housyuTextBase_36
+  - first:
+      213: -6942330912860625862
+    second: housyuTextBase_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: housyuTextBase_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 683
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433cc93a3a938c1f0800000000000000
+      internalID: -1024505540239375564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 390
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559bc958ef83786e0800000000000000
+      internalID: -1835435657315698347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 369
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282ba0f1996be17d0800000000000000
+      internalID: -2945716337486679422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 371
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcddabf6a86636f0800000000000000
+      internalID: -705261225240568654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 390
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff3450504798b690800000000000000
+      internalID: -7586147269824200707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 370
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d024bfb55e29550800000000000000
+      internalID: 6166243023043824921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 390
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb6cdaffe8c54be0800000000000000
+      internalID: -1493566768371962913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 369
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d49559bbfcc1a900800000000000000
+      internalID: 694061199110018259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 382
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49b7945ead097a40800000000000000
+      internalID: 5366335473383356746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_9
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 382
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a85ee75de6052ab0800000000000000
+      internalID: -5033609392064407386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 382
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c8915aee405f220800000000000000
+      internalID: 2518924989602303132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 321
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90724646fa20b420800000000000000
+      internalID: 2643660218495561884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 315
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b2b17362bc835b0800000000000000
+      internalID: -5388333589155075281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 314
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2881f989fcc6d90800000000000000
+      internalID: -7103074257858952475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 270
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed8dbd51b0454970800000000000000
+      internalID: 8738461782508408302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 264
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa9a1b9208ac1ad0800000000000000
+      internalID: -2730122544947750149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 263
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911daa3ab1df3e8c0800000000000000
+      internalID: -3971052151258820327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 219
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433e4af94ed65e0b0800000000000000
+      internalID: -5700028924669140172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_18
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 213
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c371b02a20f01bc0800000000000000
+      internalID: -3814284820655017018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 213
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b456b47db0d5c60800000000000000
+      internalID: 7808410348241111853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 212
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64afbf7bae9202210800000000000000
+      internalID: 1306089980023274054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 168
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c04644d94556bc0800000000000000
+      internalID: -3790530476928398261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 162
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2691497a3c34e7f50800000000000000
+      internalID: 6881011788277881186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 162
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dbbe8368c68c6d0800000000000000
+      internalID: -2970004630514451167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 161
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34b3e63b919bb090800000000000000
+      internalID: -8017654615776185285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 117
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3131ad2035e6755c0800000000000000
+      internalID: -4226788422454734061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 111
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926408f4f339b7ce0800000000000000
+      internalID: -1406368558497118679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_27
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 111
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c61caecfc8a3bb80800000000000000
+      internalID: -8380168871127279930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 110
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d179f148d3d48a260800000000000000
+      internalID: 7109016938409334557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 66
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dd3f0b34b87e1b0800000000000000
+      internalID: -5627376086528303857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 60
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e82e9a6410a6b210800000000000000
+      internalID: 1348441147992582376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_31
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 60
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900bbdd4aa2597070800000000000000
+      internalID: 8104599895834079241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 59
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9262736e4f7d530800000000000000
+      internalID: 3879838873607875021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_33
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 15
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da5ab7ad5d814ce0800000000000000
+      internalID: -1422700573886883113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 9
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c830c34438f12b890800000000000000
+      internalID: -7443852585444047988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 9
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8394cea0c5f98ebc0800000000000000
+      internalID: -3753575071744243400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 9
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2577e993d309a5e90800000000000000
+      internalID: -7036152875178887342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: housyuTextBase_37
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34aab911d2e7af90800000000000000
+      internalID: -6942330912860625862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
