@@ -36,7 +36,7 @@ MonoBehaviour:
     - rowIndex: 1
       debugIndex: 1
       strings:
-      - '*naoko1'
+      - 
       - 
       - 
       - 
@@ -71,13 +71,6 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 4
-      debugIndex: 6
-      strings:
-      - '*naoko2'
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 5
       debugIndex: 7
       strings:
       - 
@@ -92,7 +85,7 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 6
+    - rowIndex: 5
       debugIndex: 8
       strings:
       - EndScenario
@@ -101,7 +94,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/07Kaiwa/Scenarios/07Kaiwa.xls:Start
     type: 1
-    textLength: 131
+    textLength: 117
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9d98d4a9efc70e44d9eaf46b1e050209, type: 3}
     entityIndexTbl: 
@@ -401,9 +394,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - naoko_prm
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/07Kaiwa/Scenarios/07Kaiwa.xls:Param
     type: 1
-    textLength: 50
+    textLength: 63
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9d98d4a9efc70e44d9eaf46b1e050209, type: 3}
   - rows:
@@ -507,7 +509,7 @@ MonoBehaviour:
     - rowIndex: 1
       debugIndex: 1
       strings:
-      - '*naoko1'
+      - 
       - 
       - 
       - 
@@ -555,9 +557,8 @@ MonoBehaviour:
       debugInfo: 
     - rowIndex: 6
       debugIndex: 6
-      strings:
-      - '*naoko2'
-      isEmpty: 0
+      strings: []
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 7
@@ -584,6 +585,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/07Kaiwa/Scenarios/07Kaiwa.xls:Start
     type: 1
-    textLength: 131
+    textLength: 117
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9d98d4a9efc70e44d9eaf46b1e050209, type: 3}

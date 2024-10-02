@@ -310,9 +310,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - naoko_prm
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/07Kaiwa/Scenarios/07Kaiwa.xls:Param
     type: 1
-    textLength: 50
+    textLength: 63
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 9d98d4a9efc70e44d9eaf46b1e050209, type: 3}
   - rows:

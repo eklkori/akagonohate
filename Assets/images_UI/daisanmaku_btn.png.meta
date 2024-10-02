@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      daisanmaku_btn_0: -5841595105063981761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

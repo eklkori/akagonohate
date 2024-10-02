@@ -9,33 +9,38 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
-    path: Assets/01Title.unity
+    path: Assets/Scenes/01Title.unity
     guid: c383f24247b70b642a4f6d92d5a12fd5
   - enabled: 1
-    path: Assets/02Kiyaku.unity
+    path: Assets/Scenes/02Kiyaku.unity
     guid: 9205506aa04d2024390057cbea6ba922
   - enabled: 1
-    path: Assets/03Naming.unity
+    path: Assets/Scenes/03Naming.unity
     guid: e86b29c4da45cf445b4ff7a74d481621
   - enabled: 1
-    path: Assets/04Tutorial.unity
+    path: Assets/Scenes/04Tutorial.unity
     guid: 41572b1c97546f045bd13270f5ca9eda
   - enabled: 1
-    path: Assets/05Home.unity
+    path: Assets/Scenes/05Home.unity
     guid: c2bd6999d43ec4b4baf6a2357036c312
   - enabled: 1
-    path: Assets/06Tansaku.unity
+    path: Assets/Scenes/06Tansaku.unity
     guid: 097f47611bc125345a103154d7d76634
   - enabled: 1
-    path: Assets/07Kaiwa.unity
+    path: Assets/Scenes/07Kaiwa.unity
     guid: 16eecd2f6ab26c844b2fa24b516a2ea3
   - enabled: 1
-    path: Assets/08Mitsugu.unity
+    path: Assets/Scenes/08Mitsugu.unity
     guid: f6f218aac0acd0c4a9bab119b4560148
   - enabled: 1
-    path: Assets/10RunwaySet.unity
+    path: Assets/Scenes/10RunwaySet.unity
     guid: 69e7b8ec4f6b6fe45884407158851e5d
+  - enabled: 1
+    path: Assets/Scenes/13Busshi.unity
+    guid: abeacd1b8e92ecb469510a68a0f16738
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 917488e9df16db247af326beaee25e6c, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f45bf6fcba1885641aaf2e570950eaf2, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 528c54b103ad3084da17e3e7aa11a78b, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: a439c6d7e75b49c4482bf84b16b25319, type: 2}
   m_UseUCBPForAssetBundles: 0

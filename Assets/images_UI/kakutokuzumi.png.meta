@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kakutokuzumi_0: 3895025423333442709
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
