@@ -22,15 +22,24 @@ public class tansakuMoveDown: MonoBehaviour
 
     [SerializeField] private float moveUIy;
 
-    [SerializeField] int gamenFlgD = 0;
+    [SerializeField] int gamenFlgD = 1;
 
     
-    void Start()
+    public void shitaBtnOn()
     {
-        if (gamenFlgD == 0 && Input.GetMouseButtonUp(0))
+        if (gamenFlgD == 1)
         {
-            //gamenFlgD = 1;
+            gamenFlgD = 0;
             shitaBtn.SetActive(false);
+        }
+    }
+
+    public void ueBtnOn()
+    {
+        if (gamenFlgD == 0)
+        {
+            gamenFlgD = 1;
+            ueBtn.SetActive(false);
         }
     }
     /// <summary>
@@ -38,8 +47,8 @@ public class tansakuMoveDown: MonoBehaviour
     /// </summary>
     public void Update()
     {
-        /*
-            if (gamenFlgD == 0 && backGround.position.y <= 1500)
+        //‰º‚ÉˆÚ“®‚·‚éˆ—
+            if (gamenFlgD == 0 && backGround.position.y <= 1475)
             {
                 naoko_kao.position += new Vector3(0, moveUIy, 0);
                 yoshiko_kao.position += new Vector3(0, moveUIy, 0);
@@ -48,19 +57,17 @@ public class tansakuMoveDown: MonoBehaviour
                 hideya_kao.position += new Vector3(0, moveUIy, 0);
                 yasuo_kao.position += new Vector3(0, moveUIy, 0);
                 backGround.position += new Vector3(0, moveUIy, 0);
-            Debug.Log(backGround.position.y);
-
+                Debug.Log(backGround.position.y);
             }
 
-        
+        if (gamenFlgD == 0 && backGround.position.y >= 1475)
+        {
+            ueBtn.SetActive(true);
+        }
+
 
         //ã‚ÉˆÚ“®‚·‚éˆ—
-        if (gamenFlgD == 1 && Input.GetMouseButtonUp(0))
-        {
-            //gamenFlgD = 0;
-            shitaBtn.SetActive(false);
-        }
-        if (gamenFlgD == 1 && backGround.position.y >= 720)
+        if (gamenFlgD == 1 && backGround.position.y >= -35)
         {
             naoko_kao.position -= new Vector3(0, moveUIy, 0);
             yoshiko_kao.position -= new Vector3(0, moveUIy, 0);
@@ -69,24 +76,14 @@ public class tansakuMoveDown: MonoBehaviour
             hideya_kao.position -= new Vector3(0, moveUIy, 0);
             yasuo_kao.position -= new Vector3(0, moveUIy, 0);
             backGround.position -= new Vector3(0, moveUIy, 0);
-            Debug.Log("‚ ");
+            Debug.Log(backGround.position.y);
         }
 
-        if (gamenFlgD == 0 && backGround.position.y >= 1500)
+        if (gamenFlgD == 1 && backGround.position.y <= -35)
         {
-            gamenFlgD = 1;
-            ueBtn.SetActive(true);
-            Debug.Log("‚¢");
-            
-        }
-
-        if (gamenFlgD == 1 && backGround.position.y <= 720)
-        {
-            gamenFlgD = 0;
             shitaBtn.SetActive(true);
-            Debug.Log("‚¤");
         }
-*/
+
 
     }
 }

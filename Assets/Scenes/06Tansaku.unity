@@ -597,7 +597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -608, y: -1733}
+  m_AnchoredPosition: {x: -608, y: -172}
   m_SizeDelta: {x: 136.3938, y: 127.047424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372520715
@@ -646,7 +646,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 631416912}
         m_TargetAssemblyTypeName: tansakuMoveDown, Assembly-CSharp
-        m_MethodName: Update
+        m_MethodName: ueBtnOn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1045,7 +1045,7 @@ MonoBehaviour:
   yasuo_kao: {fileID: 1789841364}
   backGround: {fileID: 2028031745}
   moveUIy: 4
-  gamenFlgD: 0
+  gamenFlgD: 1
 --- !u!1 &715223771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,7 +1974,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 631416912}
         m_TargetAssemblyTypeName: tansakuMoveDown, Assembly-CSharp
-        m_MethodName: Update
+        m_MethodName: shitaBtnOn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

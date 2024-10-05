@@ -22,13 +22,18 @@ public class CRunwaySet : MonoBehaviour
     [SerializeField] GameObject ninsokuT;
     [SerializeField] GameObject mogiriMinus;
     [SerializeField] GameObject mogiriPlus;
+    [SerializeField] GameObject mogiriPlusNo;
     [SerializeField] GameObject yudoinMinus;
     [SerializeField] GameObject yudoinPlus;
+    [SerializeField] GameObject yudoinPlusNo;
     [SerializeField] GameObject nimotsuMinus;
     [SerializeField] GameObject nimotsuPlus;
+    [SerializeField] GameObject nimotsuPlusNo;
     [SerializeField] GameObject mogirisu;
     [SerializeField] GameObject yudoinsu;
     [SerializeField] GameObject nimotsusu;
+    [SerializeField] GameObject basyo;
+    [SerializeField] GameObject cRunwaySet;
 
     public void goSetting()
     {
@@ -48,13 +53,20 @@ public class CRunwaySet : MonoBehaviour
         ninsokuT.SetActive(true);
         mogiriMinus.SetActive(true);
         mogiriPlus.SetActive(true);
+        mogiriPlusNo.SetActive(true);
         yudoinMinus.SetActive(true);
         yudoinPlus.SetActive(true);
+        yudoinPlusNo.SetActive(true);
         nimotsuMinus.SetActive(true);
         nimotsuPlus.SetActive(true);
+        nimotsuPlusNo.SetActive(true);
         mogirisu.SetActive(true);
         yudoinsu.SetActive(true);
         nimotsusu.SetActive(true);
+        basyo.SetActive(true);
+
+        cRunwaySet.GetComponent<Cninsoku>().syokisuchi();
+        cRunwaySet.GetComponent<Cninsoku>().zero();
     }
 
     public void goRunner() {
@@ -65,13 +77,17 @@ public class CRunwaySet : MonoBehaviour
         ninsokuT.SetActive(false);
         mogiriMinus.SetActive(false);
         mogiriPlus.SetActive(false);
+        mogiriPlusNo.SetActive(false);
         yudoinMinus.SetActive(false);
         yudoinPlus.SetActive(false);
+        yudoinPlusNo.SetActive(false);
         nimotsuMinus.SetActive(false);
         nimotsuPlus.SetActive(false);
+        nimotsuPlusNo.SetActive(false);
         mogirisu.SetActive(false);
         yudoinsu.SetActive(false);
         nimotsusu.SetActive(false);
+        basyo.SetActive(false);
 
         settingBtn.SetActive(true);
         dainmakuBtnBase.SetActive(true);

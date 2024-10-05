@@ -16,10 +16,15 @@ public class GoHome : MonoBehaviour
 
         //パラメーターの呼び出し
         int TEnd = engine.Param.GetParameterInt("TEnd");
+        int KEnd = engine.Param.GetParameterInt("KEnd");
 
         if (TEnd==1)
         {
             SceneManager.LoadScene("05Home");
+        }
+        if (KEnd == 1)
+        {
+            SceneManager.LoadScene("06Tansaku");
         }
     }
 }

@@ -8,11 +8,19 @@ using UnityEngine.UI;
 public class SampleAdvEngineController : MonoBehaviour
 {
     //紅子の果用新規追加処理　START
-    [SerializeField]
-    private Button btn;
+    [SerializeField] private Button btn;
+    [SerializeField] GameObject CTutorial;
     void Start()
     {
-        btn.onClick.Invoke();
+        //チュートリアルフラグが0の場合、シナリオラベル「Start」でチュートリアル開始
+        //その他の場合、会話Noを引数にシナリオを開始(要検討)
+        if (AkagonohateData.tutorealFlg == 0)
+        {
+            btn.onClick.Invoke();
+        }
+        else {
+            JumpScenario(AkagonohateData.kaiwaNo);
+        }
     }
     //紅子の果用新規追加処理　END
 
