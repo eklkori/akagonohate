@@ -13,7 +13,7 @@ public class startUtage : MonoBehaviour
     }
 
     /// <summary>
-    /// ランダムに通常会話をスタートさせる処理
+    /// ランダムに通常会話をスタートさせる処理 ※04Tutorialへの統合でいらなくなったかも
     /// </summary>
     public void kaiwaStart()
     {

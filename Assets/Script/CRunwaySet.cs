@@ -32,7 +32,7 @@ public class CRunwaySet : MonoBehaviour
     [SerializeField] GameObject mogirisu;
     [SerializeField] GameObject yudoinsu;
     [SerializeField] GameObject nimotsusu;
-    [SerializeField] GameObject basyo;
+    [SerializeField] GameObject basyos;
     [SerializeField] GameObject cRunwaySet;
 
     public void goSetting()
@@ -63,10 +63,11 @@ public class CRunwaySet : MonoBehaviour
         mogirisu.SetActive(true);
         yudoinsu.SetActive(true);
         nimotsusu.SetActive(true);
-        basyo.SetActive(true);
+        basyos.SetActive(true);
 
         cRunwaySet.GetComponent<Cninsoku>().syokisuchi();
         cRunwaySet.GetComponent<Cninsoku>().zero();
+        cRunwaySet.GetComponent<Cbasyo>().syokihyouji();
     }
 
     public void goRunner() {
@@ -87,7 +88,7 @@ public class CRunwaySet : MonoBehaviour
         mogirisu.SetActive(false);
         yudoinsu.SetActive(false);
         nimotsusu.SetActive(false);
-        basyo.SetActive(false);
+        basyos.SetActive(false);
 
         settingBtn.SetActive(true);
         dainmakuBtnBase.SetActive(true);

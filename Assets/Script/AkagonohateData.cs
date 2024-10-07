@@ -10,10 +10,10 @@ public class AkagonohateData : ScriptableObject
 {
     //以下、DB管理する前提のstatic変数
     //共通//
-    public static int tutorealFlg = 1;    　　 //チュートリアルフラグ
+    public static int tutorealFlg = 0;    　　 //チュートリアルフラグ
     public static int tutorealFlgB = 0;    　  //チュートリアルフラグ(物資調達)
     public static string playerNmaeT = "EKL";  //プレーヤー名
-    public static int playerLvI = 1;           //プレイヤーLv
+    public static int playerLvI = 20;           //プレイヤーLv
     public static int kenSyojiI = 0;           //仕立券総所持数
     public static int zeniSyojiI = 0;          //銭総所持数
     //会話・デート関連//
@@ -23,6 +23,8 @@ public class AkagonohateData : ScriptableObject
     public static int moZen = 2;               //前回ランウェイ時に設定したもぎりの数
     public static int yuZen = 1;               //前回ランウェイ時に設定した誘導員の数
     public static int niZen = 5;               //前回ランウェイ時に設定した荷物持ちの数
+    //物資調達
+    public static int busshiSyokaiFlg = 0;     //物資調達初回フラグ(1の時に物資初回チュートリアル再生)
     //所持数関係
     public static int[] itemSyojisu = new int[20];
     public static int[] isyoSyojiFlg = new int[60]; 

@@ -27,14 +27,35 @@ public class Gamenseni : MonoBehaviour
     }
 
     /// <summary>
+    /// 利用規約に同意する/しないの制御
+    /// </summary>
+    [SerializeField] GameObject douisuruBtn;
+    [SerializeField] GameObject check;
+    public void douisuru()
+    {
+        int douiFlg = 0;
+        if (Input.GetMouseButtonUp(0))
+        {
+            if (douiFlg == 0)
+            {
+                douiFlg = 1;
+                douisuruBtn.SetActive(true);
+                //check.SetActive(true);
+            }
+            if (douiFlg == 1)
+            {
+                douiFlg = 0;
+                douisuruBtn.SetActive(false);
+                //check.SetActive(false);
+            }
+        }
+    }
+    /// <summary>
     /// 利用規約→名前設定への遷移
     /// </summary>
     public void GoNaming()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             SceneManager.LoadScene("03Naming");
-        }
     }
 
 
@@ -43,10 +64,7 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goTutorial()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             SceneManager.LoadScene("04Tutorial");
-        }
     }
 
     /// <summary>
@@ -54,10 +72,7 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goTansaku()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             SceneManager.LoadScene("06Tansaku");
-        }
     }
 
     /// <summary>
@@ -65,10 +80,7 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goRunwaySet()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             SceneManager.LoadScene("10RunwaySet");
-        }
     }
 
     /// <summary>
@@ -76,10 +88,7 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goTask()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             SceneManager.LoadScene("XXTask");
-        }
     }
 
     /// <summary>
@@ -87,15 +96,14 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goBusshi()
     {
-        if (AkagonohateData.tutorealFlgB==0)
+        if (AkagonohateData.busshiSyokaiFlg == 0)
         {
-            //チュートリアル遷移用処理
+            SceneManager.LoadScene("04Tutorial");
         }
         else
         {
             SceneManager.LoadScene("13Busshi");
         }
-        SceneManager.LoadScene("13Busshi");
     }
 
     /// <summary>

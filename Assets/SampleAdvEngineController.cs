@@ -18,6 +18,10 @@ public class SampleAdvEngineController : MonoBehaviour
         {
             btn.onClick.Invoke();
         }
+        else if (AkagonohateData.tutorealFlg == 1 && AkagonohateData.busshiSyokaiFlg == 0)
+        {
+            JumpScenario("busshiT");
+        }
         else {
             JumpScenario(AkagonohateData.kaiwaNo);
         }
