@@ -33,6 +33,7 @@ public class AkagonohateData : ScriptableObject
     //以下、DB管理しないstatic変数
     public static int tansakuKyara = 0;        //どのキャラのイベントを開始させるかの判断基準にする
     public static string kaiwaNo = "";         //会話No(開始させる会話のNoを保管。※例：naoko1)
-    public static int hyoujimaku = 1;　　　　　//ランナー設定画面で表示中の幕を一時的に保管(セッティング→ランナーの切り替え時に使用)
-
+    public static int hyoujimaku = 1;     //ランナー設定画面で表示中の幕を一時的に保管(セッティング→ランナーの切り替え時に使用)
+    public static int[] gacha10 = new int[10]; //ガチャ演出表示用
+    public static int gachaFlg = 0;            //ガチャが単発か10連か判断(単発の場合「1」、10連の場合「2」)
 }

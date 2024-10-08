@@ -375,6 +375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 603629119}
   - component: {fileID: 603629118}
+  - component: {fileID: 603629120}
   m_Layer: 0
   m_Name: CBusshi
   m_TagString: Untagged
@@ -394,6 +395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b41f2c6c684cafd47820c2b01f77db3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  douisuruBtn: {fileID: 0}
+  check: {fileID: 0}
 --- !u!4 &603629119
 Transform:
   m_ObjectHideFlags: 0
@@ -409,6 +412,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &603629120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603629117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a9bcde25b2b8547ae1c1d5ddbbba51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &674290190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,7 +1217,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1622475525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 603629120}
+        m_TargetAssemblyTypeName: goGacha, Assembly-CSharp
+        m_MethodName: goGacha1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1622475525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1527,7 +1554,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1768942838}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 603629120}
+        m_TargetAssemblyTypeName: goGacha, Assembly-CSharp
+        m_MethodName: goGacha10
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1768942838
 MonoBehaviour:
   m_ObjectHideFlags: 0
