@@ -38,6 +38,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/13Busshi.unity
     guid: abeacd1b8e92ecb469510a68a0f16738
+  - enabled: 1
+    path: Assets/Scenes/14Gacha.unity
+    guid: fc09ca8da49c4e441b92da8e7799ef26
+  - enabled: 1
+    path: Assets/Scenes/15GachaRes.unity
+    guid: 48f96718d4ea4444dbb7a7045ab94d33
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 917488e9df16db247af326beaee25e6c, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f45bf6fcba1885641aaf2e570950eaf2, type: 2}
