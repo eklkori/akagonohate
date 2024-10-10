@@ -14,6 +14,7 @@ public class AkagonohateData : ScriptableObject
     public static int tutorealFlgB = 0;    　  //チュートリアルフラグ(物資調達)
     public static string playerNmaeT = "EKL";  //プレーヤー名
     public static int playerLvI = 20;           //プレイヤーLv
+    public static int exp = 270;                 //EXP
     public static int kenSyojiI = 0;           //仕立券総所持数
     public static int zeniSyojiI = 0;          //銭総所持数
     //会話・デート関連//

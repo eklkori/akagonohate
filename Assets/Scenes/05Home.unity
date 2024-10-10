@@ -2705,11 +2705,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: -3111083252242526118, guid: 53a50412d43a9f04ab16e4ded3a26e36, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
+  m_FillMethod: 0
+  m_FillAmount: 0.346
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -2899,6 +2899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5693ef502f72b4291972a3ecbbbfbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  expBar: {fileID: 392607233}
   playerLv: {fileID: 55015078}
   playerName: {fileID: 1090939001}
   kenSyoji: {fileID: 2111796723}
@@ -2915,6 +2916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b41f2c6c684cafd47820c2b01f77db3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  douisuruBtn: {fileID: 0}
+  check: {fileID: 0}
 --- !u!1 &415769007
 GameObject:
   m_ObjectHideFlags: 0

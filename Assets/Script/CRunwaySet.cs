@@ -35,6 +35,9 @@ public class CRunwaySet : MonoBehaviour
     [SerializeField] GameObject basyos;
     [SerializeField] GameObject cRunwaySet;
 
+    /// <summary>
+    /// セッティングボタン押下時の処理
+    /// </summary>
     public void goSetting()
     {
         daiichimakuBtn.SetActive(false);
@@ -70,6 +73,9 @@ public class CRunwaySet : MonoBehaviour
         cRunwaySet.GetComponent<Cbasyo>().syokihyouji();
     }
 
+    /// <summary>
+    /// ランナーボタン押下時の処理
+    /// </summary>
     public void goRunner() {
         runnerBtn.SetActive(false);
         mogiri.SetActive(false);
@@ -114,6 +120,9 @@ public class CRunwaySet : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// ランナー画面　第一幕ボタン押下時の処理
+    /// </summary>
     public void goDaiichimaku() {
         daiichimakuBtn.SetActive(false);
         dainimakuBtn.SetActive(true);
@@ -121,6 +130,9 @@ public class CRunwaySet : MonoBehaviour
         AkagonohateData.hyoujimaku = 1;
     }
 
+    /// <summary>
+    /// ランナー画面　第二幕ボタン押下時の処理
+    /// </summary>
     public void goDainimaku()
     {
         daiichimakuBtn.SetActive(true);
@@ -129,6 +141,9 @@ public class CRunwaySet : MonoBehaviour
         AkagonohateData.hyoujimaku = 2;
     }
 
+    /// <summary>
+    /// ランナー画面　第三幕ボタン押下時の処理
+    /// </summary>
     public void goDaisanmaku()
     {
         daiichimakuBtn.SetActive(true);
