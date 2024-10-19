@@ -18,7 +18,7 @@ public class GoHome : MonoBehaviour
         int TEnd = engine.Param.GetParameterInt("TEnd");
         int BEnd = engine.Param.GetParameterInt("BEnd");
         int KEnd = engine.Param.GetParameterInt("KEnd");
-
+        Debug.Log(TEnd);
         if (TEnd==1)
         {
             AkagonohateData.tutorealFlg = 1;

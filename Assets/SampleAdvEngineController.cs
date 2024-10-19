@@ -10,6 +10,7 @@ public class SampleAdvEngineController : MonoBehaviour
     //紅子の果用新規追加処理　START
     [SerializeField] private Button btn;
     [SerializeField] GameObject CTutorial;
+    [SerializeField] int Flg = AkagonohateData.tutorealFlg;
     void Start()
     {
         //チュートリアルフラグが0の場合、シナリオラベル「Start」でチュートリアル開始
@@ -20,6 +21,7 @@ public class SampleAdvEngineController : MonoBehaviour
         }
         else if (AkagonohateData.tutorealFlg == 1 && AkagonohateData.busshiSyokaiFlg == 0)
         {
+            Debug.Log(AkagonohateData.tutorealFlg);
             JumpScenario("busshiT");
         }
         else {

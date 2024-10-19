@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/10RunwaySet.unity
     guid: 69e7b8ec4f6b6fe45884407158851e5d
   - enabled: 1
+    path: Assets/Scenes/11Runway.unity
+    guid: 7f45e46586e80e34e94c941f67af94f6
+  - enabled: 1
     path: Assets/Scenes/13Busshi.unity
     guid: abeacd1b8e92ecb469510a68a0f16738
   - enabled: 1
@@ -44,6 +47,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/15GachaRes.unity
     guid: 48f96718d4ea4444dbb7a7045ab94d33
+  - enabled: 1
+    path: Assets/Scenes/16Shinaido1.unity
+    guid: e3d6fbb778d2b3043b6aa2affb8c2680
+  - enabled: 1
+    path: Assets/Scenes/17Shinaido2.unity
+    guid: 1706b53c2afdb76469f99e556b1487d3
+  - enabled: 1
+    path: Assets/Scenes/18Shinaido3.unity
+    guid: eec55385c08548445bc3d25a2584b2fe
+  - enabled: 1
+    path: Assets/Scenes/19Task.unity
+    guid: 4cac3ecc230ec7b4db32360455e35ad1
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 917488e9df16db247af326beaee25e6c, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f45bf6fcba1885641aaf2e570950eaf2, type: 2}

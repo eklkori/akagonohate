@@ -11,6 +11,7 @@ public class CRunwaySet : MonoBehaviour
     [SerializeField] GameObject daisanmakuBtn;
     [SerializeField] GameObject settingBtn;
     [SerializeField] GameObject dainmakuBtnBase;
+    [SerializeField] GameObject runners;
     [SerializeField] GameObject runnerWakus;
     [SerializeField] GameObject hazusuBtns;
     [SerializeField] GameObject plusRunnerBtn;
@@ -45,6 +46,7 @@ public class CRunwaySet : MonoBehaviour
         daisanmakuBtn.SetActive(false);
         dainmakuBtnBase.SetActive(false);
         settingBtn.SetActive(false);
+        runners.SetActive(false);
         runnerWakus.SetActive(false);
         hazusuBtns.SetActive(false);
         plusRunnerBtn.SetActive(false);
@@ -101,6 +103,7 @@ public class CRunwaySet : MonoBehaviour
         runnerWakus.SetActive(true);
         hazusuBtns.SetActive(true);
         plusRunnerBtn.SetActive(true);
+        runners.SetActive(true);
 
         //セッティング→ランナー切り替え時に、セッティング切り替え前に表示していた
         //幕を表示できるようにする

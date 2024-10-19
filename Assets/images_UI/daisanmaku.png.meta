@@ -64,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -293,14 +293,21 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      daisanmaku_0: 8140810464364956281
+      daisanmaku_1: 1250395663424915220
+      daisanmaku_2: -4079630931529380296
+      daisanmaku_3: 7073799698804568175
+      daisanmaku_4: -37322511152672626
+      daisanmaku_5: 6241632245783176859
+      daisanmaku_6: 1340657646522197472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

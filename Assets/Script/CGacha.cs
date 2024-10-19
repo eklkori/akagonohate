@@ -294,7 +294,7 @@ public class CGacha : MonoBehaviour
             //Ÿ‚Éƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½‚Æ‚«‚Ì‹““®‚ğ§Œä
             if (count == 9)
             {
-                Invoke("goGachaRes", 0.5f);
+                Invoke("goGachaRes", 0.1f);
             }
             else
             {

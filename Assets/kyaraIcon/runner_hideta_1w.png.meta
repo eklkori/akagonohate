@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d1f8c95c7b57c94399a75bb82360fb4
+guid: ef1da0e661bed914d9d57e1489f26086
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5042901407574370326
-    second: dainimakuBtn_0
+      213: -4806916385418076751
+    second: runner_hideta_1w_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dainimakuBtn_0
+      name: runner_hideta_1w_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 439
-        height: 35
+        width: 248
+        height: 469
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 618a9cb9c1cfbf540800000000000000
-      internalID: 5042901407574370326
+      spriteID: 1bd962ef3076a4db0800000000000000
+      internalID: -4806916385418076751
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      dainimakuBtn_0: 5042901407574370326
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

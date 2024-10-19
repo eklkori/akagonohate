@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e7f5564c3db1d294c9a72ccfb52ba4e8
+guid: c199c54ffcb447e49adc538cde42ff4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1871175398054284189
-    second: daisanmakuBtn_0
+      213: -4872703757856094278
+    second: Seaside-cafe2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: daisanmakuBtn_0
+      name: Seaside-cafe2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 370
-        height: 35
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 364368ea3ef3806e0800000000000000
-      internalID: -1871175398054284189
+      spriteID: ab7c649bfbda06cb0800000000000000
+      internalID: -4872703757856094278
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      daisanmakuBtn_0: -1871175398054284189
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

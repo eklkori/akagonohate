@@ -16,7 +16,6 @@ public class Gamenseni : MonoBehaviour
         {
             if (AkagonohateData.tutorealFlg == 0)
             {
-                AkagonohateData.tutorealFlg = 1;
                 SceneManager.LoadScene("02Kiyaku");
             }
             else
@@ -30,23 +29,27 @@ public class Gamenseni : MonoBehaviour
     /// 利用規約に同意する/しないの制御
     /// </summary>
     [SerializeField] GameObject douisuruBtn;
+    [SerializeField] GameObject douisuruBtnNo;
     [SerializeField] GameObject check;
+    [SerializeField] int douiFlg = 0;
     public void douisuru()
     {
-        int douiFlg = 0;
+        //int douiFlg = 0;
         if (Input.GetMouseButtonUp(0))
         {
             if (douiFlg == 0)
             {
                 douiFlg = 1;
                 douisuruBtn.SetActive(true);
-                //check.SetActive(true);
+                douisuruBtnNo.SetActive(false);
+                check.SetActive(true);
             }
-            if (douiFlg == 1)
+            else
             {
                 douiFlg = 0;
                 douisuruBtn.SetActive(false);
-                //check.SetActive(false);
+                douisuruBtnNo.SetActive(true);
+                check.SetActive(false);
             }
         }
     }
@@ -88,7 +91,7 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goTask()
     {
-            SceneManager.LoadScene("XXTask");
+            SceneManager.LoadScene("19Task");
     }
 
     /// <summary>
@@ -113,7 +116,29 @@ public class Gamenseni : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
-            SceneManager.LoadScene("XXShinaido");
+            SceneManager.LoadScene("16Shinaido1");
+        }
+    }
+
+    /// <summary>
+    /// 親愛度確認画面2への遷移
+    /// </summary>
+    public void goShinaido2()
+    {
+        if (Input.GetMouseButtonUp(0))
+        {
+            SceneManager.LoadScene("17Shinaido2");
+        }
+    }
+
+    /// <summary>
+    /// 親愛度確認画面3への遷移
+    /// </summary>
+    public void goShinaido3()
+    {
+        if (Input.GetMouseButtonUp(0))
+        {
+            SceneManager.LoadScene("18Shinaido3");
         }
     }
 
