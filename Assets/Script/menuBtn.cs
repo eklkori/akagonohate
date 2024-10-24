@@ -41,6 +41,11 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject haikeiS;
     [SerializeField] GameObject haikeiR;
     [SerializeField] GameObject haikeiO;
+    [SerializeField] GameObject otoiawaseText;
+    [SerializeField] GameObject setsumeibun;
+    [SerializeField] GameObject soushinBtn;
+    [SerializeField] GameObject uketamawarimashita;
+    [SerializeField] GameObject cHome;
 
 
     //-----•\Ž¦Œn-----
@@ -147,6 +152,9 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(false);
             haikei.SetActive(false);
             haikeiO.SetActive(true);
+            otoiawaseText.SetActive(true);
+            setsumeibun.SetActive(true);
+            cHome.GetComponent<sendMail>().BtnFlg();
         }
     }
 
@@ -345,6 +353,10 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(true);
             haikei.SetActive(true);
             haikeiO.SetActive(false);
+            otoiawaseText.SetActive(false);
+            setsumeibun.SetActive(false);
+            soushinBtn.SetActive(false);
+            uketamawarimashita.SetActive(false);
         }
     }
 }

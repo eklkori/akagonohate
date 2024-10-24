@@ -3438,7 +3438,7 @@ MonoBehaviour:
       debugIndex: 1
       strings:
       - "\u76F4\u5B50"
-      - 
+      - "\u4E95\u4F0A \u76F4\u5B50"
       - "\u4EEE"
       - 
       - 
@@ -3455,22 +3455,646 @@ MonoBehaviour:
       strings:
       - 
       - 
+      - 01S_00
       - 
       - 
       - 
       - 
       - 
       - 
-      - 
-      - 
-      isEmpty: 1
+      - naoko/naoko01S_00.png
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 3
       debugIndex: 3
       strings:
-      - "\u5EB7\u5B50"
       - 
+      - 
+      - 01S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - 
+      - 
+      - 01S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - 
+      - 
+      - 01S_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01S_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - 
+      - 
+      - 01S_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01S_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - 
+      - 
+      - 01S_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01S_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - 
+      - 
+      - 01S_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01S_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - 
+      - 
+      - 01S_10
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01S_10.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - 
+      - 
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - 
+      - 
+      - 01W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - 
+      - 
+      - 01W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - 
+      - 
+      - 01W_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - 
+      - 
+      - 01W_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - 
+      - 
+      - 01W_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - 
+      - 
+      - 01W_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - 
+      - 
+      - 01W_10
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko01W_10.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - 
+      - 
+      - 02S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - 
+      - 
+      - 02S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - 
+      - 
+      - 02S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - 
+      - 
+      - 02S_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - 
+      - 
+      - 02S_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - 
+      - 
+      - 02S_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - 
+      - 
+      - 02S_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - 
+      - 
+      - 02S_10
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02S_10.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - 
+      - 
+      - 02W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - 
+      - 
+      - 02W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - 
+      - 
+      - 02W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - 02W_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - 
+      - 
+      - 02W_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - 
+      - 
+      - 02W_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - 
+      - 
+      - 02W_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - 
+      - 
+      - 02W_10
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko02W_10.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - 
+      - 
+      - 03furisode_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - 
+      - 
+      - 03furisode_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - 03furisode_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings:
+      - 
+      - 
+      - 03furisode_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - 
+      - 
+      - 03furisode_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - 
+      - 
+      - 03furisode_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings:
+      - 
+      - 
+      - 03furisode_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings:
+      - 
+      - 
+      - 03furisode_10
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - naoko/naoko03furisode_10.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - "\u5EB7\u5B50"
+      - "\u5FB3\u5DDD \u5EB7\u5B50"
       - "\u4EEE"
       - 
       - 
@@ -3482,9 +4106,1824 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - 
+      - 
+      - 01S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01S_00.png
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings:
+      - 
+      - 
+      - 01S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01S_01.png
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings:
+      - 
+      - 
+      - 01S_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01S_03.png
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings:
+      - 
+      - 
+      - 01S_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01S_06.png
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - 
+      - 
+      - 01S_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01S_09.png
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01W_00.png
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - 01W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01W_01.png
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - 
+      - 
+      - 01W_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01W_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - 01W_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01W_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - 
+      - 
+      - 01W_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko01W_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings:
+      - 
+      - 
+      - 02S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - 
+      - 
+      - 02S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - 
+      - 
+      - 02S_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02S_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - 
+      - 
+      - 02S_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02S_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - 
+      - 
+      - 02S_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02S_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 58
+      strings:
+      - 
+      - 
+      - 02W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 59
+      strings:
+      - 
+      - 
+      - 02W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 60
+      strings:
+      - 
+      - 
+      - 02W_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02W_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 61
+      strings:
+      - 
+      - 
+      - 02W_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02W_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 62
+      strings:
+      - 
+      - 
+      - 02W_09
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuko/yasuko02W_09.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 63
+      strings:
+      - "\u5409\u5B50"
+      - "\u677E\u5E73 \u5409\u5B50"
+      - 01S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 64
+      strings:
+      - 
+      - 
+      - 01S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 65
+      strings:
+      - 
+      - 
+      - 01S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 66
+      strings:
+      - 
+      - 
+      - 01S_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01S_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 67
+      strings:
+      - 
+      - 
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01W.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 68
+      strings:
+      - 
+      - 
+      - 01W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 69
+      strings:
+      - 
+      - 
+      - 01W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 70
+      strings:
+      - 
+      - 
+      - 01W_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko01W_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 71
+      strings:
+      - 
+      - 
+      - 02S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02S.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 72
+      strings:
+      - 
+      - 
+      - 02S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 73
+      strings:
+      - 
+      - 
+      - 02S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 74
+      strings:
+      - 
+      - 
+      - 02S_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02S_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 75
+      debugIndex: 75
+      strings:
+      - 
+      - 
+      - 02W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 76
+      debugIndex: 76
+      strings:
+      - 
+      - 
+      - 02W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 77
+      debugIndex: 77
+      strings:
+      - 
+      - 
+      - 02W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 78
+      debugIndex: 78
+      strings:
+      - 
+      - 
+      - 02W_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yoshiko/yoshiko02W_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 79
+      debugIndex: 79
+      strings:
+      - "\u79C0\u592A"
+      - "\u5FB3\u5DDD \u79C0\u592A"
+      - 01S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta01S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 80
+      debugIndex: 80
+      strings:
+      - 
+      - 
+      - 01S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta01S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 81
+      debugIndex: 81
+      strings:
+      - 
+      - 
+      - 01S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta01S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 82
+      debugIndex: 82
+      strings:
+      - 
+      - 
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta01W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 83
+      debugIndex: 83
+      strings:
+      - 
+      - 
+      - 01W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta01W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 84
+      debugIndex: 84
+      strings:
+      - 
+      - 
+      - 01W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta01W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 85
+      debugIndex: 85
+      strings:
+      - 
+      - 
+      - 02S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta02S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 86
+      debugIndex: 86
+      strings:
+      - 
+      - 
+      - 02S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta02S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 87
+      debugIndex: 87
+      strings:
+      - 
+      - 
+      - 02S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta02S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 88
+      debugIndex: 88
+      strings:
+      - 
+      - 
+      - 02W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta02W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 89
+      debugIndex: 89
+      strings:
+      - 
+      - 
+      - 02W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta02W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 90
+      debugIndex: 90
+      strings:
+      - 
+      - 
+      - 02W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta02W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 91
+      debugIndex: 91
+      strings:
+      - 
+      - 
+      - 03syougatsu1_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta03syougatsu1_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 92
+      debugIndex: 92
+      strings:
+      - 
+      - 
+      - 03syougatsu1_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta03syougatsu1_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 93
+      debugIndex: 93
+      strings:
+      - 
+      - 
+      - 03syougatsu1_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideta/hideta03syougatsu1_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 94
+      strings:
+      - "\u79C0\u4E5F"
+      - "\u7D50\u57CE \u79C0\u4E5F"
+      - 01S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 95
+      strings:
+      - 
+      - 
+      - 01S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 96
+      strings:
+      - 
+      - 
+      - 01S_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01S_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 97
+      strings:
+      - 
+      - 
+      - 01S_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01S_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 98
+      strings:
+      - 
+      - 
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 99
+      strings:
+      - 
+      - 
+      - 01W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 100
+      strings:
+      - 
+      - 
+      - 01W_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01W_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 101
+      strings:
+      - 
+      - 
+      - 01W_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya01W_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 102
+      strings:
+      - 
+      - 
+      - 02S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 103
+      strings:
+      - 
+      - 
+      - 02S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 104
+      strings:
+      - 
+      - 
+      - 02S_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02S_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 105
+      strings:
+      - 
+      - 
+      - 02S_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02S_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 106
+      strings:
+      - 
+      - 
+      - 02W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 107
+      strings:
+      - 
+      - 
+      - 02W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 108
+      strings:
+      - 
+      - 
+      - 02W_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02W_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 109
+      strings:
+      - 
+      - 
+      - 02W_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya02W_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 110
+      strings:
+      - 
+      - 
+      - 03syougatsu1_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya03syougatsu1_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 111
+      strings:
+      - 
+      - 
+      - 03syougatsu1_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya03syougatsu1_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 112
+      strings:
+      - 
+      - 
+      - 03syougatsu1_04
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya03syougatsu1_04.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 113
+      strings:
+      - 
+      - 
+      - 03syougatsu1_05
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hideya/hideya03syougatsu1_05.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 114
+      strings:
+      - "\u5EB7\u7537"
+      - "\u698A\u539F \u5EB7\u7537"
+      - 01S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo01S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 115
+      strings:
+      - 
+      - 
+      - 01S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo01S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 116
+      strings:
+      - 
+      - 
+      - 01S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo01S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 117
+      strings:
+      - 
+      - 
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo01W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 118
+      strings:
+      - 
+      - 
+      - 01W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo01W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 119
+      strings:
+      - 
+      - 
+      - 01W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo01W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 120
+      strings:
+      - 
+      - 
+      - 02S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo02S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 121
+      strings:
+      - 
+      - 
+      - 02S_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo02S_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 122
+      strings:
+      - 
+      - 
+      - 02S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo02S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 123
+      strings:
+      - 
+      - 
+      - 02W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo02W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 124
+      strings:
+      - 
+      - 
+      - 02W_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo02W_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 125
+      strings:
+      - 
+      - 
+      - 02W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - yasuo/yasuo02W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 126
+      strings:
+      - "\u9AD8\u702C"
+      - "\u9AD8\u702C"
+      - takase_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - takase/takase_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 127
+      debugIndex: 127
+      strings:
+      - 
+      - 
+      - takase_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - takase/takase_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 128
+      strings:
+      - 
+      - 
+      - takase_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - takase/takase_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 129
+      debugIndex: 129
+      strings:
+      - "\u6CB3\u624B"
+      - "\u6CB3\u624B"
+      - kawate_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - kawate/kawate_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 130
+      debugIndex: 130
+      strings:
+      - 
+      - 
+      - kawate_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - kawate/kawate_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 131
+      debugIndex: 131
+      strings:
+      - 
+      - 
+      - kawate_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - kawate/kawate_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 132
+      debugIndex: 132
+      strings:
+      - "\u30B5\u30AD"
+      - "\u77F3\u7530 \u30B5\u30AD"
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - saki/saki01W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 133
+      debugIndex: 133
+      strings:
+      - 
+      - 
+      - 01W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - saki/saki01W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 134
+      debugIndex: 134
+      strings:
+      - 
+      - 
+      - 01W_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - saki/saki01W_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 135
+      debugIndex: 135
+      strings:
+      - 
+      - 
+      - 02W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - saki/saki02W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 136
+      debugIndex: 136
+      strings:
+      - 
+      - 
+      - 02W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - saki/saki02W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 137
+      debugIndex: 137
+      strings:
+      - 
+      - 
+      - 02W_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - saki/saki02W_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 138
+      debugIndex: 138
+      strings:
+      - "\u82B1\u5B50"
+      - "\u677E\u4E95 \u82B1\u5B50"
+      - 01S_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01S_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 139
+      debugIndex: 139
+      strings:
+      - 
+      - 
+      - 01S_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01S_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 140
+      debugIndex: 140
+      strings:
+      - 
+      - 
+      - 01S_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01S_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 141
+      debugIndex: 141
+      strings:
+      - 
+      - 
+      - 01S_07
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01S_07.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 142
+      debugIndex: 142
+      strings:
+      - 
+      - 
+      - 01W_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01W_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 143
+      debugIndex: 143
+      strings:
+      - 
+      - 
+      - 01W_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01W_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 144
+      debugIndex: 144
+      strings:
+      - 
+      - 
+      - 01W_06
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01W_06.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 145
+      debugIndex: 145
+      strings:
+      - 
+      - 
+      - 01W_07
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - hanako/hanako01W_07.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 146
+      debugIndex: 146
+      strings:
+      - "\u52DD\u4E09"
+      - "\u672C\u591A \u52DD\u4E09"
+      - katsuzo_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - katsuzo/katsuzo_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 147
+      debugIndex: 147
+      strings:
+      - 
+      - 
+      - katsuzo_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - katsuzo/katsuzo_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 148
+      debugIndex: 148
+      strings:
+      - 
+      - 
+      - katsuzo_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - katsuzo/katsuzo_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 149
+      debugIndex: 149
+      strings:
+      - "\u8C9E\u5B50"
+      - "\u8C9E\u5B50"
+      - sadako_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - sadako/sadako_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 150
+      debugIndex: 150
+      strings:
+      - 
+      - 
+      - sadako_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - sadako/sadako_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 151
+      debugIndex: 151
+      strings:
+      - 
+      - 
+      - sadako_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - sadako/sadako_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 152
+      debugIndex: 152
+      strings:
+      - 
+      - 
+      - sadako_11
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - sadako/sadako_11.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 153
+      debugIndex: 153
+      strings:
+      - "\u5B5D"
+      - "\u4E95\u4F0A \u5B5D"
+      - takashi_00
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - takashi/takashi_00.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 154
+      debugIndex: 154
+      strings:
+      - 
+      - 
+      - takashi_01
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - takashi/takashi_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 155
+      debugIndex: 155
+      strings:
+      - 
+      - 
+      - takashi_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - takashi/takashi_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Character
     type: 1
-    textLength: 212
+    textLength: 4879
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -3618,7 +6057,7 @@ MonoBehaviour:
       - Character
       - 500
       - -600
-      - 190
+      - 210
       - 
       - .85
       - .85
