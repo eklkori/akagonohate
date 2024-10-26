@@ -33,7 +33,7 @@ public class AkagonohateData : ScriptableObject
     public static int yuZen = 1;               //前回ランウェイ時に設定した誘導員の数
     public static int niZen = 5;               //前回ランウェイ時に設定した荷物持ちの数
     public static int basyo = 1;               //前回ランウェイ時に設定した場所(設定時に都度上書き)
-    public static int[] runner = new int[24];  //設定中のランナーNoを格納(都度上書き)
+    public static int[] runner = new int[24];  //設定中のランナー衣装Noを格納(0～60くらいの値、都度上書き)
     //物資調達
     public static int busshiSyokaiFlg = 0;     //物資調達初回フラグ(1の時に物資初回チュートリアル再生)
     //所持数関係

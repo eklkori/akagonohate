@@ -108,7 +108,7 @@ public class Cninsoku : MonoBehaviour
     }
 
     /// <summary>
-    /// 
+    /// ’l‚ª0‚Ì‚ğl—¶
     /// </summary>
     public void zero() {
         int moTint = int.Parse(moT.text);
@@ -162,7 +162,6 @@ public class Cninsoku : MonoBehaviour
         moTMP = int.Parse(moT.text);
         moTMP--;
         moT.text = moTMP.ToString();
-        //AkagonohateData.moZen = moTMP;
         if (moTMP < AkagonohateData.itemSyojisu[3])
         {
             mogiriPlus.SetActive(true);
@@ -175,12 +174,6 @@ public class Cninsoku : MonoBehaviour
         moTMP = int.Parse(moT.text);
         moTMP++;
         moT.text = moTMP.ToString();
-        //AkagonohateData.moZen = moTMP;
-        //if (moTMP == AkagonohateData.itemSyojisu[3])
-        //{
-        //    mogiriPlus.SetActive(false);
-        //    mogiriPlusNo.SetActive(true);
-        //}
         zero();
     }
     public void yuMinus()
@@ -188,7 +181,6 @@ public class Cninsoku : MonoBehaviour
         yuTMP = int.Parse(yuT.text);
         yuTMP--;
         yuT.text = yuTMP.ToString();
-        //AkagonohateData.yuZen = yuTMP;
         if (yuTMP < AkagonohateData.itemSyojisu[4])
         {
             yudoinPlus.SetActive(true);
@@ -201,12 +193,6 @@ public class Cninsoku : MonoBehaviour
         yuTMP = int.Parse(yuT.text);
         yuTMP++;
         yuT.text = yuTMP.ToString();
-        //AkagonohateData.yuZen = yuTMP;
-        //if (yuTMP == AkagonohateData.itemSyojisu[4])
-        //{
-        //    yudoinPlus.SetActive(false);
-        //    yudoinPlusNo.SetActive(true);
-        //}
         zero();
     }
     public void niMinus()
@@ -214,7 +200,6 @@ public class Cninsoku : MonoBehaviour
         niTMP = int.Parse(niT.text);
         niTMP--;
         niT.text = niTMP.ToString();
-        //AkagonohateData.niZen = niTMP;
         if (niTMP < AkagonohateData.itemSyojisu[5])
         {
             nimotsuPlus.SetActive(true);
@@ -227,12 +212,6 @@ public class Cninsoku : MonoBehaviour
         niTMP = int.Parse(niT.text);
         niTMP++;
         niT.text = niTMP.ToString();
-        //AkagonohateData.niZen = niTMP;
-        //if (niTMP == AkagonohateData.itemSyojisu[5])
-        //{
-        //    nimotsuPlus.SetActive(false);
-        //    nimotsuPlusNo.SetActive(true);
-        //}
         zero();
     }
 }
