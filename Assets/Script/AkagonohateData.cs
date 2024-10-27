@@ -28,6 +28,8 @@ public class AkagonohateData : ScriptableObject
     //会話・デート関連//
     public static int dateFlg = 0;             //*デートフラグ(1の場合はデートに行ける)
     public static int nakanaoriFlg = 0;        //*仲直りフラグ(デートで喧嘩した場合、条件達成で1に変更→仲直りできるようになる)
+    public static int[] kaiwaShichoFlg = new int[300];//*会話視聴済みフラグ(1が視聴済み)1キャラにつき50ずつで区切る
+    public static int[] dateShichoFlg = new int[60];//*デート視聴済みフラグ(1が視聴済み)1キャラにつき10ずつで区切る
     //ランウェイ関連//
     public static int moZen = 2;               //前回ランウェイ時に設定したもぎりの数
     public static int yuZen = 1;               //前回ランウェイ時に設定した誘導員の数
