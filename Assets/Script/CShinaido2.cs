@@ -26,13 +26,19 @@ public class CShinaido2 : MonoBehaviour
     [SerializeField] GameObject mikaihou3;
     [SerializeField] GameObject mikaihou4;
     [SerializeField] GameObject mikaihou5;
+    [SerializeField] GameObject Tachie;
+    [SerializeField] Image kyaraTachie;
+
+    [SerializeField] Sprite[] kyaraImage;
 
     int kyara = AkagonohateData.shinaidoWho;
     void Start()
     {
         //名前・衣装ボタンの表示
         if (kyara == 1) {
+            //名前表示
             nameT.text = ("井伊直子");
+            //衣装一覧表示
             naokoClose.SetActive(true);
             if (AkagonohateData.isyoSyojiFlg[0] == 0) {
                 mikaihou1.SetActive(true);
@@ -53,6 +59,15 @@ public class CShinaido2 : MonoBehaviour
             {
                 mikaihou5.SetActive(true);
             }
+            //立ち絵表示
+            for (int i = 0; i < 5; i++) {
+                if (AkagonohateData.isyoSyojiFlg[i] == 1) {
+                    Tachie.SetActive(true);
+                    kyaraTachie.sprite = kyaraImage[i];
+                    break;
+                }
+            }
+
         }
         if (kyara == 2)
         {
@@ -77,6 +92,16 @@ public class CShinaido2 : MonoBehaviour
             if (AkagonohateData.isyoSyojiFlg[14] == 0)
             {
                 mikaihou5.SetActive(true);
+            }
+            //立ち絵表示
+            for (int i = 10; i < 5; i++)
+            {
+                if (AkagonohateData.isyoSyojiFlg[i] == 1)
+                {
+                    Tachie.SetActive(true);
+                    kyaraTachie.sprite = kyaraImage[i];
+                    break;
+                }
             }
         }
         if (kyara == 3)
@@ -103,6 +128,16 @@ public class CShinaido2 : MonoBehaviour
             {
                 mikaihou5.SetActive(true);
             }
+            //立ち絵表示
+            for (int i = 20; i < 5; i++)
+            {
+                if (AkagonohateData.isyoSyojiFlg[i] == 1)
+                {
+                    Tachie.SetActive(true);
+                    kyaraTachie.sprite = kyaraImage[i];
+                    break;
+                }
+            }
         }
         if (kyara == 4)
         {
@@ -127,6 +162,16 @@ public class CShinaido2 : MonoBehaviour
             if (AkagonohateData.isyoSyojiFlg[34] == 0)
             {
                 mikaihou5.SetActive(true);
+            }
+            //立ち絵表示
+            for (int i = 30; i < 5; i++)
+            {
+                if (AkagonohateData.isyoSyojiFlg[i] == 1)
+                {
+                    Tachie.SetActive(true);
+                    kyaraTachie.sprite = kyaraImage[i];
+                    break;
+                }
             }
         }
         if (kyara == 5)
@@ -153,6 +198,16 @@ public class CShinaido2 : MonoBehaviour
             {
                 mikaihou5.SetActive(true);
             }
+            //立ち絵表示
+            for (int i = 40; i < 5; i++)
+            {
+                if (AkagonohateData.isyoSyojiFlg[i] == 1)
+                {
+                    Tachie.SetActive(true);
+                    kyaraTachie.sprite = kyaraImage[i];
+                    break;
+                }
+            }
         }
         if (kyara == 6)
         {
@@ -177,6 +232,16 @@ public class CShinaido2 : MonoBehaviour
             if (AkagonohateData.isyoSyojiFlg[54] == 0)
             {
                 mikaihou5.SetActive(true);
+            }
+            //立ち絵表示
+            for (int i = 50; i < 5; i++)
+            {
+                if (AkagonohateData.isyoSyojiFlg[i] == 1)
+                {
+                    Tachie.SetActive(true);
+                    kyaraTachie.sprite = kyaraImage[i];
+                    break;
+                }
             }
         }
 

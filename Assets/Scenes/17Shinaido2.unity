@@ -985,7 +985,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1263011680}
   - {fileID: 94835670}
   - {fileID: 1643858871}
   - {fileID: 638180053}
@@ -997,6 +996,8 @@ RectTransform:
   - {fileID: 1626103178}
   - {fileID: 1349834000}
   - {fileID: 1933038772}
+  - {fileID: 435913102}
+  - {fileID: 1263011680}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1443,6 +1444,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388278877}
   m_CullTransparentMesh: 1
+--- !u!1 &435913099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 435913102}
+  - component: {fileID: 435913101}
+  - component: {fileID: 435913100}
+  m_Layer: 5
+  m_Name: kyaraTachie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &435913100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435913099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6425811315352132454, guid: a285cc6f765f877438d615096ed14c19, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &435913101
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435913099}
+  m_CullTransparentMesh: 1
+--- !u!224 &435913102
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435913099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 260121198}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -659.63257, y: -1125.3608}
+  m_SizeDelta: {x: 1429.2742, y: 1648.85}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &445843911
 GameObject:
   m_ObjectHideFlags: 0
@@ -4956,6 +5032,69 @@ MonoBehaviour:
   mikaihou3: {fileID: 101620324}
   mikaihou4: {fileID: 692294205}
   mikaihou5: {fileID: 1960328456}
+  Tachie: {fileID: 435913099}
+  kyaraTachie: {fileID: 435913100}
+  kyaraImage:
+  - {fileID: -5670747046979026563, guid: 56a154a0fc0c3c94ea91d3cc14aefd1b, type: 3}
+  - {fileID: 3963378565064442737, guid: e5d679bf461153840bcc974b2b79f433, type: 3}
+  - {fileID: 1666521649755585658, guid: 806915ddcaa509c499983fe751b42f54, type: 3}
+  - {fileID: 7432041173158139691, guid: 3893297c679a2cb44aa43aeb8fc2a350, type: 3}
+  - {fileID: -2847710679995824289, guid: cb45953763bc17547b305ee6e995968c, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -6289196989594100169, guid: 1cc4c1a59aa3ecb408df92691eb8a1a8, type: 3}
+  - {fileID: 136612515694007641, guid: 843760ec31534a24b963b36d905c4e4d, type: 3}
+  - {fileID: -5901283458643381531, guid: 10b3060bc60b47c40be92ac39facbf13, type: 3}
+  - {fileID: 6877663792785316813, guid: 557edcc29cf1f6f48a4ae59e7b42cb55, type: 3}
+  - {fileID: 6877663792785316813, guid: 557edcc29cf1f6f48a4ae59e7b42cb55, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -5664651548172724883, guid: 0576b46b30a5f5e49b27da602178d79c, type: 3}
+  - {fileID: -6583871051470550052, guid: c0fe344c89d2301428570ac80593bbf4, type: 3}
+  - {fileID: 5429000936737236279, guid: 2f22010c4ae9b5e4a853d868081ecac3, type: 3}
+  - {fileID: -5234323989917880239, guid: 3d8e71f44768dae4d8f9a48f6c13bd27, type: 3}
+  - {fileID: -5234323989917880239, guid: 3d8e71f44768dae4d8f9a48f6c13bd27, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 6978108380177422807, guid: 04e3fd99223f34a499f19b2568951054, type: 3}
+  - {fileID: -2953645307516337956, guid: 0dda883facc2e4c43988e256722e102a, type: 3}
+  - {fileID: 1404201493194609476, guid: d385da420c5dd6d4c8e1de820aaba16d, type: 3}
+  - {fileID: -6586344106340068580, guid: 6e8710af5b4ec9145b997479b1e3dea0, type: 3}
+  - {fileID: -1784791690655180783, guid: aa5524f3d77f1d645a57d0ab5da44ae9, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 473529509737827316, guid: 41c37bbd9eb0c4845a9a3eca0c66f7ec, type: 3}
+  - {fileID: -5996551143030823454, guid: 6083b6c2d928e9b4c9a6c31f48b01d17, type: 3}
+  - {fileID: -8260877327971235132, guid: 9e54ddf29cc409746b8a81c6c07ba9b1, type: 3}
+  - {fileID: 5560683162133439782, guid: 7aa8abec4ec6abc44831a48247799992, type: 3}
+  - {fileID: -4780447205509442687, guid: c447051d988fc064d96b9c7a9e81a76d, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 7191881307675142399, guid: 5be84f704dee12f4fb826aa44776ae5a, type: 3}
+  - {fileID: -6425811315352132454, guid: a285cc6f765f877438d615096ed14c19, type: 3}
+  - {fileID: -8274210825908621077, guid: 94fe143d18d2d89418173388a02b3060, type: 3}
+  - {fileID: 1799820918947049509, guid: 26049101efab15548bafd534f71a1792, type: 3}
+  - {fileID: 1799820918947049509, guid: 26049101efab15548bafd534f71a1792, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1705494647
 GameObject:
   m_ObjectHideFlags: 0
