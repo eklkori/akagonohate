@@ -1,70 +1,62 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CRunway : MonoBehaviour
 {
-    [SerializeField] GameObject okujyo;
-    [SerializeField] GameObject syoten;
-    [SerializeField] GameObject dobutsuen;
-    [SerializeField] GameObject umi;
-    [SerializeField] GameObject tanbo;
-    [SerializeField] GameObject shop;
-    [SerializeField] GameObject yama;
-    [SerializeField] GameObject densya;
-    [SerializeField] GameObject onsen;
-    [SerializeField] GameObject makus;
-    [SerializeField] GameObject daiichimaku;
-    [SerializeField] GameObject dainimaku;
-    [SerializeField] GameObject daisanmaku;
+    [SerializeField] GameObject[] bg;
+    [SerializeField] GameObject nextBtn;
+    [SerializeField] GameObject[] dainmaku;
 
     public RectTransform Runners;
-    Image[] RunnerImages;
-    [SerializeField] Image RunnerImage1;
-    [SerializeField] Image RunnerImage2;
-    [SerializeField] Image RunnerImage3;
-    [SerializeField] Image RunnerImage4;
-    [SerializeField] Image RunnerImage5;
-    [SerializeField] Image RunnerImage6;
-    [SerializeField] Image RunnerImage7;
-    [SerializeField] Image RunnerImage8;
+    [SerializeField] Image[] RunnerImages;
 
-    //↓フォルダ内の画像(スプライト)を配列化したいのに上手くいかない、何で？
-    //Sprite[] ImagesNaoko = Resources.LoadAll<Sprite>; ("04Tutorial/Resources/04Tutorial/Texture/Character/naoko");
+    //フォルダ内の画像(スプライト)を配列化
+    [SerializeField] Sprite[] ImagesNaoko;
+    [SerializeField] Sprite[] ImagesYasuko;
+    [SerializeField] Sprite[] ImagesYoshiko;
+    [SerializeField] Sprite[] ImagesHideta;
+    [SerializeField] Sprite[] ImagesHideya;
+    [SerializeField] Sprite[] ImagesYasuo;
+    [SerializeField] Sprite[] ResRunnerImages;
 
     int makuCount = 0;
-    int moveFlg = 1;
-
-    /// <summary>
-    /// ランナー画像差し替え用
-    /// </summary>
-    public Sprite newSprite;
-    [SerializeField]private Image image1;
+    int moveFlg = 0;
+    int fadeFlg = 0;
 
     /// <summary>
     /// ランウェイ開始時の処理(第一幕のみ)
     /// </summary>
     void Start()
     {
-        makus.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 255);
-        daiichimaku.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 255);
-
-        RunnerImages = new Image[] { RunnerImage1, RunnerImage2, RunnerImage3,RunnerImage4, RunnerImage5, RunnerImage6, RunnerImage7, RunnerImage8 };
-        image1 = GetComponent<Image>();
-
+        /// <summary>
+        /// ランナー画像差し替えテスト用
+        /// </summary>
+        int forCount = 0;
+        int ten = 0;
+        for (int i = 0; i < 24; i++)
+        {
+            if (forCount == 4) {
+                forCount = 0;
+                ten++;
+            }
+            AkagonohateData.runner[i] = ten * 10 + forCount;
+            forCount++;
+        }
 
         int basyo = AkagonohateData.basyo;
         switch (basyo) {
-            case 1: okujyo.SetActive(true);break;
-            case 2: syoten.SetActive(true); break;
-            case 3: dobutsuen.SetActive(true); break;
-            case 4: umi.SetActive(true); break;
-            case 5: tanbo.SetActive(true); break;
-            case 6: shop.SetActive(true); break;
-            case 7: yama.SetActive(true); break;
-            case 8: densya.SetActive(true); break;
-            case 9: onsen.SetActive(true); break;
+            case 1: bg[0].SetActive(true);break;
+            case 2: bg[1].SetActive(true); break;
+            case 3: bg[2].SetActive(true); break;
+            case 4: bg[3].SetActive(true); break;
+            case 5: bg[4].SetActive(true); break;
+            case 6: bg[5].SetActive(true); break;
+            case 7: bg[6].SetActive(true); break;
+            case 8: bg[7].SetActive(true); break;
+            case 9: bg[8].SetActive(true); break;
         }
         makuStart();
     }
@@ -80,13 +72,13 @@ public class CRunway : MonoBehaviour
         //-------「n幕目」の表示処理--------
         //①該当の素材を表示
         switch (makuCount) {
-            case 1: daiichimaku.SetActive(true); break;
-            case 2: dainimaku.SetActive(true); break;
-            case 3: daisanmaku.SetActive(true); break;
+            case 1: dainmaku[0].SetActive(true); break;
+            case 2: dainmaku[1].SetActive(true); break;
+            case 3: dainmaku[2].SetActive(true); break;
         }
 
         //②フェードアウトさせる処理
-
+        Invoke("wait", 1);
 
         //-------ランナー画像差し替え処理--------
         //①ランナーNoを設定
@@ -142,48 +134,151 @@ public class CRunway : MonoBehaviour
 
     void showNaoko(int count,int who)
     {
+        RunnerImages[count].GetComponent<Transform>();
         RunnerImages[count].transform.localScale = new Vector3(1400,2227,0);
-        int random = Random.Range(0,10);
+        int random = Random.Range(0,8);
         if (who == 0)
         {
             RunnerImages[count].sprite = ImagesNaoko[random];
         }
         if (who == 1)
         {
-            RunnerImages[count].sprite = ImagesNaoko[random+8];
+            RunnerImages[count].sprite = ImagesNaoko[random + 10];
         }
         if (who == 2)
         {
-            RunnerImages[count].sprite = ImagesNaoko[random + 16];
+            RunnerImages[count].sprite = ImagesNaoko[random + 20];
         }
         if (who == 3)
         {
-            RunnerImages[count].sprite = ImagesNaoko[random + 24];
+            RunnerImages[count].sprite = ImagesNaoko[random + 30];
         }
         if (who == 4)
         {
-            RunnerImages[count].sprite = ImagesNaoko[random + 32];
+            RunnerImages[count].sprite = ImagesNaoko[random + 40];
         }
     }
     void showYasuko(int count, int who)
     {
-
+        RunnerImages[count].GetComponent<Transform>();
+        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        int random = Random.Range(0, 5);
+        if (who == 10)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random];
+        }
+        if (who == 11)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+        }
+        if (who == 12)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+        }
+        if (who == 13)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+        }
+        //if (who == 14)
+        //{
+        //    RunnerImages[count].sprite = ImagesYasuko[random + 40];
+        //}
     }
     void showYoshiko(int count, int who)
     {
-
+        RunnerImages[count].GetComponent<Transform>();
+        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        int random = Random.Range(0, 4);
+        if (who == 20)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random];
+        }
+        if (who == 21)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+        }
+        if (who == 22)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+        }
+        if (who == 23)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+        }
     }
     void showHideta(int count, int who)
     {
-
+        RunnerImages[count].GetComponent<Transform>();
+        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        int random = Random.Range(0, 3);
+        if (who == 30)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random];
+        }
+        if (who == 31)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+        }
+        if (who == 32)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+        }
+        if (who == 33)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+        }
+        if (who == 34)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 40];
+        }
     }
     void showHideya(int count, int who)
     {
-
+        RunnerImages[count].GetComponent<Transform>();
+        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        int random = Random.Range(0, 4);
+        if (who == 40)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random];
+        }
+        if (who == 41)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+        }
+        if (who == 42)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+        }
+        if (who == 43)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+        }
+        if (who == 44)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 40];
+        }
     }
     void showYasuo(int count, int who)
     {
-
+        RunnerImages[count].GetComponent<Transform>();
+        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        int random = Random.Range(0, 3);
+        if (who == 50)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random];
+        }
+        if (who == 51)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+        }
+        if (who == 52)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+        }
+        if (who == 53)
+        {
+            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+        }
     }
 
 
@@ -191,22 +286,63 @@ public class CRunway : MonoBehaviour
     /// ランナーの移動速度
     /// </summary>
     [SerializeField] private float speed;
+
     void Update()
     {
         //「第n幕」をフェードアウトさせる処理
-        //フェードアウトされない
-        makus.GetComponent<SpriteRenderer>().color -= new Color(0, 0, 0, 0.1f);
-        daiichimaku.GetComponent<SpriteRenderer>().color -= new Color(0, 0, 0, 0.1f);
-        Debug.Log(makus.GetComponent<SpriteRenderer>().color);
+        if (fadeFlg == 1)
+        {
+            Color color = dainmaku[makuCount-1].GetComponent<Image>().color;
+            //-= new Color(0, 0, 0, 0.01f);
+            color.a -= 0.01f;
+            dainmaku[makuCount-1].GetComponent<Image>().color = color;
+            Debug.Log(color.a);
+            if (color.a <= 0) {
+                fadeFlg = 0;
+                dainmaku[makuCount-1].SetActive(false);
+                color.a = 1;
+                dainmaku[makuCount-1].GetComponent<Image>().color = color;
+            }
+            if (0.6f <= color.a && color.a <= 0.7f)
+            {
+                moveFlg = 1;
+            }
+            Debug.Log(fadeFlg);
+        }
 
         //ランナーたちを右から左へ動かす処理(moveFlg==1の時のみ動く)
         if (moveFlg == 1)
         {
             Runners.position -= new Vector3(speed, 0, 0);
             if (Runners.position.x <= -5420) {
-                Runners.position = new Vector3(1480, 0, 0);
+                Runners.position = new Vector3(1480, 720, 0);
                 moveFlg = 0;
+                Result();
             }
+        }
+    }
+
+    /// <summary>
+    /// 第n幕フェードアウト前に1秒待つだけの処理
+    /// </summary>
+    void wait() {
+        fadeFlg = 1;
+    }
+
+    /// <summary>
+    /// 結果表示処理
+    /// </summary>
+    private void Result()
+    {
+        nextBtn.SetActive(true);
+    }
+    public void next() {
+        if (makuCount == 3)
+        {
+            SceneManager.LoadScene("12RunwayRes");
+        }
+        else {
+            makuStart();
         }
     }
 }
