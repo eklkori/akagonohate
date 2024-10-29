@@ -16,6 +16,9 @@ public class Gamenseni : MonoBehaviour
         {
             if (AkagonohateData.tutorealFlg == 0)
             {
+                for (int i = 0; i < 60; i++) {
+                    AkagonohateData.runner[i] = -1;
+                }
                 SceneManager.LoadScene("02Kiyaku");
             }
             else

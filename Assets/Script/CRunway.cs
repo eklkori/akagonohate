@@ -9,6 +9,7 @@ public class CRunway : MonoBehaviour
     [SerializeField] GameObject[] bg;
     [SerializeField] GameObject nextBtn;
     [SerializeField] GameObject[] dainmaku;
+    [SerializeField] GameObject[] runners;
 
     public RectTransform Runners;
     [SerializeField] Image[] RunnerImages;
@@ -82,7 +83,7 @@ public class CRunway : MonoBehaviour
 
         //-------ランナー画像差し替え処理--------
         //①ランナーNoを設定
-        int[] kakunin = { 1, 2, 3, 4, 5, 6, 7, 8 };
+        int[] kakunin = { 0, 1, 2, 3, 4, 5, 6, 7 };
         for (int i = 0; i < 8; i++) {
             if (makuCount == 2) {
                 kakunin[i] += 8;
@@ -102,7 +103,14 @@ public class CRunway : MonoBehaviour
 
             //③キャラ個別の処理(メソッド「void showXX(int count,int who)」で実施)
             //※画像差し替え・画像サイズ調整を実施
-            if (who < 10) {
+            if (who == -1)
+            {
+                runners[i].SetActive(false);
+            }
+            else {
+                runners[i].SetActive(true);
+            }
+            if (0 <= who && who < 10) {
                 showNaoko(count,who);
             }
             if (10 <= who && who <20)

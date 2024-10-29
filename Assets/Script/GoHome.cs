@@ -18,6 +18,7 @@ public class GoHome : MonoBehaviour
         int TEnd = engine.Param.GetParameterInt("TEnd");
         int BEnd = engine.Param.GetParameterInt("BEnd");
         int KEnd = engine.Param.GetParameterInt("KEnd");
+        int DEnd = engine.Param.GetParameterInt("DEnd");
         Debug.Log(TEnd);
         if (TEnd==1)
         {
@@ -29,9 +30,16 @@ public class GoHome : MonoBehaviour
             AkagonohateData.busshiSyokaiFlg = 1;
             SceneManager.LoadScene("13Busshi");
         }
-        if (KEnd == 1)
+        if (KEnd == 1 || DEnd == 1)
         {
-            SceneManager.LoadScene("06Tansaku");
+            if (AkagonohateData.kakuninchuFlg == 1 || AkagonohateData.kakuninchuFlg == 2)
+            {
+                SceneManager.LoadScene("18shinaido3");
+            }
+            else
+            {
+                SceneManager.LoadScene("06Tansaku");
+            }
         }
     }
 }

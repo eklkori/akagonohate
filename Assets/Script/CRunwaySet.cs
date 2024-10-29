@@ -131,6 +131,7 @@ public class CRunwaySet : MonoBehaviour
         dainimakuBtn.SetActive(true);
         daisanmakuBtn.SetActive(true);
         AkagonohateData.hyoujimaku = 1;
+        cRunwaySet.GetComponent<CRunner>().syokiRunner();
     }
 
     /// <summary>
@@ -142,6 +143,7 @@ public class CRunwaySet : MonoBehaviour
         dainimakuBtn.SetActive(false);
         daisanmakuBtn.SetActive(true);
         AkagonohateData.hyoujimaku = 2;
+        cRunwaySet.GetComponent<CRunner>().syokiRunner();
     }
 
     /// <summary>
@@ -153,5 +155,6 @@ public class CRunwaySet : MonoBehaviour
         dainimakuBtn.SetActive(true);
         daisanmakuBtn.SetActive(false);
         AkagonohateData.hyoujimaku = 3;
+        cRunwaySet.GetComponent<CRunner>().syokiRunner();
     }
 }

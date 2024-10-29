@@ -29,13 +29,13 @@ public class AkagonohateData : ScriptableObject
     public static int dateFlg = 0;             //*デートフラグ(1の場合はデートに行ける)
     public static int nakanaoriFlg = 0;        //*仲直りフラグ(デートで喧嘩した場合、条件達成で1に変更→仲直りできるようになる)
     public static int[] kaiwaShichoFlg = new int[300];//*会話視聴済みフラグ(1が視聴済み)1キャラにつき50ずつで区切る
-    public static int[] dateShichoFlg = new int[60];//*デート視聴済みフラグ(1が視聴済み)1キャラにつき10ずつで区切る
+    public static int[] dateShichoFlg = new int[120];//*デート視聴済みフラグ(1が視聴済み)1キャラにつき10ずつで区切る
     //ランウェイ関連//
     public static int moZen = 2;               //前回ランウェイ時に設定したもぎりの数
     public static int yuZen = 1;               //前回ランウェイ時に設定した誘導員の数
     public static int niZen = 5;               //前回ランウェイ時に設定した荷物持ちの数
     public static int basyo = 1;               //前回ランウェイ時に設定した場所(設定時に都度上書き)
-    public static int[] runner = new int[24];  //設定中のランナー衣装Noを格納(0～60くらいの値、都度上書き)
+    public static int[] runner = new int[24];  //設定中のランナー衣装Noを格納(0～60くらいの値、都度上書き、初期値を-1にする)
     //物資調達
     public static int busshiSyokaiFlg = 0;     //物資調達初回フラグ(1の時に物資初回チュートリアル再生)
     //所持数関係
@@ -49,4 +49,7 @@ public class AkagonohateData : ScriptableObject
     public static int[] gacha10 = new int[10]; //ガチャ演出表示用
     public static int gachaFlg = 0;            //ガチャが単発か10連か判断(単発の場合「1」、10連の場合「2」)
     public static int shinaidoWho = 0;         //誰の親愛度を確認しているかを管理するフラグ
+    public static int kakuninchuFlg = 0;       //親愛度確認画面等、探索以外からシナリオを視聴していることを示すフラグ
+
+    //※runnse[]の初期値を-1にする処理を、画面遷移スクリプト(gamenseni.cs)の中で実装済み
 }

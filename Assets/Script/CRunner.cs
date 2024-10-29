@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CRunner : MonoBehaviour
 {
@@ -32,94 +34,42 @@ public class CRunner : MonoBehaviour
     [SerializeField] GameObject imasugu;
 
     //ポップアップで表示される各種ランナーボタン
-    [SerializeField] GameObject naoko01W;
-    [SerializeField] GameObject naoko01S;
-    [SerializeField] GameObject naoko02W;
-    [SerializeField] GameObject naoko02S;
-    [SerializeField] GameObject naoko03furisode;
-    [SerializeField] GameObject yasuko01W;
-    [SerializeField] GameObject yasuko01S;
-    [SerializeField] GameObject yasuko02W;
-    [SerializeField] GameObject yasuko02S;
-    [SerializeField] GameObject yasuko03XX;
-    [SerializeField] GameObject yoshiko01W;
-    [SerializeField] GameObject yoshiko01S;
-    [SerializeField] GameObject yoshiko02W;
-    [SerializeField] GameObject yoshiko02S;
-    [SerializeField] GameObject yoshiko03XX;
-    [SerializeField] GameObject hideta01W;
-    [SerializeField] GameObject hideta01S;
-    [SerializeField] GameObject hideta02W;
-    [SerializeField] GameObject hideta02S;
-    [SerializeField] GameObject hideta03syougatsu1;
-    [SerializeField] GameObject hideya01W;
-    [SerializeField] GameObject hideya01S;
-    [SerializeField] GameObject hideya02W;
-    [SerializeField] GameObject hideya02S;
-    [SerializeField] GameObject hideya03syougatsu1;
-    [SerializeField] GameObject yasuo01W;
-    [SerializeField] GameObject yasuo01S;
-    [SerializeField] GameObject yasuo02W;
-    [SerializeField] GameObject yasuo02S;
-    [SerializeField] GameObject yasuo03XX;
-    [SerializeField] GameObject kari;
-
-
-    [SerializeField] GameObject[] isyouAll = new GameObject[60];// = { naoko01W, naoko01S, naoko02W, naoko02S, naoko03furisode, yasuko01W, yasuko01S, yasuko02W, yasuko02S, yasuko03XX, yoshiko01W, yoshiko01S, yoshiko02W, yoshiko02S, yoshiko03XX, hideta01W, hideta01S, hideta02W, hideta02S, hideta03syougatsu1, hideya01W, hideya01S, hideya02W, hideya02S, hideya03syougatsu1, yasuo01W, yasuo01S, yasuo02W, yasuo02S, yasuo03XXs };
-
-    int wakuNo = 0;
+    [SerializeField] GameObject[] isyouBtnAll;
+    //ランナー画面で表示されるボタンの画像差し替え用
+    [SerializeField] Sprite[] runnerImages;
+    [SerializeField] GameObject[] Btns;
+    [SerializeField] Image[] BtnImages;
 
     private void Start()
     {
-        GameObject[] isyouAll = { naoko01W, naoko01S, naoko02W, naoko02S, naoko03furisode,kari,kari,kari,kari,kari, yasuko01W, yasuko01S, yasuko02W, yasuko02S, yasuko03XX, kari, kari, kari, kari, kari, yoshiko01W, yoshiko01S, yoshiko02W, yoshiko02S, yoshiko03XX, kari, kari, kari, kari, kari, hideta01W, hideta01S, hideta02W, hideta02S, hideta03syougatsu1, kari, kari, kari, kari, kari, hideya01W, hideya01S, hideya02W, hideya02S, hideya03syougatsu1, kari, kari, kari, kari, kari, yasuo01W, yasuo01S, yasuo02W, yasuo02S, yasuo03XX ,kari, kari, kari, kari, kari };
-    }
-    public void btn1(){
-        wakuNo = 1;
-        plusBtn(wakuNo);
+        //テスト用処理(仮置き)START
+        AkagonohateData.isyoSyojiFlg[0] = 1;
+        AkagonohateData.isyoSyojiFlg[13] = 1;
+        AkagonohateData.isyoSyojiFlg[21] = 1;
+        for (int i = 0; i < 24; i++)
+        {
+            AkagonohateData.runner[i] = -1;　//runer[]==0の場合を考慮して、初期値を-1に変更する処理(gamenseni.csで実装済み)
         }
-    public void btn2()
-    {
-        wakuNo = 2;
-        plusBtn(wakuNo);
+        //テスト用処理(仮置き)END
+        for (int i = 0; i < 8; i++) {
+            if (AkagonohateData.runner[i] == -1)
+            {
+                Btns[i].SetActive(false);
+            }
+        }
+        AkagonohateData.hyoujimaku = 1;
     }
-    public void btn3()
-    {
-        wakuNo = 3;
-        plusBtn(wakuNo);
-    }
-    public void btn4()
-    {
-        wakuNo = 4;
-        plusBtn(wakuNo);
-    }
-    public void btn5()
-    {
-        wakuNo = 5;
-        plusBtn(wakuNo);
-    }
-    public void btn6()
-    {
-        wakuNo = 6;
-        plusBtn(wakuNo);
-    }
-    public void btn7()
-    {
-        wakuNo = 7;
-        plusBtn(wakuNo);
-    }
-    public void btn8()
-    {
-        wakuNo = 8;
-        plusBtn(wakuNo);
-    }
+
+    int wakuNo = 0;
 
     /// <summary>
     /// ランナー画面でのランナー追加「＋」ボタン押下時の処理
-    /// (所持衣装一覧表示を含む)
+    /// (所持衣装一覧表示)
     /// </summary>
-    /// <param name="wakuNo"></param>
-    public void plusBtn(int wakuNo)
+    /// <param name="WakuNo"></param>
+    public void plusBtn(int WakuNo)
     {
+        wakuNo = WakuNo;
         batsu.SetActive(true);
         runnersentakuT.SetActive(true);
         haikei.SetActive(true);
@@ -134,13 +84,87 @@ public class CRunner : MonoBehaviour
             wakuNo += 16;
         }
         Debug.Log(wakuNo);
-        isyouAll[2].SetActive(true);
+        //isyouBtnAll[2].SetActive(true);
         //所持衣装の一覧を取得
-        var syojiList = new List<int>();
+        //var syojiList = new List<int>();
         for (int i = 0; i < 60; i++) {
             if (AkagonohateData.isyoSyojiFlg[i]==1) {
-                syojiList.Add(i);
-                isyouAll[2].SetActive(true);
+                //syojiList.Add(i);
+                isyouBtnAll[i].SetActive(true);
+            }
+        }
+    }
+
+    /// <summary>
+    /// ポップアップ上のアイコンボタンを押されたときの処理
+    /// </summary>
+    /// <param name="num"></param>
+    public void popupKyaraBtn(int num)
+    {
+        int wakuNoTMP = wakuNo;
+        if (AkagonohateData.hyoujimaku == 2)
+        {
+            wakuNoTMP -= 8;
+        }
+        if (AkagonohateData.hyoujimaku == 3)
+        {
+            wakuNoTMP -= 16;
+        }
+        //ボタンを表示
+        Btns[wakuNoTMP].SetActive(true);
+
+        //ランナー配列に衣装Noをセット
+        AkagonohateData.runner[wakuNo] = num;
+
+        //画像の差し替え
+        BtnImages[wakuNoTMP].sprite = runnerImages[num];
+        Debug.Log(num);
+
+        //ポップアップを閉じる
+        haikeiBtn();
+    }
+
+    /// <summary>
+    /// 外すボタン押下時の処理
+    /// </summary>
+    /// <param name="num"></param>
+    public void hazusu(int num) {
+        Btns[num].SetActive(false);
+        if (AkagonohateData.hyoujimaku == 2)
+        {
+            num += 8;
+        }
+        if (AkagonohateData.hyoujimaku == 3)
+        {
+            num += 16;
+        }
+        AkagonohateData.runner[num] = -1;
+    }
+
+    /// <summary>
+    /// 第一～三幕ボタンが押されたときのランナー初期表示
+    /// </summary>
+    public void syokiRunner() {
+        int makuNo = AkagonohateData.hyoujimaku;
+        int[] kakunin = { 0, 1, 2, 3, 4, 5, 6, 7 };
+        for (int i = 0; i < 8; i++)
+        {
+            if (makuNo == 2)
+            {
+                kakunin[i] += 8;
+            }
+            if (makuNo == 3)
+            {
+                kakunin[i] += 16;
+            }
+            //設定値があればボタンを表示させた上で画像の差し替え、無ければ非表示
+            if (AkagonohateData.runner[kakunin[i]] == -1)
+            {
+                Btns[i].SetActive(false);
+            }
+            else {
+                Btns[i].SetActive(true);
+                BtnImages[i].sprite = runnerImages[AkagonohateData.runner[kakunin[i]]];
             }
         }
     }
