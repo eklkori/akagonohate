@@ -240,7 +240,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 58512502}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 31
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &58512502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,7 +372,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 90185242}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 12
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &90185242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,7 +756,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 236729870}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 20
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &236729870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -852,7 +888,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 258706068}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &258706068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1086,7 +1134,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 276552773}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 41
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &276552773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1285,7 +1345,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 379057350}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 32
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &379057350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1405,7 +1477,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 388278880}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 40
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &388278880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,7 +1545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &435913100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,7 +1684,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 445843914}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 50
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &445843914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,7 +1816,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 465604618}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 11
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &465604618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1932,7 +2040,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 551286601}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 54
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &551286601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2131,7 +2251,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 609473625}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 33
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &609473625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2251,7 +2383,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 610194156}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &610194156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2371,7 +2515,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 631353294}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 14
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &631353294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2645,7 +2801,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 684881925}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 52
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &684881925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2885,7 +3053,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 859290438}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &859290438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,7 +3185,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 993738614}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 23
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &993738614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3125,7 +3317,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1097460289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1097460289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3474,7 +3678,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1277173119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 53
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1277173119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3794,7 +4010,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1297283275}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 30
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1297283275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4276,7 +4504,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1567774721}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 21
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1567774721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4396,7 +4636,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1577170831}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 24
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1577170831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4595,7 +4847,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1635062887}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 22
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1635062887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4794,7 +5058,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1694008625}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1694008625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4914,7 +5190,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1695392746}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 51
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1695392746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5027,6 +5315,12 @@ MonoBehaviour:
   hidetaClose: {fileID: 2006541392}
   hideyaClose: {fileID: 1285237950}
   yasuoClose: {fileID: 1444162580}
+  mikaihous:
+  - {fileID: 2040462840}
+  - {fileID: 1285269790}
+  - {fileID: 101620324}
+  - {fileID: 692294205}
+  - {fileID: 1960328456}
   mikaihou1: {fileID: 2040462840}
   mikaihou2: {fileID: 1285269790}
   mikaihou3: {fileID: 101620324}
@@ -5176,7 +5470,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1705494650}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 43
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1705494650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5296,7 +5602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1735927864}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 42
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1735927864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5416,7 +5734,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1778683035}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 34
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1778683035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5536,7 +5866,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1789116713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 13
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1789116713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5696,7 +6038,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1841122495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 44
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1841122495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6327,7 +6681,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2120393566}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1705481515}
+        m_TargetAssemblyTypeName: CShinaido2, Assembly-CSharp
+        m_MethodName: pushKyaraBtn
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2120393566
 MonoBehaviour:
   m_ObjectHideFlags: 0

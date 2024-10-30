@@ -21,6 +21,7 @@ public class CShinaido2 : MonoBehaviour
     [SerializeField] GameObject hidetaClose;
     [SerializeField] GameObject hideyaClose;
     [SerializeField] GameObject yasuoClose;
+    [SerializeField] GameObject[] mikaihous;
     [SerializeField] GameObject mikaihou1;
     [SerializeField] GameObject mikaihou2;
     [SerializeField] GameObject mikaihou3;
@@ -40,25 +41,29 @@ public class CShinaido2 : MonoBehaviour
             nameT.text = ("ˆäˆÉ’¼q");
             //ˆß‘•ˆê——•\¦
             naokoClose.SetActive(true);
-            if (AkagonohateData.isyoSyojiFlg[0] == 0) {
-                mikaihou1.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[1] == 0)
+            for (int i = 0; i < 5; i++)
             {
-                mikaihou2.SetActive(true);
+                if (AkagonohateData.isyoSyojiFlg[i] == 0)
+                {
+                    mikaihous[i].SetActive(true);
+                }
             }
-            if (AkagonohateData.isyoSyojiFlg[2] == 0)
-            {
-                mikaihou3.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[3] == 0)
-            {
-                mikaihou4.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[4] == 0)
-            {
-                mikaihou5.SetActive(true);
-            }
+            //if (AkagonohateData.isyoSyojiFlg[1] == 0)
+            //{
+            //    mikaihou2.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[2] == 0)
+            //{
+            //    mikaihou3.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[3] == 0)
+            //{
+            //    mikaihou4.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[4] == 0)
+            //{
+            //    mikaihou5.SetActive(true);
+            //}
             //—§‚¿ŠG•\¦
             for (int i = 0; i < 5; i++) {
                 if (AkagonohateData.isyoSyojiFlg[i] == 1) {
@@ -73,28 +78,31 @@ public class CShinaido2 : MonoBehaviour
         {
             nameT.text = ("“¿ìNq");
             yasukoClose.SetActive(true);
-            if (AkagonohateData.isyoSyojiFlg[10] == 0)
+            for (int i = 10; i < 15; i++)
             {
-                mikaihou1.SetActive(true);
+                if (AkagonohateData.isyoSyojiFlg[i] == 0)
+                {
+                    mikaihous[i-10].SetActive(true);
+                }
             }
-            if (AkagonohateData.isyoSyojiFlg[11] == 0)
-            {
-                mikaihou2.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[12] == 0)
-            {
-                mikaihou3.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[13] == 0)
-            {
-                mikaihou4.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[14] == 0)
-            {
-                mikaihou5.SetActive(true);
-            }
+            //if (AkagonohateData.isyoSyojiFlg[11] == 0)
+            //{
+            //    mikaihou2.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[12] == 0)
+            //{
+            //    mikaihou3.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[13] == 0)
+            //{
+            //    mikaihou4.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[14] == 0)
+            //{
+            //    mikaihou5.SetActive(true);
+            //}
             //—§‚¿ŠG•\¦
-            for (int i = 10; i < 5; i++)
+            for (int i = 10; i < 15; i++)
             {
                 if (AkagonohateData.isyoSyojiFlg[i] == 1)
                 {
@@ -108,28 +116,31 @@ public class CShinaido2 : MonoBehaviour
         {
             nameT.text = ("¼•½‹gq");
             yoshikoClose.SetActive(true);
-            if (AkagonohateData.isyoSyojiFlg[20] == 0)
+            for (int i = 20; i < 25; i++)
             {
-                mikaihou1.SetActive(true);
+                if (AkagonohateData.isyoSyojiFlg[i] == 0)
+                {
+                    mikaihous[i-20].SetActive(true);
+                }
             }
-            if (AkagonohateData.isyoSyojiFlg[21] == 0)
-            {
-                mikaihou2.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[22] == 0)
-            {
-                mikaihou3.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[23] == 0)
-            {
-                mikaihou4.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[24] == 0)
-            {
-                mikaihou5.SetActive(true);
-            }
+            //if (AkagonohateData.isyoSyojiFlg[21] == 0)
+            //{
+            //    mikaihou2.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[22] == 0)
+            //{
+            //    mikaihou3.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[23] == 0)
+            //{
+            //    mikaihou4.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[24] == 0)
+            //{
+            //    mikaihou5.SetActive(true);
+            //}
             //—§‚¿ŠG•\¦
-            for (int i = 20; i < 5; i++)
+            for (int i = 20; i < 25; i++)
             {
                 if (AkagonohateData.isyoSyojiFlg[i] == 1)
                 {
@@ -143,28 +154,31 @@ public class CShinaido2 : MonoBehaviour
         {
             nameT.text = ("“¿ìG‘¾");
             hidetaClose.SetActive(true);
-            if (AkagonohateData.isyoSyojiFlg[30] == 0)
+            for (int i = 30; i < 35; i++)
             {
-                mikaihou1.SetActive(true);
+                if (AkagonohateData.isyoSyojiFlg[i] == 0)
+                {
+                    mikaihous[i-30].SetActive(true);
+                }
             }
-            if (AkagonohateData.isyoSyojiFlg[31] == 0)
-            {
-                mikaihou2.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[32] == 0)
-            {
-                mikaihou3.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[33] == 0)
-            {
-                mikaihou4.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[34] == 0)
-            {
-                mikaihou5.SetActive(true);
-            }
+            //if (AkagonohateData.isyoSyojiFlg[31] == 0)
+            //{
+            //    mikaihou2.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[32] == 0)
+            //{
+            //    mikaihou3.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[33] == 0)
+            //{
+            //    mikaihou4.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[34] == 0)
+            //{
+            //    mikaihou5.SetActive(true);
+            //}
             //—§‚¿ŠG•\¦
-            for (int i = 30; i < 5; i++)
+            for (int i = 30; i < 35; i++)
             {
                 if (AkagonohateData.isyoSyojiFlg[i] == 1)
                 {
@@ -178,28 +192,31 @@ public class CShinaido2 : MonoBehaviour
         {
             nameT.text = ("Œ‹éG–ç");
             hideyaClose.SetActive(true);
-            if (AkagonohateData.isyoSyojiFlg[40] == 0)
+            for (int i = 40; i < 45; i++)
             {
-                mikaihou1.SetActive(true);
+                if (AkagonohateData.isyoSyojiFlg[i] == 0)
+                {
+                    mikaihous[i-40].SetActive(true);
+                }
             }
-            if (AkagonohateData.isyoSyojiFlg[41] == 0)
-            {
-                mikaihou2.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[42] == 0)
-            {
-                mikaihou3.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[43] == 0)
-            {
-                mikaihou4.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[44] == 0)
-            {
-                mikaihou5.SetActive(true);
-            }
+            //if (AkagonohateData.isyoSyojiFlg[41] == 0)
+            //{
+            //    mikaihou2.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[42] == 0)
+            //{
+            //    mikaihou3.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[43] == 0)
+            //{
+            //    mikaihou4.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[44] == 0)
+            //{
+            //    mikaihou5.SetActive(true);
+            //}
             //—§‚¿ŠG•\¦
-            for (int i = 40; i < 5; i++)
+            for (int i = 40; i < 45; i++)
             {
                 if (AkagonohateData.isyoSyojiFlg[i] == 1)
                 {
@@ -213,28 +230,31 @@ public class CShinaido2 : MonoBehaviour
         {
             nameT.text = ("åŒ´N’j");
             yasuoClose.SetActive(true);
-            if (AkagonohateData.isyoSyojiFlg[50] == 0)
+            for (int i = 50; i < 55; i++)
             {
-                mikaihou1.SetActive(true);
+                if (AkagonohateData.isyoSyojiFlg[i] == 0)
+                {
+                    mikaihous[i-50].SetActive(true);
+                }
             }
-            if (AkagonohateData.isyoSyojiFlg[51] == 0)
-            {
-                mikaihou2.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[52] == 0)
-            {
-                mikaihou3.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[53] == 0)
-            {
-                mikaihou4.SetActive(true);
-            }
-            if (AkagonohateData.isyoSyojiFlg[54] == 0)
-            {
-                mikaihou5.SetActive(true);
-            }
+            //if (AkagonohateData.isyoSyojiFlg[51] == 0)
+            //{
+            //    mikaihou2.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[52] == 0)
+            //{
+            //    mikaihou3.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[53] == 0)
+            //{
+            //    mikaihou4.SetActive(true);
+            //}
+            //if (AkagonohateData.isyoSyojiFlg[54] == 0)
+            //{
+            //    mikaihou5.SetActive(true);
+            //}
             //—§‚¿ŠG•\¦
-            for (int i = 50; i < 5; i++)
+            for (int i = 50; i < 55; i++)
             {
                 if (AkagonohateData.isyoSyojiFlg[i] == 1)
                 {
@@ -288,6 +308,13 @@ public class CShinaido2 : MonoBehaviour
         mitsugimonoT.text = ("—İŒvv•¨ŒÂ”@@" + mitsugiTMP + "ŒÂ");
     }
 
+    /// <summary>
+    /// Šˆß‘•ƒ{ƒ^ƒ“(‰æ–Ê‰E‰º)‚ª‰Ÿ‚³‚ê‚½‚Æ‚«‚Ìˆ—(—§‚¿ŠG·‚µ‘Ö‚¦)
+    /// </summary>
+    /// <param name="isyouNo"></param>
+    public void pushKyaraBtn(int isyouNo) {
+        kyaraTachie.sprite = kyaraImage[isyouNo];
+    }
 
     void Update()
     {
