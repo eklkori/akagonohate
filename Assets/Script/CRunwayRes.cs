@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CRunwayRes : MonoBehaviour
 {
     [SerializeField] GameObject[] bg;
+    [SerializeField] GameObject mouichidoBtn;
     void Start()
     {
         int basyo = AkagonohateData.basyo;
@@ -21,10 +22,16 @@ public class CRunwayRes : MonoBehaviour
             case 8: bg[7].SetActive(true); break;
             case 9: bg[8].SetActive(true); break;
         }
+        if (AkagonohateData.itemSyojisu[2] == 0) {
+            mouichidoBtn.SetActive(false);
+        }
     }
 
     public void mouichido()
     {
+        //鍵の所持数を引く・上書き
+        AkagonohateData.itemSyojisu[2]--;
+
         //人足が前回設定値>所持数の場合
         int moZen = AkagonohateData.moZen;
         int moNow = AkagonohateData.itemSyojisu[3];

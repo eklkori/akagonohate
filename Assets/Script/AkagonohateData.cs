@@ -18,6 +18,9 @@ public class AkagonohateData : ScriptableObject
     public static int exp = 270;                 //*EXP
     public static int kenSyojiI = 0;           //*仕立券総所持数
     public static int zeniSyojiI = 0;          //*銭総所持数
+    public static float HH = 0;                  //鍵追加までのカウント(時)
+    public static float MM = 0;                  //鍵追加までのカウント(分)
+    public static float SS = 10;                  //鍵追加までのカウント(秒)
     //ステータス系
     public static int[] datePt = new int[6];   //*キャラごとのデートPtを保管
     public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納

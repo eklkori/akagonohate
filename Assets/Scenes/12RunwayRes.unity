@@ -248,6 +248,7 @@ MonoBehaviour:
   - {fileID: 696912355}
   - {fileID: 211311611}
   - {fileID: 1608426695}
+  mouichidoBtn: {fileID: 1543675757}
 --- !u!1 &211311611
 GameObject:
   m_ObjectHideFlags: 0

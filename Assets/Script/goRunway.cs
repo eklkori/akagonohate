@@ -37,7 +37,7 @@ public class goRunway : MonoBehaviour
     public void kaishi()
     {
         //テスト用
-        AkagonohateData.itemSyojisu[2] = 3;
+        //AkagonohateData.itemSyojisu[2] = 3;
 
         haikei.SetActive(true);
         popupBase2.SetActive(true);
@@ -71,6 +71,8 @@ public class goRunway : MonoBehaviour
 
     public void Hai()
     {
+        //鍵の所持数を引く・上書き
+        AkagonohateData.itemSyojisu[2]--;
         //人足アイテム所持数を引く・上書き
         int moTMP = int.Parse(moT.text);
         int yuTMP = int.Parse(yuT.text);
