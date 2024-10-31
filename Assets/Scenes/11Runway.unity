@@ -2467,6 +2467,7 @@ MonoBehaviour:
   - {fileID: 1247080149}
   - {fileID: 1434336013}
   - {fileID: 2034062668}
+  runners: []
   Runners: {fileID: 1096834036}
   RunnerImages:
   - {fileID: 216510880}
@@ -3369,7 +3370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6672961449117852128, guid: 7c7c8043e93fde1499268ba2cd0b177d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2227.8823
+      value: 2230
       objectReference: {fileID: 0}
     - target: {fileID: 6672961449117852128, guid: 7c7c8043e93fde1499268ba2cd0b177d, type: 3}
       propertyPath: m_LocalPosition.x

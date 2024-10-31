@@ -46,6 +46,9 @@ public class CRunway : MonoBehaviour
             AkagonohateData.runner[i] = ten * 10 + forCount;
             forCount++;
         }
+        //テスト用処理END
+
+        nextBtn.SetActive(false);
 
         int basyo = AkagonohateData.basyo;
         switch (basyo) {
@@ -142,8 +145,8 @@ public class CRunway : MonoBehaviour
 
     void showNaoko(int count,int who)
     {
-        RunnerImages[count].GetComponent<Transform>();
-        RunnerImages[count].transform.localScale = new Vector3(1400,2227,0);
+        RunnerImages[count].GetComponent<RectTransform>();
+        RunnerImages[count].rectTransform.sizeDelta = new Vector3(1800,2230,0);
         int random = Random.Range(0,8);
         if (who == 0)
         {
@@ -168,8 +171,8 @@ public class CRunway : MonoBehaviour
     }
     void showYasuko(int count, int who)
     {
-        RunnerImages[count].GetComponent<Transform>();
-        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        RunnerImages[count].GetComponent<RectTransform>();
+        RunnerImages[count].rectTransform.sizeDelta = new Vector3(1800, 2255, 0);
         int random = Random.Range(0, 5);
         if (who == 10)
         {
@@ -194,8 +197,8 @@ public class CRunway : MonoBehaviour
     }
     void showYoshiko(int count, int who)
     {
-        RunnerImages[count].GetComponent<Transform>();
-        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        RunnerImages[count].GetComponent<RectTransform>();
+        RunnerImages[count].rectTransform.sizeDelta = new Vector3(1800, 2110, 0);
         int random = Random.Range(0, 4);
         if (who == 20)
         {
@@ -216,8 +219,8 @@ public class CRunway : MonoBehaviour
     }
     void showHideta(int count, int who)
     {
-        RunnerImages[count].GetComponent<Transform>();
-        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        RunnerImages[count].GetComponent<RectTransform>();
+        RunnerImages[count].rectTransform.sizeDelta = new Vector3(1800, 2280, 0);
         int random = Random.Range(0, 3);
         if (who == 30)
         {
@@ -242,8 +245,8 @@ public class CRunway : MonoBehaviour
     }
     void showHideya(int count, int who)
     {
-        RunnerImages[count].GetComponent<Transform>();
-        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        RunnerImages[count].GetComponent<RectTransform>();
+        RunnerImages[count].rectTransform.sizeDelta = new Vector3(1800, 2415, 0);
         int random = Random.Range(0, 4);
         if (who == 40)
         {
@@ -268,8 +271,8 @@ public class CRunway : MonoBehaviour
     }
     void showYasuo(int count, int who)
     {
-        RunnerImages[count].GetComponent<Transform>();
-        RunnerImages[count].transform.localScale = new Vector3(1400, 2227, 0);
+        RunnerImages[count].GetComponent<RectTransform>();
+        RunnerImages[count].rectTransform.sizeDelta = new Vector3(1800, 2365, 0);
         int random = Random.Range(0, 3);
         if (who == 50)
         {

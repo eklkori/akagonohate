@@ -6,46 +6,56 @@ using UnityEngine.SceneManagement;
 public class menuBtn : MonoBehaviour
 {
     //素材の定義
+    //×印
     [SerializeField] GameObject batsu;
     [SerializeField] GameObject batsuC;
     [SerializeField] GameObject batsuS;
     [SerializeField] GameObject batsuR;
     [SerializeField] GameObject batsuO;
+    //中サイズボタン
     [SerializeField] GameObject credit;
     [SerializeField] GameObject syojidogukakunin;
     [SerializeField] GameObject riyokiyaku;
     [SerializeField] GameObject otoiawase;
+    //メニューのタイトル文字(ポップアップ上部)
     [SerializeField] GameObject creditT;
     [SerializeField] GameObject syojidogukakuninT;
     [SerializeField] GameObject riyokiyakuT;
     [SerializeField] GameObject otoiawaseT;
-    [SerializeField] GameObject popupBase;
-    [SerializeField] GameObject koukaonBGM;
-    [SerializeField] GameObject kakusyumenu;
     [SerializeField] GameObject partnersentakuT;
     [SerializeField] GameObject akaoninohateT;
     [SerializeField] GameObject yuryoT;
-    [SerializeField] GameObject akaoninohate;
     [SerializeField] GameObject giftT;
+    //メインメニュー
+    [SerializeField] GameObject popupBase;
+    [SerializeField] GameObject koukaonBGM;
+    [SerializeField] GameObject kakusyumenu;
+    //プレゼント
     [SerializeField] GameObject giftBtnBase;
     [SerializeField] GameObject giftBtnSumi;
     [SerializeField] GameObject giftBtnMi;
     [SerializeField] GameObject giftBase;
-    [SerializeField] GameObject ScrollCredit;
-    [SerializeField] GameObject ScrollRiyokiyaku;
+    //紅鬼の果
+    [SerializeField] GameObject akaoninohate;
     [SerializeField] GameObject yondemiru;
     [SerializeField] GameObject textA;
     [SerializeField] GameObject yuryoItemAll;
+    //背景
     [SerializeField] GameObject haikei;
     [SerializeField] GameObject haikeiC;
     [SerializeField] GameObject haikeiS;
     [SerializeField] GameObject haikeiR;
     [SerializeField] GameObject haikeiO;
+    //お問い合わせ
     [SerializeField] GameObject otoiawaseText;
     [SerializeField] GameObject setsumeibun;
     [SerializeField] GameObject soushinBtn;
     [SerializeField] GameObject uketamawarimashita;
     [SerializeField] GameObject cHome;
+    //スクロール
+    [SerializeField] GameObject ScrollCredit;
+    [SerializeField] GameObject ScrollRiyokiyaku;
+    [SerializeField] GameObject ScrollIsyou;
 
 
     //-----表示系-----
@@ -169,6 +179,8 @@ public class menuBtn : MonoBehaviour
             partnersentakuT.SetActive(true);
             haikei.SetActive(true);
             popupBase.SetActive(true);
+            ScrollIsyou.SetActive(true);
+            cHome.GetComponent<cHome>().syokihyouji();
         }
     }
 
@@ -201,7 +213,6 @@ public class menuBtn : MonoBehaviour
             giftBtnBase.SetActive(true);
             giftBtnSumi.SetActive(true);
             giftBtnMi.SetActive(false);
-            //giftBase.SetActive(true);
             haikei.SetActive(true);
             popupBase.SetActive(true);
         }
@@ -264,9 +275,9 @@ public class menuBtn : MonoBehaviour
             giftBtnBase.SetActive(false);
             giftBtnMi.SetActive(false);
             giftBtnSumi.SetActive(false);
-            //giftBase.SetActive(false);
             yuryoItemAll.SetActive(false);
             yuryoT.SetActive(false);
+            ScrollIsyou.SetActive(false);
         }
     }
 
@@ -359,4 +370,8 @@ public class menuBtn : MonoBehaviour
             uketamawarimashita.SetActive(false);
         }
     }
+
+
+
+
 }

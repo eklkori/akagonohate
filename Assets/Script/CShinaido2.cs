@@ -48,22 +48,6 @@ public class CShinaido2 : MonoBehaviour
                     mikaihous[i].SetActive(true);
                 }
             }
-            //if (AkagonohateData.isyoSyojiFlg[1] == 0)
-            //{
-            //    mikaihou2.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[2] == 0)
-            //{
-            //    mikaihou3.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[3] == 0)
-            //{
-            //    mikaihou4.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[4] == 0)
-            //{
-            //    mikaihou5.SetActive(true);
-            //}
             //—§‚¿ŠG•\Ž¦
             for (int i = 0; i < 5; i++) {
                 if (AkagonohateData.isyoSyojiFlg[i] == 1) {
@@ -85,22 +69,6 @@ public class CShinaido2 : MonoBehaviour
                     mikaihous[i-10].SetActive(true);
                 }
             }
-            //if (AkagonohateData.isyoSyojiFlg[11] == 0)
-            //{
-            //    mikaihou2.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[12] == 0)
-            //{
-            //    mikaihou3.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[13] == 0)
-            //{
-            //    mikaihou4.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[14] == 0)
-            //{
-            //    mikaihou5.SetActive(true);
-            //}
             //—§‚¿ŠG•\Ž¦
             for (int i = 10; i < 15; i++)
             {
@@ -123,22 +91,6 @@ public class CShinaido2 : MonoBehaviour
                     mikaihous[i-20].SetActive(true);
                 }
             }
-            //if (AkagonohateData.isyoSyojiFlg[21] == 0)
-            //{
-            //    mikaihou2.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[22] == 0)
-            //{
-            //    mikaihou3.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[23] == 0)
-            //{
-            //    mikaihou4.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[24] == 0)
-            //{
-            //    mikaihou5.SetActive(true);
-            //}
             //—§‚¿ŠG•\Ž¦
             for (int i = 20; i < 25; i++)
             {
@@ -161,22 +113,6 @@ public class CShinaido2 : MonoBehaviour
                     mikaihous[i-30].SetActive(true);
                 }
             }
-            //if (AkagonohateData.isyoSyojiFlg[31] == 0)
-            //{
-            //    mikaihou2.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[32] == 0)
-            //{
-            //    mikaihou3.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[33] == 0)
-            //{
-            //    mikaihou4.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[34] == 0)
-            //{
-            //    mikaihou5.SetActive(true);
-            //}
             //—§‚¿ŠG•\Ž¦
             for (int i = 30; i < 35; i++)
             {
@@ -199,22 +135,6 @@ public class CShinaido2 : MonoBehaviour
                     mikaihous[i-40].SetActive(true);
                 }
             }
-            //if (AkagonohateData.isyoSyojiFlg[41] == 0)
-            //{
-            //    mikaihou2.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[42] == 0)
-            //{
-            //    mikaihou3.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[43] == 0)
-            //{
-            //    mikaihou4.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[44] == 0)
-            //{
-            //    mikaihou5.SetActive(true);
-            //}
             //—§‚¿ŠG•\Ž¦
             for (int i = 40; i < 45; i++)
             {
@@ -237,22 +157,6 @@ public class CShinaido2 : MonoBehaviour
                     mikaihous[i-50].SetActive(true);
                 }
             }
-            //if (AkagonohateData.isyoSyojiFlg[51] == 0)
-            //{
-            //    mikaihou2.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[52] == 0)
-            //{
-            //    mikaihou3.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[53] == 0)
-            //{
-            //    mikaihou4.SetActive(true);
-            //}
-            //if (AkagonohateData.isyoSyojiFlg[54] == 0)
-            //{
-            //    mikaihou5.SetActive(true);
-            //}
             //—§‚¿ŠG•\Ž¦
             for (int i = 50; i < 55; i++)
             {
