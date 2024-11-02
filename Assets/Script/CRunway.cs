@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Utage;
 
 public class CRunway : MonoBehaviour
 {
@@ -35,17 +36,17 @@ public class CRunway : MonoBehaviour
         /// <summary>
         /// ランナー画像差し替えテスト用
         /// </summary>
-        int forCount = 0;
-        int ten = 0;
-        for (int i = 0; i < 24; i++)
-        {
-            if (forCount == 4) {
-                forCount = 0;
-                ten++;
-            }
-            AkagonohateData.runner[i] = ten * 10 + forCount;
-            forCount++;
-        }
+        //int forCount = 0;
+        //int ten = 0;
+        //for (int i = 0; i < 24; i++)
+        //{
+        //    if (forCount == 4) {
+        //        forCount = 0;
+        //        ten++;
+        //    }
+        //    AkagonohateData.runner[i] = ten * 10 + forCount;
+        //    forCount++;
+        //}
         //テスト用処理END
 
         nextBtn.SetActive(false);
@@ -97,21 +98,21 @@ public class CRunway : MonoBehaviour
             }
         }
 
-        int count = 0;
-        for (int i = 0; i < 8; i++) {
-    　　    count++;
+
+        for (int count = 0; count < 8; count++) {
 
             //②ランナー衣装Noを取得
-            int who = AkagonohateData.runner[kakunin[i]];
+            int who = AkagonohateData.runner[kakunin[count]];
+            Debug.Log(who);
 
             //③キャラ個別の処理(メソッド「void showXX(int count,int who)」で実施)
             //※画像差し替え・画像サイズ調整を実施
             if (who == -1)
             {
-                runners[i].SetActive(false);
+                runners[count].SetActive(false);
             }
             else {
-                runners[i].SetActive(true);
+                runners[count].SetActive(true);
             }
             if (0 <= who && who < 10) {
                 showNaoko(count,who);
@@ -202,19 +203,19 @@ public class CRunway : MonoBehaviour
         int random = Random.Range(0, 4);
         if (who == 20)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random];
+            RunnerImages[count].sprite = ImagesYoshiko[random];
         }
         if (who == 21)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+            RunnerImages[count].sprite = ImagesYoshiko[random + 10];
         }
         if (who == 22)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+            RunnerImages[count].sprite = ImagesYoshiko[random + 20];
         }
         if (who == 23)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+            RunnerImages[count].sprite = ImagesYoshiko[random + 30];
         }
     }
     void showHideta(int count, int who)
@@ -224,23 +225,23 @@ public class CRunway : MonoBehaviour
         int random = Random.Range(0, 3);
         if (who == 30)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random];
+            RunnerImages[count].sprite = ImagesHideta[random];
         }
         if (who == 31)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+            RunnerImages[count].sprite = ImagesHideta[random + 10];
         }
         if (who == 32)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+            RunnerImages[count].sprite = ImagesHideta[random + 20];
         }
         if (who == 33)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+            RunnerImages[count].sprite = ImagesHideta[random + 30];
         }
         if (who == 34)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 40];
+            RunnerImages[count].sprite = ImagesHideta[random + 40];
         }
     }
     void showHideya(int count, int who)
@@ -250,23 +251,23 @@ public class CRunway : MonoBehaviour
         int random = Random.Range(0, 4);
         if (who == 40)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random];
+            RunnerImages[count].sprite = ImagesHideya[random];
         }
         if (who == 41)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+            RunnerImages[count].sprite = ImagesHideya[random + 10];
         }
         if (who == 42)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+            RunnerImages[count].sprite = ImagesHideya[random + 20];
         }
         if (who == 43)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+            RunnerImages[count].sprite = ImagesHideya[random + 30];
         }
         if (who == 44)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 40];
+            RunnerImages[count].sprite = ImagesHideya[random + 40];
         }
     }
     void showYasuo(int count, int who)
@@ -276,19 +277,19 @@ public class CRunway : MonoBehaviour
         int random = Random.Range(0, 3);
         if (who == 50)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random];
+            RunnerImages[count].sprite = ImagesYasuo[random];
         }
         if (who == 51)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 10];
+            RunnerImages[count].sprite = ImagesYasuo[random + 10];
         }
         if (who == 52)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 20];
+            RunnerImages[count].sprite = ImagesYasuo[random + 20];
         }
         if (who == 53)
         {
-            RunnerImages[count].sprite = ImagesYasuko[random + 30];
+            RunnerImages[count].sprite = ImagesYasuo[random + 30];
         }
     }
 
@@ -307,25 +308,25 @@ public class CRunway : MonoBehaviour
             //-= new Color(0, 0, 0, 0.01f);
             color.a -= 0.01f;
             dainmaku[makuCount-1].GetComponent<Image>().color = color;
-            Debug.Log(color.a);
+            //Debug.Log(color.a);
             if (color.a <= 0) {
                 fadeFlg = 0;
                 dainmaku[makuCount-1].SetActive(false);
                 color.a = 1;
                 dainmaku[makuCount-1].GetComponent<Image>().color = color;
             }
-            if (0.6f <= color.a && color.a <= 0.7f)
+            if (0.8f <= color.a && color.a <= 0.9f)
             {
                 moveFlg = 1;
             }
-            Debug.Log(fadeFlg);
+            //Debug.Log(fadeFlg);
         }
 
         //ランナーたちを右から左へ動かす処理(moveFlg==1の時のみ動く)
         if (moveFlg == 1)
         {
             Runners.position -= new Vector3(speed, 0, 0);
-            if (Runners.position.x <= -5420) {
+            if (Runners.position.x <= -6420) {
                 Runners.position = new Vector3(1480, 720, 0);
                 moveFlg = 0;
                 Result();
@@ -353,6 +354,7 @@ public class CRunway : MonoBehaviour
             SceneManager.LoadScene("12RunwayRes");
         }
         else {
+            nextBtn.SetActive(false);
             makuStart();
         }
     }

@@ -51,6 +51,7 @@ public class CRunner : MonoBehaviour
             AkagonohateData.runner[i] = -1;　//runer[]==0の場合を考慮して、初期値を-1に変更する処理(gamenseni.csで実装済み)
         }
         //テスト用処理(仮置き)END
+
         for (int i = 0; i < 8; i++) {
             if (AkagonohateData.runner[i] == -1)
             {
@@ -58,6 +59,7 @@ public class CRunner : MonoBehaviour
             }
         }
         AkagonohateData.hyoujimaku = 1;
+        syokiRunner();
     }
 
     int wakuNo = 0;

@@ -39,9 +39,13 @@ public class AkagonohateData : ScriptableObject
     public static int yuZen = 1;               //前回ランウェイ時に設定した誘導員の数
     public static int niZen = 5;               //前回ランウェイ時に設定した荷物持ちの数
     public static int basyo = 1;               //前回ランウェイ時に設定した場所(設定時に都度上書き)
-    public static int[] runner = new int[24];  //設定中のランナー衣装Noを格納(0～60くらいの値、都度上書き、初期値を-1にする)
+    public static int[] runner = new int[24];  //*設定中のランナー衣装Noを格納(0～60くらいの値、都度上書き、初期値を-1にする)
     //物資調達
     public static int busshiSyokaiFlg = 0;     //物資調達初回フラグ(1の時に物資初回チュートリアル再生)
+    //タスク画面
+    public static int[] tasseiFlgN = new int[6];      //*【日課】条件達成時(報酬獲得可能になった時点)に書き換える　0：未達成、1：達成(受け取り可能)、2：獲得済み
+    public static int[] tasseiFlgS = new int[9];      //*【週間】条件達成時(報酬獲得可能になった時点)に書き換える　0：未達成、1：達成(受け取り可能)、2：獲得済み
+    public static int[] tasseiFlgE = new int[6];      //*【イベント】条件達成時(報酬獲得可能になった時点)に書き換える　0：未達成、1：達成(受け取り可能)、2：獲得済み
     //所持数関係
     public static int[] itemSyojisu = new int[20];　　//*各種アイテム所持数
     public static int[] isyoSyojiFlg = new int[60];　 //*衣装所持/未所持を判別

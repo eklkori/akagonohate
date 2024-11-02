@@ -1994,6 +1994,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
       value: RunnerBase8
@@ -4786,6 +4790,10 @@ PrefabInstance:
     - target: {fileID: 2983275203931038984, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
@@ -9073,6 +9081,10 @@ PrefabInstance:
     - target: {fileID: 2983275203931038984, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
@@ -14130,6 +14142,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
       value: RunnerBase4
@@ -15699,6 +15715,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
       value: RunnerBase7
@@ -16109,6 +16129,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
       value: RunnerBase5
@@ -16301,6 +16325,10 @@ PrefabInstance:
     - target: {fileID: 2983275203931038984, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
@@ -17136,9 +17164,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3605012015992044174, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
       propertyPath: m_Name
       value: RunnerBase1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338114325565070416, guid: 33db5e21d05360a4cbba63506a7db010, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
