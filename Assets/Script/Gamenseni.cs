@@ -78,7 +78,8 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goTansaku()
     {
-            SceneManager.LoadScene("06Tansaku");
+        Debug.Log("tansaku");
+        SceneManager.LoadScene("06Tansaku");
     }
 
     /// <summary>
@@ -87,6 +88,7 @@ public class Gamenseni : MonoBehaviour
     public void goRunwaySet()
     {
             SceneManager.LoadScene("10RunwaySet");
+        Debug.Log("runway");
     }
 
     /// <summary>
@@ -95,6 +97,7 @@ public class Gamenseni : MonoBehaviour
     public void goTask()
     {
             SceneManager.LoadScene("19Task");
+        Debug.Log("task");
     }
 
     /// <summary>
@@ -117,6 +120,7 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goShinaido()
     {
+        Debug.Log("shinaido");
         if (Input.GetMouseButtonUp(0))
         {
             SceneManager.LoadScene("16Shinaido1");

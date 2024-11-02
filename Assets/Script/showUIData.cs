@@ -35,8 +35,8 @@ public class showUIData : MonoBehaviour
     {
         playerLv.text = AkagonohateData.playerLvI.ToString();
         playerName.text = AkagonohateData.playerNmaeT;
-        kenSyoji.text = AkagonohateData.kenSyojiI.ToString();
-        zeniSyoji.text = AkagonohateData.zeniSyojiI.ToString();
+        kenSyoji.text = AkagonohateData.itemSyojisu[1].ToString();
+        zeniSyoji.text = AkagonohateData.itemSyojisu[0].ToString();
         keyHMMSS.text = countS.ToString();
 
         for (int i = 0; i < AkagonohateData.itemSyojisu[2]; i++) {

@@ -56,6 +56,7 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject ScrollCredit;
     [SerializeField] GameObject ScrollRiyokiyaku;
     [SerializeField] GameObject ScrollIsyou;
+    [SerializeField] GameObject ScrollGifts;
 
 
     //-----ï\é¶ån-----
@@ -65,8 +66,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUp()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             credit.SetActive(true);
             syojidogukakunin.SetActive(true);
@@ -76,7 +75,6 @@ public class menuBtn : MonoBehaviour
             koukaonBGM.SetActive(true);
             kakusyumenu.SetActive(true);
             haikei.SetActive(true);
-        }
     }
 
     /// <summary>
@@ -84,8 +82,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpC()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(false);
             batsuC.SetActive(true);
             credit.SetActive(false);
@@ -98,7 +94,6 @@ public class menuBtn : MonoBehaviour
             haikei.SetActive(false);
             haikeiC.SetActive(true);
             ScrollCredit.SetActive(true);
-        }
     }
 
     /// <summary>
@@ -106,8 +101,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpS()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(false);
             batsuS.SetActive(true);
             credit.SetActive(false);
@@ -119,7 +112,6 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(false);
             haikei.SetActive(false);
             haikeiS.SetActive(true);
-        }
     }
 
     /// <summary>
@@ -127,8 +119,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpR()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(false);
             batsuR.SetActive(true);
             credit.SetActive(false);
@@ -141,7 +131,6 @@ public class menuBtn : MonoBehaviour
             haikei.SetActive(false);
             haikeiR.SetActive(true);
             ScrollRiyokiyaku.SetActive(true);
-        }
     }
 
     /// <summary>
@@ -149,8 +138,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpO()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(false);
             batsuO.SetActive(true);
             credit.SetActive(false);
@@ -165,7 +152,6 @@ public class menuBtn : MonoBehaviour
             otoiawaseText.SetActive(true);
             setsumeibun.SetActive(true);
             cHome.GetComponent<sendMail>().BtnFlg();
-        }
     }
 
     /// <summary>
@@ -173,15 +159,12 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpP()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             partnersentakuT.SetActive(true);
             haikei.SetActive(true);
             popupBase.SetActive(true);
             ScrollIsyou.SetActive(true);
             cHome.GetComponent<cHome>().syokihyouji();
-        }
     }
 
     /// <summary>
@@ -189,8 +172,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpA()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             akaoninohateT.SetActive(true);
             haikei.SetActive(true);
@@ -198,7 +179,6 @@ public class menuBtn : MonoBehaviour
             akaoninohate.SetActive(true);
             textA.SetActive(true);
             yondemiru.SetActive(true);
-        }
     }
 
     /// <summary>
@@ -206,8 +186,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpGMi()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             giftT.SetActive(true);
             giftBtnBase.SetActive(true);
@@ -215,7 +193,6 @@ public class menuBtn : MonoBehaviour
             giftBtnMi.SetActive(false);
             haikei.SetActive(true);
             popupBase.SetActive(true);
-        }
     }
 
     /// <summary>
@@ -223,13 +200,10 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpGSumi()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             giftBtnBase.SetActive(true);
             giftBtnSumi.SetActive(false);
             giftBtnMi.SetActive(true);
-            //giftBase.SetActive(true);
-        }
+        Å@Å@ScrollGifts.SetActive(true);
     }
 
     /// <summary>
@@ -237,14 +211,11 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void showPopUpY()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             yuryoT.SetActive(true);
             yuryoItemAll.SetActive(true);
             popupBase.SetActive(true);
             haikei.SetActive(true);
-        }
     }
 
 
@@ -255,8 +226,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void closePopUp()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(false);
             credit.SetActive(false);
             syojidogukakunin.SetActive(false);
@@ -278,7 +247,7 @@ public class menuBtn : MonoBehaviour
             yuryoItemAll.SetActive(false);
             yuryoT.SetActive(false);
             ScrollIsyou.SetActive(false);
-        }
+            ScrollGifts.SetActive(false);
     }
 
     /// <summary>
@@ -286,8 +255,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void closePopUpC()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             batsuC.SetActive(false);
             credit.SetActive(true);
@@ -300,7 +267,6 @@ public class menuBtn : MonoBehaviour
             haikei.SetActive(true);
             haikeiC.SetActive(false);
             ScrollCredit.SetActive(false);
-        }
     }
 
     /// <summary>
@@ -308,8 +274,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void closePopUpS()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             batsuS.SetActive(false);
             credit.SetActive(true);
@@ -321,7 +285,6 @@ public class menuBtn : MonoBehaviour
             kakusyumenu.SetActive(true);
             haikei.SetActive(true);
             haikeiS.SetActive(false);
-        }
     }
 
     /// <summary>
@@ -329,8 +292,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void closePopUpR()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             batsuR.SetActive(false);
             credit.SetActive(true);
@@ -343,7 +304,6 @@ public class menuBtn : MonoBehaviour
             haikei.SetActive(true);
             haikeiR.SetActive(false);
             ScrollRiyokiyaku.SetActive(false);
-        }
     }
 
     /// <summary>
@@ -351,8 +311,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void closePopUpO()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             batsu.SetActive(true);
             batsuO.SetActive(false);
             credit.SetActive(true);
@@ -368,10 +326,14 @@ public class menuBtn : MonoBehaviour
             setsumeibun.SetActive(false);
             soushinBtn.SetActive(false);
             uketamawarimashita.SetActive(false);
-        }
     }
 
-
+    /// <summary>
+    /// äOïîÉäÉìÉN(çgãSÇÃâ )Ç÷ÇÃëJà⁄
+    /// </summary>
+    public void goAkaoninohate() {
+        Application.OpenURL("https://www.amazon.co.jp/dp/B09MP8RCTP?binding=kindle_edition&searchxofy=true&ref_=dbs_s_aps_series_rwt_tkin&qid=1729922059&sr=8-4");
+    }
 
 
 }

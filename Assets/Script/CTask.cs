@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CTask : MonoBehaviour
 {
+    public Text hosyuT;
+    [SerializeField] GameObject zeni;
+    [SerializeField] GameObject ken;
+
     [SerializeField] GameObject scrollNikka;
     [SerializeField] GameObject scrollSyukan;
     [SerializeField] GameObject scrollEvent;
@@ -17,11 +22,22 @@ public class CTask : MonoBehaviour
     [SerializeField] GameObject[] kakutokuzumiN;
     [SerializeField] GameObject[] kakutokuzumiS;
     [SerializeField] GameObject[] kakutokuzumiE;
+    [SerializeField] GameObject kakutokuPopup;
 
     /// <summary>
     /// 表示中のタスク(1：日課、2：週間、3：イベント)
     /// </summary>
     int hyoujiTask = 0;
+
+    /// <summary>
+    /// 獲得ボタンから受け取るアイテムが銭か券かを判断
+    /// </summary>
+    int itemFlg = 0;
+
+    /// <summary>
+    /// 獲得したボタンのNoを表示
+    /// </summary>
+    int btnNo = 0;
 
     /// <summary>
     /// タスクの総数を格納※併せてAkagonohateData.tasseiFlgXの値も編集する必要あり
@@ -31,6 +47,11 @@ public class CTask : MonoBehaviour
     [SerializeField] int countE;
     void Start()
     {
+        //テスト用処理START
+        AkagonohateData.tasseiFlgN[0] = 1;
+        AkagonohateData.tasseiFlgN[1] = 1;
+        //テスト用処理END
+
         showNikka();
     }
 
@@ -107,6 +128,49 @@ public class CTask : MonoBehaviour
             }
         }
     }
+
+    /// <summary>
+    /// 獲得ボタン押下時の処理
+    /// ※hosyu：貰えるアイテムの個数
+    /// ※num：十の位＝ボタンNo(0スタート)、一の位＝アイテムフラグ(=AkagonohateData.itemSyojisu)
+    /// </summary>
+    public void item(int num) {
+        itemFlg = num % 10;
+        btnNo = num / 10;
+    }
+    public void pushBtn(string hosyu) {
+        //ポップアップ表示
+        kakutokuPopup.SetActive(true);
+        zeni.SetActive(false);
+        ken.SetActive(false);
+        if (itemFlg == 0)
+        {
+            zeni.SetActive(true);
+        }
+        if(itemFlg == 1){
+            ken.SetActive(true);
+        }
+        hosyuT.text = ("×" + hosyu);
+
+
+        //アイテム所持数を操作
+        AkagonohateData.itemSyojisu[itemFlg] += int.Parse(hosyu);
+
+        //達成フラグを操作(1→2)
+        switch (hyoujiTask)
+        {
+            case 1: AkagonohateData.tasseiFlgN[btnNo] = 2; break;
+            case 2: AkagonohateData.tasseiFlgS[btnNo] = 2; break;
+            case 3: AkagonohateData.tasseiFlgE[btnNo] = 2; break;
+        }
+        CBtn();
+    }
+
+    public void pushHaikei() {
+        //ポップアップ非表示
+        kakutokuPopup.SetActive(false);
+    }
+
     void Update()
     {
         //未獲得報酬ありを示す赤丸を初期化

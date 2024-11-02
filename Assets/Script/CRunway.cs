@@ -11,6 +11,10 @@ public class CRunway : MonoBehaviour
     [SerializeField] GameObject nextBtn;
     [SerializeField] GameObject[] dainmaku;
     [SerializeField] GameObject[] runners;
+    [SerializeField] GameObject res;
+    [SerializeField] GameObject yu;
+    [SerializeField] GameObject ryo;
+    [SerializeField] GameObject ka;
 
     public RectTransform Runners;
     [SerializeField] Image[] RunnerImages;
@@ -24,6 +28,8 @@ public class CRunway : MonoBehaviour
     [SerializeField] Sprite[] ImagesYasuo;
     [SerializeField] Sprite[] ResRunnerImages;
 
+    int basyo = 0;
+
     int makuCount = 0;
     int moveFlg = 0;
     int fadeFlg = 0;
@@ -33,25 +39,27 @@ public class CRunway : MonoBehaviour
     /// </summary>
     void Start()
     {
-        /// <summary>
+        /// < summary >
         /// ランナー画像差し替えテスト用
-        /// </summary>
-        //int forCount = 0;
-        //int ten = 0;
-        //for (int i = 0; i < 24; i++)
-        //{
-        //    if (forCount == 4) {
-        //        forCount = 0;
-        //        ten++;
-        //    }
-        //    AkagonohateData.runner[i] = ten * 10 + forCount;
-        //    forCount++;
-        //}
+        /// </ summary >
+        int forCount = 0;
+        int ten = 0;
+        for (int i = 0; i < 24; i++)
+        {
+            if (forCount == 4)
+            {
+                forCount = 0;
+                ten++;
+            }
+            AkagonohateData.runner[i] = ten * 10 + forCount;
+            forCount++;
+        }
+        AkagonohateData.basyo = 1;
         //テスト用処理END
 
         nextBtn.SetActive(false);
 
-        int basyo = AkagonohateData.basyo;
+        basyo = AkagonohateData.basyo;
         switch (basyo) {
             case 1: bg[0].SetActive(true);break;
             case 2: bg[1].SetActive(true); break;
@@ -341,12 +349,35 @@ public class CRunway : MonoBehaviour
         fadeFlg = 1;
     }
 
+    private AkagonohateData akagoData;
+
     /// <summary>
     /// 結果表示処理
     /// </summary>
     private void Result()
     {
         nextBtn.SetActive(true);
+        res.SetActive(true);
+
+        akagoData = FindObjectOfType<AkagonohateData>(); // インスタンス化
+        int[] bi = akagoData.GetBi;
+        int[] hu = akagoData.GetBi;
+        int kijyunBi = 0;
+        int kijyunHu = 0;
+        //優良可の判断基準値を設定(要検討)
+        switch (basyo)
+        {
+            case 1: kijyunBi = 30; kijyunHu = 30; break;
+            case 2: kijyunBi = 70; kijyunHu = 70; break;
+            case 3: kijyunBi = 100; kijyunHu = 50; break;
+            case 4: kijyunBi = 60; kijyunHu = 120; break;
+            case 5: kijyunBi = 140; kijyunHu = 140; break;
+            case 6: kijyunBi = 200; kijyunHu = 100; break;
+            case 7: kijyunBi = 120; kijyunHu = 200; break;
+            case 8: kijyunBi = 170; kijyunHu = 170; break;
+            case 9: kijyunBi = 250; kijyunHu = 100; break;
+        }
+
     }
     public void next() {
         if (makuCount == 3)

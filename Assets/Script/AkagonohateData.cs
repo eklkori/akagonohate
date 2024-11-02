@@ -16,8 +16,6 @@ public class AkagonohateData : ScriptableObject
     public static string playerNmaeT = "EKL";  //*プレーヤー名
     public static int playerLvI = 20;           //*プレイヤーLv
     public static int exp = 270;                 //*EXP
-    public static int kenSyojiI = 0;           //*仕立券総所持数
-    public static int zeniSyojiI = 0;          //*銭総所持数
     public static float HH = 0;                  //鍵追加までのカウント(時)
     public static float MM = 0;                  //鍵追加までのカウント(分)
     public static float SS = 10;                  //鍵追加までのカウント(秒)
@@ -58,6 +56,21 @@ public class AkagonohateData : ScriptableObject
     public static int gachaFlg = 0;            //ガチャが単発か10連か判断(単発の場合「1」、10連の場合「2」)
     public static int shinaidoWho = 0;         //誰の親愛度を確認しているかを管理するフラグ
     public static int kakuninchuFlg = 0;       //親愛度確認画面等、探索以外からシナリオを視聴していることを示すフラグ
+    //固定値
+    //各衣装の美しさステータスを格納
+    private static int[] bi = { 3, 3, 8, 8, 16, 0, 0, 0, 0, 0, 1, 1, 2, 2, 4, 0, 0, 0, 0, 0, 3, 3, 7, 7, 14, 0, 0, 0, 0, 0, 2, 2, 5, 5, 10, 0, 0, 0, 0, 0, 3, 3, 6, 6, 12, 0, 0, 0, 0, 0, 2, 2, 4, 4, 6, 0, 0, 0, 0, 0 };
+    //各衣裳のユーモア性ステータスを格納
+    private static int[] hu = { 1, 1, 2, 2, 4, 0, 0, 0, 0, 0, 3, 3, 8, 8, 16, 0, 0, 0, 0, 0, 1, 1, 3, 3, 6, 0, 0, 0, 0, 0, 2, 2, 5, 5, 10, 0, 0, 0, 0, 0, 1, 1, 4, 4, 8, 0, 0, 0, 0, 0, 2, 2, 6, 6, 14, 0, 0, 0, 0, 0 };
+
+    public int[] GetBi  //public 戻り値 プロパティ名
+    {
+        get { return bi; } //get {return フィールド名;}
+        //set { bi = value; } //set {フィールド名 = value;}
+    }
+    public int[] GetHu  //public 戻り値 プロパティ名
+    {
+        get { return hu; } //get {return フィールド名;}
+    }
 
     //※runnse[]の初期値を-1にする処理を、画面遷移スクリプト(gamenseni.cs)の中で実装済み
 }
