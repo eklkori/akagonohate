@@ -359,6 +359,7 @@ public class CRunway : MonoBehaviour
         nextBtn.SetActive(true);
         res.SetActive(true);
 
+        //幕ごとの評価計算・表示
         akagoData = FindObjectOfType<AkagonohateData>(); // インスタンス化
         int[] bi = akagoData.GetBi;
         int[] hu = akagoData.GetBi;
@@ -377,7 +378,38 @@ public class CRunway : MonoBehaviour
             case 8: kijyunBi = 170; kijyunHu = 170; break;
             case 9: kijyunBi = 250; kijyunHu = 100; break;
         }
-
+        int kekkaBi = 0;
+        int kekkaHu = 0;
+        int forCount = 0;
+        switch (makuCount)
+        {
+            case 1: forCount = 0; break;
+            case 2: forCount = 8; break;
+            case 3: forCount = 16; break;
+        }
+        for (int i = forCount; i < forCount + 8; i++) 
+        {
+            kekkaBi += bi[i];
+            kekkaHu += hu[i];
+        }
+        if (kijyunBi <= kekkaBi && kijyunHu <= kekkaHu) 
+        {
+            yu.SetActive(true);
+            ryo.SetActive(false);
+            ka.SetActive(false);
+        }
+        else if (kijyunBi*85/100 <= kekkaBi && kijyunHu*85/100 <= kekkaHu)
+        {
+            yu.SetActive(false);
+            ryo.SetActive(true);
+            ka.SetActive(false);
+        }
+        else
+        {
+            yu.SetActive(false);
+            ryo.SetActive(false);
+            ka.SetActive(true);
+        }
     }
     public void next() {
         if (makuCount == 3)

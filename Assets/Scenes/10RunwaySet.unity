@@ -2535,6 +2535,8 @@ MonoBehaviour:
   tarimasen: {fileID: 68968233}
   now: {fileID: 145359558}
   after: {fileID: 1727231325}
+  pickUp1: 4
+  pickUp2: 34
   nowT: {fileID: 145359560}
   afterT: {fileID: 1727231327}
   moT: {fileID: 74464459}

@@ -20,6 +20,7 @@ public class AkagonohateData : ScriptableObject
     public static float MM = 0;                  //鍵追加までのカウント(分)
     public static float SS = 10;                  //鍵追加までのカウント(秒)
     public static int partnerNo = 13;            //ホーム画面でパートナー設定しているキャラの衣装Noを格納
+    public static int eventFlg = 0;            //イベント中は1にするフラグ　イベント中か否かを判断
     //ステータス系
     public static int[] datePt = new int[6];   //*キャラごとのデートPtを保管
     public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納
@@ -38,6 +39,9 @@ public class AkagonohateData : ScriptableObject
     public static int niZen = 5;               //前回ランウェイ時に設定した荷物持ちの数
     public static int basyo = 1;               //前回ランウェイ時に設定した場所(設定時に都度上書き)
     public static int[] runner = new int[24];  //*設定中のランナー衣装Noを格納(0～60くらいの値、都度上書き、初期値を-1にする)
+    public static int[] runwayRes = new int[4];//ランウェイ結果を格納(0：第一幕、1：第二幕、2：第三幕、3：総合結果　優：1、良：2、可：3)
+    public static int[] runwayMVP = new int[4];//ランウェイMVPキャラの衣装Noを格納(0：第一幕、1：第二幕、2：第三幕、3：総合結果)
+
     //物資調達
     public static int busshiSyokaiFlg = 0;     //物資調達初回フラグ(1の時に物資初回チュートリアル再生)
     //タスク画面
@@ -72,5 +76,5 @@ public class AkagonohateData : ScriptableObject
         get { return hu; } //get {return フィールド名;}
     }
 
-    //※runnse[]の初期値を-1にする処理を、画面遷移スクリプト(gamenseni.cs)の中で実装済み
+    //※runner[]の初期値を-1にする処理を、画面遷移スクリプト(gamenseni.cs)の中で実装済み
 }
