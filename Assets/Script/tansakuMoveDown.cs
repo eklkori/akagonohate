@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using Utage;
+using UnityEngine.UI;
 
 public class tansakuMoveDown: MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class tansakuMoveDown: MonoBehaviour
     [SerializeField] GameObject hideta_kao2;
     [SerializeField] GameObject hideya_kao2;
     [SerializeField] GameObject yasuo_kao2;
+    [SerializeField] GameObject tapT;
 
     public RectTransform shitaBtnMove;
     public RectTransform ueBtnMove;
@@ -36,6 +38,9 @@ public class tansakuMoveDown: MonoBehaviour
     [SerializeField] private float moveBtn;
     int count = 0;
     int flg = 0;
+
+    //顔面をTAP点滅用
+    int tenmetsuFlg = 0;
 
     public void shitaBtnOn()
     {
@@ -127,7 +132,7 @@ public class tansakuMoveDown: MonoBehaviour
             shitaBtnMove.position -= new Vector3(0,moveBtn , 0);
             ueBtnMove.position -= new Vector3(0, moveBtn, 0);
             count++;
-            if (count == 270) {
+            if (count == 35) {
                 flg = 1;
             }
         }
@@ -140,6 +145,27 @@ public class tansakuMoveDown: MonoBehaviour
             {
                 flg = 0;
             }
+        }
+
+        //「顔面をTAP」を点滅させる処理
+        Color tap = tapT.GetComponent<Image>().color;
+        if (tenmetsuFlg == 0)
+        {
+            tap.a -= 0.02f;
+            tapT.GetComponent<Image>().color = tap;
+        }
+        else if (tenmetsuFlg == 1)
+        {
+            tap.a += 0.02f;
+            tapT.GetComponent<Image>().color = tap;
+        }
+        if (tap.a < 0)
+        {
+            tenmetsuFlg = 1;
+        }
+        else if (tap.a > 1)
+        {
+            tenmetsuFlg = 0;
         }
     }
 }

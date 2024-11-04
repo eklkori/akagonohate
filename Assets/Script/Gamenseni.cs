@@ -8,15 +8,22 @@ using UtageExtensions;
 public class Gamenseni : MonoBehaviour
 {
     /// <summary>
+    /// フレームレートを60に固定
+    /// </summary>
+    private void Start()
+    {
+        Application.targetFrameRate = 60;
+    }
+ 
+    /// <summary>
     /// タイトル画面からの遷移
     /// </summary>
     public void startGame()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
+
             if (AkagonohateData.tutorealFlg == 0)
             {
-                for (int i = 0; i < 60; i++) {
+                for (int i = 0; i < 24; i++) {
                     AkagonohateData.runner[i] = -1;
                 }
                 SceneManager.LoadScene("02Kiyaku");
@@ -25,7 +32,6 @@ public class Gamenseni : MonoBehaviour
             {
                 SceneManager.LoadScene("05Home");
             }
-        }
     }
 
     /// <summary>

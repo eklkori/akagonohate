@@ -24,10 +24,11 @@ public class AkagonohateData : ScriptableObject
     //ステータス系
     public static int[] datePt = new int[6];   //*キャラごとのデートPtを保管
     public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納
-    public static int[] shinaido = new int[6]; //*キャラごとの親愛Lvを格納
+    public static int[] shinaiLv = new int[6]; //*キャラごとの親愛Lvを格納
     public static int[] dateCount = new int[6]; //*キャラごとの累計デート回数を格納
     public static int[] kaiwaCount = new int[6];//*キャラごとの累計会話回数を格納
     public static int[] mitsugiCount = new int[6];//*キャラごとの累計貢物個数を格納
+    public static int[] eventRuikei = new int[5]; //*【イベント限定】各種累計値を格納(0：イベントPt、1：美しさ、2：ユーモア性、3：会話回数①、4：会話回数②)
     //会話・デート関連//
     public static int dateFlg = 0;             //*デートフラグ(1の場合はデートに行ける)
     public static int nakanaoriFlg = 0;        //*仲直りフラグ(デートで喧嘩した場合、条件達成で1に変更→仲直りできるようになる)
@@ -60,10 +61,11 @@ public class AkagonohateData : ScriptableObject
     public static int gachaFlg = 0;            //ガチャが単発か10連か判断(単発の場合「1」、10連の場合「2」)
     public static int shinaidoWho = 0;         //誰の親愛度を確認しているかを管理するフラグ
     public static int kakuninchuFlg = 0;       //親愛度確認画面等、探索以外からシナリオを視聴していることを示すフラグ
+
     //固定値
     //各衣装の美しさステータスを格納
     private static int[] bi = { 3, 3, 8, 8, 16, 0, 0, 0, 0, 0, 1, 1, 2, 2, 4, 0, 0, 0, 0, 0, 3, 3, 7, 7, 14, 0, 0, 0, 0, 0, 2, 2, 5, 5, 10, 0, 0, 0, 0, 0, 3, 3, 6, 6, 12, 0, 0, 0, 0, 0, 2, 2, 4, 4, 6, 0, 0, 0, 0, 0 };
-    //各衣裳のユーモア性ステータスを格納
+    //各衣装のユーモア性ステータスを格納
     private static int[] hu = { 1, 1, 2, 2, 4, 0, 0, 0, 0, 0, 3, 3, 8, 8, 16, 0, 0, 0, 0, 0, 1, 1, 3, 3, 6, 0, 0, 0, 0, 0, 2, 2, 5, 5, 10, 0, 0, 0, 0, 0, 1, 1, 4, 4, 8, 0, 0, 0, 0, 0, 2, 2, 6, 6, 14, 0, 0, 0, 0, 0 };
 
     public int[] GetBi  //public 戻り値 プロパティ名

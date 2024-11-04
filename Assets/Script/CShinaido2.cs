@@ -196,7 +196,7 @@ public class CShinaido2 : MonoBehaviour
         }
 
         //親愛Lvの表示
-        int shinaiTMP = AkagonohateData.shinaido[kyara - 1];
+        int shinaiTMP = AkagonohateData.shinaiLv[kyara - 1];
         shinaidoT.text = ("現在の親愛Lv　　" + shinaiTMP);
 
         //デート進捗の表示

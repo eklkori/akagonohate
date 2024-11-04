@@ -35,8 +35,6 @@ public class tansakuPopUp : MonoBehaviour
     /// </summary>
     public void showPopUpNaoko()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             AkagonohateData.tansakuKyara = 1;
             batsu.SetActive(true);
             popupBase.SetActive(true);
@@ -61,7 +59,6 @@ public class tansakuPopUp : MonoBehaviour
             {
                 nakanaoriBtnNo.SetActive(true);
             }
-        }
     }
 
     /// <summary>
@@ -69,8 +66,6 @@ public class tansakuPopUp : MonoBehaviour
     /// </summary>
     public void showPopUpYasuko()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             AkagonohateData.tansakuKyara = 2;
             batsu.SetActive(true);
             popupBase.SetActive(true);
@@ -96,7 +91,6 @@ public class tansakuPopUp : MonoBehaviour
             {
                 nakanaoriBtnNo.SetActive(true);
             }
-        }
     }
 
     /// <summary>
@@ -104,8 +98,6 @@ public class tansakuPopUp : MonoBehaviour
     /// </summary>
     public void showPopUpYoshiko()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             AkagonohateData.tansakuKyara = 3;
             batsu.SetActive(true);
             popupBase.SetActive(true);
@@ -131,7 +123,6 @@ public class tansakuPopUp : MonoBehaviour
             {
                 nakanaoriBtnNo.SetActive(true);
             }
-        }
     }
 
     /// <summary>
@@ -139,8 +130,6 @@ public class tansakuPopUp : MonoBehaviour
     /// </summary>
     public void showPopUpHideta()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             AkagonohateData.tansakuKyara = 4;
             batsu.SetActive(true);
             popupBase.SetActive(true);
@@ -166,7 +155,6 @@ public class tansakuPopUp : MonoBehaviour
             {
                 nakanaoriBtnNo.SetActive(true);
             }
-        }
     }
 
     /// <summary>
@@ -174,8 +162,6 @@ public class tansakuPopUp : MonoBehaviour
     /// </summary>
     public void showPopUpHideya()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             AkagonohateData.tansakuKyara = 5;
             batsu.SetActive(true);
             popupBase.SetActive(true);
@@ -201,7 +187,6 @@ public class tansakuPopUp : MonoBehaviour
             {
                 nakanaoriBtnNo.SetActive(true);
             }
-        }
     }
 
     /// <summary>
@@ -209,8 +194,6 @@ public class tansakuPopUp : MonoBehaviour
     /// </summary>
     public void showPopUpYasuo()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
             AkagonohateData.tansakuKyara = 6;
             batsu.SetActive(true);
             popupBase.SetActive(true);
@@ -236,7 +219,6 @@ public class tansakuPopUp : MonoBehaviour
             {
                 nakanaoriBtnNo.SetActive(true);
             }
-        }
     }
 
     //”ñ•\Ž¦Œn-------------

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class makuFade : MonoBehaviour
 {
+    //いらないファイル？
     //MeshRenderer mr;
     void Start()
     {

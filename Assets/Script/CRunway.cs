@@ -15,9 +15,13 @@ public class CRunway : MonoBehaviour
     [SerializeField] GameObject yu;
     [SerializeField] GameObject ryo;
     [SerializeField] GameObject ka;
+    [SerializeField] GameObject nextT;
+    [SerializeField] GameObject resRunnerImages;
 
     public RectTransform Runners;
+    public RectTransform move;
     [SerializeField] Image[] RunnerImages;
+    [SerializeField] Image RunnerRes;
 
     //フォルダ内の画像(スプライト)を配列化
     [SerializeField] Sprite[] ImagesNaoko;
@@ -33,35 +37,46 @@ public class CRunway : MonoBehaviour
     int makuCount = 0;
     int moveFlg = 0;
     int fadeFlg = 0;
+    int tenmetsuFlg = 0;
+    int moveNmakuFlg = 0;
+
+    public Text hyouteiT;
 
     /// <summary>
     /// ランウェイ開始時の処理(第一幕のみ)
     /// </summary>
     void Start()
     {
+        //テスト用処理START
         /// < summary >
         /// ランナー画像差し替えテスト用
         /// </ summary >
-        int forCount = 0;
-        int ten = 0;
-        for (int i = 0; i < 24; i++)
-        {
-            if (forCount == 4)
-            {
-                forCount = 0;
-                ten++;
-            }
-            AkagonohateData.runner[i] = ten * 10 + forCount;
-            forCount++;
-        }
+        //int forCount = 0;
+        //int ten = 0;
+        //for (int i = 0; i < 24; i++)
+        //{
+        //    if (forCount == 4)
+        //    {
+        //        forCount = 0;
+        //        ten++;
+        //    }
+        //    AkagonohateData.runner[i] = ten * 10 + forCount;
+        //    forCount++;
+        //}
         AkagonohateData.basyo = 1;
         //テスト用処理END
 
         nextBtn.SetActive(false);
+        res.SetActive(false);
 
+        //背景の初期化
+        for (int i = 0; i < 9; i++) {
+            bg[i].SetActive(false);
+        }
+        //背景の表示
         basyo = AkagonohateData.basyo;
         switch (basyo) {
-            case 1: bg[0].SetActive(true);break;
+            case 1: bg[0].SetActive(true); break;
             case 2: bg[1].SetActive(true); break;
             case 3: bg[2].SetActive(true); break;
             case 4: bg[3].SetActive(true); break;
@@ -312,22 +327,19 @@ public class CRunway : MonoBehaviour
         //「第n幕」をフェードアウトさせる処理
         if (fadeFlg == 1)
         {
-            Color color = dainmaku[makuCount-1].GetComponent<Image>().color;
-            //-= new Color(0, 0, 0, 0.01f);
-            color.a -= 0.01f;
-            dainmaku[makuCount-1].GetComponent<Image>().color = color;
-            //Debug.Log(color.a);
-            if (color.a <= 0) {
+            Color colorMaku = dainmaku[makuCount-1].GetComponent<Image>().color;
+            colorMaku.a -= 0.02f;
+            dainmaku[makuCount-1].GetComponent<Image>().color = colorMaku;
+            if (colorMaku.a <= 0) {
                 fadeFlg = 0;
                 dainmaku[makuCount-1].SetActive(false);
-                color.a = 1;
-                dainmaku[makuCount-1].GetComponent<Image>().color = color;
+                colorMaku.a = 1;
+                dainmaku[makuCount-1].GetComponent<Image>().color = colorMaku;
             }
-            if (0.8f <= color.a && color.a <= 0.9f)
+            if (0.8f <= colorMaku.a && colorMaku.a <= 0.9f)
             {
                 moveFlg = 1;
             }
-            //Debug.Log(fadeFlg);
         }
 
         //ランナーたちを右から左へ動かす処理(moveFlg==1の時のみ動く)
@@ -338,6 +350,64 @@ public class CRunway : MonoBehaviour
                 Runners.position = new Vector3(1480, 720, 0);
                 moveFlg = 0;
                 Result();
+            }
+        }
+
+        //「-next-」を点滅させる処理
+        Color colorNext = nextT.GetComponent<Image>().color;
+        //nextT.GetComponent<Image>().color = colorNext;
+        if (tenmetsuFlg == 0)
+        {
+            colorNext.a -= 0.02f;
+            nextT.GetComponent<Image>().color = colorNext;
+        }
+        else if (tenmetsuFlg == 1)
+        {
+            colorNext.a += 0.02f;
+            nextT.GetComponent<Image>().color = colorNext;
+        }
+        if (colorNext.a < 0) 
+        {
+            tenmetsuFlg = 1;
+        }
+        else if (colorNext.a > 1)
+        {
+            tenmetsuFlg = 0;
+        }
+
+        //第n幕をスライドさせる処理
+        if (moveNmakuFlg == 1) {
+            Debug.Log("move.position.y=" + move.position.y);
+            move.position += new Vector3(speed+40, 0, 0);
+            if (move.position.x >= 2700) {
+                Debug.Log(move.position.x);
+                moveNmakuFlg = 0;
+                //幕ごとの評価表示
+                switch (AkagonohateData.runwayRes[makuCount - 1])
+                {
+                    //テスト用処理START
+                    case 0:
+                        yu.SetActive(true);
+                        ryo.SetActive(false);
+                        ka.SetActive(false);
+                        break;
+                    //テスト用処理END
+                    case 1:
+                        yu.SetActive(true);
+                        ryo.SetActive(false);
+                        ka.SetActive(false);
+                        break;
+                    case 2:
+                        yu.SetActive(false);
+                        ryo.SetActive(true);
+                        ka.SetActive(false);
+                        break;
+                    case 3:
+                        yu.SetActive(false);
+                        ryo.SetActive(false);
+                        ka.SetActive(true);
+                        break;
+                }
             }
         }
     }
@@ -356,59 +426,61 @@ public class CRunway : MonoBehaviour
     /// </summary>
     private void Result()
     {
+        moveNmakuFlg = 1;
+
+        //オブジェクトの表示
         nextBtn.SetActive(true);
         res.SetActive(true);
 
-        //幕ごとの評価計算・表示
-        akagoData = FindObjectOfType<AkagonohateData>(); // インスタンス化
-        int[] bi = akagoData.GetBi;
-        int[] hu = akagoData.GetBi;
-        int kijyunBi = 0;
-        int kijyunHu = 0;
-        //優良可の判断基準値を設定(要検討)
-        switch (basyo)
+        yu.SetActive(false);
+        ryo.SetActive(false);
+        ka.SetActive(false);
+        //幕ごとの評価表示
+        //switch (AkagonohateData.runwayRes[makuCount-1])
+        //{
+        //    case 1:
+        //        yu.SetActive(true);
+        //        ryo.SetActive(false);
+        //        ka.SetActive(false); 
+        //        break;
+        //    case 2:
+        //        yu.SetActive(false);
+        //        ryo.SetActive(true);
+        //        ka.SetActive(false); 
+        //        break;
+        //    case 3:
+        //        yu.SetActive(false);
+        //        ryo.SetActive(false);
+        //        ka.SetActive(true); 
+        //        break;
+        //}
+
+        //評定テキストの書き換え
+        hyouteiT.text = ("第" + makuCount + "幕評定");
+
+        //キャラ画像の差し替え
+        RunnerRes.GetComponent<RectTransform>();
+        int kyara = AkagonohateData.runwayMVP[makuCount - 1]/10;
+        switch (kyara)
         {
-            case 1: kijyunBi = 30; kijyunHu = 30; break;
-            case 2: kijyunBi = 70; kijyunHu = 70; break;
-            case 3: kijyunBi = 100; kijyunHu = 50; break;
-            case 4: kijyunBi = 60; kijyunHu = 120; break;
-            case 5: kijyunBi = 140; kijyunHu = 140; break;
-            case 6: kijyunBi = 200; kijyunHu = 100; break;
-            case 7: kijyunBi = 120; kijyunHu = 200; break;
-            case 8: kijyunBi = 170; kijyunHu = 170; break;
-            case 9: kijyunBi = 250; kijyunHu = 100; break;
+            case 0: RunnerRes.rectTransform.sizeDelta = new Vector3(1800, 2230, 0); break;
+            case 1: RunnerRes.rectTransform.sizeDelta = new Vector3(1800, 2255, 0); break;
+            case 2: RunnerRes.rectTransform.sizeDelta = new Vector3(1800, 2110, 0); break;
+            case 3: RunnerRes.rectTransform.sizeDelta = new Vector3(1800, 2280, 0); break;
+            case 4: RunnerRes.rectTransform.sizeDelta = new Vector3(1800, 2415, 0); break;
+            case 5: RunnerRes.rectTransform.sizeDelta = new Vector3(1800, 2365, 0); break;
         }
-        int kekkaBi = 0;
-        int kekkaHu = 0;
-        int forCount = 0;
-        switch (makuCount)
+        //被り物などで個別処理あれば以下に追記
+
+        //Debug.Log("AkagonohateData.runwayMVP[makuCount - 1] = " + AkagonohateData.runwayMVP[makuCount - 1]);
+        if (AkagonohateData.runwayMVP[makuCount - 1] == -1)
         {
-            case 1: forCount = 0; break;
-            case 2: forCount = 8; break;
-            case 3: forCount = 16; break;
-        }
-        for (int i = forCount; i < forCount + 8; i++) 
-        {
-            kekkaBi += bi[i];
-            kekkaHu += hu[i];
-        }
-        if (kijyunBi <= kekkaBi && kijyunHu <= kekkaHu) 
-        {
-            yu.SetActive(true);
-            ryo.SetActive(false);
-            ka.SetActive(false);
-        }
-        else if (kijyunBi*85/100 <= kekkaBi && kijyunHu*85/100 <= kekkaHu)
-        {
-            yu.SetActive(false);
-            ryo.SetActive(true);
-            ka.SetActive(false);
+            resRunnerImages.SetActive(false);
         }
         else
         {
-            yu.SetActive(false);
-            ryo.SetActive(false);
-            ka.SetActive(true);
+            resRunnerImages.SetActive(true);
+            RunnerRes.sprite = ResRunnerImages[AkagonohateData.runwayMVP[makuCount - 1]];
         }
     }
     public void next() {
@@ -417,6 +489,10 @@ public class CRunway : MonoBehaviour
             SceneManager.LoadScene("12RunwayRes");
         }
         else {
+            move.position = new Vector3(1480, 720, 0);
+            //オブジェクトの表示
+            nextBtn.SetActive(false);
+            res.SetActive(false);
             nextBtn.SetActive(false);
             makuStart();
         }
