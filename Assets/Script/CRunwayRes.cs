@@ -62,6 +62,10 @@ public class CRunwayRes : MonoBehaviour
             case 4: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2415, 0); break;
             case 5: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2365, 0); break;
         }
+
+        //‚»‚Ì‘¼•\¦‚Ì‰Šú‰»
+
+
         Invoke("showKekka", 0.5f);
     }
 

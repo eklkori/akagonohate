@@ -421,6 +421,12 @@ MonoBehaviour:
   - {fileID: 556554623}
   - {fileID: 1433726349}
   - {fileID: 1151520038}
+  yuryokaT:
+  - {fileID: 1796637990}
+  - {fileID: 1921171786}
+  - {fileID: 1220815022}
+  - {fileID: 1252695807}
+  firstText: {fileID: 1491783040}
   resRunner: {fileID: 191078127}
   runnerImages:
   - {fileID: -5670747046979026563, guid: 56a154a0fc0c3c94ea91d3cc14aefd1b, type: 3}
@@ -497,7 +503,7 @@ MonoBehaviour:
   - {fileID: 1769899633}
   - {fileID: 1361002819}
   - {fileID: 163774113}
-  zeni: {fileID: 0}
+  zeni: {fileID: 381003273}
   nisokuBonus: {fileID: 43729871}
 --- !u!1 &160354676
 GameObject:
