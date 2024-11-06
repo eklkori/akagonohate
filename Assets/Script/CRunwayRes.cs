@@ -6,11 +6,23 @@ using UnityEngine.UI;
 
 public class CRunwayRes : MonoBehaviour
 {
+    //‘fŞ‚Ì’è‹`
     [SerializeField] GameObject[] bg;
     [SerializeField] GameObject mouichidoBtn;
+    [SerializeField] GameObject btns;
+    [SerializeField] GameObject[] yuryoka; //‘æˆê–‹—D—Ç‰ÂA‘æ“ñ–‹—D—Ç‰ÂA‘æO–‹—D—Ç‰ÂA‘‡—D—Ç‰Â‚Ì‡‚Å‰æ‘œ‚ğŠi”[
+    [SerializeField] GameObject[] yuryokaT;
+    [SerializeField] GameObject firstText;
 
     [SerializeField] Image resRunner;
     [SerializeField] Sprite[] runnerImages;
+
+    public Text[] plusShinaido;
+    public Text[] plusDatePt;
+    public Text zeni;
+    public Text nisokuBonus;
+
+    int waitFlg = 0;
     void Start()
     {
         //”wŒi‚Ì‰Šú‰»
@@ -50,8 +62,62 @@ public class CRunwayRes : MonoBehaviour
             case 4: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2415, 0); break;
             case 5: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2365, 0); break;
         }
+        Invoke("showKekka", 0.5f);
     }
 
+    void showKekka() {
+        firstText.SetActive(true);
+        Invoke("showMakuRes", 0.5f);
+    }
+
+    void showMakuResZen() {
+        Invoke("showMakuRes", 0.5f);
+    }
+
+    int maku = 0;
+    void showMakuRes() {
+        for (int i = 0; i < 3; i++) {
+            switch (i)
+            {
+                case 0: maku = 0; break;
+                case 1: maku = 3; break;
+                case 2: maku = 6; break;
+            }
+            if (AkagonohateData.runwayRes[i] == 2) {
+                maku += 1;
+            }
+            if (AkagonohateData.runwayRes[i] == 3)
+            {
+                maku += 2;
+            }
+            yuryokaT[i].SetActive(true);
+            yuryoka[maku].SetActive(true);
+            showMakuResZen();
+        }
+        showSougou();
+    }
+
+    void showSougou() {
+        for (int i = 0; i < 2; i++) {
+            showMakuResZen();
+        }
+        yuryokaT[3].SetActive(true);
+        for (int i = 0; i < 2; i++)
+        {
+            showMakuResZen();
+        }
+        switch (AkagonohateData.runwayRes[3])
+        {
+            case 1: yuryoka[9].SetActive(true); break;
+            case 2: yuryoka[10].SetActive(true); break;
+            case 3: yuryoka[11].SetActive(true); break;
+        }
+        Invoke("showBtn", 1f);
+    }
+
+    void showBtn() {
+        btns.SetActive(true);
+    }
 
     /// <summary>
     /// ‚à‚¤ˆê“x“¯‚¶İ’è‚Åƒ‰ƒ“ƒEƒFƒC‚ğ‚·‚é‚Ìˆ—
