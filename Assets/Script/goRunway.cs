@@ -398,6 +398,18 @@ public class goRunway : MonoBehaviour
             }
         }
 
+        //獲得銭を上書き
+        AkagonohateData.KItem[0] = 0;
+        for (int i = 0; i < 6; i++) {
+            AkagonohateData.KItem[0] += AkagonohateData.KdatePt[i];
+        }
+
+        //人足ボーナス値(人足によって割り増しされたデートPtの合計値)の上書き
+        AkagonohateData.KItem[3] = moTMP;
+        AkagonohateData.KItem[4] = yuTMP;
+        AkagonohateData.KItem[5] = niTMP;
+        Debug.Log(AkagonohateData.KItem[3] + " " + AkagonohateData.KItem[4] + " " + AkagonohateData.KItem[5]);
+
         //鍵の所持数を引く・上書き
         AkagonohateData.itemSyojisu[2]--;
         //人足アイテム所持数を引く・上書き

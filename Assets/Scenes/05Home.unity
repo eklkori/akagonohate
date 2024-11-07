@@ -28612,6 +28612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: batsu
       objectReference: {fileID: 0}
+    - target: {fileID: 3957153044430231944, guid: a6c4b258ad4b9734585b98f9a987a297, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

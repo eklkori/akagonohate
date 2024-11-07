@@ -26,6 +26,7 @@ public class AkagonohateData : ScriptableObject
     public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納
     public static int[] shinaiLv = new int[6]; //*キャラごとの親愛Lvを格納
     public static int[] KshinaiPt = new int[6]; //*(ランウェイ等で)獲得した親愛Ptを格納
+    public static int[] KItem = new int[20];     //*(ランウェイ等で)獲得したアイテム数を格納
     public static int[] dateCount = new int[6]; //*キャラごとの累計デート回数を格納
     public static int[] kaiwaCount = new int[6];//*キャラごとの累計会話回数を格納
     public static int[] mitsugiCount = new int[6];//*キャラごとの累計貢物個数を格納

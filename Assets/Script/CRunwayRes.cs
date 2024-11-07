@@ -20,7 +20,7 @@ public class CRunwayRes : MonoBehaviour
     public Text[] plusShinaiPt;
     public Text[] plusDatePt;
     public Text zeni;
-    public Text nisokuBonus;
+    public Text ninsokuBonusT;
 
     void Start()
     {
@@ -83,6 +83,14 @@ public class CRunwayRes : MonoBehaviour
             plusShinaiPt[i].text = AkagonohateData.KshinaiPt[i].ToString();
             plusDatePt[i].text = AkagonohateData.KdatePt[i].ToString();
         }
+
+        //獲得銭数値を表示
+        zeni.text = AkagonohateData.KItem[0].ToString();
+
+        //人足ボーナス(人足によって割り増しされたデートPtの合計値)を表示
+        int tmp = (AkagonohateData.KItem[3] + AkagonohateData.KItem[4])*5 + AkagonohateData.KItem[5];
+        ninsokuBonusT.text = tmp.ToString();
+
 
         Invoke("showMakuRes", 0.5f);
     }
