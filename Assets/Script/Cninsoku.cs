@@ -15,6 +15,7 @@ public class Cninsoku : MonoBehaviour
     [SerializeField] GameObject nimotsuMinus;
     [SerializeField] GameObject nimotsuPlus;
     [SerializeField] GameObject nimotsuPlusNo;
+    [SerializeField] GameObject ninsokuAll;
 
     public Text moT;
     public Text yuT;
@@ -29,8 +30,10 @@ public class Cninsoku : MonoBehaviour
         AkagonohateData.itemSyojisu[3] = 1;
         AkagonohateData.itemSyojisu[4] = 2;
         AkagonohateData.itemSyojisu[5] = 3;
+        //テスト用処理END
 
-        //syokisuchi();
+        //セッティング画面を表示せずにランウェイを始めても人足数値が反映されるよう、最初に処理のみ流す
+        syokisuchi();
     }
 
     int syokaiFlg = 0;
@@ -39,6 +42,8 @@ public class Cninsoku : MonoBehaviour
     int niTMP = 0;
     public void syokisuchi()
     {
+        ninsokuAll.SetActive(true);
+
         int moTint = int.Parse(moT.text);
         int yuTint = int.Parse(yuT.text);
         int niTint = int.Parse(niT.text);
@@ -103,6 +108,7 @@ public class Cninsoku : MonoBehaviour
                 nimotsuPlusNo.SetActive(false);
         }
         if (syokaiFlg == 0) {
+            ninsokuAll.SetActive(false);
             syokaiFlg = 1;
         }
     }

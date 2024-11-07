@@ -17,12 +17,11 @@ public class CRunwayRes : MonoBehaviour
     [SerializeField] Image resRunner;
     [SerializeField] Sprite[] runnerImages;
 
-    public Text[] plusShinaido;
+    public Text[] plusShinaiPt;
     public Text[] plusDatePt;
     public Text zeni;
     public Text nisokuBonus;
 
-    int waitFlg = 0;
     void Start()
     {
         //背景の初期化
@@ -64,52 +63,70 @@ public class CRunwayRes : MonoBehaviour
         }
 
         //その他表示の初期化
-
+        firstText.SetActive(false);
+        for (int i = 0; i < 4; i++) {
+            yuryokaT[i].SetActive(false);
+        }
+        for (int i = 0; i < 12; i++) {
+            yuryoka[i].SetActive(false);
+        }
 
         Invoke("showKekka", 0.5f);
     }
 
     void showKekka() {
         firstText.SetActive(true);
+
+        //獲得親愛度・獲得デートPtを表示
+        for (int i = 0; i < 6; i++)
+        {
+            plusShinaiPt[i].text = AkagonohateData.KshinaiPt[i].ToString();
+            plusDatePt[i].text = AkagonohateData.KdatePt[i].ToString();
+        }
+
         Invoke("showMakuRes", 0.5f);
     }
 
     void showMakuResZen() {
+        i++;
         Invoke("showMakuRes", 0.5f);
     }
 
-    int maku = 0;
-    void showMakuRes() {
-        for (int i = 0; i < 3; i++) {
-            switch (i)
-            {
-                case 0: maku = 0; break;
-                case 1: maku = 3; break;
-                case 2: maku = 6; break;
-            }
-            if (AkagonohateData.runwayRes[i] == 2) {
-                maku += 1;
-            }
-            if (AkagonohateData.runwayRes[i] == 3)
-            {
-                maku += 2;
-            }
-            yuryokaT[i].SetActive(true);
-            yuryoka[maku].SetActive(true);
-            showMakuResZen();
+    int i = 0;
+    void showMakuRes()
+    {
+        int maku = 0;
+        switch (i)
+        {
+            case 0: maku = 0; break;
+            case 1: maku = 3; break;
+            case 2: maku = 6; break;
         }
-        showSougou();
+        if (AkagonohateData.runwayRes[i] == 2)
+        {
+            maku += 1;
+        }
+        if (AkagonohateData.runwayRes[i] == 3)
+        {
+            maku += 2;
+        }
+        yuryokaT[i].SetActive(true);
+        yuryoka[maku].SetActive(true);
+        if (i == 2) {
+            Invoke("showSougou", 0.8f);
+        }
+        else
+        { 
+            showMakuResZen(); 
+        }
     }
 
     void showSougou() {
-        for (int i = 0; i < 2; i++) {
-            showMakuResZen();
-        }
         yuryokaT[3].SetActive(true);
-        for (int i = 0; i < 2; i++)
-        {
-            showMakuResZen();
-        }
+        Invoke("showSougouImage", 1f);
+    }
+
+    void showSougouImage() {
         switch (AkagonohateData.runwayRes[3])
         {
             case 1: yuryoka[9].SetActive(true); break;

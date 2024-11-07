@@ -2290,6 +2290,7 @@ MonoBehaviour:
   nimotsuMinus: {fileID: 1169782231}
   nimotsuPlus: {fileID: 1084923775}
   nimotsuPlusNo: {fileID: 127788680}
+  ninsokuAll: {fileID: 1614188702}
   moT: {fileID: 74464459}
   yuT: {fileID: 476296918}
   niT: {fileID: 929918729}

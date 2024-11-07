@@ -42,6 +42,7 @@ public class goRunway : MonoBehaviour
     {
         //テスト用
         //AkagonohateData.itemSyojisu[2] = 3;
+        //テスト用処理END
 
         haikei.SetActive(true);
         popupBase2.SetActive(true);
@@ -123,8 +124,8 @@ public class goRunway : MonoBehaviour
                 {
                     kekkaBi += bi[AkagonohateData.runner[j]];
                     kekkaHu += hu[AkagonohateData.runner[j]];
-                    Debug.Log("kekkaBi = " + kekkaBi);
-                    Debug.Log("kekkaHu = " + kekkaHu);
+                    //Debug.Log("kekkaBi = " + kekkaBi);
+                    //Debug.Log("kekkaHu = " + kekkaHu);
 
                     //親愛Lvの分1ずつ上乗せ
                     int tmp = AkagonohateData.runner[j] / 10;
@@ -161,7 +162,7 @@ public class goRunway : MonoBehaviour
                 AkagonohateData.eventRuikei[1] += kekkaBi;
                 AkagonohateData.eventRuikei[2] += kekkaHu;
             }
-            Debug.Log("評価計算結果：" + kekkaBi +" "+ kekkaHu);
+            //Debug.Log("評価計算結果：" + kekkaBi +" "+ kekkaHu);
         }
         //②総合
         if (AkagonohateData.runwayRes[0] == 1 && AkagonohateData.runwayRes[1] == 1 && AkagonohateData.runwayRes[2] == 1)
@@ -169,7 +170,7 @@ public class goRunway : MonoBehaviour
             AkagonohateData.runwayRes[3] = 1;
         }
         else if 
-            (AkagonohateData.runwayRes[0] == 1 || AkagonohateData.runwayRes[0] == 2 && AkagonohateData.runwayRes[1] == 1 || AkagonohateData.runwayRes[1] == 2 && AkagonohateData.runwayRes[2] == 1 || AkagonohateData.runwayRes[2] == 2)
+            (AkagonohateData.runwayRes[0] != 3 && AkagonohateData.runwayRes[1] != 3 && AkagonohateData.runwayRes[2] != 3)
         {
             AkagonohateData.runwayRes[3] = 2;
         }
@@ -222,7 +223,7 @@ public class goRunway : MonoBehaviour
                         MVP = AkagonohateData.runner[j];
                         hikakuTMP = hikaku;
                     }
-                    Debug.Log("hikaku = " + hikaku);
+                    //Debug.Log("hikaku = " + hikaku);
                 }
             }
             switch (i)
@@ -288,7 +289,114 @@ public class goRunway : MonoBehaviour
                 break;
             }
         }
+        //MVPキャラ判定END
 
+        //獲得親愛度・獲得デートPtを計算
+        //①獲得親愛度：ランナー2人ごとに+1(奇数の場合は切り捨て)
+        //変数の初期化
+        for (int i = 0; i < 6; i++)
+        {
+            AkagonohateData.KshinaiPt[i] = 0;
+        }
+        //計算
+        for (int i = 0; i < 24; i++)
+        {
+            if (AkagonohateData.runner[i] != -1)
+            {
+                int keisan = AkagonohateData.runner[i] / 10;
+                switch (keisan)
+                {
+                    case 0: AkagonohateData.KshinaiPt[0]++; break;
+                    case 1: AkagonohateData.KshinaiPt[1]++; break;
+                    case 2: AkagonohateData.KshinaiPt[2]++; break;
+                    case 3: AkagonohateData.KshinaiPt[3]++; break;
+                    case 4: AkagonohateData.KshinaiPt[4]++; break;
+                    case 5: AkagonohateData.KshinaiPt[5]++; break;
+                }
+            }
+        }
+        //多すぎるので1/2する処理
+        for (int i = 0; i < 6; i++)
+        {
+            AkagonohateData.KshinaiPt[i] = AkagonohateData.KshinaiPt[i]/2;
+        }
+
+        //②獲得デートPt：
+        //(美しさ＋ユーモア＋イベント特攻)*ランウェイ総合評価(優：3、良：1.5、可：0.7)を8*3=24枠分　(要検討)
+        //※各キャラごとに分けて加算
+        //※もぎり・誘導員で上乗せされた分は、1個につき5ずつ加算
+        //変数の初期化
+        for (int i = 0; i < 6; i++)
+        {
+            AkagonohateData.KdatePt[i] = 0;
+        }
+        //計算
+        for (int i = 0; i < 24; i++)
+        {
+            int Event = 0;
+            int res = 0;
+            int tmp = 0;
+            //イベント特攻ステータスの計算(レア度により分岐) ※イベント時のみ
+            if (AkagonohateData.runner[i] != -1)
+            {
+                if (AkagonohateData.eventFlg == 1)
+                {
+                    int keisan = AkagonohateData.runner[i] % 10;
+                    if (keisan == 0 || keisan == 1)
+                    {
+                        Event = 1;
+                    }
+                    else if (keisan == 2 || keisan == 3)
+                    {
+                        Event = 2;
+                    }
+                    else if (AkagonohateData.runner[i] == pickUp1 || AkagonohateData.runner[i] == pickUp2)
+                    {
+                        Event = 30;
+                    }
+                    else
+                    {
+                        Event = 12;
+                    }
+                }
+                //Debug.Log(AkagonohateData.runner[i]);
+                //Debug.Log("bi=" + bi[AkagonohateData.runner[i]] + "hu=" + hu[AkagonohateData.runner[i]]);
+                res = (bi[AkagonohateData.runner[i]] + hu[AkagonohateData.runner[i]] + Event);
+                switch (AkagonohateData.runwayRes[3])
+                {
+                    case 1: tmp = res * 3; break;
+                    case 2: tmp = res * 15 / 10; break;
+                    case 3: tmp = res * 7 / 10; break;
+                }
+                //キャラごとに振り分け
+                int keisan2 = AkagonohateData.runner[i] / 10;
+                switch (keisan2)
+                {
+                    case 0: AkagonohateData.KdatePt[0] += tmp; break;
+                    case 1: AkagonohateData.KdatePt[1] += tmp; break;
+                    case 2: AkagonohateData.KdatePt[2] += tmp; break;
+                    case 3: AkagonohateData.KdatePt[3] += tmp; break;
+                    case 4: AkagonohateData.KdatePt[4] += tmp; break;
+                    case 5: AkagonohateData.KdatePt[5] += tmp; break;
+                }
+            }
+        }
+        //人足分を加算　※設定されているキャラにのみ
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 24; j++) {
+                Debug.Log("AkagonohateData.runner[j]=" + AkagonohateData.runner[j]+"  i="+i);
+                int tmp = AkagonohateData.runner[j] / 10;
+                Debug.Log(tmp);
+                if (tmp == i && AkagonohateData.runner[j] != -1) {
+                    Debug.Log("あ　"+moTMP * 5);
+                    Debug.Log(AkagonohateData.KdatePt[i]+" moTMP="+moTMP+" yuTMP="+yuTMP);
+                    AkagonohateData.KdatePt[i] += moTMP * 5;
+                    AkagonohateData.KdatePt[i] += yuTMP * 5;
+                    //Debug.Log(AkagonohateData.KdatePt[i]);
+                    break;
+                }
+            }
+        }
 
         //鍵の所持数を引く・上書き
         AkagonohateData.itemSyojisu[2]--;
