@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class CShinaido2 : MonoBehaviour
 {
     //もろもろの表示テキスト定義
-    public Text nameT;
-    public Text zokuseiT;
-    public Text jyukubunT;
-    public Text shinaidoT;
-    public Text dateShinchokuT;
-    public Text kaiwaT;
-    public Text mitsugimonoT;
+    [SerializeField] Text nameT;
+    [SerializeField] Text zokuseiT;
+    [SerializeField] Text jyukubunT;
+    [SerializeField] Text shinaidoT;
+    [SerializeField] Text dateShinchokuT;
+    [SerializeField] Text kaiwaT;
+    [SerializeField] Text mitsugimonoT;
 
     //衣装の画像素材
     [SerializeField] GameObject naokoClose;

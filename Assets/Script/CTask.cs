@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CTask : MonoBehaviour
 {
-    public Text hosyuT;
+    [SerializeField] Text hosyuT;
     [SerializeField] GameObject zeni;
     [SerializeField] GameObject ken;
 

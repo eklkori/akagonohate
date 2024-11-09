@@ -18,14 +18,14 @@ public class Csyouhin : MonoBehaviour
     [SerializeField] GameObject minusBtn;
     [SerializeField] GameObject plusBtn;
     [SerializeField] GameObject konyuBtn;
-    [SerializeField] GameObject closeBtn;
+    //[SerializeField] GameObject closeBtn;
 
-    public Text syouhinmei;
-    public Text kaisetsu;
-    public Text zeniBefore;
-    public Text zeniAfter;
-    public Text kosu;
-    public Text konyuKosu;
+    [SerializeField] Text syouhinmei;
+    [SerializeField] Text kaisetsu;
+    [SerializeField] Text zeniBefore;
+    [SerializeField] Text zeniAfter;
+    [SerializeField] Text kosu;
+    [SerializeField] Text konyuKosu;
 
     int konyusu;
     int No;
@@ -171,7 +171,7 @@ public class Csyouhin : MonoBehaviour
         overPopUp.SetActive(true);
         konyuPopUp.SetActive(true);
         goGachaPopUp.SetActive(false);
-        closeBtn.SetActive(true);
+        //closeBtn.SetActive(true);
 
         //ÉAÉCÉeÉÄâÊëúÇÃèâä˙âª
         for (int i = 0; i < 6; i++) {

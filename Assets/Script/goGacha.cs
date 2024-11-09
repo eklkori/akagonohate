@@ -14,7 +14,7 @@ public class goGacha : MonoBehaviour
     [SerializeField] GameObject yes;
     [SerializeField] GameObject no;
 
-    public Text maisu;
+    [SerializeField] Text maisu;
 
     int gachaFlg;
 

@@ -7,30 +7,27 @@ using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 public class showUIData : MonoBehaviour
 {
-    /*[SerializeField] private AkagoDB akagoDB;
-
-    public void AddAkagoData(AkagonohateData akago)
-    {
-        akagoDB.akagoList.Add(akago);
-    }*/
-
+    //素材の定義
     [SerializeField] GameObject expBar;
     [SerializeField] GameObject[] keys;
 
-    public Text playerLv;
-    public Text playerName;
-    public Text kenSyoji;
-    public Text zeniSyoji;
-    public Text keyHMMSS;
+    [SerializeField] Text playerLv;
+    [SerializeField] Text playerName;
+    [SerializeField] Text kenSyoji;
+    [SerializeField] Text zeniSyoji;
+    [SerializeField] Text keyHMMSS;
     void Start()
     {
-        //テスト用
+        //テスト用START
         AkagonohateData.itemSyojisu[2] = 3;
+        //テスト用END
     }
 
     float countH = AkagonohateData.HH; //要検討
     float countM = AkagonohateData.MM; //要検討
     float countS = AkagonohateData.SS; //要検討
+    int keyTMP = 0;
+
     public void Update()
     {
         playerLv.text = AkagonohateData.playerLvI.ToString();
@@ -39,7 +36,15 @@ public class showUIData : MonoBehaviour
         zeniSyoji.text = AkagonohateData.itemSyojisu[0].ToString();
         keyHMMSS.text = countS.ToString();
 
-        for (int i = 0; i < AkagonohateData.itemSyojisu[2]; i++) {
+        //鍵の所持数が6以上の場合を考慮
+        if (5 < AkagonohateData.itemSyojisu[2])
+        {
+            keyTMP = 5;
+        }
+        else {
+            keyTMP = AkagonohateData.itemSyojisu[2];
+        }
+        for (int i = 0; i < keyTMP; i++) {
             keys[i].SetActive(true);
         }
 
@@ -65,7 +70,7 @@ public class showUIData : MonoBehaviour
     /// 鍵の制御
     /// </summary>
     void Keys() {
-        if (AkagonohateData.itemSyojisu[2] != 5)
+        if (AkagonohateData.itemSyojisu[2] < 5)
         {
             countS -= Time.deltaTime;
             if (countS.ToString("f0") == "-1")
@@ -80,8 +85,11 @@ public class showUIData : MonoBehaviour
                     {
                         //鍵が1つ回復した時の処理
                         countH = 1;
-                        AkagonohateData.itemSyojisu[2]++;
-                        keys[AkagonohateData.itemSyojisu[2]-1].SetActive(true);
+                        if (AkagonohateData.itemSyojisu[2] < 5)
+                        {
+                            AkagonohateData.itemSyojisu[2]++;
+                            keys[AkagonohateData.itemSyojisu[2] - 1].SetActive(true);
+                        }
                     }
                 }
             }

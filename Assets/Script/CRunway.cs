@@ -40,7 +40,7 @@ public class CRunway : MonoBehaviour
     int tenmetsuFlg = 0;
     int moveNmakuFlg = 0;
 
-    public Text hyouteiT;
+    [SerializeField] Text hyouteiT;
 
     /// <summary>
     /// ランウェイ開始時の処理(第一幕のみ)

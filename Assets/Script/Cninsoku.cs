@@ -17,9 +17,9 @@ public class Cninsoku : MonoBehaviour
     [SerializeField] GameObject nimotsuPlusNo;
     [SerializeField] GameObject ninsokuAll;
 
-    public Text moT;
-    public Text yuT;
-    public Text niT;
+    [SerializeField] Text moT;
+    [SerializeField] Text yuT;
+    [SerializeField] Text niT;
     void Start()
     {
         moT.text = AkagonohateData.moZen.ToString();

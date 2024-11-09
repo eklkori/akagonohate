@@ -19,8 +19,8 @@ public class CRunwayRes : MonoBehaviour
 
     public Text[] plusShinaiPt;
     public Text[] plusDatePt;
-    public Text zeni;
-    public Text ninsokuBonusT;
+    [SerializeField] Text zeni;
+    [SerializeField] Text ninsokuBonusT;
 
     void Start()
     {

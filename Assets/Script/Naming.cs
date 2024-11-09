@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class Naming : MonoBehaviour
 {
-    [SerializeField] public InputField IF;
-    [SerializeField] public Text txt;
+    [SerializeField] InputField IF;
+    [SerializeField] Text txt;
     [SerializeField] GameObject kakuteiBtn;
     void Start()
     {

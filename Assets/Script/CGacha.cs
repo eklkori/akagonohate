@@ -13,7 +13,7 @@ public class CGacha : MonoBehaviour
     [SerializeField] GameObject hoshi1;
     [SerializeField] GameObject hoshi2;
     [SerializeField] GameObject hoshi3;
-    public Text isyouName;
+    [SerializeField] Text isyouName;
 
     //ƒLƒƒƒ‰—§‚¿ŠG‚Ì’è‹`(ƒLƒƒƒ‰‚ğ‘‚â‚µ‚½‚Æ‚«‚É’Ç‰Á)
     [SerializeField] GameObject[] kyaras;

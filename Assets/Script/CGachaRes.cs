@@ -15,6 +15,8 @@ public class CGachaRes : MonoBehaviour
     [SerializeField] Image[] kyaras;
     [SerializeField] Sprite[] kyaraImages;
 
+    [SerializeField] GameObject kyaraSyousaiPopUp;
+
     int tenmetsuFlg = 0;
     void Start()
     {
@@ -90,4 +92,11 @@ public class CGachaRes : MonoBehaviour
             tenmetsuFlg = 0;
         }
     }
+
+    /// <summary>
+    /// キャラ詳細ポップアップの表示処理に飛ばす
+    /// </summary>
+    public void showPopUp(int num) {
+        kyaraSyousaiPopUp.GetComponent<kyaraSyosaiPopUp>().pushIcon(AkagonohateData.gacha10[num]);
+    } 
 }

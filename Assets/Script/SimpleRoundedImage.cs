@@ -9,12 +9,12 @@ namespace GFramework
     public class SimpleRoundedImage : Image
     {
 
-        //每个角最大的三角形数，一般5-8个就有不错的圆角效果，设置Max防止不必要的性能浪费
+        //各コーナーの三角形の最大数は、パフォーマンスの無駄を防ぐために、5 ～ 8 にすると適切な丸みを帯びた効果が得られます。
         const int MaxTriangleNum = 20;
         const int MinTriangleNum = 1;
 
         public float Radius;
-        //使用几个三角形去填充每个角的四分之一圆
+        //いくつかの三角形を使用して、各隅の 4 分の 1 円を埋めます。
         [Range(MinTriangleNum, MaxTriangleNum)]
         public int TriangleNum;
 
@@ -25,12 +25,12 @@ namespace GFramework
 
             var color32 = color;
             vh.Clear();
-            //对radius的值做限制，必须在0-较小的边的1/2的范围内
+            //半径の値を制限します。小さい方の辺の 0 ～ 1/2 の範囲内にする必要があります。
             float radius = Radius;
             if (radius > (v.z - v.x) / 2) radius = (v.z - v.x) / 2;
             if (radius > (v.w - v.y) / 2) radius = (v.w - v.y) / 2;
             if (radius < 0) radius = 0;
-            //计算出uv中对应的半径值坐标轴的半径
+            //UVの半径値に対応する座標軸の半径を計算します。
             float uvRadiusX = radius / (v.z - v.x);
             float uvRadiusY = radius / (v.w - v.y);
 
@@ -54,44 +54,44 @@ namespace GFramework
             vh.AddVert(new Vector3(v.z, v.w - radius), color32, new Vector2(uv.z, uv.w - uvRadiusY));
             vh.AddVert(new Vector3(v.z, v.y + radius), color32, new Vector2(uv.z, uv.y + uvRadiusY));
 
-            //左边的矩形
+            //左の長方形
             vh.AddTriangle(1, 0, 3);
             vh.AddTriangle(1, 3, 4);
-            //中间的矩形
+            //真ん中の長方形
             vh.AddTriangle(5, 2, 6);
             vh.AddTriangle(5, 6, 9);
-            //右边的矩形
+            //右側の長方形
             vh.AddTriangle(8, 7, 10);
             vh.AddTriangle(8, 10, 11);
 
-            //开始构造四个角
+            //四隅の構築を開始します
             List<Vector2> vCenterList = new List<Vector2>();
             List<Vector2> uvCenterList = new List<Vector2>();
             List<int> vCenterVertList = new List<int>();
 
-            //右上角的圆心
+            //右上隅の中央
             vCenterList.Add(new Vector2(v.z - radius, v.w - radius));
             uvCenterList.Add(new Vector2(uv.z - uvRadiusX, uv.w - uvRadiusY));
             vCenterVertList.Add(7);
 
-            //左上角的圆心
+            //左上隅の中央
             vCenterList.Add(new Vector2(v.x + radius, v.w - radius));
             uvCenterList.Add(new Vector2(uv.x + uvRadiusX, uv.w - uvRadiusY));
             vCenterVertList.Add(3);
 
-            //左下角的圆心
+            //左下隅の中央
             vCenterList.Add(new Vector2(v.x + radius, v.y + radius));
             uvCenterList.Add(new Vector2(uv.x + uvRadiusX, uv.y + uvRadiusY));
             vCenterVertList.Add(4);
 
-            //右下角的圆心
+            //右下隅の円の中心
             vCenterList.Add(new Vector2(v.z - radius, v.y + radius));
             uvCenterList.Add(new Vector2(uv.z - uvRadiusX, uv.y + uvRadiusY));
             vCenterVertList.Add(8);
 
-            //每个三角形的顶角
+            //各三角形の頂角
             float degreeDelta = (float)(Mathf.PI / 2 / TriangleNum);
-            //当前的角度
+            //現在の角度
             float curDegree = 0;
 
             for (int i = 0; i < vCenterVertList.Count; i++)

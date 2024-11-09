@@ -106,7 +106,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -629,14 +629,35 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tensen_0: 6688919053730688895
+      tensen_1: 8442424643024872621
+      tensen_10: 1253507742213811013
+      tensen_11: -1169986334036782336
+      tensen_12: -4703839789825807500
+      tensen_13: -857054075152350671
+      tensen_14: -4715323780921817731
+      tensen_15: 8740461844597699846
+      tensen_16: -5439686231134989501
+      tensen_17: 7691979682180296541
+      tensen_18: -1051728211524608562
+      tensen_19: -4810988341941837825
+      tensen_2: -7201187013213023278
+      tensen_20: 8793513164093429680
+      tensen_3: 2313610762844283569
+      tensen_4: 6881281983123216117
+      tensen_5: -7137307774958439604
+      tensen_6: 426006603300751423
+      tensen_7: -9213741944010536381
+      tensen_8: -452866483172147082
+      tensen_9: -954441948912985760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

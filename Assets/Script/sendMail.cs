@@ -7,8 +7,8 @@ using UniMail;
 
 public class sendMail : MonoBehaviour
 {
-    [SerializeField] public InputField IF;
-    [SerializeField] public Text txt;
+    [SerializeField] InputField IF;
+    [SerializeField] Text txt;
     [SerializeField] GameObject otoiawaseText;
     [SerializeField] GameObject setsumeibun;
     [SerializeField] GameObject soushinBtn;

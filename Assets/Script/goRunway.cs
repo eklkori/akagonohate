@@ -29,13 +29,13 @@ public class goRunway : MonoBehaviour
     [SerializeField] int pickUp2;  //ピックアップ中の衣装No②を格納
 
     //鍵数表示(ポップアップ用)
-    public Text nowT;
-    public Text afterT;
+    [SerializeField] Text nowT;
+    [SerializeField] Text afterT;
 
     //人足設定表示値
-    public Text moT;
-    public Text yuT;
-    public Text niT;
+    [SerializeField] Text moT;
+    [SerializeField] Text yuT;
+    [SerializeField] Text niT;
 
 
     public void kaishi()
