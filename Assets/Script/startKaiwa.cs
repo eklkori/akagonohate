@@ -83,9 +83,11 @@ public class startKaiwa : MonoBehaviour
     /// デート開始処理
     /// </summary>
     public void startDate() {
+        kyaraNo = AkagonohateData.tansakuKyara;
+
         //シナリオラベルの作成
         string kyaraName = "";
-        Debug.Log(AkagonohateData.dateCount[0]);
+        Debug.Log(AkagonohateData.dateCount[kyaraNo] + 1);
         Debug.Log(kyaraNo);
         string dateShinchoku = (AkagonohateData.dateCount[kyaraNo] +1).ToString();
         switch (kyaraNo)
@@ -104,6 +106,8 @@ public class startKaiwa : MonoBehaviour
 
         //デートPtの初期化
         AkagonohateData.datePt[kyaraNo] = 0;
+        Debug.Log(kyaraNo);
+        Debug.Log(AkagonohateData.datePt[kyaraNo]);
 
         Debug.Log(AkagonohateData.kaiwaNo);
         SceneManager.LoadScene("04Tutorial");

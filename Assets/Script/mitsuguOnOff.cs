@@ -8,8 +8,7 @@ public class mitsuguOnOff : MonoBehaviour
 {
     //貢ぐ画面　確定ボタン押下前後のUI表示/非表示切り替え
     //素材の定義
-    [SerializeField] GameObject mitsuguItem;
-    [SerializeField] GameObject itemBase;
+    [SerializeField] GameObject mitsuguItems;
     [SerializeField] GameObject modoru;
     [SerializeField] GameObject kakutei;
     [SerializeField] GameObject naniwoT;
@@ -18,8 +17,7 @@ public class mitsuguOnOff : MonoBehaviour
 
     public void mitsuguOff()
     {
-        mitsuguItem.SetActive(false);
-        itemBase.SetActive(false);
+        mitsuguItems.SetActive(false);
         modoru.SetActive(false);
         kakutei.SetActive(false);
         naniwoT.SetActive(false);

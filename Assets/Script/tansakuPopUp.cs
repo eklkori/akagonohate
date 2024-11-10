@@ -59,13 +59,20 @@ public class tansakuPopUp : MonoBehaviour
         {
             AkagonohateData.dateFlg[kyara] = 1;
         }
+        else 
+        {
+            AkagonohateData.dateFlg[kyara] = 0;
+        }
         if (AkagonohateData.dateFlg[kyara] == 1)
         {
+            Debug.Log(AkagonohateData.dateFlg[kyara]);
+            Debug.Log(AkagonohateData.datePt[kyara]);
             dateBtn.SetActive(true);
             dateKanou.SetActive(true);
         }
         else
         {
+            Debug.Log("‚ ");
             dateBtn.SetActive(false);
             dateKanou.SetActive(false);
         }
