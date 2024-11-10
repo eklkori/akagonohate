@@ -315,10 +315,11 @@ public class goRunway : MonoBehaviour
                 }
             }
         }
-        //多すぎるので1/2する処理
+        //多すぎるので1/2する処理　＋親愛Ptデータに加算
         for (int i = 0; i < 6; i++)
         {
             AkagonohateData.KshinaiPt[i] = AkagonohateData.KshinaiPt[i]/2;
+            AkagonohateData.shinaiPt[i] += AkagonohateData.KshinaiPt[i];
         }
 
         //②獲得デートPt：

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,17 +24,20 @@ public class AkagonohateData : ScriptableObject
     public static int eventFlg = 0;            //イベント中は1にするフラグ　イベント中か否かを判断
     //ステータス系
     public static int[] datePt = new int[6];   //*キャラごとのデートPtを保管
-    public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納
+    public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納(一時的)
     public static int[] shinaiLv = new int[6]; //*キャラごとの親愛Lvを格納
-    public static int[] KshinaiPt = new int[6]; //*(ランウェイ等で)獲得した親愛Ptを格納
-    public static int[] KItem = new int[20];     //*(ランウェイ等で)獲得したアイテム数を格納
+    public static int[] shinaiPt = new int[6];   //*キャラごとの親愛Ptを保管
+    public static int[] KshinaiPt = new int[6]; //*(ランウェイ等で)獲得した親愛Ptを格納(一時的)
+    public static int[] KItem = new int[20];     //*(ランウェイ等で)獲得したアイテム数を格納(一時的)
     public static int[] dateCount = new int[6]; //*キャラごとの累計デート回数を格納
     public static int[] kaiwaCount = new int[6];//*キャラごとの累計会話回数を格納
     public static int[] mitsugiCount = new int[6];//*キャラごとの累計貢物個数を格納
     public static int[] eventRuikei = new int[5]; //*【イベント限定】各種累計値を格納(0：イベントPt、1：美しさ、2：ユーモア性、3：会話回数①、4：会話回数②)
     //会話・デート関連//
-    public static int dateFlg = 0;             //*デートフラグ(1の場合はデートに行ける)
-    public static int nakanaoriFlg = 0;        //*仲直りフラグ(デートで喧嘩した場合、条件達成で1に変更→仲直りできるようになる)
+    public static int[] dateFlg = new int[6];             //*デートフラグ(1の場合はデートに行ける)
+    public static int[] nakanaoriFlg = new int[6];        //*仲直りフラグ(デートで喧嘩した場合、条件達成で1に変更→仲直りできるようになる)
+    public static DateTime[] kaiwaRireki = new DateTime[50];  //*キャラごとの会話日の履歴を5回分保管
+    public static int[] kimata = new int[6];  //各キャラの木俣への想いを格納(高：1、中：2、低：3)
     public static int[] kaiwaShichoFlg = new int[300];//*会話視聴済みフラグ(1が視聴済み)1キャラにつき50ずつで区切る
     public static int[] dateShichoFlg = new int[120];//*デート視聴済みフラグ(1が視聴済み)1キャラにつき10ずつで区切る
     //ランウェイ関連//
