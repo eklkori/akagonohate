@@ -38,6 +38,7 @@ public class AkagonohateData : ScriptableObject
     public static int[] nakanaoriFlg = new int[6];        //*仲直りフラグ(デートで喧嘩した場合、条件達成で1に変更→仲直りできるようになる)
     public static DateTime[] kaiwaRireki = new DateTime[50];  //*キャラごとの会話日の履歴を5回分保管
     public static int[] kimata = new int[6];  //各キャラの木俣への想いを格納(高：1、中：2、低：3)
+    public static int[] KSyokaiFlg = new int[6];        //基本0　1日の最初の会話時のみ1を格納(キャラごと)
     public static int[] kaiwaShichoFlg = new int[300];//*会話視聴済みフラグ(1が視聴済み)1キャラにつき50ずつで区切る
     public static int[] dateShichoFlg = new int[120];//*デート視聴済みフラグ(1が視聴済み)1キャラにつき10ずつで区切る
     //ランウェイ関連//

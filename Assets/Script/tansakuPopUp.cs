@@ -14,47 +14,21 @@ public class tansakuPopUp : MonoBehaviour
     [SerializeField] Text nextShinaiPt;
     [SerializeField] Text koChuTe;
     [SerializeField] GameObject kyaraPopUp;
-    //[SerializeField] GameObject XXnoheya;
     [SerializeField] GameObject PtBar;
-    //[SerializeField] GameObject naokonoheyaT;
-    //[SerializeField] GameObject yasukonoheyaT;
-    //[SerializeField] GameObject yoshikonoheyaT;
-    //[SerializeField] GameObject hidetanoheyaT;
-    //[SerializeField] GameObject hideyanoheyaT;
-    //[SerializeField] GameObject yasuonoheyaT;
-    //[SerializeField] GameObject tansakuInaoko;
-    //[SerializeField] GameObject tansakuIyasuko;
-    //[SerializeField] GameObject tansakuIyoshiko;
-    //[SerializeField] GameObject tansakuIhideta;
-    //[SerializeField] GameObject tansakuIhideya;
-    //[SerializeField] GameObject tansakuIyasuo;
-    //[SerializeField] GameObject syousaiText;
     [SerializeField] GameObject[] kyaraImages;
-    //[SerializeField] GameObject popupBase;
-    //[SerializeField] GameObject batsu;
     [SerializeField] GameObject dateBtn;
     [SerializeField] GameObject dateKanou;
     [SerializeField] GameObject nakanaoriBtn;
     [SerializeField] GameObject nakanaoriKanou;
-    //[SerializeField] GameObject kaiwasuruBtn;
-    //[SerializeField] GameObject mitsuguBtn;
-    //[SerializeField] GameObject haikei;
-    //[SerializeField] GameObject tsuikaUI;  //キャラ画像＋中央のステータス群
 
     //-----表示系-----
 
     public void showKyaraPopUp(int kyara) {
-        AkagonohateData.tansakuKyara = kyara+1;
+        AkagonohateData.tansakuKyara = kyara;
+        Debug.Log(AkagonohateData.tansakuKyara);
 
         //UI表示
         kyaraPopUp.SetActive(true);
-        //batsu.SetActive(true);
-        //popupBase.SetActive(true);
-        //XXnoheya.SetActive(true);
-        //kaiwasuruBtn.SetActive(true);
-        //mitsuguBtn.SetActive(true);
-        //haikei.SetActive(true);
-        //tsuikaUI.SetActive(true);
 
         //タイトル文字「XXの部屋」の差し替え
         switch (kyara)
@@ -80,6 +54,11 @@ public class tansakuPopUp : MonoBehaviour
         }
 
         //デート・仲直りボタンの表示制御
+        //※デートの基準値は仮で1000に設定(要検討)
+        if (AkagonohateData.datePt[kyara] >= 1000)
+        {
+            AkagonohateData.dateFlg[kyara] = 1;
+        }
         if (AkagonohateData.dateFlg[kyara] == 1)
         {
             dateBtn.SetActive(true);
@@ -133,6 +112,7 @@ public class tansakuPopUp : MonoBehaviour
         //1日会話しないごとに1ランクずつ下がる
         int kimata = 0;
 
+        //今日の日付取得
         DateTime localDate = DateTime.Now;
         DateTime day = localDate.Date;
 
