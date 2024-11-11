@@ -17,8 +17,8 @@ public class CRunwayRes : MonoBehaviour
     [SerializeField] Image resRunner;
     [SerializeField] Sprite[] runnerImages;
 
-    public Text[] plusShinaiPt;
-    public Text[] plusDatePt;
+    [SerializeField] Text[] plusShinaiPt;
+    [SerializeField] Text[] plusDatePt;
     [SerializeField] Text zeni;
     [SerializeField] Text ninsokuBonusT;
 
