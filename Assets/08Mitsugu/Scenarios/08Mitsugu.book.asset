@@ -404,7 +404,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u7D20\u6575\uFF01\u3042\u308A\u304C\u3068\u3046\u2661"
+      - "\u7D20\u6575\uFF5E\uFF01\u3042\u308A\u304C\u3068\u3046\u2661"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -440,7 +440,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/08Mitsugu/Scenarios/08Mitsugu.xls:yoshiko
     type: 1
-    textLength: 259
+    textLength: 260
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 46d7e7db6f66571488cccbddc1a6bbb2, type: 3}
     entityIndexTbl: 
@@ -1690,7 +1690,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u7D20\u6575\uFF01\u3042\u308A\u304C\u3068\u3046\u2661"
+      - "\u7D20\u6575\uFF5E\uFF01\u3042\u308A\u304C\u3068\u3046\u2661"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1726,7 +1726,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/08Mitsugu/Scenarios/08Mitsugu.xls:yoshiko
     type: 1
-    textLength: 259
+    textLength: 260
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 46d7e7db6f66571488cccbddc1a6bbb2, type: 3}
   - rows:
