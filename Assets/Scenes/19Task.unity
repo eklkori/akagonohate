@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 52361521}
   m_Layer: 5
   m_Name: nikkaTask (1)
-  m_TagString: Untagged
+  m_TagString: tansaku
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3446,7 +3446,7 @@ GameObject:
   - component: {fileID: 377194888}
   m_Layer: 5
   m_Name: nikkaTask
-  m_TagString: Untagged
+  m_TagString: tansaku
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3872,7 +3872,7 @@ GameObject:
   - component: {fileID: 459928247}
   m_Layer: 5
   m_Name: syukanTask (4)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4153,7 +4153,7 @@ GameObject:
   - component: {fileID: 473007294}
   m_Layer: 5
   m_Name: syukanTask (8)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5079,7 +5079,7 @@ GameObject:
   - component: {fileID: 602593756}
   m_Layer: 5
   m_Name: nikkaTask (5)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5272,7 +5272,7 @@ GameObject:
   - component: {fileID: 636743710}
   m_Layer: 5
   m_Name: syukanTask (1)
-  m_TagString: Untagged
+  m_TagString: tansaku
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5838,6 +5838,24 @@ MonoBehaviour:
   nikkaNo: {fileID: 192402460}
   syukanNo: {fileID: 583751024}
   eventNo: {fileID: 1264361458}
+  nikkas:
+  - {fileID: 377194887}
+  - {fileID: 52361520}
+  - {fileID: 1682459633}
+  - {fileID: 972633907}
+  - {fileID: 1918067830}
+  - {fileID: 602593755}
+  syukans:
+  - {fileID: 1389091423}
+  - {fileID: 636743709}
+  - {fileID: 1886520670}
+  - {fileID: 1407112687}
+  - {fileID: 459928246}
+  - {fileID: 1538454551}
+  - {fileID: 1886170207}
+  - {fileID: 762938551}
+  - {fileID: 473007293}
+  events: []
   tasseiIcon:
   - {fileID: 10493965}
   - {fileID: 1262502324}
@@ -6943,7 +6961,7 @@ GameObject:
   - component: {fileID: 762938552}
   m_Layer: 5
   m_Name: syukanTask (7)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8491,7 +8509,7 @@ GameObject:
   - component: {fileID: 972633908}
   m_Layer: 5
   m_Name: nikkaTask (3)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11786,7 +11804,7 @@ GameObject:
   - component: {fileID: 1389091424}
   m_Layer: 5
   m_Name: syukanTask
-  m_TagString: Untagged
+  m_TagString: tansaku
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11921,7 +11939,7 @@ GameObject:
   - component: {fileID: 1407112688}
   m_Layer: 5
   m_Name: syukanTask (3)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13188,7 +13206,7 @@ GameObject:
   - component: {fileID: 1538454552}
   m_Layer: 5
   m_Name: syukanTask (5)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14745,7 +14763,7 @@ GameObject:
   - component: {fileID: 1682459634}
   m_Layer: 5
   m_Name: nikkaTask (2)
-  m_TagString: Untagged
+  m_TagString: tansaku
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15943,7 +15961,7 @@ GameObject:
   - component: {fileID: 1886170208}
   m_Layer: 5
   m_Name: syukanTask (6)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15986,7 +16004,7 @@ GameObject:
   - component: {fileID: 1886520671}
   m_Layer: 5
   m_Name: syukanTask (2)
-  m_TagString: Untagged
+  m_TagString: tansaku
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16402,7 +16420,7 @@ GameObject:
   - component: {fileID: 1918067831}
   m_Layer: 5
   m_Name: nikkaTask (4)
-  m_TagString: Untagged
+  m_TagString: runway
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

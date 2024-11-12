@@ -136,6 +136,9 @@ public class mitsuguOnOff : MonoBehaviour
                 tmp *= 5;
             }
             AkagonohateData.KshinaiPt[kyara] += tmp;
+
+            //—İŒvv•¨ŒÂ”‚Ìã‘‚«
+            AkagonohateData.mitsugiCount[i] += mitsugisu[i];
         }
 
         //‰ƒ‚É’l‚ğ“n‚·

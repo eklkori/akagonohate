@@ -32,6 +32,7 @@ public class AkagonohateData : ScriptableObject
     public static int[] dateCount = new int[6]; //*キャラごとの累計デート回数を格納
     public static int[] kaiwaCount = new int[6];//*キャラごとの累計会話回数を格納
     public static int[] mitsugiCount = new int[6];//*キャラごとの累計貢物個数を格納
+    public static int[] countDay = new int[4];    //*日ごと/週ごとの累計回数を格納(0：会話(合算・日ごと)、1：ランウェイ(日ごと)、2：会話(合算・週ごと)、3：ランウェイ(週ごと))
     public static int[] eventRuikei = new int[5]; //*【イベント限定】各種累計値を格納(0：イベントPt、1：美しさ、2：ユーモア性、3：会話回数①、4：会話回数②)
     //会話・デート関連//
     public static int[] dateFlg = new int[6];             //*デートフラグ(1の場合はデートに行ける)
@@ -49,13 +50,14 @@ public class AkagonohateData : ScriptableObject
     public static int[] runner = new int[24];  //*設定中のランナー衣装Noを格納(0～60くらいの値、都度上書き、初期値を-1にする)
     public static int[] runwayRes = new int[4];//ランウェイ結果を格納(0：第一幕、1：第二幕、2：第三幕、3：総合結果　優：1、良：2、可：3)
     public static int[] runwayMVP = new int[4];//ランウェイMVPキャラの衣装Noを格納(0：第一幕、1：第二幕、2：第三幕、3：総合結果)
+    public static DateTime[] runwayRireki = new DateTime[2];  //*ランウェイ日時の履歴を保管(0：前回ランウェイ日時、1：鍵の消費が始まった時刻)
 
     //物資調達
     public static int busshiSyokaiFlg = 0;     //物資調達初回フラグ(1の時に物資初回チュートリアル再生)
     //タスク画面
-    public static int[] tasseiFlgN = new int[6];      //*【日課】条件達成時(報酬獲得可能になった時点)に書き換える　0：未達成、1：達成(受け取り可能)、2：獲得済み
-    public static int[] tasseiFlgS = new int[9];      //*【週間】条件達成時(報酬獲得可能になった時点)に書き換える　0：未達成、1：達成(受け取り可能)、2：獲得済み
-    public static int[] tasseiFlgE = new int[6];      //*【イベント】条件達成時(報酬獲得可能になった時点)に書き換える　0：未達成、1：達成(受け取り可能)、2：獲得済み
+    public static int[] tasseiFlgN = new int[6];      //*【日課】条件達成時(報酬獲得可能になった時点)に書き換える　1：未達成、0：達成(受け取り可能)、2：獲得済み
+    public static int[] tasseiFlgS = new int[9];      //*【週間】条件達成時(報酬獲得可能になった時点)に書き換える　1：未達成、0：達成(受け取り可能)、2：獲得済み
+    public static int[] tasseiFlgE = new int[6];      //*【イベント】条件達成時(報酬獲得可能になった時点)に書き換える　1：未達成、0：達成(受け取り可能)、2：獲得済み
     //所持数関係
     public static int[] itemSyojisu = new int[20];　　//*各種アイテム所持数
     public static int[] isyoSyojiFlg = new int[60];　 //*衣装所持/未所持を判別

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Linq;
+using System;
 
 
 public class goRunway : MonoBehaviour
@@ -37,7 +38,13 @@ public class goRunway : MonoBehaviour
     [SerializeField] Text yuT;
     [SerializeField] Text niT;
 
+    //日付取得
+    DateTime localDate = DateTime.Now;
+    DateTime today;
 
+    /// <summary>
+    /// ランウェイ前のポップアップ表示
+    /// </summary>
     public void kaishi()
     {
         //テスト用
@@ -78,6 +85,9 @@ public class goRunway : MonoBehaviour
 
     private AkagonohateData akagoData;
 
+    /// <summary>
+    /// ランウェイの開始
+    /// </summary>
     public void Hai()
     {
         //設定中の人足値を変数にセット
@@ -421,6 +431,32 @@ public class goRunway : MonoBehaviour
         AkagonohateData.yuZen = yuTMP;
         AkagonohateData.niZen = niTMP;
 
+        //ランウェイ累計回数の上書き
+        //鍵の所持数が5→4の場合、鍵の消費開始時間を上書き
+        if (AkagonohateData.itemSyojisu[2] == 4) {
+            AkagonohateData.runwayRireki[1] = today;
+        }
+        //その日初めてのランウェイの場合、変数の初期化
+        if (AkagonohateData.runwayRireki[0].Date != today.Date) {
+            AkagonohateData.countDay[1] = 0;
+        }
+        AkagonohateData.countDay[1]++;
+        //その週初めてのランウェイの場合、変数の初期化
+        //今週の最初の日(月曜日)を取得
+        DateTime dtLastMonday = today.AddDays((7 - (int)today.DayOfWeek) % 7 - 6);
+        if (dtLastMonday <= today)
+        {
+            AkagonohateData.countDay[3] = 0;
+        }
+        AkagonohateData.countDay[3]++;
+        AkagonohateData.runwayRireki[0] = today;
+
         SceneManager.LoadScene("11Runway");
+    }
+
+    private void Update()
+    {
+        //当日日時の取得
+        today = localDate;
     }
 }

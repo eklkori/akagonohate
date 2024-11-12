@@ -1,22 +1,117 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class cHome : MonoBehaviour
 {
+    //※ホーム画面にのみ置いておきたい処理は基本このスクリプトに記載
 
     //キャラ立ち絵表示系
     [SerializeField] GameObject[] kyaraBtns;
     [SerializeField] Sprite[] kyaraImage;
     [SerializeField] Image kyaraTachie;
 
+    //通知アイコン
+    [SerializeField] GameObject tsuchiTask;
+
     //選択中枠
     [SerializeField] GameObject[] sentakuchu;
+
+    //日付取得
+    DateTime localDate = DateTime.Now;
+    DateTime today;
     void Start()
     {
+        //パートナー(ホーム画面立ち絵)初期表示
         int kyaraNo = AkagonohateData.partnerNo;
         kyaraBtn(kyaraNo);
+
+        //タスクの完了判定※達成フラグの上書きも実施　(完了タスクがあれば赤丸アイコンを表示)
+        //赤丸アイコンの初期化
+        tsuchiTask.SetActive(false);
+        //達成フラグの初期化
+        //日課
+        for (int i = 0; i < 6; i++)//タスク(日課)の数だけforで回す
+        {
+            AkagonohateData.tasseiFlgN[i] = 1;
+        }
+        //週間
+        for (int i = 0; i < 9; i++)//タスク(週間)の数だけforで回す
+        {
+            AkagonohateData.tasseiFlgN[i] = 1;
+        }
+        //イベント(イベント期間のみ)
+        if (AkagonohateData.eventFlg == 1)
+        {
+            for (int i = 0; i < 6; i++)//タスク(イベント)の数だけforで回す
+            {
+                AkagonohateData.tasseiFlgN[i] = 1;
+            }
+        }
+
+        //会話回数の算出(日)
+        int iconFlg = 0;
+        int[] countDayTMP = new int[4];
+        for (int i = 0; i < 6; i++)
+        {
+            //誰かの最終会話日が今日であれば、countDayTMPが1になるので次のif文を通る
+            if (AkagonohateData.kaiwaRireki[i] == today)
+            {
+                countDayTMP[0]++;
+                break;
+            }
+        }
+        if (countDayTMP[0] >= 1)
+        {
+            if (AkagonohateData.countDay[0] >= 1) 
+            {
+                iconFlg++;
+                AkagonohateData.tasseiFlgN[0] = 0;
+            }
+            if (AkagonohateData.countDay[0] >= 3)
+            {
+                iconFlg++;
+                AkagonohateData.tasseiFlgN[1] = 0;
+            }
+            if (AkagonohateData.countDay[0] >= 6)
+            {
+                iconFlg++;
+                AkagonohateData.tasseiFlgN[2] = 0;
+            }
+        }
+        //ランウェイ回数の算出(日)
+        if (AkagonohateData.runwayRireki[0].Date == today.Date)
+        {
+            if (AkagonohateData.countDay[1] >= 1)
+            {
+                iconFlg++;
+                AkagonohateData.tasseiFlgN[3] = 0;
+            }
+            if (AkagonohateData.countDay[1] >= 5)
+            {
+                iconFlg++;
+                AkagonohateData.tasseiFlgN[4] = 0;
+            }
+            if (AkagonohateData.countDay[1] >= 10)
+            {
+                iconFlg++;
+                AkagonohateData.tasseiFlgN[5] = 0;
+            }
+        }
+
+        //会話回数の算出(週)
+
+        //ランウェイ回数の算出(週)
+
+        for (int i = 0; i < 4; i++) {
+            if (countDayTMP[i] != 0) {
+                tsuchiTask.SetActive(true);
+                break;
+            }
+        }
     }
 
     /// <summary>
@@ -81,6 +176,7 @@ public class cHome : MonoBehaviour
     }
     void Update()
     {
-        
+        //当日日付の取得
+        today = localDate.Date;
     }
 }

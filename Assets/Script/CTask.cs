@@ -15,6 +15,9 @@ public class CTask : MonoBehaviour
     [SerializeField] GameObject nikkaNo;
     [SerializeField] GameObject syukanNo;
     [SerializeField] GameObject eventNo;
+    [SerializeField] GameObject[] nikkas;
+    [SerializeField] GameObject[] syukans;
+    [SerializeField] GameObject[] events;
     [SerializeField] GameObject[] tasseiIcon;
     [SerializeField] GameObject[] kakutokuBtnN;
     [SerializeField] GameObject[] kakutokuBtnS;
@@ -103,8 +106,8 @@ public class CTask : MonoBehaviour
             if (hyoujiTask==1) {
                 switch (AkagonohateData.tasseiFlgN[i])
                 {
-                    case 0: kakutokuBtnN[i].SetActive(false); kakutokuzumiN[i].SetActive(false); break;
-                    case 1: kakutokuBtnN[i].SetActive(true); kakutokuzumiN[i].SetActive(false); break;
+                    case 1: kakutokuBtnN[i].SetActive(false); kakutokuzumiN[i].SetActive(false); break;
+                    case 0: kakutokuBtnN[i].SetActive(true); kakutokuzumiN[i].SetActive(false); break;
                     case 2: kakutokuBtnN[i].SetActive(false); kakutokuzumiN[i].SetActive(true); break;
                 }
             }
@@ -112,8 +115,8 @@ public class CTask : MonoBehaviour
             {
                 switch (AkagonohateData.tasseiFlgS[i])
                 {
-                    case 0: kakutokuBtnS[i].SetActive(false); kakutokuzumiS[i].SetActive(false); break;
-                    case 1: kakutokuBtnS[i].SetActive(true); kakutokuzumiS[i].SetActive(false); break;
+                    case 1: kakutokuBtnS[i].SetActive(false); kakutokuzumiS[i].SetActive(false); break;
+                    case 0: kakutokuBtnS[i].SetActive(true); kakutokuzumiS[i].SetActive(false); break;
                     case 2: kakutokuBtnS[i].SetActive(false); kakutokuzumiS[i].SetActive(true); break;
                 }
             }
@@ -121,12 +124,36 @@ public class CTask : MonoBehaviour
             {
                 switch (AkagonohateData.tasseiFlgE[i])
                 {
-                    case 0: kakutokuBtnE[i].SetActive(false); kakutokuzumiE[i].SetActive(false); break;
-                    case 1: kakutokuBtnE[i].SetActive(true); kakutokuzumiE[i].SetActive(false); break;
+                    case 1: kakutokuBtnE[i].SetActive(false); kakutokuzumiE[i].SetActive(false); break;
+                    case 0: kakutokuBtnE[i].SetActive(true); kakutokuzumiE[i].SetActive(false); break;
                     case 2: kakutokuBtnE[i].SetActive(false); kakutokuzumiE[i].SetActive(true); break;
                 }
             }
         }
+
+        //ソート処理
+        //各タスクの総件数を取得
+        var tmpList = new List<GameObject>();
+        int kensu = 0;
+        switch (hyoujiTask)
+        {
+            case 1: kensu = nikkas.Length; break;
+            case 2: kensu = syukans.Length; break;
+            case 3: kensu = events.Length; break;
+        }
+        //配列の中身を一時的にListに入れる
+        for (int i = 0; i < kensu; i++)
+        {
+            switch (hyoujiTask)
+            {
+                case 1: tmpList.Add(nikkas[i]); break;
+                case 2: tmpList.Add(syukans[i]); break;
+                case 3: tmpList.Add(events[i]); break;
+            }
+        }
+        //ソート
+
+
     }
 
     /// <summary>
@@ -156,7 +183,7 @@ public class CTask : MonoBehaviour
         //アイテム所持数を操作
         AkagonohateData.itemSyojisu[itemFlg] += int.Parse(hosyu);
 
-        //達成フラグを操作(1→2)
+        //達成フラグを操作(0→2)
         switch (hyoujiTask)
         {
             case 1: AkagonohateData.tasseiFlgN[btnNo] = 2; break;
@@ -181,7 +208,7 @@ public class CTask : MonoBehaviour
         //未獲得報酬ありを示す赤丸点灯を制御
         //日課
         for (int i = 0; i < countN; i++) {
-            if (AkagonohateData.tasseiFlgN[i] == 1) {
+            if (AkagonohateData.tasseiFlgN[i] == 0) {
                 tasseiIcon[0].SetActive(true);
                 break;
             }
@@ -189,7 +216,7 @@ public class CTask : MonoBehaviour
         //週間
         for (int i = 0; i < countS; i++)
         {
-            if (AkagonohateData.tasseiFlgS[i] == 1)
+            if (AkagonohateData.tasseiFlgS[i] == 0)
             {
                 tasseiIcon[1].SetActive(true);
                 break;
@@ -198,7 +225,7 @@ public class CTask : MonoBehaviour
         //イベント(仮)
         for (int i = 0; i < countE; i++)
         {
-            if (AkagonohateData.tasseiFlgE[i] == 1)
+            if (AkagonohateData.tasseiFlgE[i] == 0)
             {
                 tasseiIcon[2].SetActive(true);
                 break;
