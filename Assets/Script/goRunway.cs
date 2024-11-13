@@ -61,8 +61,8 @@ public class goRunway : MonoBehaviour
         iieBtn.SetActive(true);
         sankaku.SetActive(true);
 
-        nowT.text = AkagonohateData.itemSyojisu[2].ToString();
-        int tmp = AkagonohateData.itemSyojisu[2]-1;
+        nowT.text = (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]).ToString();
+        int tmp = AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] - 1;
         afterT.text = tmp.ToString();
 
         now.SetActive(true);
@@ -432,8 +432,8 @@ public class goRunway : MonoBehaviour
         AkagonohateData.niZen = niTMP;
 
         //ランウェイ累計回数の上書き
-        //鍵の所持数が5→4の場合、鍵の消費開始時間を上書き
-        if (AkagonohateData.itemSyojisu[2] == 4) {
+        //鍵の回復カウントが始まる場合、鍵の消費開始時間を上書き
+        if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] >= 4) {
             AkagonohateData.runwayRireki[1] = today;
         }
         //その日初めてのランウェイの場合、変数の初期化

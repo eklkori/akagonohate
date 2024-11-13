@@ -19,7 +19,7 @@ public class showUIData : MonoBehaviour
     void Start()
     {
         //テスト用START
-        AkagonohateData.itemSyojisu[2] = 3;
+        //AkagonohateData.itemSyojisu[2] = 3;
         //テスト用END
     }
 
@@ -36,15 +36,8 @@ public class showUIData : MonoBehaviour
         zeniSyoji.text = AkagonohateData.itemSyojisu[0].ToString();
         keyHMMSS.text = countS.ToString();
 
-        //鍵の所持数が6以上の場合を考慮
-        if (5 < AkagonohateData.itemSyojisu[2])
-        {
-            keyTMP = 5;
-        }
-        else {
-            keyTMP = AkagonohateData.itemSyojisu[2];
-        }
-        for (int i = 0; i < keyTMP; i++) {
+        //鍵アイコンの表示
+        for (int i = 0; i < AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]; i++) {
             keys[i].SetActive(true);
         }
 
@@ -70,7 +63,7 @@ public class showUIData : MonoBehaviour
     /// 鍵の制御
     /// </summary>
     void Keys() {
-        if (AkagonohateData.itemSyojisu[2] < 5)
+        if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] < 5)
         {
             countS -= Time.deltaTime;
             if (countS.ToString("f0") == "-1")
@@ -85,10 +78,10 @@ public class showUIData : MonoBehaviour
                     {
                         //鍵が1つ回復した時の処理
                         countH = 1;
-                        if (AkagonohateData.itemSyojisu[2] < 5)
+                        if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] < 5)
                         {
                             AkagonohateData.itemSyojisu[2]++;
-                            keys[AkagonohateData.itemSyojisu[2] - 1].SetActive(true);
+                            keys[AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] - 1].SetActive(true);
                         }
                     }
                 }
