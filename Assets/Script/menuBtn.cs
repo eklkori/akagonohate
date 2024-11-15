@@ -13,11 +13,13 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject batsuS;
     [SerializeField] GameObject batsuR;
     [SerializeField] GameObject batsuO;
+    [SerializeField] GameObject batsuSe;
     //中サイズボタン
     [SerializeField] GameObject credit;
     [SerializeField] GameObject syojidogukakunin;
     [SerializeField] GameObject riyokiyaku;
     [SerializeField] GameObject otoiawase;
+    [SerializeField] GameObject serialBtn;
     //メニューのタイトル文字(ポップアップ上部)
     [SerializeField] GameObject titleText;
     [SerializeField] Text titleTextT;
@@ -61,11 +63,14 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject haikeiS;
     [SerializeField] GameObject haikeiR;
     [SerializeField] GameObject haikeiO;
+    [SerializeField] GameObject haikeiSe;
     //お問い合わせ
-    [SerializeField] GameObject setsumeibun;
+    [SerializeField] GameObject otoiawaseAll;
     [SerializeField] GameObject soushinBtn;
     [SerializeField] GameObject uketamawarimashita;
-    [SerializeField] GameObject cHome;
+    [SerializeField] GameObject popUpMenu;
+    //シリアルコード入力画面
+    [SerializeField] GameObject serialCodeAll;
     //スクロール
     [SerializeField] GameObject ScrollCredit;
     [SerializeField] GameObject ScrollRiyokiyaku;
@@ -78,7 +83,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     int kaifukusu = 1;
 
-
     //-----表示系-----
 
     /// <summary>
@@ -90,6 +94,7 @@ public class menuBtn : MonoBehaviour
         credit.SetActive(true);
         syojidogukakunin.SetActive(true);
         riyokiyaku.SetActive(true);
+        serialBtn.SetActive(true);
         otoiawase.SetActive(true);
         popupBase.SetActive(true);
         koukaonBGM.SetActive(true);
@@ -109,6 +114,7 @@ public class menuBtn : MonoBehaviour
         titleText.SetActive(true);
         syojidogukakunin.SetActive(false);
         riyokiyaku.SetActive(false);
+        serialBtn.SetActive(false);
         otoiawase.SetActive(false);
         koukaonBGM.SetActive(false);
         kakusyumenu.SetActive(false);
@@ -129,6 +135,7 @@ public class menuBtn : MonoBehaviour
         titleText.SetActive(true);
         syojidogukakunin.SetActive(false);
         riyokiyaku.SetActive(false);
+        serialBtn.SetActive(false);
         otoiawase.SetActive(false);
         koukaonBGM.SetActive(false);
         kakusyumenu.SetActive(false);
@@ -183,6 +190,7 @@ public class menuBtn : MonoBehaviour
         credit.SetActive(false);
         syojidogukakunin.SetActive(false);
         riyokiyaku.SetActive(false);
+        serialBtn.SetActive(false);
         titleText.SetActive(true);
         otoiawase.SetActive(false);
         koukaonBGM.SetActive(false);
@@ -204,14 +212,15 @@ public class menuBtn : MonoBehaviour
         credit.SetActive(false);
         syojidogukakunin.SetActive(false);
         riyokiyaku.SetActive(false);
+        serialBtn.SetActive(false);
         otoiawase.SetActive(false);
         titleText.SetActive(true);
         koukaonBGM.SetActive(false);
         kakusyumenu.SetActive(false);
         haikei.SetActive(false);
         haikeiO.SetActive(true);
-        setsumeibun.SetActive(true);
-        cHome.GetComponent<sendMail>().BtnFlg();
+        otoiawaseAll.SetActive(true);
+        popUpMenu.GetComponent<sendMail>().BtnFlg();
         titleTextT.text = "お　問　い　合　わ　せ";
     }
 
@@ -225,7 +234,7 @@ public class menuBtn : MonoBehaviour
         haikei.SetActive(true);
         popupBase.SetActive(true);
         ScrollIsyou.SetActive(true);
-        cHome.GetComponent<cHome>().syokihyouji();
+        popUpMenu.GetComponent<cHome>().syokihyouji();
         titleTextT.text = "パ　ー　ト　ナ　ー　選　択";
     }
 
@@ -294,6 +303,11 @@ public class menuBtn : MonoBehaviour
             plusBtn.SetActive(false);
             kaifukuBtn.SetActive(false);
         }
+        //回復できる鍵が1個のみの場合は＋ボタンを非表示
+        if (tmp == 1 || AkagonohateData.itemSyojisu[6] == 1)
+        {
+            plusBtn.SetActive(false);
+        }
     }
 
     /// <summary>
@@ -307,8 +321,29 @@ public class menuBtn : MonoBehaviour
         popupBase.SetActive(true);
         haikei.SetActive(true);
         titleTextT.text = "有　料　商　品";
+        kaginotsuikaAll.SetActive(false);
     }
 
+    /// <summary>
+    /// シリアルコードメニュー表示
+    /// </summary>
+    public void showPopUpSe()
+    {
+        batsu.SetActive(false);
+        batsuSe.SetActive(true);
+        credit.SetActive(false);
+        syojidogukakunin.SetActive(false);
+        riyokiyaku.SetActive(false);
+        serialBtn.SetActive(false);
+        serialCodeAll.SetActive(true);
+        otoiawase.SetActive(false);
+        koukaonBGM.SetActive(false);
+        kakusyumenu.SetActive(false);
+        haikei.SetActive(false);
+        haikeiSe.SetActive(true);
+
+        titleTextT.text = "シ　リ　ア　ル　コ　ー　ド　入　力";
+    }
 
     //-----非表示系-----
 
@@ -335,6 +370,7 @@ public class menuBtn : MonoBehaviour
         giftBtnSumi.SetActive(false);
         yuryoItemAll.SetActive(false);
         kaginotsuikaAll.SetActive(false);
+        serialBtn.SetActive(false);
         ScrollIsyou.SetActive(false);
         ScrollGifts.SetActive(false);
     }
@@ -351,6 +387,7 @@ public class menuBtn : MonoBehaviour
         syojidogukakunin.SetActive(true);
         riyokiyaku.SetActive(true);
         otoiawase.SetActive(true);
+        serialBtn.SetActive(true);
         koukaonBGM.SetActive(true);
         kakusyumenu.SetActive(true);
         haikei.SetActive(true);
@@ -370,6 +407,7 @@ public class menuBtn : MonoBehaviour
         syojidogukakunin.SetActive(true);
         riyokiyaku.SetActive(true);
         otoiawase.SetActive(true);
+        serialBtn.SetActive(true);
         koukaonBGM.SetActive(true);
         kakusyumenu.SetActive(true);
         haikei.SetActive(true);
@@ -388,6 +426,7 @@ public class menuBtn : MonoBehaviour
         credit.SetActive(true);
         syojidogukakunin.SetActive(true);
         riyokiyaku.SetActive(true);
+        serialBtn.SetActive(true);
         titleText.SetActive(false);
         otoiawase.SetActive(true);
         koukaonBGM.SetActive(true);
@@ -407,15 +446,36 @@ public class menuBtn : MonoBehaviour
         credit.SetActive(true);
         syojidogukakunin.SetActive(true);
         riyokiyaku.SetActive(true);
+        serialBtn.SetActive(true);
         otoiawase.SetActive(true);
         titleText.SetActive(false);
         koukaonBGM.SetActive(true);
         kakusyumenu.SetActive(true);
         haikei.SetActive(true);
         haikeiO.SetActive(false);
-        setsumeibun.SetActive(false);
+        otoiawaseAll.SetActive(false);
         soushinBtn.SetActive(false);
         uketamawarimashita.SetActive(false);
+    }
+
+    /// <summary>
+    /// シリアルコードメニュー非表示
+    /// </summary>
+    public void closePopUpSe()
+    {
+        batsu.SetActive(true);
+        batsuSe.SetActive(false);
+        credit.SetActive(true);
+        syojidogukakunin.SetActive(true);
+        riyokiyaku.SetActive(true);
+        otoiawase.SetActive(true);
+        serialBtn.SetActive(true);
+        titleText.SetActive(false);
+        koukaonBGM.SetActive(true);
+        kakusyumenu.SetActive(true);
+        haikei.SetActive(true);
+        haikeiSe.SetActive(false);
+        serialCodeAll.SetActive(false);
     }
 
     /// <summary>
@@ -426,11 +486,18 @@ public class menuBtn : MonoBehaviour
     }
 
     /// <summary>
-    /// 購入ボタンが押されたときの処理
+    /// 購入ボタンが押されたときの処理①
     /// </summary>
-    public void konyu(int num) {
+    public void store()
+    {
         //ストアに飛ばす処理をここに追記
 
+    }
+
+    /// <summary>
+    /// 購入ボタンが押されたときの処理②
+    /// </summary>
+    public void konyu(int num) {
         //ポップアップの表示の初期化
         popupBase2.SetActive(true);
         kakutoku.SetActive(true);
@@ -452,6 +519,19 @@ public class menuBtn : MonoBehaviour
         int syouhinKosu = num / 10;
         konyusu.text = "×  " + syouhinKosu;
 
+        //鍵を購入した場合は、余剰分を考慮
+        if (syouhinIMG == 2)
+        {
+            if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] < 5)
+            {
+                AkagonohateData.itemSyojisu[6] += syouhinKosu - (5-(AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]));
+            }
+            else 
+            {
+                AkagonohateData.itemSyojisu[6] += syouhinKosu;
+            }
+        }
+
         //購入数の上書き(データ)
         switch (syouhinIMG)
         {
@@ -459,11 +539,6 @@ public class menuBtn : MonoBehaviour
             case 2: AkagonohateData.itemSyojisu[2] += syouhinKosu; break; //鍵
         }
 
-        //鍵を購入した場合は、余剰分を考慮
-        if (syouhinIMG == 2)
-        {
-            AkagonohateData.itemSyojisu[6] += (AkagonohateData.itemSyojisu[2]) - 5;
-        }
         Debug.Log(AkagonohateData.itemSyojisu[2]);
         Debug.Log(AkagonohateData.itemSyojisu[6]);
     }
@@ -489,7 +564,7 @@ public class menuBtn : MonoBehaviour
 
         //UI操作
         int tmp = 5 - (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]);
-        if (kaifukusu == tmp)
+        if (kaifukusu >= tmp)
         {
             plusBtn.SetActive(false);
         }
@@ -497,14 +572,14 @@ public class menuBtn : MonoBehaviour
         kaifukuBtn.SetActive(true);
 
         //上限の場合は+ボタンを非表示
-        int tmp2 = 5 - (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]);
+        //int tmp2 = 5 - (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]);
         Debug.Log(AkagonohateData.itemSyojisu[2]);
         Debug.Log(AkagonohateData.itemSyojisu[6]);
-        Debug.Log(tmp2);
-        if (tmp2 == kaifukusu)
-        {
-            plusBtn.SetActive(false);
-        }
+        Debug.Log(tmp);
+        //if (tmp2 == kaifukusu)
+        //{
+        //    plusBtn.SetActive(false);
+        //}
     }
 
     public void pushMinus() {

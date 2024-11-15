@@ -48,18 +48,21 @@ public class CRunwayRes : MonoBehaviour
         }
 
         //立ち絵の差し替え処理
-        resRunner.sprite = runnerImages[AkagonohateData.runwayMVP[3]];
-        //立ち絵のサイズ変更
-        resRunner.GetComponent<RectTransform>();
-        int kyara = AkagonohateData.runwayMVP[3] / 10;
-        switch (kyara)
+        if (AkagonohateData.runwayMVP[3] != -1)//ランナーが1人以上いる場合のみ実行
         {
-            case 0: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2230, 0); break;
-            case 1: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2255, 0); break;
-            case 2: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2110, 0); break;
-            case 3: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2280, 0); break;
-            case 4: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2415, 0); break;
-            case 5: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2365, 0); break;
+            resRunner.sprite = runnerImages[AkagonohateData.runwayMVP[3]];
+            //立ち絵のサイズ変更
+            resRunner.GetComponent<RectTransform>();
+            int kyara = AkagonohateData.runwayMVP[3] / 10;
+            switch (kyara)
+            {
+                case 0: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2230, 0); break;
+                case 1: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2255, 0); break;
+                case 2: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2110, 0); break;
+                case 3: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2280, 0); break;
+                case 4: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2415, 0); break;
+                case 5: resRunner.rectTransform.sizeDelta = new Vector3(1800, 2365, 0); break;
+            }
         }
 
         //その他表示の初期化

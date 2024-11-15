@@ -77,7 +77,8 @@ public class AkagonohateData : ScriptableObject
     private static int[] bi = { 3, 3, 8, 8, 16, 0, 0, 0, 0, 0, 1, 1, 2, 2, 4, 0, 0, 0, 0, 0, 3, 3, 7, 7, 14, 0, 0, 0, 0, 0, 2, 2, 5, 5, 10, 0, 0, 0, 0, 0, 3, 3, 6, 6, 12, 0, 0, 0, 0, 0, 2, 2, 4, 4, 6, 0, 0, 0, 0, 0 };
     //各衣装のユーモア性ステータスを格納
     private static int[] hu = { 1, 1, 2, 2, 4, 0, 0, 0, 0, 0, 3, 3, 8, 8, 16, 0, 0, 0, 0, 0, 1, 1, 3, 3, 6, 0, 0, 0, 0, 0, 2, 2, 5, 5, 10, 0, 0, 0, 0, 0, 1, 1, 4, 4, 8, 0, 0, 0, 0, 0, 2, 2, 6, 6, 14, 0, 0, 0, 0, 0 };
-
+    //シリアルコードを格納(使用されたらnullにする)
+    public static string[] serialCodes = { "XXXXXXXX", "YYYYYYYY", "ZZZZZZZZ" };
     public int[] GetBi  //public 戻り値 プロパティ名
     {
         get { return bi; } //get {return フィールド名;}
