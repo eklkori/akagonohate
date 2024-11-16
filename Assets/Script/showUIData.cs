@@ -21,11 +21,14 @@ public class showUIData : MonoBehaviour
     //日付の取得　
     DateTime localDate = DateTime.Now;
     DateTime now;
+    DateTime syouhiStart;
     void Start()
     {
         //テスト用START
         //AkagonohateData.itemSyojisu[2] = 3;
         //テスト用END
+        syouhiStart = AkagonohateData.runwayRireki[1];
+        Debug.Log(syouhiStart);
     }
 
     //テスト用処理START
@@ -41,31 +44,6 @@ public class showUIData : MonoBehaviour
         //　keyHMMSS.text = countS.ToString();
         //テスト用処理END
 
-        //本番用処理START　※そもそもvoid Startでよくない？？
-        //DateTime syouhiStart = AkagonohateData.runwayRireki[1];
-        //now = localDate;        //現在日時の取得
-        //TimeSpan sa = now-syouhiStart;        //現在日時と鍵の消費時刻との差を取得
-        //TimeSpan kijyun = new TimeSpan(0, 10, 0, 0);
-        //TimeSpan hour = new TimeSpan(0, 2, 0, 0);
-        //for (int i = 5; i > 0; i--) {
-        //    if (sa > kijyun && i==5)  //鍵がフル回復しているとき
-        //    {
-        //        countH = 0;
-        //        countM = 0;
-        //        countS = 0;
-        //        break;
-        //    }
-        //    if (sa > kijyun && i!=5)  //鍵がフル回復でないとき
-        //    {
-        //        TimeSpan time = sa - kijyun;
-        //        //countH = timeの時間;  //課題
-        //        //countM = timeの分;  //課題
-        //        //countS = timeの秒;  //課題
-        //        break;
-        //    }
-        //    kijyun -= hour;
-        //}
-        //keyHMMSS.text = countS.ToString();
         //本番用処理END
 
         kenSyoji.text = AkagonohateData.itemSyojisu[1].ToString();
@@ -100,40 +78,93 @@ public class showUIData : MonoBehaviour
     /// 鍵の制御
     /// </summary>
     void Keys() {
-        if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] < 5)
+        //本番用処理START
+        localDate = DateTime.Now;        //現在日時の取得
+        now = localDate;                 //現在日時の取得
+        TimeSpan sa = now - syouhiStart;        //現在日時と鍵の消費時刻との差を取得
+        TimeSpan kijyun = new TimeSpan(0, 10, 0, 0);
+        TimeSpan hour = new TimeSpan(0, 2, 0, 0);
+        if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] >= 5)
         {
-            countS -= Time.deltaTime;
-            if (countS.ToString("f0") == "-1")
-            {
-                countM--;
-                countS = 59;
-                if (countM == -1)
-                {
-                    countH--;
-                    countM = 59;
-                    if (countH == -1)
-                    {
-                        //鍵が1つ回復した時の処理
-                        countH = 1;
-                        if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] < 5)
-                        {
-                            AkagonohateData.itemSyojisu[2]++;
-                            keys[AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] - 1].SetActive(true);
-                        }
-                    }
-                }
-            }
-            //DBデータの上書き
-            AkagonohateData.HH = countH;
-            AkagonohateData.MM = countM;
-            AkagonohateData.SS = countS;
-
-            //UI表示
-            keyHMMSS.text = countH.ToString("f0") + ":" + countM.ToString("00") + ":" + countS.ToString("00");
+            //鍵がフル回復しているとき
+            countH = 0;
+            countM = 0;
+            countS = 0;
         }
         else
         {
-            keyHMMSS.text = "0:00:00";
+            //鍵がフル回復でないとき
+            int saH = sa.Hours;
+            int saM = sa.Minutes;
+            int saS = sa.Seconds;
+            if (saH >= 8)
+            {
+                kijyun = new TimeSpan(0, 10, 0, 0);
+                saH -= 8;
+            }
+            else if (saH >= 6)
+            {
+                kijyun = new TimeSpan(0, 8, 0, 0);
+                saH -= 6;
+            }
+            else if (saH >= 4)
+            {
+                kijyun = new TimeSpan(0, 6, 0, 0);
+                saH -= 4;
+            }
+            else if (saH >= 2)
+            {
+                kijyun = new TimeSpan(0, 4, 0, 0);
+                saH -= 2;
+            }
+            else
+            {
+                kijyun = new TimeSpan(0, 2, 0, 0);
+            }
+            TimeSpan showData = kijyun - sa;
+            countH = showData.Hours;
+            countM = showData.Minutes;
+            countS = showData.Seconds;
         }
+
+        //UI表示
+        keyHMMSS.text = countH.ToString("f0") + ":" + countM.ToString("00") + ":" + countS.ToString("00");
+
+        //テスト用処理(旧)
+        //if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] < 5)
+        //{
+        //    countS -= Time.deltaTime;
+        //    if (countS.ToString("f0") == "-1")
+        //    {
+        //        countM--;
+        //        countS = 59;
+        //        if (countM == -1)
+        //        {
+        //            countH--;
+        //            countM = 59;
+        //            if (countH == -1)
+        //            {
+        //                //鍵が1つ回復した時の処理
+        //                countH = 1;
+        //                if (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] < 5)
+        //                {
+        //                    AkagonohateData.itemSyojisu[2]++;
+        //                    keys[AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6] - 1].SetActive(true);
+        //                }
+        //            }
+        //        }
+        //    }
+        //    //DBデータの上書き
+        //    AkagonohateData.HH = countH;
+        //    AkagonohateData.MM = countM;
+        //    AkagonohateData.SS = countS;
+
+        //    //UI表示
+        //    keyHMMSS.text = countH.ToString("f0") + ":" + countM.ToString("00") + ":" + countS.ToString("00");
+        //}
+        //else
+        //{
+        //    keyHMMSS.text = "0:00:00";
+        //}
     }
 }

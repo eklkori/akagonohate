@@ -602,7 +602,6 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     public void kaifuku() {
         //ŒvZ(—]èŒ®¨Á”ïŒ®)
-        AkagonohateData.itemSyojisu[2] += kaifukusu;
         AkagonohateData.itemSyojisu[6] -= kaifukusu;
 
         //UI‘€ì

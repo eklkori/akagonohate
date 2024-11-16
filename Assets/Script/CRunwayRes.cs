@@ -13,6 +13,7 @@ public class CRunwayRes : MonoBehaviour
     [SerializeField] GameObject[] yuryoka; //第一幕優良可、第二幕優良可、第三幕優良可、総合優良可の順で画像を格納
     [SerializeField] GameObject[] yuryokaT;
     [SerializeField] GameObject firstText;
+    [SerializeField] GameObject cRunwayRes;
 
     [SerializeField] Image resRunner;
     [SerializeField] Sprite[] runnerImages;
@@ -166,18 +167,64 @@ public class CRunwayRes : MonoBehaviour
         int yuNow = AkagonohateData.itemSyojisu[4];
         int niZen = AkagonohateData.moZen;
         int niNow = AkagonohateData.itemSyojisu[5];
-        if (moZen > moNow) {
+        if (moZen > moNow)
+        {
+            int saTMP = moZen - moNow;
+            datePtGensan(saTMP);
             moZen = moNow;
         }
         if (yuZen > yuNow)
         {
+            int saTMP = yuZen - yuNow;
+            datePtGensan(saTMP);
             yuZen = yuNow;
         }
         if (niZen > niNow)
         {
             niZen = niNow;
         }
+
+        //幕ごと・総合の評価値書き換え
+        cRunwayRes.GetComponent<goRunway>().hyouka(moZen,yuZen,niZen);
+
+        //人足ボーナス値(人足によって割り増しされたデートPtの合計値)の上書き
+        AkagonohateData.KItem[3] = moZen;
+        AkagonohateData.KItem[4] = yuZen;
+        AkagonohateData.KItem[5] = niZen;
+
+        //人足アイテム所持数を引く・上書き
+        AkagonohateData.itemSyojisu[3] -= moZen;
+        AkagonohateData.itemSyojisu[4] -= yuZen;
+        AkagonohateData.itemSyojisu[5] -= niZen;
+        AkagonohateData.moZen = moZen;
+        AkagonohateData.yuZen = yuZen;
+        AkagonohateData.niZen = niZen;
+
+
         SceneManager.LoadScene("11Runway");
+    }
+
+    /// <summary>
+    /// 前回設定値>所持数の場合のみ、その分だけ人足分を減算　※設定されているキャラにのみ
+    /// </summary>
+    /// <param name="saTMP"></param>
+    void datePtGensan(int saTMP) {
+        for (int i = 0; i < 6; i++)
+        {
+            for (int j = 0; j < 24; j++)
+            {
+                Debug.Log("AkagonohateData.runner[j]=" + AkagonohateData.runner[j] + "  i=" + i);
+                int kyara = AkagonohateData.runner[j] / 10;
+                Debug.Log("kyara="+kyara);
+                if (kyara == i && AkagonohateData.runner[j] != -1)
+                {
+                    Debug.Log(AkagonohateData.KdatePt[i] + " saTMP=" + saTMP);
+                    Debug.Log("あ　" + saTMP * 5);
+                    AkagonohateData.KdatePt[i] -= saTMP * 5;
+                    break;
+                }
+            }
+        }
     }
 
     /// <summary>

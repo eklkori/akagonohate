@@ -362,6 +362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124313797}
   - component: {fileID: 124313798}
+  - component: {fileID: 124313799}
   m_Layer: 0
   m_Name: CRunwayRes
   m_TagString: Untagged
@@ -427,6 +428,7 @@ MonoBehaviour:
   - {fileID: 1220815022}
   - {fileID: 1252695807}
   firstText: {fileID: 1491783040}
+  cRunwayRes: {fileID: 124313796}
   resRunner: {fileID: 191078127}
   runnerImages:
   - {fileID: -5670747046979026563, guid: 56a154a0fc0c3c94ea91d3cc14aefd1b, type: 3}
@@ -505,6 +507,41 @@ MonoBehaviour:
   - {fileID: 163774113}
   zeni: {fileID: 381003273}
   ninsokuBonusT: {fileID: 1379234553}
+--- !u!114 &124313799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124313796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70d9af3748884f4c8317731fc9aaa27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kaishiBtn: {fileID: 0}
+  haikei: {fileID: 0}
+  popupBase2: {fileID: 0}
+  setteishita: {fileID: 0}
+  key: {fileID: 0}
+  hai: {fileID: 0}
+  hai2: {fileID: 0}
+  iie: {fileID: 0}
+  sankaku: {fileID: 0}
+  haiBtn: {fileID: 0}
+  hai2Btn: {fileID: 0}
+  iieBtn: {fileID: 0}
+  imasugu: {fileID: 0}
+  tarimasen: {fileID: 0}
+  now: {fileID: 0}
+  after: {fileID: 0}
+  pickUp1: 0
+  pickUp2: 0
+  nowT: {fileID: 0}
+  afterT: {fileID: 0}
+  moT: {fileID: 0}
+  yuT: {fileID: 0}
+  niT: {fileID: 0}
 --- !u!1 &160354676
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,11 +858,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 2960, y: 1440}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -4229,11 +4266,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 2960, y: 1440}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -4762,11 +4799,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 2960, y: 1440}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
