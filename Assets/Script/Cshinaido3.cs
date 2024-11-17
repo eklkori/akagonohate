@@ -34,7 +34,7 @@ public class Cshinaido3 : MonoBehaviour
         {
             showKaiwas();
         }
-        AkagonohateData.kakuninchuFlg = 0;
+        AkagonohateData.kakuninchuFlg = 0;  //確認中フラグはgoUtageメソッドで操作(1か2に上書き)
     }
 
     /// <summary>

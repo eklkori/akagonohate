@@ -200,7 +200,16 @@ public class CRunwayRes : MonoBehaviour
         AkagonohateData.yuZen = yuZen;
         AkagonohateData.niZen = niZen;
 
+        //Šl“¾‘K‚ğã‘‚«
+        //Šl“¾Œã‚Ì‘K‘Šz‚ª9999999(ãŒÀ)‚ğ’´‚¦‚éê‡AŒ¸Z
+        if (AkagonohateData.itemSyojisu[0] + AkagonohateData.KItem[0] > 9999999)
+        {
+            AkagonohateData.KItem[0] = 9999999 - AkagonohateData.itemSyojisu[0];
+        }
+        //Š‘K‚É‰ÁZ
+        AkagonohateData.itemSyojisu[0] += AkagonohateData.KItem[0];
 
+        //‰æ–Ê‘JˆÚ
         SceneManager.LoadScene("11Runway");
     }
 

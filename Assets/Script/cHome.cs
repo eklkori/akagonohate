@@ -23,8 +23,17 @@ public class cHome : MonoBehaviour
     //日付取得
     DateTime localDate = DateTime.Now;
     DateTime today;
+    DateTime dtLastMonday;
     void Start()
     {
+        //テスト用処理START
+        for (int i = 0; i < 6; i++)//タスク(イベント)の数だけforで回す
+        {
+            AkagonohateData.tasseiFlgE[i] = 1;
+        }
+        //テスト用処理END
+        today = localDate.Date;
+
         //パートナー(ホーム画面立ち絵)初期表示
         int kyaraNo = AkagonohateData.partnerNo;
         kyaraBtn(kyaraNo);
@@ -32,14 +41,23 @@ public class cHome : MonoBehaviour
         //タスクの完了判定※達成フラグの上書きも実施　(完了タスクがあれば赤丸アイコンを表示)
         //赤丸アイコンの初期化
         tsuchiTask.SetActive(false);
+
         //達成フラグの初期化
-        //日課
-        for (int i = 0; i < 6; i++)//タスク(日課)の数だけforで回す
+        //今週の最初の日(月曜日)を取得
+        dtLastMonday = today.AddDays((7 - (int)today.DayOfWeek) % 7 - 6);
+        Debug.Log("dtLastMonday "+dtLastMonday);
+        Debug.Log("today " + today);
+        //日課(1日の最初のみ)
+        if (today != AkagonohateData.kaiwaRireki[0].Date && today != AkagonohateData.kaiwaRireki[1] && today != AkagonohateData.kaiwaRireki[2] && today != AkagonohateData.kaiwaRireki[3] && today != AkagonohateData.kaiwaRireki[4] && today != AkagonohateData.kaiwaRireki[5] && today != AkagonohateData.runwayRireki[0])
         {
-            AkagonohateData.tasseiFlgN[i] = 1;
+            for (int i = 0; i < 6; i++)//タスク(日課)の数だけforで回す
+            {
+                AkagonohateData.tasseiFlgN[i] = 1;
+            }
         }
-        //週間
-        for (int i = 0; i < 9; i++)//タスク(週間)の数だけforで回す
+        //週間(週の最初のみ)
+        if (dtLastMonday >= AkagonohateData.kaiwaRireki[0] && dtLastMonday >= AkagonohateData.kaiwaRireki[1] && dtLastMonday >= AkagonohateData.kaiwaRireki[2] && dtLastMonday >= AkagonohateData.kaiwaRireki[3] && dtLastMonday >= AkagonohateData.kaiwaRireki[4] && dtLastMonday >= AkagonohateData.kaiwaRireki[5] && dtLastMonday >= AkagonohateData.runwayRireki[0])
+            for (int i = 0; i < 9; i++)//タスク(週間)の数だけforで回す
         {
             AkagonohateData.tasseiFlgS[i] = 1;
         }
@@ -54,32 +72,42 @@ public class cHome : MonoBehaviour
 
         //会話回数の算出(日)
         int iconFlg = 0;
-        int[] countDayTMP = new int[4];
+        int countDay = 0;
+        int countWeek = 0;
         for (int i = 0; i < 6; i++)
         {
             //誰かの最終会話日が今日であれば、countDayTMPが1になるので次のif文を通る
             if (AkagonohateData.kaiwaRireki[i] == today.Date)
             {
-                countDayTMP[0]++;
+                countDay++;
                 break;
             }
         }
-        if (countDayTMP[0] >= 1)
+        if (countDay >= 1)
         {
             if (AkagonohateData.countDay[0] >= 1) 
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgN[0] = 0;
+                if (AkagonohateData.tasseiFlgN[0] != 2)
+                {
+                    AkagonohateData.tasseiFlgN[0] = 0;
+                }
             }
             if (AkagonohateData.countDay[0] >= 3)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgN[1] = 0;
+                if (AkagonohateData.tasseiFlgN[1] != 2)
+                {
+                    AkagonohateData.tasseiFlgN[1] = 0;
+                }
             }
             if (AkagonohateData.countDay[0] >= 6)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgN[2] = 0;
+                if (AkagonohateData.tasseiFlgN[2] != 2)
+                {
+                    AkagonohateData.tasseiFlgN[2] = 0;
+                }
             }
         }
         //ランウェイ回数の算出(日)
@@ -88,48 +116,64 @@ public class cHome : MonoBehaviour
             if (AkagonohateData.countDay[1] >= 1)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgN[3] = 0;
+                if (AkagonohateData.tasseiFlgN[3] != 2)
+                {
+                    AkagonohateData.tasseiFlgN[3] = 0;
+                }
             }
             if (AkagonohateData.countDay[1] >= 5)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgN[4] = 0;
+                if (AkagonohateData.tasseiFlgN[4] != 2)
+                {
+                    AkagonohateData.tasseiFlgN[4] = 0;
+                }
             }
             if (AkagonohateData.countDay[1] >= 10)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgN[5] = 0;
+                if (AkagonohateData.tasseiFlgN[5] != 2)
+                {
+                    AkagonohateData.tasseiFlgN[5] = 0;
+                }
             }
         }
 
         //会話回数の算出(週)
-        //今週の最初の日(月曜日)を取得
-        DateTime dtLastMonday = today.AddDays((7 - (int)today.DayOfWeek) % 7 - 6);
         for (int i = 0; i < 6; i++)
         {
             //誰かの最終会話日が週初めの月曜以降であれば、countDayTMPが1になるので次のif文を通る
             if (AkagonohateData.kaiwaRireki[i].Date >= dtLastMonday.Date)
             {
-                countDayTMP[2]++;
+                countWeek++;
                 break;
             }
         }
-        if (countDayTMP[2] >= 1)
+        if (countWeek >= 1)
         {
             if (AkagonohateData.countDay[3] >= 10)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[0] = 0;
+                if (AkagonohateData.tasseiFlgS[0] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[0] = 0;
+                }
             }
             if (AkagonohateData.countDay[3] >= 20)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[1] = 0;
+                if (AkagonohateData.tasseiFlgS[1] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[1] = 0;
+                }
             }
             if (AkagonohateData.countDay[3] >= 30)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[2] = 0;
+                if (AkagonohateData.tasseiFlgS[2] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[2] = 0;
+                }
             }
         }
 
@@ -139,42 +183,64 @@ public class cHome : MonoBehaviour
             if (AkagonohateData.countDay[3] >= 15)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[3] = 0;
+                if (AkagonohateData.tasseiFlgS[3] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[3] = 0;
+                }
             }
             if (AkagonohateData.countDay[3] >= 25)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[4] = 0;
+                if (AkagonohateData.tasseiFlgS[4] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[4] = 0;
+                }
             }
             if (AkagonohateData.countDay[3] >= 35)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[5] = 0;
+                if (AkagonohateData.tasseiFlgS[5] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[5] = 0;
+                }
             }
             if (AkagonohateData.countDay[3] >= 50)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[6] = 0;
+                if (AkagonohateData.tasseiFlgS[6] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[6] = 0;
+                }
             }
             if (AkagonohateData.countDay[3] >= 60)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[7] = 0;
+                if (AkagonohateData.tasseiFlgS[7] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[7] = 0;
+                }
             }
             if (AkagonohateData.countDay[3] >= 70)
             {
                 iconFlg++;
-                AkagonohateData.tasseiFlgS[8] = 0;
+                if (AkagonohateData.tasseiFlgS[8] != 2)
+                {
+                    AkagonohateData.tasseiFlgS[8] = 0;
+                }
             }
         }
 
         //赤丸通知を表示
-        for (int i = 0; i < 4; i++) {
-            if (countDayTMP[i] != 0) {
-                tsuchiTask.SetActive(true);
-                break;
-            }
+        if (iconFlg != 0)
+        {
+            tsuchiTask.SetActive(true);
         }
+        //for (int i = 0; i < 4; i++) {
+        //if (countDayTMP[i] != 0) {
+        //        tsuchiTask.SetActive(true);
+        //        break;
+        //    }
+        //}
     }
 
     /// <summary>
@@ -241,5 +307,6 @@ public class cHome : MonoBehaviour
     {
         //当日日付の取得
         today = localDate.Date;
+        dtLastMonday = today.AddDays((7 - (int)today.DayOfWeek) % 7 - 6);
     }
 }

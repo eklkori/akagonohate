@@ -509,7 +509,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=0
       - 
       - 
       - 
@@ -526,7 +526,10 @@ MonoBehaviour:
     - rowIndex: 11
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -539,9 +542,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 12
-      debugIndex: 19
+      debugIndex: 17
       strings:
-      - '*naoko2'
+      - EndScenario
       - 
       - 
       - 
@@ -556,6 +559,21 @@ MonoBehaviour:
     - rowIndex: 13
       debugIndex: 20
       strings:
+      - '*naoko2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 21
+      strings:
       - 
       - 
       - 
@@ -568,8 +586,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 21
+    - rowIndex: 15
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -586,8 +622,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 15
-      debugIndex: 22
+    - rowIndex: 17
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -601,43 +637,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 16
-      debugIndex: 26
-      strings:
-      - '*naoko3'
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 17
-      debugIndex: 27
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u76F4\u5B503"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 18
       debugIndex: 28
       strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
+      - '*naoko3'
       - 
       - 
       - 
@@ -652,7 +655,6 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 29
       strings:
-      - EndScenario
       - 
       - 
       - 
@@ -661,13 +663,17 @@ MonoBehaviour:
       - 
       - 
       - 
+      - "\u76F4\u5B503"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
-      debugIndex: 32
+      debugIndex: 30
       strings:
-      - '*naoko4'
+      - Param
+      - shichoFlg=2
+      - 
+      - 
       - 
       - 
       - 
@@ -680,22 +686,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 21
-      debugIndex: 33
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u76F4\u5B504"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 22
-      debugIndex: 34
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -712,8 +703,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 35
+    - rowIndex: 22
+      debugIndex: 32
       strings:
       - EndScenario
       - 
@@ -727,10 +718,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 39
+    - rowIndex: 23
+      debugIndex: 35
       strings:
-      - '*naoko5'
+      - '*naoko4'
       - 
       - 
       - 
@@ -739,12 +730,29 @@ MonoBehaviour:
       - 
       - 
       - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u76F4\u5B504"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
-      debugIndex: 40
+      debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=3
       - 
       - 
       - 
@@ -753,12 +761,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u76F4\u5B505"
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 26
-      debugIndex: 41
+      debugIndex: 38
       strings:
       - Param
       - KEnd=1
@@ -776,7 +785,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
-      debugIndex: 42
+      debugIndex: 39
       strings:
       - EndScenario
       - 
@@ -791,9 +800,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
-      debugIndex: 45
+      debugIndex: 43
       strings:
-      - '*naoko6'
+      - '*naoko5'
       - 
       - 
       - 
@@ -806,7 +815,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 29
-      debugIndex: 46
+      debugIndex: 44
       strings:
       - 
       - 
@@ -816,12 +825,30 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u76F4\u5B506"
+      - "\u76F4\u5B505"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 30
-      debugIndex: 47
+      debugIndex: 45
+      strings:
+      - Param
+      - shichoFlg=4
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 46
       strings:
       - Param
       - KEnd=1
@@ -838,8 +865,89 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 48
+    - rowIndex: 32
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 50
+      strings:
+      - '*naoko6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u76F4\u5B506"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=5
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 53
+      strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -855,7 +963,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:naokoK
     type: 1
-    textLength: 422
+    textLength: 518
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
     entityIndexTbl: 
@@ -1018,7 +1126,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=50
       - 
       - 
       - 
@@ -1035,7 +1143,10 @@ MonoBehaviour:
     - rowIndex: 11
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -1048,9 +1159,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 12
-      debugIndex: 19
+      debugIndex: 17
       strings:
-      - '*yasuko2'
+      - EndScenario
       - 
       - 
       - 
@@ -1065,6 +1176,21 @@ MonoBehaviour:
     - rowIndex: 13
       debugIndex: 20
       strings:
+      - '*yasuko2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 21
+      strings:
       - 
       - 
       - 
@@ -1077,8 +1203,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 21
+    - rowIndex: 15
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=51
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -1095,8 +1239,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 15
-      debugIndex: 22
+    - rowIndex: 17
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -1110,43 +1254,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 16
-      debugIndex: 26
-      strings:
-      - '*yasuko3'
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 17
-      debugIndex: 27
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5EB7\u5B503"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 18
       debugIndex: 28
       strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
+      - '*yasuko3'
       - 
       - 
       - 
@@ -1161,7 +1272,6 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 29
       strings:
-      - EndScenario
       - 
       - 
       - 
@@ -1170,13 +1280,17 @@ MonoBehaviour:
       - 
       - 
       - 
+      - "\u5EB7\u5B503"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
-      debugIndex: 32
+      debugIndex: 30
       strings:
-      - '*yasuko4'
+      - Param
+      - shichoFlg=52
+      - 
+      - 
       - 
       - 
       - 
@@ -1189,22 +1303,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 21
-      debugIndex: 33
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5EB7\u5B504"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 22
-      debugIndex: 34
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -1221,8 +1320,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 35
+    - rowIndex: 22
+      debugIndex: 32
       strings:
       - EndScenario
       - 
@@ -1236,10 +1335,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 39
+    - rowIndex: 23
+      debugIndex: 35
       strings:
-      - '*yasuko5'
+      - '*yasuko4'
       - 
       - 
       - 
@@ -1248,12 +1347,29 @@ MonoBehaviour:
       - 
       - 
       - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5EB7\u5B504"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
-      debugIndex: 40
+      debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=53
       - 
       - 
       - 
@@ -1262,12 +1378,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u5B505"
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 26
-      debugIndex: 41
+      debugIndex: 38
       strings:
       - Param
       - KEnd=1
@@ -1285,7 +1402,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
-      debugIndex: 42
+      debugIndex: 39
       strings:
       - EndScenario
       - 
@@ -1300,9 +1417,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
-      debugIndex: 45
+      debugIndex: 43
       strings:
-      - '*yasuko6'
+      - '*yasuko5'
       - 
       - 
       - 
@@ -1315,7 +1432,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 29
-      debugIndex: 46
+      debugIndex: 44
       strings:
       - 
       - 
@@ -1325,12 +1442,30 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u5B506"
+      - "\u5EB7\u5B505"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 30
-      debugIndex: 47
+      debugIndex: 45
+      strings:
+      - Param
+      - shichoFlg=54
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 46
       strings:
       - Param
       - KEnd=1
@@ -1347,8 +1482,89 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 48
+    - rowIndex: 32
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 50
+      strings:
+      - '*yasuko6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5EB7\u5B506"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=55
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 53
+      strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -1364,7 +1580,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:yasukoK
     type: 1
-    textLength: 441
+    textLength: 543
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
     entityIndexTbl: 
@@ -1527,7 +1743,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=100
       - 
       - 
       - 
@@ -1544,7 +1760,10 @@ MonoBehaviour:
     - rowIndex: 11
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -1557,9 +1776,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 12
-      debugIndex: 19
+      debugIndex: 17
       strings:
-      - '*yoshiko2'
+      - EndScenario
       - 
       - 
       - 
@@ -1574,6 +1793,21 @@ MonoBehaviour:
     - rowIndex: 13
       debugIndex: 20
       strings:
+      - '*yoshiko2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 21
+      strings:
       - 
       - 
       - 
@@ -1586,8 +1820,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 21
+    - rowIndex: 15
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=101
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -1604,8 +1856,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 15
-      debugIndex: 22
+    - rowIndex: 17
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -1619,43 +1871,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 16
-      debugIndex: 26
-      strings:
-      - '*yoshiko3'
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 17
-      debugIndex: 27
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5409\u5B503"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 18
       debugIndex: 28
       strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
+      - '*yoshiko3'
       - 
       - 
       - 
@@ -1670,7 +1889,6 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 29
       strings:
-      - EndScenario
       - 
       - 
       - 
@@ -1679,13 +1897,17 @@ MonoBehaviour:
       - 
       - 
       - 
+      - "\u5409\u5B503"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
-      debugIndex: 32
+      debugIndex: 30
       strings:
-      - '*yoshiko4'
+      - Param
+      - shichoFlg=102
+      - 
+      - 
       - 
       - 
       - 
@@ -1698,22 +1920,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 21
-      debugIndex: 33
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5409\u5B504"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 22
-      debugIndex: 34
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -1730,8 +1937,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 35
+    - rowIndex: 22
+      debugIndex: 32
       strings:
       - EndScenario
       - 
@@ -1745,10 +1952,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 39
+    - rowIndex: 23
+      debugIndex: 35
       strings:
-      - '*yoshiko5'
+      - '*yoshiko4'
       - 
       - 
       - 
@@ -1757,12 +1964,29 @@ MonoBehaviour:
       - 
       - 
       - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5409\u5B504"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
-      debugIndex: 40
+      debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=103
       - 
       - 
       - 
@@ -1771,12 +1995,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5409\u5B505"
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 26
-      debugIndex: 41
+      debugIndex: 38
       strings:
       - Param
       - KEnd=1
@@ -1794,7 +2019,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
-      debugIndex: 42
+      debugIndex: 39
       strings:
       - EndScenario
       - 
@@ -1809,9 +2034,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
-      debugIndex: 45
+      debugIndex: 43
       strings:
-      - '*yoshiko6'
+      - '*yoshiko5'
       - 
       - 
       - 
@@ -1824,7 +2049,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 29
-      debugIndex: 46
+      debugIndex: 44
       strings:
       - 
       - 
@@ -1834,12 +2059,30 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5409\u5B506"
+      - "\u5409\u5B505"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 30
-      debugIndex: 47
+      debugIndex: 45
+      strings:
+      - Param
+      - shichoFlg=104
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 46
       strings:
       - Param
       - KEnd=1
@@ -1856,8 +2099,89 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 48
+    - rowIndex: 32
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 50
+      strings:
+      - '*yoshiko6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5409\u5B506"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=105
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 53
+      strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -1873,7 +2197,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:yoshikoK
     type: 1
-    textLength: 460
+    textLength: 568
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
     entityIndexTbl: 
@@ -2036,7 +2360,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=150
       - 
       - 
       - 
@@ -2053,7 +2377,10 @@ MonoBehaviour:
     - rowIndex: 11
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -2066,9 +2393,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 12
-      debugIndex: 19
+      debugIndex: 17
       strings:
-      - '*hideta2'
+      - EndScenario
       - 
       - 
       - 
@@ -2083,6 +2410,21 @@ MonoBehaviour:
     - rowIndex: 13
       debugIndex: 20
       strings:
+      - '*hideta2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 21
+      strings:
       - 
       - 
       - 
@@ -2095,8 +2437,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 21
+    - rowIndex: 15
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=151
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -2113,8 +2473,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 15
-      debugIndex: 22
+    - rowIndex: 17
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -2128,43 +2488,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 16
-      debugIndex: 26
-      strings:
-      - '*hideta3'
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 17
-      debugIndex: 27
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u79C0\u592A3"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 18
       debugIndex: 28
       strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
+      - '*hideta3'
       - 
       - 
       - 
@@ -2179,7 +2506,6 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 29
       strings:
-      - EndScenario
       - 
       - 
       - 
@@ -2188,13 +2514,17 @@ MonoBehaviour:
       - 
       - 
       - 
+      - "\u79C0\u592A3"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
-      debugIndex: 32
+      debugIndex: 30
       strings:
-      - '*hideta4'
+      - Param
+      - shichoFlg=152
+      - 
+      - 
       - 
       - 
       - 
@@ -2207,22 +2537,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 21
-      debugIndex: 33
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u79C0\u592A4"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 22
-      debugIndex: 34
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -2239,8 +2554,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 35
+    - rowIndex: 22
+      debugIndex: 32
       strings:
       - EndScenario
       - 
@@ -2254,10 +2569,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 39
+    - rowIndex: 23
+      debugIndex: 35
       strings:
-      - '*hideta5'
+      - '*hideta4'
       - 
       - 
       - 
@@ -2266,12 +2581,29 @@ MonoBehaviour:
       - 
       - 
       - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u79C0\u592A4"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
-      debugIndex: 40
+      debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=153
       - 
       - 
       - 
@@ -2280,12 +2612,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u592A5"
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 26
-      debugIndex: 41
+      debugIndex: 38
       strings:
       - Param
       - KEnd=1
@@ -2303,7 +2636,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
-      debugIndex: 42
+      debugIndex: 39
       strings:
       - EndScenario
       - 
@@ -2318,9 +2651,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
-      debugIndex: 45
+      debugIndex: 43
       strings:
-      - '*hideta6'
+      - '*hideta5'
       - 
       - 
       - 
@@ -2333,7 +2666,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 29
-      debugIndex: 46
+      debugIndex: 44
       strings:
       - 
       - 
@@ -2343,12 +2676,30 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u592A6"
+      - "\u79C0\u592A5"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 30
-      debugIndex: 47
+      debugIndex: 45
+      strings:
+      - Param
+      - shichoFlg=154
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 46
       strings:
       - Param
       - KEnd=1
@@ -2365,8 +2716,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 48
+    - rowIndex: 32
+      debugIndex: 47
       strings:
       - EndScenario
       - 
@@ -2380,9 +2731,93 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 33
+      debugIndex: 50
+      strings:
+      - '*hideta6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u79C0\u592A6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=155
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 53
+      strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 54
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:hidetaK
     type: 1
-    textLength: 441
+    textLength: 549
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
     entityIndexTbl: 
@@ -2545,7 +2980,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=200
       - 
       - 
       - 
@@ -2562,7 +2997,10 @@ MonoBehaviour:
     - rowIndex: 11
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -2575,9 +3013,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 12
-      debugIndex: 19
+      debugIndex: 17
       strings:
-      - '*hideya2'
+      - EndScenario
       - 
       - 
       - 
@@ -2592,6 +3030,21 @@ MonoBehaviour:
     - rowIndex: 13
       debugIndex: 20
       strings:
+      - '*hideya2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 21
+      strings:
       - 
       - 
       - 
@@ -2604,8 +3057,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 21
+    - rowIndex: 15
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=201
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -2622,8 +3093,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 15
-      debugIndex: 22
+    - rowIndex: 17
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -2637,43 +3108,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 16
-      debugIndex: 26
-      strings:
-      - '*hideya3'
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 17
-      debugIndex: 27
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u79C0\u4E5F3"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 18
       debugIndex: 28
       strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
+      - '*hideya3'
       - 
       - 
       - 
@@ -2688,7 +3126,6 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 29
       strings:
-      - EndScenario
       - 
       - 
       - 
@@ -2697,13 +3134,17 @@ MonoBehaviour:
       - 
       - 
       - 
+      - "\u79C0\u4E5F3"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
-      debugIndex: 32
+      debugIndex: 30
       strings:
-      - '*hideya4'
+      - Param
+      - shichoFlg=202
+      - 
+      - 
       - 
       - 
       - 
@@ -2716,22 +3157,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 21
-      debugIndex: 33
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u79C0\u4E5F4"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 22
-      debugIndex: 34
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -2748,8 +3174,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 35
+    - rowIndex: 22
+      debugIndex: 32
       strings:
       - EndScenario
       - 
@@ -2763,10 +3189,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 39
+    - rowIndex: 23
+      debugIndex: 35
       strings:
-      - '*hideya5'
+      - '*hideya4'
       - 
       - 
       - 
@@ -2775,12 +3201,29 @@ MonoBehaviour:
       - 
       - 
       - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u79C0\u4E5F4"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
-      debugIndex: 40
+      debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=203
       - 
       - 
       - 
@@ -2789,12 +3232,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u4E5F5"
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 26
-      debugIndex: 41
+      debugIndex: 38
       strings:
       - Param
       - KEnd=1
@@ -2812,7 +3256,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
-      debugIndex: 42
+      debugIndex: 39
       strings:
       - EndScenario
       - 
@@ -2827,9 +3271,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
-      debugIndex: 45
+      debugIndex: 43
       strings:
-      - '*hideya6'
+      - '*hideya5'
       - 
       - 
       - 
@@ -2842,7 +3286,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 29
-      debugIndex: 46
+      debugIndex: 44
       strings:
       - 
       - 
@@ -2852,12 +3296,30 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u4E5F6"
+      - "\u79C0\u4E5F5"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 30
-      debugIndex: 47
+      debugIndex: 45
+      strings:
+      - Param
+      - shichoFlg=204
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 46
       strings:
       - Param
       - KEnd=1
@@ -2874,8 +3336,89 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 48
+    - rowIndex: 32
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 50
+      strings:
+      - '*hideya6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u79C0\u4E5F6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=205
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 53
+      strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -2891,7 +3434,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:hideyaK
     type: 1
-    textLength: 441
+    textLength: 549
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
     entityIndexTbl: 
@@ -3054,7 +3597,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=250
       - 
       - 
       - 
@@ -3071,7 +3614,10 @@ MonoBehaviour:
     - rowIndex: 11
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -3084,9 +3630,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 12
-      debugIndex: 19
+      debugIndex: 17
       strings:
-      - '*yasuo2'
+      - EndScenario
       - 
       - 
       - 
@@ -3101,6 +3647,21 @@ MonoBehaviour:
     - rowIndex: 13
       debugIndex: 20
       strings:
+      - '*yasuo2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 21
+      strings:
       - 
       - 
       - 
@@ -3113,8 +3674,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 14
-      debugIndex: 21
+    - rowIndex: 15
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=251
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -3131,8 +3710,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 15
-      debugIndex: 22
+    - rowIndex: 17
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -3146,43 +3725,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 16
-      debugIndex: 26
-      strings:
-      - '*yasuo3'
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 17
-      debugIndex: 27
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5EB7\u75373"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 18
       debugIndex: 28
       strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
+      - '*yasuo3'
       - 
       - 
       - 
@@ -3197,7 +3743,6 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 29
       strings:
-      - EndScenario
       - 
       - 
       - 
@@ -3206,13 +3751,17 @@ MonoBehaviour:
       - 
       - 
       - 
+      - "\u5EB7\u75373"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
-      debugIndex: 32
+      debugIndex: 30
       strings:
-      - '*yasuo4'
+      - Param
+      - shichoFlg=252
+      - 
+      - 
       - 
       - 
       - 
@@ -3225,22 +3774,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 21
-      debugIndex: 33
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5EB7\u75374"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 22
-      debugIndex: 34
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -3257,8 +3791,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 35
+    - rowIndex: 22
+      debugIndex: 32
       strings:
       - EndScenario
       - 
@@ -3272,10 +3806,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 39
+    - rowIndex: 23
+      debugIndex: 35
       strings:
-      - '*yasuo5'
+      - '*yasuo4'
       - 
       - 
       - 
@@ -3284,12 +3818,29 @@ MonoBehaviour:
       - 
       - 
       - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5EB7\u75374"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
-      debugIndex: 40
+      debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=253
       - 
       - 
       - 
@@ -3298,12 +3849,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u75375"
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 26
-      debugIndex: 41
+      debugIndex: 38
       strings:
       - Param
       - KEnd=1
@@ -3321,7 +3873,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
-      debugIndex: 42
+      debugIndex: 39
       strings:
       - EndScenario
       - 
@@ -3336,9 +3888,9 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
-      debugIndex: 45
+      debugIndex: 43
       strings:
-      - '*yasuo6'
+      - '*yasuo5'
       - 
       - 
       - 
@@ -3351,7 +3903,7 @@ MonoBehaviour:
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 29
-      debugIndex: 46
+      debugIndex: 44
       strings:
       - 
       - 
@@ -3361,12 +3913,30 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u75376"
+      - "\u5EB7\u75375"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 30
-      debugIndex: 47
+      debugIndex: 45
+      strings:
+      - Param
+      - shichoFlg=254
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 46
       strings:
       - Param
       - KEnd=1
@@ -3383,8 +3953,89 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 48
+    - rowIndex: 32
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 50
+      strings:
+      - '*yasuo6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5EB7\u75376"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=255
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 53
+      strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -3400,7 +4051,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:yasuoK
     type: 1
-    textLength: 422
+    textLength: 530
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
     entityIndexTbl: 
@@ -8014,9 +8665,27 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - shichoFlg
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - shichoFlgD
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Param
     type: 1
-    textLength: 165
+    textLength: 192
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -8675,7 +9344,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=0
       - 
       - 
       - 
@@ -8692,7 +9361,10 @@ MonoBehaviour:
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -8707,6 +9379,7 @@ MonoBehaviour:
     - rowIndex: 17
       debugIndex: 17
       strings:
+      - EndScenario
       - 
       - 
       - 
@@ -8715,8 +9388,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 18
@@ -8737,6 +9409,21 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 19
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
       - '*naoko2'
       - 
       - 
@@ -8749,8 +9436,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 20
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - 
       - 
@@ -8764,8 +9451,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -8782,8 +9487,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -8795,36 +9500,6 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
@@ -8845,7 +9520,6 @@ MonoBehaviour:
     - rowIndex: 26
       debugIndex: 26
       strings:
-      - '*naoko3'
       - 
       - 
       - 
@@ -8854,7 +9528,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
@@ -8868,12 +9543,60 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u76F4\u5B503"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
       debugIndex: 28
+      strings:
+      - '*naoko3'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u76F4\u5B503"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Param
+      - shichoFlg=2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -8890,55 +9613,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 32
       debugIndex: 32
       strings:
-      - '*naoko4'
+      - EndScenario
       - 
       - 
       - 
@@ -8961,15 +9639,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u76F4\u5B504"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 34
       debugIndex: 34
       strings:
-      - Param
-      - KEnd=1
       - 
       - 
       - 
@@ -8979,14 +9655,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 0
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 35
       debugIndex: 35
       strings:
-      - EndScenario
+      - '*naoko4'
       - 
       - 
       - 
@@ -9009,13 +9684,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u76F4\u5B504"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 37
       debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=3
       - 
       - 
       - 
@@ -9025,12 +9702,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 38
       debugIndex: 38
       strings:
+      - Param
+      - KEnd=1
       - 
       - 
       - 
@@ -9040,13 +9720,14 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 39
       debugIndex: 39
       strings:
-      - '*naoko5'
+      - EndScenario
       - 
       - 
       - 
@@ -9069,45 +9750,12 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u76F4\u5B505"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 41
       debugIndex: 41
-      strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
       strings:
       - 
       - 
@@ -9119,6 +9767,36 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - '*naoko5'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 44
@@ -9132,14 +9810,17 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u76F4\u5B505"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 45
       debugIndex: 45
       strings:
-      - '*naoko6'
+      - Param
+      - shichoFlg=4
+      - 
+      - 
       - 
       - 
       - 
@@ -9154,6 +9835,84 @@ MonoBehaviour:
     - rowIndex: 46
       debugIndex: 46
       strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - '*naoko6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
       - 
       - 
       - 
@@ -9166,8 +9925,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 47
-      debugIndex: 47
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=5
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
       strings:
       - Param
       - KEnd=1
@@ -9184,8 +9961,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 48
-      debugIndex: 48
+    - rowIndex: 54
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -9201,7 +9978,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:naokoK
     type: 1
-    textLength: 422
+    textLength: 518
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -9437,7 +10214,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=50
       - 
       - 
       - 
@@ -9454,7 +10231,10 @@ MonoBehaviour:
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -9469,6 +10249,7 @@ MonoBehaviour:
     - rowIndex: 17
       debugIndex: 17
       strings:
+      - EndScenario
       - 
       - 
       - 
@@ -9477,8 +10258,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 18
@@ -9499,6 +10279,21 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 19
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
       - '*yasuko2'
       - 
       - 
@@ -9511,8 +10306,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 20
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - 
       - 
@@ -9526,8 +10321,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=51
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -9544,8 +10357,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -9557,36 +10370,6 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
@@ -9607,7 +10390,6 @@ MonoBehaviour:
     - rowIndex: 26
       debugIndex: 26
       strings:
-      - '*yasuko3'
       - 
       - 
       - 
@@ -9616,7 +10398,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
@@ -9630,12 +10413,60 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u5B503"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
       debugIndex: 28
+      strings:
+      - '*yasuko3'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5EB7\u5B503"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Param
+      - shichoFlg=52
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -9652,55 +10483,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 32
       debugIndex: 32
       strings:
-      - '*yasuko4'
+      - EndScenario
       - 
       - 
       - 
@@ -9723,15 +10509,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u5B504"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 34
       debugIndex: 34
       strings:
-      - Param
-      - KEnd=1
       - 
       - 
       - 
@@ -9741,14 +10525,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 0
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 35
       debugIndex: 35
       strings:
-      - EndScenario
+      - '*yasuko4'
       - 
       - 
       - 
@@ -9771,13 +10554,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u5EB7\u5B504"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 37
       debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=53
       - 
       - 
       - 
@@ -9787,12 +10572,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 38
       debugIndex: 38
       strings:
+      - Param
+      - KEnd=1
       - 
       - 
       - 
@@ -9802,13 +10590,14 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 39
       debugIndex: 39
       strings:
-      - '*yasuko5'
+      - EndScenario
       - 
       - 
       - 
@@ -9831,45 +10620,12 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u5B505"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 41
       debugIndex: 41
-      strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
       strings:
       - 
       - 
@@ -9881,6 +10637,36 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - '*yasuko5'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 44
@@ -9894,14 +10680,17 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u5EB7\u5B505"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 45
       debugIndex: 45
       strings:
-      - '*yasuko6'
+      - Param
+      - shichoFlg=54
+      - 
+      - 
       - 
       - 
       - 
@@ -9916,6 +10705,84 @@ MonoBehaviour:
     - rowIndex: 46
       debugIndex: 46
       strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - '*yasuko6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
       - 
       - 
       - 
@@ -9928,8 +10795,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 47
-      debugIndex: 47
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=55
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
       strings:
       - Param
       - KEnd=1
@@ -9946,8 +10831,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 48
-      debugIndex: 48
+    - rowIndex: 54
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -9963,7 +10848,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:yasukoK
     type: 1
-    textLength: 441
+    textLength: 543
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -10199,7 +11084,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=100
       - 
       - 
       - 
@@ -10216,7 +11101,10 @@ MonoBehaviour:
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -10231,6 +11119,7 @@ MonoBehaviour:
     - rowIndex: 17
       debugIndex: 17
       strings:
+      - EndScenario
       - 
       - 
       - 
@@ -10239,8 +11128,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 18
@@ -10261,6 +11149,21 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 19
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
       - '*yoshiko2'
       - 
       - 
@@ -10273,8 +11176,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 20
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - 
       - 
@@ -10288,8 +11191,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=101
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -10306,8 +11227,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -10319,36 +11240,6 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
@@ -10369,7 +11260,6 @@ MonoBehaviour:
     - rowIndex: 26
       debugIndex: 26
       strings:
-      - '*yoshiko3'
       - 
       - 
       - 
@@ -10378,7 +11268,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
@@ -10392,12 +11283,60 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5409\u5B503"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
       debugIndex: 28
+      strings:
+      - '*yoshiko3'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5409\u5B503"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Param
+      - shichoFlg=102
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -10414,55 +11353,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 32
       debugIndex: 32
       strings:
-      - '*yoshiko4'
+      - EndScenario
       - 
       - 
       - 
@@ -10485,15 +11379,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5409\u5B504"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 34
       debugIndex: 34
       strings:
-      - Param
-      - KEnd=1
       - 
       - 
       - 
@@ -10503,14 +11395,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 0
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 35
       debugIndex: 35
       strings:
-      - EndScenario
+      - '*yoshiko4'
       - 
       - 
       - 
@@ -10533,13 +11424,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u5409\u5B504"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 37
       debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=103
       - 
       - 
       - 
@@ -10549,12 +11442,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 38
       debugIndex: 38
       strings:
+      - Param
+      - KEnd=1
       - 
       - 
       - 
@@ -10564,13 +11460,14 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 39
       debugIndex: 39
       strings:
-      - '*yoshiko5'
+      - EndScenario
       - 
       - 
       - 
@@ -10593,45 +11490,12 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5409\u5B505"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 41
       debugIndex: 41
-      strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
       strings:
       - 
       - 
@@ -10643,6 +11507,36 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - '*yoshiko5'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 44
@@ -10656,14 +11550,17 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u5409\u5B505"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 45
       debugIndex: 45
       strings:
-      - '*yoshiko6'
+      - Param
+      - shichoFlg=104
+      - 
+      - 
       - 
       - 
       - 
@@ -10678,6 +11575,84 @@ MonoBehaviour:
     - rowIndex: 46
       debugIndex: 46
       strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - '*yoshiko6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
       - 
       - 
       - 
@@ -10690,8 +11665,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 47
-      debugIndex: 47
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=105
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
       strings:
       - Param
       - KEnd=1
@@ -10708,8 +11701,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 48
-      debugIndex: 48
+    - rowIndex: 54
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -10725,7 +11718,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:yoshikoK
     type: 1
-    textLength: 460
+    textLength: 568
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -10961,7 +11954,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=150
       - 
       - 
       - 
@@ -10978,7 +11971,10 @@ MonoBehaviour:
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -10993,6 +11989,7 @@ MonoBehaviour:
     - rowIndex: 17
       debugIndex: 17
       strings:
+      - EndScenario
       - 
       - 
       - 
@@ -11001,8 +11998,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 18
@@ -11023,6 +12019,21 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 19
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
       - '*hideta2'
       - 
       - 
@@ -11035,8 +12046,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 20
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - 
       - 
@@ -11050,8 +12061,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=151
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -11068,8 +12097,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -11081,36 +12110,6 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
@@ -11131,7 +12130,6 @@ MonoBehaviour:
     - rowIndex: 26
       debugIndex: 26
       strings:
-      - '*hideta3'
       - 
       - 
       - 
@@ -11140,7 +12138,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
@@ -11154,12 +12153,60 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u592A3"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
       debugIndex: 28
+      strings:
+      - '*hideta3'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u79C0\u592A3"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Param
+      - shichoFlg=152
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -11176,55 +12223,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 32
       debugIndex: 32
       strings:
-      - '*hideta4'
+      - EndScenario
       - 
       - 
       - 
@@ -11247,15 +12249,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u592A4"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 34
       debugIndex: 34
       strings:
-      - Param
-      - KEnd=1
       - 
       - 
       - 
@@ -11265,14 +12265,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 0
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 35
       debugIndex: 35
       strings:
-      - EndScenario
+      - '*hideta4'
       - 
       - 
       - 
@@ -11295,13 +12294,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u79C0\u592A4"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 37
       debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=153
       - 
       - 
       - 
@@ -11311,12 +12312,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 38
       debugIndex: 38
       strings:
+      - Param
+      - KEnd=1
       - 
       - 
       - 
@@ -11326,13 +12330,14 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 39
       debugIndex: 39
       strings:
-      - '*hideta5'
+      - EndScenario
       - 
       - 
       - 
@@ -11355,45 +12360,12 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u592A5"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 41
       debugIndex: 41
-      strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
       strings:
       - 
       - 
@@ -11405,6 +12377,36 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - '*hideta5'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 44
@@ -11418,14 +12420,17 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u79C0\u592A5"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 45
       debugIndex: 45
       strings:
-      - '*hideta6'
+      - Param
+      - shichoFlg=154
+      - 
+      - 
       - 
       - 
       - 
@@ -11440,6 +12445,84 @@ MonoBehaviour:
     - rowIndex: 46
       debugIndex: 46
       strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - '*hideta6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
       - 
       - 
       - 
@@ -11452,8 +12535,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 47
-      debugIndex: 47
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=155
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
       strings:
       - Param
       - KEnd=1
@@ -11470,10 +12571,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 48
-      debugIndex: 48
+    - rowIndex: 54
+      debugIndex: 54
       strings:
       - EndScenario
+      - 
+      - 
+      - 
       - 
       - 
       - 
@@ -11487,7 +12591,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:hidetaK
     type: 1
-    textLength: 441
+    textLength: 549
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -11723,7 +12827,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=200
       - 
       - 
       - 
@@ -11740,7 +12844,10 @@ MonoBehaviour:
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -11755,6 +12862,7 @@ MonoBehaviour:
     - rowIndex: 17
       debugIndex: 17
       strings:
+      - EndScenario
       - 
       - 
       - 
@@ -11763,8 +12871,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 18
@@ -11785,6 +12892,21 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 19
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
       - '*hideya2'
       - 
       - 
@@ -11797,8 +12919,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 20
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - 
       - 
@@ -11812,8 +12934,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=201
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -11830,8 +12970,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -11843,36 +12983,6 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
@@ -11893,7 +13003,6 @@ MonoBehaviour:
     - rowIndex: 26
       debugIndex: 26
       strings:
-      - '*hideya3'
       - 
       - 
       - 
@@ -11902,7 +13011,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
@@ -11916,12 +13026,60 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u4E5F3"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
       debugIndex: 28
+      strings:
+      - '*hideya3'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u79C0\u4E5F3"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Param
+      - shichoFlg=202
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -11938,55 +13096,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 32
       debugIndex: 32
       strings:
-      - '*hideya4'
+      - EndScenario
       - 
       - 
       - 
@@ -12009,15 +13122,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u4E5F4"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 34
       debugIndex: 34
       strings:
-      - Param
-      - KEnd=1
       - 
       - 
       - 
@@ -12027,14 +13138,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 0
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 35
       debugIndex: 35
       strings:
-      - EndScenario
+      - '*hideya4'
       - 
       - 
       - 
@@ -12057,13 +13167,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u79C0\u4E5F4"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 37
       debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=203
       - 
       - 
       - 
@@ -12073,12 +13185,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 38
       debugIndex: 38
       strings:
+      - Param
+      - KEnd=1
       - 
       - 
       - 
@@ -12088,13 +13203,14 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 39
       debugIndex: 39
       strings:
-      - '*hideya5'
+      - EndScenario
       - 
       - 
       - 
@@ -12117,45 +13233,12 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u79C0\u4E5F5"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 41
       debugIndex: 41
-      strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
       strings:
       - 
       - 
@@ -12167,6 +13250,36 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - '*hideya5'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 44
@@ -12180,14 +13293,17 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u79C0\u4E5F5"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 45
       debugIndex: 45
       strings:
-      - '*hideya6'
+      - Param
+      - shichoFlg=204
+      - 
+      - 
       - 
       - 
       - 
@@ -12202,6 +13318,84 @@ MonoBehaviour:
     - rowIndex: 46
       debugIndex: 46
       strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - '*hideya6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
       - 
       - 
       - 
@@ -12214,8 +13408,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 47
-      debugIndex: 47
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=205
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
       strings:
       - Param
       - KEnd=1
@@ -12232,8 +13444,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 48
-      debugIndex: 48
+    - rowIndex: 54
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -12249,7 +13461,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:hideyaK
     type: 1
-    textLength: 441
+    textLength: 549
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -12485,7 +13697,7 @@ MonoBehaviour:
       debugIndex: 15
       strings:
       - Param
-      - KEnd=1
+      - shichoFlg=250
       - 
       - 
       - 
@@ -12502,7 +13714,10 @@ MonoBehaviour:
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - EndScenario
+      - Param
+      - KEnd=1
+      - 
+      - 
       - 
       - 
       - 
@@ -12517,6 +13732,7 @@ MonoBehaviour:
     - rowIndex: 17
       debugIndex: 17
       strings:
+      - EndScenario
       - 
       - 
       - 
@@ -12525,8 +13741,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 18
@@ -12547,6 +13762,21 @@ MonoBehaviour:
     - rowIndex: 19
       debugIndex: 19
       strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
       - '*yasuo2'
       - 
       - 
@@ -12559,8 +13789,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 20
-      debugIndex: 20
+    - rowIndex: 21
+      debugIndex: 21
       strings:
       - 
       - 
@@ -12574,8 +13804,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 21
-      debugIndex: 21
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - Param
+      - shichoFlg=251
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
       strings:
       - Param
       - KEnd=1
@@ -12592,8 +13840,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 24
+      debugIndex: 24
       strings:
       - EndScenario
       - 
@@ -12605,36 +13853,6 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 25
@@ -12655,7 +13873,6 @@ MonoBehaviour:
     - rowIndex: 26
       debugIndex: 26
       strings:
-      - '*yasuo3'
       - 
       - 
       - 
@@ -12664,7 +13881,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 27
@@ -12678,12 +13896,60 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u75373"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 28
       debugIndex: 28
+      strings:
+      - '*yasuo3'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5EB7\u75373"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Param
+      - shichoFlg=252
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - Param
       - KEnd=1
@@ -12700,55 +13966,10 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
-      strings:
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 1
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 32
       debugIndex: 32
       strings:
-      - '*yasuo4'
+      - EndScenario
       - 
       - 
       - 
@@ -12771,15 +13992,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u75374"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 34
       debugIndex: 34
       strings:
-      - Param
-      - KEnd=1
       - 
       - 
       - 
@@ -12789,14 +14008,13 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 0
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 35
       debugIndex: 35
       strings:
-      - EndScenario
+      - '*yasuo4'
       - 
       - 
       - 
@@ -12819,13 +14037,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u5EB7\u75374"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 37
       debugIndex: 37
       strings:
+      - Param
+      - shichoFlg=253
       - 
       - 
       - 
@@ -12835,12 +14055,15 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 38
       debugIndex: 38
       strings:
+      - Param
+      - KEnd=1
       - 
       - 
       - 
@@ -12850,13 +14073,14 @@ MonoBehaviour:
       - 
       - 
       - 
-      isEmpty: 1
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 39
       debugIndex: 39
       strings:
-      - '*yasuo5'
+      - EndScenario
       - 
       - 
       - 
@@ -12879,45 +14103,12 @@ MonoBehaviour:
       - 
       - 
       - 
-      - "\u5EB7\u75375"
-      isEmpty: 0
+      - 
+      isEmpty: 1
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 41
       debugIndex: 41
-      strings:
-      - Param
-      - KEnd=1
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - EndScenario
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
       strings:
       - 
       - 
@@ -12929,6 +14120,36 @@ MonoBehaviour:
       - 
       - 
       isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - '*yasuo5'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 44
@@ -12942,14 +14163,17 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
-      isEmpty: 1
+      - "\u5EB7\u75375"
+      isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 45
       debugIndex: 45
       strings:
-      - '*yasuo6'
+      - Param
+      - shichoFlg=254
+      - 
+      - 
       - 
       - 
       - 
@@ -12964,6 +14188,84 @@ MonoBehaviour:
     - rowIndex: 46
       debugIndex: 46
       strings:
+      - Param
+      - KEnd=1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - '*yasuo6'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
       - 
       - 
       - 
@@ -12976,8 +14278,26 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 47
-      debugIndex: 47
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - Param
+      - shichoFlg=255
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
       strings:
       - Param
       - KEnd=1
@@ -12994,8 +14314,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 48
-      debugIndex: 48
+    - rowIndex: 54
+      debugIndex: 54
       strings:
       - EndScenario
       - 
@@ -13011,7 +14331,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:yasuoK
     type: 1
-    textLength: 422
+    textLength: 530
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:

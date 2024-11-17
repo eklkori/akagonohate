@@ -45,14 +45,14 @@ public class CTask : MonoBehaviour
     /// <summary>
     /// タスクの総数を格納※併せてAkagonohateData.tasseiFlgXの値も編集する必要あり
     /// </summary>
-    [SerializeField] int countN;
-    [SerializeField] int countS;
-    [SerializeField] int countE;
+    [SerializeField] int countN;  //タスクの数(日課)
+    [SerializeField] int countS;  //タスクの数(週間)
+    [SerializeField] int countE;  //タスクの数(イベント)
     void Start()
     {
         //テスト用処理START
-        AkagonohateData.tasseiFlgN[0] = 1;
-        AkagonohateData.tasseiFlgN[1] = 1;
+        //AkagonohateData.tasseiFlgN[0] = 1;
+        //AkagonohateData.tasseiFlgN[1] = 1;
         //テスト用処理END
 
         showNikka();
@@ -151,20 +151,38 @@ public class CTask : MonoBehaviour
                 case 3: tmpList.Add(events[i]); break;
             }
         }
+
         //ソート
+        //エラー：tmpList.Sort((obj1, obj2) => string.Compare(AkagonohateData.tasseiFlgN[int.Parse(obj1.name)].ToString(), AkagonohateData.tasseiFlgN[int.Parse(obj2.name)].ToString()));
+        for (int i = 0; i < 6; i++) {
+            Debug.Log(tmpList[i]);
+        }
 
-
+        //Listの中身を配列に戻す
+        for (int i = 0; i < kensu; i++)
+        {
+            switch (hyoujiTask)
+            {
+                case 1: nikkas[i] = tmpList[i]; break;
+                case 2: syukans[i] = tmpList[i]; break;
+                case 3: events[i] = tmpList[i]; break;
+            }
+        }
     }
 
     /// <summary>
-    /// 獲得ボタン押下時の処理
-    /// ※hosyu：貰えるアイテムの個数
+    /// 獲得ボタン押下時の処理①
     /// ※num：十の位＝ボタンNo(0スタート)、一の位＝アイテムフラグ(=AkagonohateData.itemSyojisu)
     /// </summary>
     public void item(int num) {
         itemFlg = num % 10;
         btnNo = num / 10;
     }
+
+    /// <summary>
+    /// 獲得ボタン押下時の処理②
+    /// ※hosyu：貰えるアイテムの個数
+    /// </summary>
     public void pushBtn(string hosyu) {
         //ポップアップ表示
         kakutokuPopup.SetActive(true);

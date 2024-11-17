@@ -14,6 +14,9 @@ public class GoHome : MonoBehaviour
 
     public AdvEngine engine;
 
+    [SerializeField] int shichoFlg = -1; //視聴フラグ(会話)
+    [SerializeField] int shichoFlgD = -1;　//視聴フラグ(デート)
+
     private void Start()
     {
         popUp.SetActive(false);
@@ -29,6 +32,8 @@ public class GoHome : MonoBehaviour
         int BEnd = engine.Param.GetParameterInt("BEnd");　//物資調達チュートリアル
         int KEnd = engine.Param.GetParameterInt("KEnd");　//会話
         int DEnd = engine.Param.GetParameterInt("DEnd");　//デート
+        shichoFlg = engine.Param.GetParameterInt("shichoFlg");　//視聴フラグ(会話)
+        shichoFlgD = engine.Param.GetParameterInt("shichoFlgD");　//視聴フラグ(デート)
         //Debug.Log(TEnd);
         if (TEnd==1)
         {
@@ -63,6 +68,16 @@ public class GoHome : MonoBehaviour
                     SceneManager.LoadScene("06Tansaku");
                 }
             }
+        }
+
+        //視聴フラグ上書き
+        if (shichoFlg != -1)
+        {
+            AkagonohateData.kaiwaShichoFlg[shichoFlg] = 1;
+        }
+        else if (shichoFlgD != -1)
+        {
+            AkagonohateData.dateShichoFlg[shichoFlgD] = 1;
         }
     }
 

@@ -334,6 +334,12 @@ public class goRunway : MonoBehaviour
         for (int i = 0; i < 6; i++) {
             AkagonohateData.KItem[0] += AkagonohateData.KdatePt[i];
         }
+        //獲得後の銭総額が9999999(上限)を超える場合、減算
+        if (AkagonohateData.itemSyojisu[0] + AkagonohateData.KItem[0] > 9999999) {
+            AkagonohateData.KItem[0] = 9999999 - AkagonohateData.itemSyojisu[0];
+        }
+        //所持銭に加算
+        AkagonohateData.itemSyojisu[0] += AkagonohateData.KItem[0];
 
         //人足ボーナス値(人足によって割り増しされたデートPtの合計値)の上書き
         AkagonohateData.KItem[3] = moTMP;

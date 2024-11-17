@@ -41,7 +41,7 @@ public class AkagonohateData : ScriptableObject
     public static int[] kimata = new int[6];  //各キャラの木俣への想いを格納(高：1、中：2、低：3)
     public static int[] KSyokaiFlg = new int[6];        //基本0　1日の最初の会話時のみ1を格納(キャラごと)
     public static int[] kaiwaShichoFlg = new int[300];//*会話視聴済みフラグ(1が視聴済み)1キャラにつき50ずつで区切る
-    public static int[] dateShichoFlg = new int[120];//*デート視聴済みフラグ(1が視聴済み)1キャラにつき10ずつで区切る
+    public static int[] dateShichoFlg = new int[600];//*デート視聴済みフラグ(1が視聴済み)1キャラにつき20ずつで区切る ※200番台以降：分岐A視聴フラグ、400番台以降：分岐B視聴フラグ
     //ランウェイ関連//
     public static int moZen = 2;               //前回ランウェイ時に設定したもぎりの数
     public static int yuZen = 1;               //前回ランウェイ時に設定した誘導員の数

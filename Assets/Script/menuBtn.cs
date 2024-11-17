@@ -41,6 +41,9 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject giftBtnSumi;
     [SerializeField] GameObject giftBtnMi;
     [SerializeField] GameObject giftBase;
+    [SerializeField] GameObject giftItems;
+    [SerializeField] GameObject giftMis;
+    [SerializeField] GameObject giftSumis;
     //çgãSÇÃâ 
     [SerializeField] GameObject akaoninohate;
     [SerializeField] GameObject yondemiru;
@@ -261,6 +264,9 @@ public class menuBtn : MonoBehaviour
         batsu.SetActive(true);
         titleText.SetActive(true);
         giftBtnBase.SetActive(true);
+        giftMis.SetActive(true);
+        giftSumis.SetActive(false);
+        giftItems.SetActive(true);
         giftBtnSumi.SetActive(true);
         giftBtnMi.SetActive(false);
         haikei.SetActive(true);
@@ -276,7 +282,8 @@ public class menuBtn : MonoBehaviour
         giftBtnBase.SetActive(true);
         giftBtnSumi.SetActive(false);
         giftBtnMi.SetActive(true);
-        ScrollGifts.SetActive(true);
+        giftMis.SetActive(false);
+        giftSumis.SetActive(true);
     }
 
     /// <summary>
@@ -372,7 +379,7 @@ public class menuBtn : MonoBehaviour
         kaginotsuikaAll.SetActive(false);
         serialBtn.SetActive(false);
         ScrollIsyou.SetActive(false);
-        ScrollGifts.SetActive(false);
+        giftItems.SetActive(false);
     }
 
     /// <summary>
