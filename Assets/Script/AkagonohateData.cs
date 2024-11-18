@@ -22,6 +22,10 @@ public class AkagonohateData : ScriptableObject
     public static float SS = 10;                  //鍵追加までのカウント(秒)
     public static int partnerNo = 13;            //ホーム画面でパートナー設定しているキャラの衣装Noを格納
     public static int eventFlg = 0;            //イベント中は1にするフラグ　イベント中か否かを判断
+    public static DateTime[] loginRireki = new DateTime[3];  //*ログイン日時の履歴を保管(0：1日の最初にログイン（ホーム画面に遷移）した時間、1：ゲーム稼働中は常に更新し続ける)
+    public static int[] giftFlg = new int[10];  //プレゼント受け取り可否を判断するフラグ 配列0番目がログインボーナス　1：未達成、0：達成(受け取り可能)、2：獲得済み
+    public static DateTime[] uketoriKigen = new DateTime[10];  //*プレゼント受け取り期限を保管
+    public static DateTime[] uketoriRireki = new DateTime[10];  //*プレゼント受け取り履歴を保管
     //ステータス系
     public static int[] datePt = new int[6];   //*キャラごとのデートPtを保管
     public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納(一時的)
