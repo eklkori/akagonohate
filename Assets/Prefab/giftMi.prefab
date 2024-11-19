@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 280.31073, y: -200.73785}
+  m_AnchoredPosition: {x: 280.31073, y: -101.33582}
   m_SizeDelta: {x: 145.5971, y: 76.7272}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2255037276132944528
@@ -154,7 +154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 765.14343, y: -174.26}
+  m_AnchoredPosition: {x: 765.14343, y: -74.85796}
   m_SizeDelta: {x: 673.0372, y: 85.578}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6479714475763682198
@@ -233,7 +233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 189, y: -111}
+  m_AnchoredPosition: {x: 189, y: -11.597969}
   m_SizeDelta: {x: 190.3286, y: 84.9158}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1319896723043707771
@@ -308,7 +308,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 792.0872, y: -125.40204}
+  m_AnchoredPosition: {x: 792.0872, y: -26}
   m_SizeDelta: {x: 1584.1748, y: 275.3124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6808298080264916840
@@ -383,7 +383,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 846, y: -83}
+  m_AnchoredPosition: {x: 846, y: 16.40203}
   m_SizeDelta: {x: 877.6224, y: 116.9456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5951506584704884986
@@ -463,7 +463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1409.7, y: -125.4}
+  m_AnchoredPosition: {x: 1409.7, y: -25.99797}
   m_SizeDelta: {x: 249.72, y: 224.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &217367345142724587

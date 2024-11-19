@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -50,6 +52,15 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject[] giftSumi;//プレゼント(獲得済み)のオブジェクト(長さ≒現在用意しているプレゼントの総数)
     [SerializeField] Text[] giftKigenMi;  //プレゼント(未獲得)受け取り期限(長さ≒現在用意しているプレゼントの総数)
     [SerializeField] Text[] giftKigenSumi;//プレゼント(獲得済み)受取日履歴(長さ≒現在用意しているプレゼントの総数)
+    [SerializeField] GameObject tuchi;　//通知の赤丸
+    [SerializeField] GameObject[] arimasenT; //ありませんテキスト(0：未獲得、1；獲得履歴)
+
+    [SerializeField] GameObject childObjectPrefab;
+    [SerializeField] Transform parent;
+    [SerializeField] GameObject itemPrefab;
+    [SerializeField] Text kazuPrefab;
+    [SerializeField] Text titlePrefab;
+    [SerializeField] Text rirekiPrefab;
     //紅鬼の果
     [SerializeField] GameObject akaoninohate;
     [SerializeField] GameObject yondemiru;
@@ -92,6 +103,11 @@ public class menuBtn : MonoBehaviour
     /// </summary>
     int kaifukusu = 1;
 
+    /// <summary>
+    /// プレゼント右上の赤丸通知を制御するフラグ
+    /// </summary>
+    int hyoujiFlg = 0;
+
     //日付取得
     DateTime localDate = DateTime.Now;
     DateTime today;
@@ -111,6 +127,15 @@ public class menuBtn : MonoBehaviour
             AkagonohateData.giftFlg[0] = 0;
         }
         cGift();
+        //プレゼントの赤丸通知制御
+        if (hyoujiFlg != 0)
+        {
+            tuchi.SetActive(true);
+        }
+        else
+        {
+            tuchi.SetActive(false);
+        }
     }
 
     //-----表示系-----
@@ -311,6 +336,42 @@ public class menuBtn : MonoBehaviour
         giftBtnMi.SetActive(true);
         giftMis.SetActive(false);
         giftSumis.SetActive(true);
+
+        //履歴表示の制御
+        //※30日前までの履歴を保管
+        TimeSpan month30 = new TimeSpan(0, 30, 0, 0);
+        DateTime kijyunbi = today - month30;
+        int count = AkagonohateData.giftTitle.Count;
+        for (int i = 0; i < count; i++)
+        {
+            if (AkagonohateData.giftTime[i] >= kijyunbi)
+            {
+                //基準日(30日前)より後に受け取ったプレゼントであれば表示
+                Instantiate(childObjectPrefab, new Vector3(50, -150, 0), Quaternion.identity, parent);
+
+                //獲得数の上書き
+                Text kazu = Instantiate(kazuPrefab);
+                kazu.text = "×"+(AkagonohateData.giftKosu[i] / 10).ToString();
+
+                //プレゼント名の上書き
+                Text title = Instantiate(titlePrefab);
+                title.text = AkagonohateData.giftTitle[i];
+
+                //獲得日の上書き
+                Text time = Instantiate(rirekiPrefab);
+                int year = AkagonohateData.giftTime[i].Year;
+                int month = AkagonohateData.giftTime[i].Month;
+                int day = AkagonohateData.giftTime[i].Day;
+                title.text = "獲得日：" + year + "/" + month + "/" + day;
+            }
+            else
+            {
+                //基準日(30日前)より前に受け取ったプレゼントであればデータを削除
+                AkagonohateData.giftTime.Remove(AkagonohateData.giftTime[i]);
+                AkagonohateData.giftTitle.Remove(AkagonohateData.giftTitle[i]);
+                AkagonohateData.giftKosu.Remove(AkagonohateData.giftKosu[i]);
+            }
+        }
     }
 
     /// <summary>
@@ -593,7 +654,9 @@ public class menuBtn : MonoBehaviour
     /// プレゼント表示
     /// </summary>
     public void cGift() {
-        int hyoujiFlg = 0;
+        //通知アイコンの初期化
+        tuchi.SetActive(false);
+
         //全プレゼント表示の初期化
         for (int i = 0; i < 10; i++)
         {
@@ -607,7 +670,10 @@ public class menuBtn : MonoBehaviour
             giftMi[0].SetActive(true);
 
             //獲得期限の上書き(今日中)
-            giftKigenMi[0].text = "獲得期限："+today.Date;
+            int year = today.Year;
+            int month = today.Month;
+            int day = today.Day;
+            giftKigenMi[0].text = "獲得期限："+ year + "/" + month + "/" + day;
             hyoujiFlg++;
         }
 
@@ -623,34 +689,36 @@ public class menuBtn : MonoBehaviour
         //不具合のお詫び③　(giftFlg：3番目)　//不具合が多重に発生したとき用
         //イベント参加記念プレゼント　(giftFlg：4番目)
         //紅鬼の果最新話公開記念プレゼント　(giftFlg：5番目)
-        //紅鬼の果最新話公開記念プレゼント　(giftFlg：6番目)
-        fuyobi[1] = new DateTime(2024, 11, 17, 0, 0, 0);
-        fuyobi[2] = new DateTime(2024, 11, 18, 0, 0, 0);
-        fuyobi[3] = new DateTime(2024, 11, 19, 0, 0, 0);
-        fuyobi[4] = new DateTime(2024, 11, 20, 0, 0, 0);
+        //未定　(giftFlg：6～9番目)
+        fuyobi[1] = new DateTime(2024, 11, 10, 0, 0, 0);
+        fuyobi[2] = new DateTime(2024, 11, 11, 0, 0, 0);
+        fuyobi[3] = new DateTime(2024, 11, 12, 0, 0, 0);
+        fuyobi[4] = new DateTime(2024, 11, 13, 0, 0, 0);
         fuyobi[5] = new DateTime(2024, 11, 19, 0, 0, 0);
         fuyobi[6] = new DateTime(2024, 11, 19, 0, 0, 0);
-        fuyobi[7] = new DateTime(2024, 11, 19, 0, 0, 0);
+        fuyobi[7] = new DateTime(2024, 10, 19, 0, 0, 0);
         fuyobi[8] = new DateTime(2024, 11, 19, 0, 0, 0);
         fuyobi[9] = new DateTime(2024, 11, 19, 0, 0, 0);
 
-        for (int i = 1; i < 9; i++)
+        for (int i = 1; i < 10; i++)
         {
-            if (AkagonohateData.giftFlg[1] == 0)
+            if (AkagonohateData.giftFlg[i] == 0)
             {
                 //プレゼント表示
                 giftMi[i].SetActive(true);
 
                 //獲得期限の上書き(1週間くらい？)
                 //プレゼント付与開始日
-                if (AkagonohateData.uketoriKigen[i] == null || AkagonohateData.uketoriKigen[1] < fuyobi[i])
+                if (AkagonohateData.uketoriKigen[i] == null || AkagonohateData.uketoriKigen[i] < fuyobi[i])
                 {
+                    Debug.Log(i);
+                    Debug.Log(AkagonohateData.uketoriKigen[i]);
                     AkagonohateData.uketoriKigen[i] = fuyobi[i].Date + week;
                     //受け取り期限を過ぎていたら非表示にする
-                    if (AkagonohateData.uketoriKigen[i] >= today)
+                    if (AkagonohateData.uketoriKigen[i].Date >= today.Date)
                     {
                         //受け取り期限内の場合
-                         int year = AkagonohateData.uketoriKigen[i].Year;
+                        int year = AkagonohateData.uketoriKigen[i].Year;
                         int month = AkagonohateData.uketoriKigen[i].Month;
                         int day = AkagonohateData.uketoriKigen[i].Day;
                         giftKigenMi[i].text = "獲得期限：" + year + "/" + month + "/" + day;
@@ -664,13 +732,55 @@ public class menuBtn : MonoBehaviour
                 }
             }
         }
+        //赤丸通知表示非表示判定
+        if (hyoujiFlg != 0)
+        {
+            tuchi.SetActive(true);
+        }
+        else
+        {
+            tuchi.SetActive(false);
+        }
     }
 
     /// <summary>
-    /// プレゼント獲得ボタン押下時の処理
+    /// プレゼント獲得ボタン押下時の処理① ※引数：獲得数(上n桁)＋アイテム種類(下1桁)
     /// </summary>
-    public void giftKakutoku() {
+    public void giftKakutoku1(int giftNo) {
+        //引数の下1桁で商品画像(種類)を判別
+        int itemIMG = giftNo % 10;
 
+        //引数の上n桁で購入数を判別
+        int itemKosu = giftNo / 10;
+
+        //履歴をリストに格納　※タイトルは下のメソッドで追加(ボタン押下時の引数にタイトル名を指定)
+        AkagonohateData.giftKosu.Add(giftNo);
+        AkagonohateData.giftTime.Add(today);
+
+        //ポップアップ表示処理に飛ばす
+        konyu(giftNo);
+    }
+
+    /// <summary>
+    /// プレゼント獲得ボタン押下時の処理② ※引数：プレゼント通し番号(0～9)+プレゼント名
+    /// </summary>
+    /// <param name="title"></param>
+    public void giftKakutoku2(string title)
+    {
+        //タイトルの最初の1文字(プレゼント通し番号数字)を切り分け
+        int giftNo = int.Parse(title.Substring(0, 1));
+
+        //タイトルから通し番号を削除
+        string titleAfter = title.Remove(0, 1);
+
+        //ギフトフラグの書き換え(0→2)
+        AkagonohateData.giftFlg[giftNo] = 2;
+
+        //履歴をリストに格納　※タイトルのみ
+        AkagonohateData.giftTitle.Add(title);
+
+        //プレゼント受け取りポップアップ表示の更新
+        cGift();
     }
 
     //以下、鍵の追加メニュー関連

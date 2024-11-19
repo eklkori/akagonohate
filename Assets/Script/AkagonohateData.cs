@@ -26,6 +26,9 @@ public class AkagonohateData : ScriptableObject
     public static int[] giftFlg = new int[10];  //プレゼント受け取り可否を判断するフラグ 配列0番目がログインボーナス　1：未達成、0：達成(受け取り可能)、2：獲得済み
     public static DateTime[] uketoriKigen = new DateTime[10];  //*プレゼント受け取り期限を保管
     public static DateTime[] uketoriRireki = new DateTime[10];  //*プレゼント受け取り履歴を保管
+    public static System.Collections.Generic.List<string> giftTitle = new List<string>();  //受け取ったプレゼントのタイトルを保管
+    public static System.Collections.Generic.List<int> giftKosu = new List<int>();  //受け取ったプレゼントの個数と種類を保管
+    public static System.Collections.Generic.List<DateTime> giftTime = new List<DateTime>();  //受け取ったプレゼントの受け取り日時を保管
     //ステータス系
     public static int[] datePt = new int[6];   //*キャラごとのデートPtを保管
     public static int[] KdatePt = new int[6];　//*(ランウェイ等で)獲得したデートPtを格納(一時的)
