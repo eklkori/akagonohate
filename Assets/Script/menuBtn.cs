@@ -57,7 +57,11 @@ public class menuBtn : MonoBehaviour
 
     [SerializeField] GameObject childObjectPrefab;
     [SerializeField] Transform parent;
+    [SerializeField] Transform childObjectP;
     [SerializeField] GameObject itemPrefab;
+    [SerializeField] GameObject kazuP;
+    [SerializeField] GameObject titleP;
+    [SerializeField] GameObject rirekiP;
     [SerializeField] Text kazuPrefab;
     [SerializeField] Text titlePrefab;
     [SerializeField] Text rirekiPrefab;
@@ -324,6 +328,8 @@ public class menuBtn : MonoBehaviour
         haikei.SetActive(true);
         popupBase.SetActive(true);
         titleTextT.text = "プ　レ　ゼ　ン　ト";
+
+        cGift();
     }
 
     /// <summary>
@@ -342,12 +348,16 @@ public class menuBtn : MonoBehaviour
         TimeSpan month30 = new TimeSpan(0, 30, 0, 0);
         DateTime kijyunbi = today - month30;
         int count = AkagonohateData.giftTitle.Count;
+        int num = 0;
         for (int i = 0; i < count; i++)
         {
             if (AkagonohateData.giftTime[i] >= kijyunbi)
             {
                 //基準日(30日前)より後に受け取ったプレゼントであれば表示
                 Instantiate(childObjectPrefab, new Vector3(50, -150, 0), Quaternion.identity, parent);
+                Instantiate(kazuP, new Vector3(280, -90, 0), Quaternion.identity, parent);
+                Instantiate(titleP, new Vector3(846, 27, 0), Quaternion.identity, parent);
+                Instantiate(rirekiP, new Vector3(765, -65, 0), Quaternion.identity, parent);
 
                 //獲得数の上書き
                 Text kazu = Instantiate(kazuPrefab);
@@ -363,6 +373,8 @@ public class menuBtn : MonoBehaviour
                 int month = AkagonohateData.giftTime[i].Month;
                 int day = AkagonohateData.giftTime[i].Day;
                 title.text = "獲得日：" + year + "/" + month + "/" + day;
+
+                num++;
             }
             else
             {
@@ -371,6 +383,16 @@ public class menuBtn : MonoBehaviour
                 AkagonohateData.giftTitle.Remove(AkagonohateData.giftTitle[i]);
                 AkagonohateData.giftKosu.Remove(AkagonohateData.giftKosu[i]);
             }
+        }
+
+        //ありませんテキストの表示制御
+        if (num == 0)
+        {
+            arimasenT[1].SetActive(true);
+        }
+        else
+        {
+            arimasenT[1].SetActive(false);
         }
     }
 
@@ -654,8 +676,9 @@ public class menuBtn : MonoBehaviour
     /// プレゼント表示
     /// </summary>
     public void cGift() {
-        //通知アイコンの初期化
+        //通知アイコン・ありませんテキストの初期化
         tuchi.SetActive(false);
+        arimasenT[0].SetActive(false);
 
         //全プレゼント表示の初期化
         for (int i = 0; i < 10; i++)
@@ -732,7 +755,7 @@ public class menuBtn : MonoBehaviour
                 }
             }
         }
-        //赤丸通知表示非表示判定
+        //赤丸通知・ありませんテキスト表示非表示判定
         if (hyoujiFlg != 0)
         {
             tuchi.SetActive(true);
@@ -740,6 +763,7 @@ public class menuBtn : MonoBehaviour
         else
         {
             tuchi.SetActive(false);
+            arimasenT[0].SetActive(true);
         }
     }
 

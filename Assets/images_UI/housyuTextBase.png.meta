@@ -157,7 +157,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -1037,14 +1037,52 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      housyuTextBase_0: -1024505540239375564
+      housyuTextBase_1: -1835435657315698347
+      housyuTextBase_10: 2518924989602303132
+      housyuTextBase_11: 2643660218495561884
+      housyuTextBase_12: -5388333589155075281
+      housyuTextBase_13: -7103074257858952475
+      housyuTextBase_14: 8738461782508408302
+      housyuTextBase_15: -2730122544947750149
+      housyuTextBase_16: -3971052151258820327
+      housyuTextBase_17: -5700028924669140172
+      housyuTextBase_18: -3814284820655017018
+      housyuTextBase_19: 7808410348241111853
+      housyuTextBase_2: -2945716337486679422
+      housyuTextBase_20: 1306089980023274054
+      housyuTextBase_21: -3790530476928398261
+      housyuTextBase_22: 6881011788277881186
+      housyuTextBase_23: -2970004630514451167
+      housyuTextBase_24: -8017654615776185285
+      housyuTextBase_25: -4226788422454734061
+      housyuTextBase_26: -1406368558497118679
+      housyuTextBase_27: -8380168871127279930
+      housyuTextBase_28: 7109016938409334557
+      housyuTextBase_29: -5627376086528303857
+      housyuTextBase_3: -705261225240568654
+      housyuTextBase_30: 1348441147992582376
+      housyuTextBase_31: 8104599895834079241
+      housyuTextBase_32: 3879838873607875021
+      housyuTextBase_33: -1422700573886883113
+      housyuTextBase_34: -7443852585444047988
+      housyuTextBase_35: -3753575071744243400
+      housyuTextBase_36: -7036152875178887342
+      housyuTextBase_37: -6942330912860625862
+      housyuTextBase_4: -7586147269824200707
+      housyuTextBase_5: 6166243023043824921
+      housyuTextBase_6: -1493566768371962913
+      housyuTextBase_7: 694061199110018259
+      housyuTextBase_8: 5366335473383356746
+      housyuTextBase_9: -5033609392064407386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

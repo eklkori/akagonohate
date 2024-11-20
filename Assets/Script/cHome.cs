@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static Unity.Burst.Intrinsics.X86.Avx;
 
@@ -20,6 +21,9 @@ public class cHome : MonoBehaviour
     //選択中枠
     [SerializeField] GameObject[] sentakuchu;
 
+    //イベント遷移用ボタン
+    [SerializeField] GameObject eventBtn;
+
     //日付取得
     DateTime localDate = DateTime.Now;
     DateTime today;
@@ -27,12 +31,23 @@ public class cHome : MonoBehaviour
     void Start()
     {
         //テスト用処理START
+        AkagonohateData.eventFlg = 1;
         for (int i = 0; i < 6; i++)//タスク(イベント)の数だけforで回す
         {
             AkagonohateData.tasseiFlgE[i] = 1;
         }
         //テスト用処理END
         today = localDate.Date;
+
+        //イベント開催中ボタンの表示制御
+        if (AkagonohateData.eventFlg == 1)
+        {
+            eventBtn.SetActive(true);
+        }
+        else
+        {
+            eventBtn.SetActive(false);
+        }
 
         //パートナー(ホーム画面立ち絵)初期表示
         int kyaraNo = AkagonohateData.partnerNo;
@@ -302,6 +317,14 @@ public class cHome : MonoBehaviour
         }
         //サイズ変更(被り物などで個別設定が必要になる場合があればここに記載)
 
+    }
+
+    /// <summary>
+    /// イベント時限定イベントボタンが押されたときの処理
+    /// </summary>
+    public void pushEventBtn()
+    {
+        SceneManager.LoadScene("20Event");
     }
     void Update()
     {

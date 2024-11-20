@@ -62,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/19Task.unity
     guid: 4cac3ecc230ec7b4db32360455e35ad1
+  - enabled: 1
+    path: Assets/Scenes/20Event.unity
+    guid: 81ee30ff7b928fc49a55e4256dce244e
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 917488e9df16db247af326beaee25e6c, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f45bf6fcba1885641aaf2e570950eaf2, type: 2}

@@ -46,10 +46,10 @@ public class CRunner : MonoBehaviour
         AkagonohateData.isyoSyojiFlg[0] = 1;
         AkagonohateData.isyoSyojiFlg[13] = 1;
         AkagonohateData.isyoSyojiFlg[21] = 1;
-        for (int i = 0; i < 24; i++)
-        {
-            AkagonohateData.runner[i] = -1;　//runer[]==0の場合を考慮して、初期値を-1に変更する処理(gamenseni.csで実装済み)
-        }
+        //for (int i = 0; i < 24; i++)
+        //{
+        //    AkagonohateData.runner[i] = -1;　//runer[]==0の場合を考慮して、初期値を-1に変更する処理(gamenseni.csで実装済み)
+        //}
         //テスト用処理(仮置き)END
 
         for (int i = 0; i < 8; i++) {
@@ -86,13 +86,27 @@ public class CRunner : MonoBehaviour
             wakuNo += 16;
         }
         Debug.Log(wakuNo);
-        //isyouBtnAll[2].SetActive(true);
+
         //所持衣装の一覧を取得
-        //var syojiList = new List<int>();
+        int kijyun = 0;
+        switch (AkagonohateData.hyoujimaku)
+        {
+            case 1: kijyun = 8; break;
+            case 2: kijyun = 16; break;
+            case 3: kijyun = 24; break;
+        }
         for (int i = 0; i < 60; i++) {
             if (AkagonohateData.isyoSyojiFlg[i]==1) {
-                //syojiList.Add(i);
                 isyouBtnAll[i].SetActive(true);
+
+                //同じ幕内で既に選択している衣装は非表示
+                for (int j = kijyun-8; j < kijyun; j++)
+                {
+                    if (AkagonohateData.runner[j] == i)
+                    {
+                        isyouBtnAll[i].SetActive(false);
+                    }
+                }
             }
         }
     }

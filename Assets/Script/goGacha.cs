@@ -21,7 +21,7 @@ public class goGacha : MonoBehaviour
     private void Start()
     {
         //テスト用処理START
-        AkagonohateData.itemSyojisu[1] = 150;
+        //AkagonohateData.itemSyojisu[1] = 150;
         //テスト用処理END
     }
     public void gachaPopUp(int num) {

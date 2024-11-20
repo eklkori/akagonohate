@@ -63,7 +63,7 @@ public class CRunway : MonoBehaviour
         //    AkagonohateData.runner[i] = ten * 10 + forCount;
         //    forCount++;
         //}
-        AkagonohateData.basyo = 1;
+        //AkagonohateData.basyo = 1;
         //テスト用処理END
 
         nextBtn.SetActive(false);
