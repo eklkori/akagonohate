@@ -17,45 +17,10 @@ public class CGacha : MonoBehaviour
 
     //キャラ立ち絵の定義(キャラを増やしたときに随時追加)
     [SerializeField] GameObject[] kyaras;
-    //[SerializeField] GameObject naoko01W;
-    //[SerializeField] GameObject naoko01S;
-    //[SerializeField] GameObject naoko02W;
-    //[SerializeField] GameObject naoko02S;
-    //[SerializeField] GameObject naoko03furisode;
-    //[SerializeField] GameObject yasuko01W;
-    //[SerializeField] GameObject yasuko01S;
-    //[SerializeField] GameObject yasuko02W;
-    //[SerializeField] GameObject yasuko02S;
-    //[SerializeField] GameObject yasuko03XX;
-    //[SerializeField] GameObject yoshiko01W;
-    //[SerializeField] GameObject yoshiko01S;
-    //[SerializeField] GameObject yoshiko02W;
-    //[SerializeField] GameObject yoshiko02S;
-    //[SerializeField] GameObject yoshiko03XX;
-    //[SerializeField] GameObject hideta01W;
-    //[SerializeField] GameObject hideta01S;
-    //[SerializeField] GameObject hideta02W;
-    //[SerializeField] GameObject hideta02S;
-    //[SerializeField] GameObject hideta03syougatsu1;
-    //[SerializeField] GameObject hideya01W;
-    //[SerializeField] GameObject hideya01S;
-    //[SerializeField] GameObject hideya02W;
-    //[SerializeField] GameObject hideya02S;
-    //[SerializeField] GameObject hideya03syougatsu1;
-    //[SerializeField] GameObject yasuo01W;
-    //[SerializeField] GameObject yasuo01S;
-    //[SerializeField] GameObject yasuo02W;
-    //[SerializeField] GameObject yasuo02S;
-    //[SerializeField] GameObject yasuo03XX;
+
     //キャラ名テキスト
     [SerializeField] GameObject[] kyaraNames;
     [SerializeField] GameObject[] kyaraNamesBg;
-    //[SerializeField] GameObject naokoT;
-    //[SerializeField] GameObject yasukoT;
-    //[SerializeField] GameObject yoshikoT;
-    //[SerializeField] GameObject hidetaT;
-    //[SerializeField] GameObject hideyaT;
-    //[SerializeField] GameObject yasuoT;
 
     int goResFlg = 0;
     void Start()
@@ -166,7 +131,8 @@ public class CGacha : MonoBehaviour
         {
             if (Input.GetMouseButtonUp(0))
             {
-                SceneManager.LoadScene("15GachaRes");
+                SceneManager.LoadScene("15GachaRes", LoadSceneMode.Additive);
+                SceneManager.UnloadSceneAsync("14Gacha");
             }
         }
     }

@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class startKaiwa : MonoBehaviour
 {
+    //------------------------------------
+    //会話・デート・貢ぐ開始時の処理を記載
+    //
+    //※親愛度確認画面からの処理はCshinaido3.csで実装済み
+    //------------------------------------
+
     //日付取得
     DateTime localDate = DateTime.Now;
     DateTime today;
@@ -108,11 +114,13 @@ public class startKaiwa : MonoBehaviour
         AkagonohateData.countDay[2]++;
 
         Debug.Log(AkagonohateData.kaiwaNo);
-        SceneManager.LoadScene("04Tutorial");
+        SceneManager.LoadScene("04Tutorial", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("06Tansaku");
     }
 
     public void startMitsugu() {
-        SceneManager.LoadScene("08Mitsugu");
+        SceneManager.LoadScene("08Mitsugu", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("06Tansaku");
     }
 
     /// <summary>
@@ -146,7 +154,8 @@ public class startKaiwa : MonoBehaviour
         Debug.Log(AkagonohateData.datePt[kyaraNo]);
 
         Debug.Log(AkagonohateData.kaiwaNo);
-        SceneManager.LoadScene("04Tutorial");
+        SceneManager.LoadScene("04Tutorial", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("06Tansaku");
     }
 
     void Update()

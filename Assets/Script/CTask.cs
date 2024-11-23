@@ -153,7 +153,12 @@ public class CTask : MonoBehaviour
         }
 
         //ソート
-        //エラー：tmpList.Sort((obj1, obj2) => string.Compare(AkagonohateData.tasseiFlgN[int.Parse(obj1.name)].ToString(), AkagonohateData.tasseiFlgN[int.Parse(obj2.name)].ToString()));
+        for (int i = 0; i < 6; i++)
+        {
+            Debug.Log(AkagonohateData.tasseiFlgN[i]);
+        }
+        //tmpList.Sort((obj1, obj2) => string.Compare(AkagonohateData.tasseiFlgN[int.Parse(obj1.name)].ToString(),
+        //    AkagonohateData.tasseiFlgN[int.Parse(obj2.name)].ToString()));
         for (int i = 0; i < 6; i++) {
             Debug.Log(tmpList[i]);
         }

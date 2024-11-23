@@ -2611,6 +2611,17 @@ RectTransform:
   m_AnchoredPosition: {x: 78.30248, y: -383.03525}
   m_SizeDelta: {x: 77.4186, y: 72.0793}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1699376142 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6623025391442951661, guid: 481f13863e00af94db4f28ab59e9bb56, type: 3}
+  m_PrefabInstance: {fileID: 5574428149546916482}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ced4d5b1b9acb346b62c700b9ba279f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1708677111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9090057803117823029, guid: 481f13863e00af94db4f28ab59e9bb56, type: 3}
@@ -2863,6 +2874,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 412670023}
+    - target: {fileID: 1564099347707178344, guid: 481f13863e00af94db4f28ab59e9bb56, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1699376142}
+    - target: {fileID: 1564099347707178344, guid: 481f13863e00af94db4f28ab59e9bb56, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: sendmail
+      objectReference: {fileID: 0}
     - target: {fileID: 1565847947996966176, guid: 481f13863e00af94db4f28ab59e9bb56, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2995,6 +3014,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 412670023}
+    - target: {fileID: 5591396088533306297, guid: 481f13863e00af94db4f28ab59e9bb56, type: 3}
+      propertyPath: cHome
+      value: 
+      objectReference: {fileID: 412670013}
     - target: {fileID: 6123110181360269035, guid: 481f13863e00af94db4f28ab59e9bb56, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

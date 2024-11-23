@@ -25,8 +25,8 @@ public class sendMail : MonoBehaviour
     {
         IF = IF.GetComponent<InputField>();
         txt = txt.GetComponent<Text>();
-        IF2 = IF.GetComponent<InputField>();
-        txt2 = txt.GetComponent<Text>();
+        IF2 = IF2.GetComponent<InputField>();
+        txt2 = txt2.GetComponent<Text>();
     }
 
     string text = "";

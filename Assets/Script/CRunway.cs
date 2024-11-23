@@ -9,6 +9,7 @@ public class CRunway : MonoBehaviour
 {
     [SerializeField] GameObject[] bg;
     [SerializeField] GameObject nextBtn;
+    [SerializeField] GameObject skipBtn;
     [SerializeField] GameObject[] dainmaku;
     [SerializeField] GameObject[] runners;
     [SerializeField] GameObject res;
@@ -66,6 +67,7 @@ public class CRunway : MonoBehaviour
         //AkagonohateData.basyo = 1;
         //テスト用処理END
 
+        skipBtn.SetActive(false);
         nextBtn.SetActive(false);
         res.SetActive(false);
 
@@ -339,6 +341,7 @@ public class CRunway : MonoBehaviour
             if (0.8f <= colorMaku.a && colorMaku.a <= 0.9f)
             {
                 moveFlg = 1;
+                skipBtn.SetActive(true);
             }
         }
 
@@ -379,8 +382,8 @@ public class CRunway : MonoBehaviour
         if (moveNmakuFlg == 1) {
             Debug.Log("move.position.y=" + move.position.y);
             move.position += new Vector3(speed+40, 0, 0);
-            if (move.position.x >= 2700) {
-                Debug.Log(move.position.x);
+            if (move.position.x >= 400) {
+                Debug.Log("move.position.x=" + move.position.x);
                 moveNmakuFlg = 0;
                 //幕ごとの評価表示
                 switch (AkagonohateData.runwayRes[makuCount - 1])
@@ -419,12 +422,19 @@ public class CRunway : MonoBehaviour
         fadeFlg = 1;
     }
 
-    private AkagonohateData akagoData;
+    public void pushSkipBtn()
+    {
+        moveFlg = 0;
+        Runners.position = new Vector3(1480, 720, 0);
+        Result();
+    }
+
+    //private AkagonohateData akagoData;
 
     /// <summary>
     /// 結果表示処理
     /// </summary>
-    private void Result()
+    void Result()
     {
         moveNmakuFlg = 1;
 
@@ -435,6 +445,7 @@ public class CRunway : MonoBehaviour
         yu.SetActive(false);
         ryo.SetActive(false);
         ka.SetActive(false);
+        skipBtn.SetActive(false);
         //幕ごとの評価表示
         //switch (AkagonohateData.runwayRes[makuCount-1])
         //{
@@ -486,10 +497,11 @@ public class CRunway : MonoBehaviour
     public void next() {
         if (makuCount == 3)
         {
-            SceneManager.LoadScene("12RunwayRes");
+            SceneManager.LoadScene("12RunwayRes", LoadSceneMode.Additive);
+            SceneManager.UnloadSceneAsync("11Runway");
         }
         else {
-            move.position = new Vector3(1480, 720, 0);
+            move.position = new Vector3(-2000, 1120, 0);
             //オブジェクトの表示
             nextBtn.SetActive(false);
             res.SetActive(false);

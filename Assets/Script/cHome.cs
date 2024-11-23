@@ -320,11 +320,13 @@ public class cHome : MonoBehaviour
     }
 
     /// <summary>
-    /// イベント時限定イベントボタンが押されたときの処理
+    /// イベント時限定 イベントボタンが押されたときの処理
     /// </summary>
     public void pushEventBtn()
     {
-        SceneManager.LoadScene("20Event");
+        //画面遷移
+        SceneManager.LoadScene("20Event", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("05Home");
     }
     void Update()
     {

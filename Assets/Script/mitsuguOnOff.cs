@@ -178,7 +178,8 @@ public class mitsuguOnOff : MonoBehaviour
 
         if (mitsuguEnd == 1)
         {
-            SceneManager.LoadScene("06Tansaku");
+            SceneManager.LoadScene("06Tansaku", LoadSceneMode.Additive);
+            SceneManager.UnloadSceneAsync("08Mitsugu");
         }
     }
 }

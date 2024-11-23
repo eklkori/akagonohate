@@ -1527,12 +1527,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn2
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2089,12 +2089,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Dbtn1
-        m_Mode: 1
+        m_MethodName: Dbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3039,12 +3039,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn5
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3366,12 +3366,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn2
-        m_Mode: 1
+        m_MethodName: Dbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3498,12 +3498,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Dbtn4
-        m_Mode: 1
+        m_MethodName: Dbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3932,12 +3932,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Dbtn5
-        m_Mode: 1
+        m_MethodName: Dbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4297,12 +4297,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Dbtn3
-        m_Mode: 1
+        m_MethodName: Dbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4548,12 +4548,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn3
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4736,12 +4736,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Dbtn6
-        m_Mode: 1
+        m_MethodName: Dbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5941,12 +5941,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn4
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6420,12 +6420,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn6
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7622,12 +7622,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn1
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8444,12 +8444,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn1
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9695,12 +9695,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn6
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9751,12 +9751,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn4
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9807,12 +9807,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn5
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9863,12 +9863,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn3
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9919,12 +9919,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417795024}
         m_TargetAssemblyTypeName: Cshinaido3, Assembly-CSharp
-        m_MethodName: Kbtn2
-        m_Mode: 1
+        m_MethodName: Kbtn
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

@@ -14,6 +14,9 @@ public class Cshinaido3 : MonoBehaviour
     [SerializeField] GameObject[] miruBtnsD;
 
     int who = 0;
+    int No = 0;
+    string labelName = "";
+    string Dhantei = "";
     private void Start()
     {
         //テスト用仮置き
@@ -24,6 +27,16 @@ public class Cshinaido3 : MonoBehaviour
 
         //変数の準備
         who = AkagonohateData.shinaidoWho;
+
+        switch (who)
+        {
+            case 1: labelName = "naoko"; break;
+            case 2: labelName = "yasuko"; break;
+            case 3: labelName = "yoshiko"; break;
+            case 4: labelName = "hideta"; break;
+            case 5: labelName = "hideya"; break;
+            case 6: labelName = "yasuo"; break;
+        }
 
         //会話/デート一覧の表示
         if (AkagonohateData.kakuninchuFlg == 2)
@@ -72,7 +85,7 @@ public class Cshinaido3 : MonoBehaviour
         int dateNo = 0;
         switch (who)
         {
-            case 1: dateCount = 6;break;
+            case 1: dateCount = 6; break;
             case 2: dateCount = 6; dateNo = 20; break;
             case 3: dateCount = 6; dateNo = 40; break;
             case 4: dateCount = 6; dateNo = 60; break;
@@ -119,161 +132,23 @@ public class Cshinaido3 : MonoBehaviour
     //シナリオラベル設定用変数
     string label = "";
 
-    //会話
-    public void Kbtn1() {
-        switch (who) {
-            case 1: label = "naoko1";break;
-            case 2: label = "yasuko1"; break;
-            case 3: label = "yoshiko1"; break;
-            case 4: label = "hideta1"; break;
-            case 5: label = "hideya1"; break;
-            case 6: label = "yasuo1"; break;
-        }
-        goUtage();
-    }
-    public void Kbtn2()
-    {
-        switch (who)
-        {
-            case 1: label = "naoko2"; break;
-            case 2: label = "yasuko2"; break;
-            case 3: label = "yoshiko2"; break;
-            case 4: label = "hideta2"; break;
-            case 5: label = "hideya2"; break;
-            case 6: label = "yasuo2"; break;
-        }
-        goUtage();
-    }
-    public void Kbtn3()
-    {
-        switch (who)
-        {
-            case 1: label = "naoko3"; break;
-            case 2: label = "yasuko3"; break;
-            case 3: label = "yoshiko3"; break;
-            case 4: label = "hideta3"; break;
-            case 5: label = "hideya3"; break;
-            case 6: label = "yasuo3"; break;
-        }
-        goUtage();
-    }
-    public void Kbtn4()
-    {
-        switch (who)
-        {
-            case 1: label = "naoko4"; break;
-            case 2: label = "yasuko4"; break;
-            case 3: label = "yoshiko4"; break;
-            case 4: label = "hideta4"; break;
-            case 5: label = "hideya4"; break;
-            case 6: label = "yasuo4"; break;
-        }
-        goUtage();
-    }
-    public void Kbtn5()
-    {
-        switch (who)
-        {
-            case 1: label = "naoko5"; break;
-            case 2: label = "yasuko5"; break;
-            case 3: label = "yoshiko5"; break;
-            case 4: label = "hideta5"; break;
-            case 5: label = "hideya5"; break;
-            case 6: label = "yasuo5"; break;
-        }
-        goUtage();
-    }
-    public void Kbtn6()
-    {
-        switch (who)
-        {
-            case 1: label = "naoko6"; break;
-            case 2: label = "yasuko6"; break;
-            case 3: label = "yoshiko6"; break;
-            case 4: label = "hideta6"; break;
-            case 5: label = "hideya6"; break;
-            case 6: label = "yasuo6"; break;
-        }
+    /// <summary>
+    /// 会話 見るボタン押下時の処理
+    /// </summary>
+    /// <param name="kaiwaNo"></param>
+    public void Kbtn(int kaiwaNo) {
+        No = kaiwaNo;
         goUtage();
     }
 
-    //デート
-    public void Dbtn1()
+    /// <summary>
+    /// デート 見るボタン押下時の処理
+    /// </summary>
+    /// <param name="dateNo"></param>
+    public void Dbtn(int dateNo)
     {
-        switch (who)
-        {
-            case 1: label = "Dnaoko1"; break;
-            case 2: label = "Dyasuko1"; break;
-            case 3: label = "Dyoshiko1"; break;
-            case 4: label = "Dhideta1"; break;
-            case 5: label = "Dhideya1"; break;
-            case 6: label = "Dyasuo1"; break;
-        }
-        goUtage();
-    }
-    public void Dbtn2()
-    {
-        switch (who)
-        {
-            case 1: label = "Dnaoko2"; break;
-            case 2: label = "Dyasuko2"; break;
-            case 3: label = "Dyoshiko2"; break;
-            case 4: label = "Dhideta2"; break;
-            case 5: label = "Dhideya2"; break;
-            case 6: label = "Dyasuo2"; break;
-        }
-        goUtage();
-    }
-    public void Dbtn3()
-    {
-        switch (who)
-        {
-            case 1: label = "Dnaoko3"; break;
-            case 2: label = "Dyasuko3"; break;
-            case 3: label = "Dyoshiko3"; break;
-            case 4: label = "Dhideta3"; break;
-            case 5: label = "Dhideya3"; break;
-            case 6: label = "Dyasuo3"; break;
-        }
-        goUtage();
-    }
-    public void Dbtn4()
-    {
-        switch (who)
-        {
-            case 1: label = "Dnaoko4"; break;
-            case 2: label = "Dyasuko4"; break;
-            case 3: label = "Dyoshiko4"; break;
-            case 4: label = "Dhideta4"; break;
-            case 5: label = "Dhideya4"; break;
-            case 6: label = "Dyasuo4"; break;
-        }
-        goUtage();
-    }
-    public void Dbtn5()
-    {
-        switch (who)
-        {
-            case 1: label = "Dnaoko5"; break;
-            case 2: label = "Dyasuko5"; break;
-            case 3: label = "Dyoshiko5"; break;
-            case 4: label = "Dhideta5"; break;
-            case 5: label = "Dhideya5"; break;
-            case 6: label = "Dyasuo5"; break;
-        }
-        goUtage();
-    }
-    public void Dbtn6()
-    {
-        switch (who)
-        {
-            case 1: label = "Dnaoko6"; break;
-            case 2: label = "Dyasuko6"; break;
-            case 3: label = "Dyoshiko6"; break;
-            case 4: label = "Dhideta6"; break;
-            case 5: label = "Dhideya6"; break;
-            case 6: label = "Dyasuo6"; break;
-        }
+        No = dateNo;
+        Dhantei = "D";
         goUtage();
     }
 
@@ -281,6 +156,10 @@ public class Cshinaido3 : MonoBehaviour
     /// 宴に遷移してシナリオを開始させる処理
     /// </summary>
     void goUtage() {
+        //ラベルの作成
+        label = Dhantei + labelName + No;
+        Debug.Log(label);
+
         AkagonohateData.kaiwaNo = label;
         string first = label.Substring(0, 1);
         if (first == "D")
@@ -291,6 +170,7 @@ public class Cshinaido3 : MonoBehaviour
         {
             AkagonohateData.kakuninchuFlg = 1;
         }
-        SceneManager.LoadScene("04Tutorial");
+        SceneManager.LoadScene("04Tutorial", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("18Shinaido3");
     }
 }

@@ -408,7 +408,8 @@ public class goRunway : MonoBehaviour
         //最終ランウェイ履歴の上書き
         AkagonohateData.runwayRireki[0] = today;
 
-        SceneManager.LoadScene("11Runway");
+        SceneManager.LoadScene("11Runway", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("10RunwaySet");
     }
 
     /// <summary>

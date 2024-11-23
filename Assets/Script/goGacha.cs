@@ -134,7 +134,8 @@ public class goGacha : MonoBehaviour
         AkagonohateData.gacha10[0] = res;
         AkagonohateData.gachaFlg = 1;
 
-        SceneManager.LoadScene("14Gacha");
+        SceneManager.LoadScene("14Gacha", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("13Busshi");
     }
 
     /// <summary>
@@ -158,6 +159,7 @@ public class goGacha : MonoBehaviour
         }
         AkagonohateData.gachaFlg = 2;
 
-        SceneManager.LoadScene("14Gacha");
+        SceneManager.LoadScene("14Gacha", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("13Busshi");
     }
 }

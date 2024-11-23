@@ -38,18 +38,21 @@ public class GoHome : MonoBehaviour
         if (TEnd==1)
         {
             AkagonohateData.tutorealFlg = 1;
-            SceneManager.LoadScene("05Home");
+            SceneManager.LoadScene("05Home", LoadSceneMode.Additive);
+            deleteNowScene();
         }
         if (BEnd == 1)
         {
             AkagonohateData.busshiSyokaiFlg = 1;
-            SceneManager.LoadScene("13Busshi");
+            SceneManager.LoadScene("13Busshi", LoadSceneMode.Additive);
+            deleteNowScene();
         }
         if (KEnd == 1 || DEnd == 1)
         {
             if (AkagonohateData.kakuninchuFlg == 1 || AkagonohateData.kakuninchuFlg == 2)
             {
-                SceneManager.LoadScene("18shinaido3");
+                SceneManager.LoadScene("18shinaido3", LoadSceneMode.Additive);
+                deleteNowScene();
             }
             else
             {
@@ -65,7 +68,8 @@ public class GoHome : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene("06Tansaku");
+                    SceneManager.LoadScene("06Tansaku", LoadSceneMode.Additive);
+                    deleteNowScene();
                 }
             }
         }
@@ -86,6 +90,11 @@ public class GoHome : MonoBehaviour
     /// </summary>
     public void end()
     {
-        SceneManager.LoadScene("06Tansaku");
+        SceneManager.LoadScene("06Tansaku", LoadSceneMode.Additive);
+        deleteNowScene();
+    }
+
+    void deleteNowScene() {
+        SceneManager.UnloadSceneAsync("04Tutorial");
     }
 }

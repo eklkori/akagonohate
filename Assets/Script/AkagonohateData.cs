@@ -78,6 +78,7 @@ public class AkagonohateData : ScriptableObject
     public static int gachaFlg = 0;            //ガチャが単発か10連か判断(単発の場合「1」、10連の場合「2」)
     public static int shinaidoWho = 0;         //誰の親愛度を確認しているかを管理するフラグ
     public static int kakuninchuFlg = 0;       //親愛度確認画面等、探索以外からシナリオを視聴していることを示すフラグ
+    public static DateTime now = DateTime.Now; //現在時刻の取得
 
     //固定値
     //各衣装の美しさステータスを格納

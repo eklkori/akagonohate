@@ -41,6 +41,7 @@ public class Cshinaido1 : MonoBehaviour
     /// </summary>
     void kyoutsu()
     {
-        SceneManager.LoadScene("17Shinaido2");
+        SceneManager.LoadScene("17Shinaido2", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("16Shinaido1");
     }
 }

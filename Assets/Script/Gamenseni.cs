@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Utage;
@@ -21,17 +23,22 @@ public class Gamenseni : MonoBehaviour
     public void startGame()
     {
 
-            if (AkagonohateData.tutorealFlg == 0)
-            {
-                for (int i = 0; i < 24; i++) {
-                    AkagonohateData.runner[i] = -1;
-                }
-                SceneManager.LoadScene("02Kiyaku");
+        if (AkagonohateData.tutorealFlg == 0)
+        {
+            for (int i = 0; i < 24; i++) {
+                AkagonohateData.runner[i] = -1;
             }
-            else
-            {
-                SceneManager.LoadScene("05Home");
-            }
+        //SceneManager.LoadScene("02Kiyaku");
+        Debug.Log("あ");
+        SceneManager.LoadScene("02Kiyaku", LoadSceneMode.Additive);
+        Debug.Log("い");
+        }
+        else
+        {
+            SceneManager.LoadScene("05Home", LoadSceneMode.Additive);
+        }
+        deleteNowScene();
+        Debug.Log("う");
     }
 
     /// <summary>
@@ -43,23 +50,20 @@ public class Gamenseni : MonoBehaviour
     [SerializeField] int douiFlg = 0;
     public void douisuru()
     {
-        //int douiFlg = 0;
-        if (Input.GetMouseButtonUp(0))
+
+        if (douiFlg == 0)
         {
-            if (douiFlg == 0)
-            {
-                douiFlg = 1;
-                douisuruBtn.SetActive(true);
-                douisuruBtnNo.SetActive(false);
-                check.SetActive(true);
-            }
-            else
-            {
-                douiFlg = 0;
-                douisuruBtn.SetActive(false);
-                douisuruBtnNo.SetActive(true);
-                check.SetActive(false);
-            }
+            douiFlg = 1;
+            douisuruBtn.SetActive(true);
+            douisuruBtnNo.SetActive(false);
+            check.SetActive(true);
+        }
+        else
+        {
+            douiFlg = 0;
+            douisuruBtn.SetActive(false);
+            douisuruBtnNo.SetActive(true);
+            check.SetActive(false);
         }
     }
     /// <summary>
@@ -67,7 +71,8 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void GoNaming()
     {
-            SceneManager.LoadScene("03Naming");
+        SceneManager.LoadScene("03Naming", LoadSceneMode.Additive);
+        deleteNowScene();
     }
 
 
@@ -76,7 +81,8 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goTutorial()
     {
-            SceneManager.LoadScene("04Tutorial");
+        SceneManager.LoadScene("04Tutorial", LoadSceneMode.Additive);
+        deleteNowScene();
     }
 
     /// <summary>
@@ -85,7 +91,8 @@ public class Gamenseni : MonoBehaviour
     public void goTansaku()
     {
         Debug.Log("tansaku");
-        SceneManager.LoadScene("06Tansaku");
+        SceneManager.LoadScene("06Tansaku", LoadSceneMode.Additive);
+        deleteNowScene();
     }
 
     /// <summary>
@@ -93,8 +100,9 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goRunwaySet()
     {
-            SceneManager.LoadScene("10RunwaySet");
+        SceneManager.LoadScene("10RunwaySet", LoadSceneMode.Additive);
         Debug.Log("runway");
+        deleteNowScene();
     }
 
     /// <summary>
@@ -102,8 +110,9 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goTask()
     {
-            SceneManager.LoadScene("19Task");
+        SceneManager.LoadScene("19Task", LoadSceneMode.Additive);
         Debug.Log("task");
+        deleteNowScene();
     }
 
     /// <summary>
@@ -113,12 +122,13 @@ public class Gamenseni : MonoBehaviour
     {
         if (AkagonohateData.busshiSyokaiFlg == 0)
         {
-            SceneManager.LoadScene("04Tutorial");
+            SceneManager.LoadScene("04Tutorial", LoadSceneMode.Additive);
         }
         else
         {
-            SceneManager.LoadScene("13Busshi");
+            SceneManager.LoadScene("13Busshi", LoadSceneMode.Additive);
         }
+        deleteNowScene();
     }
 
     /// <summary>
@@ -127,10 +137,8 @@ public class Gamenseni : MonoBehaviour
     public void goShinaido()
     {
         Debug.Log("shinaido");
-        if (Input.GetMouseButtonUp(0))
-        {
-            SceneManager.LoadScene("16Shinaido1");
-        }
+        SceneManager.LoadScene("16Shinaido1", LoadSceneMode.Additive);
+        deleteNowScene();
     }
 
     /// <summary>
@@ -138,10 +146,8 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goShinaido2()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
-            SceneManager.LoadScene("17Shinaido2");
-        }
+        SceneManager.LoadScene("17Shinaido2", LoadSceneMode.Additive);
+        deleteNowScene();
     }
 
     /// <summary>
@@ -149,10 +155,8 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void goShinaido3()
     {
-        if (Input.GetMouseButtonUp(0))
-        {
-            SceneManager.LoadScene("18Shinaido3");
-        }
+        SceneManager.LoadScene("18Shinaido3", LoadSceneMode.Additive);
+        deleteNowScene();
     }
 
     /// <summary>
@@ -160,9 +164,28 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void modoru()
     {
-        if (Input.GetMouseButtonUp(0))
+        SceneManager.LoadScene("05Home", LoadSceneMode.Additive);
+        deleteNowScene();
+    }
+
+
+    void deleteNowScene() {
+        string sceneName = "";
+        //現在読み込まれているシーン数だけループ
+        for (int i = 0; i < UnityEngine.SceneManagement.SceneManager.sceneCount; i++)
         {
-            SceneManager.LoadScene("05Home");
+            //読み込まれているシーンを取得し、その名前をログに表示
+            string sceneName2 = UnityEngine.SceneManagement.SceneManager.GetSceneAt(i).name;
+            Debug.Log(sceneName2);
+
+            if (i==1) {
+                sceneName = sceneName2;
+                break;
+            }
         }
+
+        //現在表示中のシーン名を取得
+        //string sceneName = SceneManager.GetActiveScene().name;
+        SceneManager.UnloadSceneAsync(sceneName);
     }
 }

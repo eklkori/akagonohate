@@ -210,7 +210,8 @@ public class CRunwayRes : MonoBehaviour
         AkagonohateData.itemSyojisu[0] += AkagonohateData.KItem[0];
 
         //画面遷移
-        SceneManager.LoadScene("11Runway");
+        SceneManager.LoadScene("11Runway", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("12CRunwayRes");
     }
 
     /// <summary>
@@ -240,13 +241,15 @@ public class CRunwayRes : MonoBehaviour
     /// 設定を変えてランウェイをするときの処理
     /// </summary>
     public void kaete() {
-        SceneManager.LoadScene("10RunwaySet");
+        SceneManager.LoadScene("10RunwaySet", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("12RunwayRes");
     }
 
     /// <summary>
     /// ランウェイを終了する時の処理
     /// </summary>
     public void modoru() {
-        SceneManager.LoadScene("05Home");
+        SceneManager.LoadScene("05Home", LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync("12RunwayRes");
     }
 }

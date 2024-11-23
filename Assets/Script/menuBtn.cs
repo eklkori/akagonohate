@@ -102,6 +102,8 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject ScrollGifts;
     [SerializeField] GameObject ScrollSyojiItem;
 
+    [SerializeField] GameObject cHome;
+
     /// <summary>
     /// 鍵回復ポップアップで鍵の回復数に使用
     /// </summary>
@@ -293,7 +295,7 @@ public class menuBtn : MonoBehaviour
         haikei.SetActive(true);
         popupBase.SetActive(true);
         ScrollIsyou.SetActive(true);
-        popUpMenu.GetComponent<cHome>().syokihyouji();
+        cHome.GetComponent<cHome>().syokihyouji();
         titleTextT.text = "パ　ー　ト　ナ　ー　選　択";
     }
 
