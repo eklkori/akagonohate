@@ -21,7 +21,6 @@ public class AkagonohateData : ScriptableObject
     public static float MM = 0;                  //鍵追加までのカウント(分)
     public static float SS = 10;                  //鍵追加までのカウント(秒)
     public static int partnerNo = 13;            //ホーム画面でパートナー設定しているキャラの衣装Noを格納
-    public static int eventFlg = 0;            //イベント中は1にするフラグ　イベント中か否かを判断
     public static DateTime[] loginRireki = new DateTime[3];  //*ログイン日時の履歴を保管(0：1日の最初にログイン（ホーム画面に遷移）した時間、1：ゲーム稼働中は常に更新し続ける)
     public static int[] giftFlg = new int[10];  //プレゼント受け取り可否を判断するフラグ 配列0番目がログインボーナス　1：未達成、0：達成(受け取り可能)、2：獲得済み
     public static DateTime[] uketoriKigen = new DateTime[10];  //*プレゼント受け取り期限を保管
@@ -79,6 +78,7 @@ public class AkagonohateData : ScriptableObject
     public static int shinaidoWho = 0;         //誰の親愛度を確認しているかを管理するフラグ
     public static int kakuninchuFlg = 0;       //親愛度確認画面等、探索以外からシナリオを視聴していることを示すフラグ
     public static DateTime now = DateTime.Now; //現在時刻の取得
+    public static int eventFlg = 0;            //イベント中は1にするフラグ　イベント中か否かを判断
 
     //固定値
     //各衣装の美しさステータスを格納

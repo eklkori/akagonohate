@@ -17,5 +17,11 @@ public class cBackGround : MonoBehaviour
     {
         //Œ»İ‚ğíæ“¾
         AkagonohateData.now = DateTime.Now;
+
+    }
+
+    private void OnApplicationQuit()
+    {
+        Debug.Log("OnApplicationQuit");
     }
 }

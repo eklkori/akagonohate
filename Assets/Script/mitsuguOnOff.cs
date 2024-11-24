@@ -15,7 +15,8 @@ public class mitsuguOnOff : MonoBehaviour
     [SerializeField] GameObject off;
     [SerializeField] Text[] syojisuT;
     [SerializeField] Text[] mitsugisuT;
-    [SerializeField] Image kyaraTachie;
+    [SerializeField] SpriteRenderer kyaraTachieSpr;
+    [SerializeField] GameObject kyaraTachie;
     [SerializeField] Sprite[] kyaraImages;
     [SerializeField] GameObject advEngine;
 
@@ -46,20 +47,12 @@ public class mitsuguOnOff : MonoBehaviour
         }
         kakutei.SetActive(false);
 
-        //キャラ画像の差し替え
+        //キャラ画像の差し替え　※宴との兼ね合いでスプライトのみのオブジェクトを作成して操作
         //立ち絵の差し替え処理
-        kyaraTachie.sprite = kyaraImages[AkagonohateData.tansakuKyara];  //※衣装ランダムにする場合はこの辺りに処理を追加
+        kyaraTachieSpr.sprite = kyaraImages[AkagonohateData.tansakuKyara];  //※衣装ランダムにする場合はこの辺りに処理を追加
         //立ち絵のサイズ変更
-        kyaraTachie.GetComponent<RectTransform>();
-        switch (AkagonohateData.tansakuKyara)
-        {
-            case 0: kyaraTachie.rectTransform.sizeDelta = new Vector3(1800, 2230, 0); break;
-            case 1: kyaraTachie.rectTransform.sizeDelta = new Vector3(1800, 2255, 0); break;
-            case 2: kyaraTachie.rectTransform.sizeDelta = new Vector3(1800, 2110, 0); break;
-            case 3: kyaraTachie.rectTransform.sizeDelta = new Vector3(1800, 2280, 0); break;
-            case 4: kyaraTachie.rectTransform.sizeDelta = new Vector3(1800, 2415, 0); break;
-            case 5: kyaraTachie.rectTransform.sizeDelta = new Vector3(1800, 2365, 0); break;
-        }
+        kyaraTachie.transform.localScale = new Vector3(0.55f, 0.55f, 0);
+        kyaraTachie.transform.localPosition = new Vector3(-1480, -724, 0);
     }
 
     /// <summary>
