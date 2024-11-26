@@ -164,7 +164,7 @@ public class Gamenseni : MonoBehaviour
     /// </summary>
     public void modoru()
     {
-        SceneManager.LoadScene("05Home", LoadSceneMode.Additive);
+        SceneManager.LoadScene(AkagonohateData.maeScene, LoadSceneMode.Additive);
         deleteNowScene();
     }
 
@@ -185,7 +185,9 @@ public class Gamenseni : MonoBehaviour
         }
 
         //現在表示中のシーン名を取得
-        //string sceneName = SceneManager.GetActiveScene().name;
+        AkagonohateData.maeScene = sceneName;
+
+        //アンロード処理
         SceneManager.UnloadSceneAsync(sceneName);
     }
 }

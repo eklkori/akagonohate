@@ -35,6 +35,9 @@ public class CShinaido2 : MonoBehaviour
     int kyara = AkagonohateData.shinaidoWho;
     void Start()
     {
+        //戻るボタンの遷移先を操作
+        AkagonohateData.maeScene = "16Shinaido1";
+
         //名前・衣装ボタンの表示
         if (kyara == 1) {
             //名前表示

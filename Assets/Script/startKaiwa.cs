@@ -21,11 +21,19 @@ public class startKaiwa : MonoBehaviour
         AkagonohateData.datePt[0] = 1000;
         AkagonohateData.datePt[1] = 1000;
         //テスト用処理END
+
+        //前画面をホーム画面に設定(戻るボタン押下時の設定)
+        AkagonohateData.maeScene = "05Home";
     }
+
     /// <summary>
     /// kyaraNoは0始まり
     /// </summary>
     int kyaraNo = AkagonohateData.tansakuKyara;
+
+    /// <summary>
+    /// 会話開始処理
+    /// </summary>
     public void startKaiwas()
     {
         kyaraNo = AkagonohateData.tansakuKyara;
@@ -115,11 +123,13 @@ public class startKaiwa : MonoBehaviour
 
         Debug.Log(AkagonohateData.kaiwaNo);
         SceneManager.LoadScene("04Tutorial", LoadSceneMode.Additive);
+        AkagonohateData.maeScene = "06Tansaku";
         SceneManager.UnloadSceneAsync("06Tansaku");
     }
 
     public void startMitsugu() {
         SceneManager.LoadScene("08Mitsugu", LoadSceneMode.Additive);
+        AkagonohateData.maeScene = "06Tansaku";
         SceneManager.UnloadSceneAsync("06Tansaku");
     }
 
@@ -127,8 +137,6 @@ public class startKaiwa : MonoBehaviour
     /// デート開始処理
     /// </summary>
     public void startDate() {
-        kyaraNo = AkagonohateData.tansakuKyara;
-
         //シナリオラベルの作成
         string kyaraName = "";
         Debug.Log(AkagonohateData.dateCount[kyaraNo] + 1);
@@ -154,7 +162,10 @@ public class startKaiwa : MonoBehaviour
         Debug.Log(AkagonohateData.datePt[kyaraNo]);
 
         Debug.Log(AkagonohateData.kaiwaNo);
+
+        //画面遷移
         SceneManager.LoadScene("04Tutorial", LoadSceneMode.Additive);
+        AkagonohateData.maeScene = "06Tansaku";
         SceneManager.UnloadSceneAsync("06Tansaku");
     }
 

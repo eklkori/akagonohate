@@ -24,6 +24,10 @@ public class Cshinaido3 : MonoBehaviour
         AkagonohateData.kaiwaShichoFlg[103] = 1;
         AkagonohateData.dateShichoFlg[2] = 1;
         AkagonohateData.dateShichoFlg[44] = 1;
+        //テスト用仮置きEND
+
+        //戻るボタンの遷移先を操作
+        AkagonohateData.maeScene = "17Shinaido2";
 
         //変数の準備
         who = AkagonohateData.shinaidoWho;

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using Utage;
 using UnityEngine.UI;
+using System.Reflection.Emit;
 
 public class GoHome : MonoBehaviour
 {
@@ -19,13 +20,50 @@ public class GoHome : MonoBehaviour
 
     private void Start()
     {
+        //テスト用処理START
+        AkagonohateData.shinaiLv[0] = 10;
+        Debug.Log("AkagonohateData.kaiwaNo=" + AkagonohateData.kaiwaNo);
+        //テスト用処理END
+
         popUp.SetActive(false);
+
     }
 
     void Update()
     {
         //AdvEngineの初期化 ※宴関連
         if (!engine.Param.IsInit) return;
+
+        //※デートの場合のみ
+        //親愛Lvが基準値以上の場合、宴のフラグを操作して選択肢その2を表示するようにする
+        string first = "";
+        if (AkagonohateData.kaiwaNo != "")
+        {
+            first = AkagonohateData.kaiwaNo.Substring(0, 1);
+        }
+        if (first == "D")
+        {
+            //基準値の設定
+            int kijyun = 0;
+            switch (AkagonohateData.dateCount[AkagonohateData.tansakuKyara])
+            {
+                case 1: kijyun = 3; break;
+                case 2: kijyun = 8; break;
+                case 3: kijyun = 15; break;
+                case 4: kijyun = 25; break;
+                case 5: kijyun = 40; break;
+            }
+            Debug.Log("kijyun=" + kijyun + " AkagonohateData.tansakuKyara=" + AkagonohateData.tansakuKyara);
+            Debug.Log("AkagonohateData.shinaiLv[AkagonohateData.tansakuKyara]=" + AkagonohateData.shinaiLv[AkagonohateData.tansakuKyara]);
+            if (kijyun <= AkagonohateData.shinaiLv[AkagonohateData.tansakuKyara])
+            {
+                engine.Param.SetParameterInt("sentakuFlg", 1);
+            }
+            else
+            {
+                engine.Param.SetParameterInt("sentakuFlg", 0);
+            }
+        }
 
         //パラメーターの呼び出し
         int TEnd = engine.Param.GetParameterInt("TEnd");　//チュートリアル

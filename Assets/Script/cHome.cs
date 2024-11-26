@@ -326,6 +326,7 @@ public class cHome : MonoBehaviour
     {
         //‰æ–Ê‘JˆÚ
         SceneManager.LoadScene("20Event", LoadSceneMode.Additive);
+        AkagonohateData.maeScene = "20Event";
         SceneManager.UnloadSceneAsync("05Home");
     }
     void Update()

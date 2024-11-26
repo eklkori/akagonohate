@@ -79,6 +79,7 @@ public class AkagonohateData : ScriptableObject
     public static int kakuninchuFlg = 0;       //親愛度確認画面等、探索以外からシナリオを視聴していることを示すフラグ
     public static DateTime now = DateTime.Now; //現在時刻の取得
     public static int eventFlg = 0;            //イベント中は1にするフラグ　イベント中か否かを判断
+    public static string maeScene = "";        //遷移前のシーンを格納
 
     //固定値
     //各衣装の美しさステータスを格納

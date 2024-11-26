@@ -29,7 +29,8 @@ public class Cevent : MonoBehaviour
             pertnerImages5[i].SetActive(false);
         }
 
-
+        //–ß‚éƒ{ƒ^ƒ“‚Ì‘JˆÚæ‚ğ‘€ì
+        AkagonohateData.maeScene = "05Home";
     }
 
     /// <summary>
