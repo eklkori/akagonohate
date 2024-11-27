@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using static Utage.UtageEditorPrefs;
+//using static Utage.UtageEditorPrefs;
 using System;
 
 public class tansakuPopUp : MonoBehaviour
@@ -20,6 +20,12 @@ public class tansakuPopUp : MonoBehaviour
     [SerializeField] GameObject dateKanou;
     [SerializeField] GameObject nakanaoriBtn;
     [SerializeField] GameObject nakanaoriKanou;
+
+    private void Start()
+    {
+        //戻るボタンの遷移先を操作
+        AkagonohateData.maeScene = "05Home";
+    }
 
     //-----表示系-----
 
@@ -57,12 +63,22 @@ public class tansakuPopUp : MonoBehaviour
         //※デートの基準値は仮で1000に設定(要検討)
         if (AkagonohateData.datePt[kyara] >= 1000)
         {
-            AkagonohateData.dateFlg[kyara] = 1;
+            if (AkagonohateData.dateCount[kyara] == 5 && AkagonohateData.dateShichoFlg[404 + kyara * 20] == 0)
+            {
+                AkagonohateData.nakanaoriFlg[kyara] = 1;
+                AkagonohateData.dateFlg[kyara] = 0;
+            }
+            else
+            {
+                AkagonohateData.nakanaoriFlg[kyara] = 0;
+                AkagonohateData.dateFlg[kyara] = 1;
+            }
         }
         else 
         {
             AkagonohateData.dateFlg[kyara] = 0;
         }
+        //デートフラグが1の場合
         if (AkagonohateData.dateFlg[kyara] == 1)
         {
             Debug.Log(AkagonohateData.dateFlg[kyara]);
@@ -76,6 +92,7 @@ public class tansakuPopUp : MonoBehaviour
             dateBtn.SetActive(false);
             dateKanou.SetActive(false);
         }
+        //仲直りデートフラグが1の場合
         if (AkagonohateData.nakanaoriFlg[kyara] == 1)
         {
             nakanaoriBtn.SetActive(true);

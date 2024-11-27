@@ -17122,6 +17122,7 @@ MonoBehaviour:
   ScrollIsyou: {fileID: 1587605505629229829}
   ScrollGifts: {fileID: 1208499109839905978}
   ScrollSyojiItem: {fileID: 2880275272502080062}
+  cHome: {fileID: 0}
 --- !u!114 &6623025391442951661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18985,8 +18986,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000022262335, y: -84.52508}
-  m_SizeDelta: {x: 3014.7393, y: 169.0502}
+  m_AnchoredPosition: {x: -44.8167, y: -84.525085}
+  m_SizeDelta: {x: 3358.939, y: 169.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1525854971829955267
 CanvasRenderer:

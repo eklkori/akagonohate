@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Cshinaido3 : MonoBehaviour
@@ -12,6 +13,8 @@ public class Cshinaido3 : MonoBehaviour
     [SerializeField] GameObject kaiwas;
     [SerializeField] GameObject[] miruBtnsK;
     [SerializeField] GameObject[] miruBtnsD;
+    [SerializeField] GameObject[] mikakutokuAri;
+    [SerializeField] Text[] DKaihou;
 
     int who = 0;
     int No = 0;
@@ -100,6 +103,32 @@ public class Cshinaido3 : MonoBehaviour
         {
             if (AkagonohateData.dateShichoFlg[dateNo + i] == 1) {
                 miruBtnsD[i].SetActive(true);
+            }
+        }
+
+        //未獲得報酬がある場合は文字アイコンを表示
+        for (int i = 0; i < 6; i++)
+        {
+            if (AkagonohateData.dateShichoFlg[200 + who * 20 + i] == 1 && AkagonohateData.dateShichoFlg[400 + who * 20 + i] == 1)
+            {
+                //2/2視聴済み
+                mikakutokuAri[i].SetActive(false);
+                DKaihou[i].text = "分岐：2/2閲覧済み";
+                Debug.Log("あ");
+            }
+            else if (AkagonohateData.dateShichoFlg[200 + who * 20 + i] == 1 || AkagonohateData.dateShichoFlg[400 + who * 20 + i] == 1)
+            {
+                //1/2視聴済み
+                mikakutokuAri[i].SetActive(true);
+                DKaihou[i].text = "分岐：1/2閲覧済み";
+                Debug.Log("い");
+            }
+            else
+            {
+                //0/2視聴済み
+                mikakutokuAri[i].SetActive(false);
+                DKaihou[i].text = "未開放";
+                Debug.Log("う");
             }
         }
     }

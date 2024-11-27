@@ -49,14 +49,14 @@ MonoBehaviour:
       strings:
       - "\u76F4\u5B50"
       - "\u4E95\u4F0A \u76F4\u5B50"
-      - "\u4EEE"
+      - "\u4EEE(\u5EC3\u6B62)"
       - 
       - 
       - 
       - 
       - 
       - 
-      - naoko/naokokari.png
+      - naoko/naoko01S_00.png
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -705,14 +705,14 @@ MonoBehaviour:
       strings:
       - "\u5EB7\u5B50"
       - "\u5FB3\u5DDD \u5EB7\u5B50"
-      - "\u4EEE"
+      - "\u4EEE(\u5EC3\u6B62)"
       - 
       - 
       - 
       - 
       - 
       - 
-      - yasuko/yasukokari.png
+      - yasuko/yasuko01S_00.png
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -2533,7 +2533,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Character
     type: 1
-    textLength: 4879
+    textLength: 4891
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
@@ -2627,8 +2627,8 @@ MonoBehaviour:
       - -600
       - 200
       - 
-      - .85
-      - .85
+      - 1.5
+      - 1.5
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -2641,8 +2641,8 @@ MonoBehaviour:
       - -600
       - 190
       - 
-      - .85
-      - .85
+      - 1.5
+      - 1.5
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -2655,8 +2655,8 @@ MonoBehaviour:
       - -600
       - 210
       - 
-      - .85
-      - .85
+      - 1.5
+      - 1.5
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -2794,9 +2794,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - sentakuFlg
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/04Tutorial/Scenarios/04Tutorial.xls:Param
     type: 1
-    textLength: 192
+    textLength: 206
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 186c2240e5d02854e8ae3448f65e5178, type: 3}
   - rows:
