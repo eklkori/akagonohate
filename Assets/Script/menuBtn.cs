@@ -49,15 +49,13 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject giftMis;　//未獲得のプレゼント全て(スクロールバーごと)
     [SerializeField] GameObject giftSumis;//獲得済みのプレゼント全て(スクロールバーごと)
     [SerializeField] GameObject[] giftMi;  //プレゼント(未獲得)のオブジェクト(長さ≒現在用意しているプレゼントの総数)
-    [SerializeField] GameObject[] giftSumi;//プレゼント(獲得済み)のオブジェクト(長さ≒現在用意しているプレゼントの総数)
+    [SerializeField] GameObject[] giftSumiBsae;//プレゼント(獲得済み)のオブジェクト(最新の100件を表示)
     [SerializeField] Text[] giftKigenMi;  //プレゼント(未獲得)受け取り期限(長さ≒現在用意しているプレゼントの総数)
     [SerializeField] Text[] giftKigenSumi;//プレゼント(獲得済み)受取日履歴(長さ≒現在用意しているプレゼントの総数)
     [SerializeField] GameObject tuchi;　//通知の赤丸
     [SerializeField] GameObject[] arimasenT; //ありませんテキスト(0：未獲得、1；獲得履歴)
 
-    [SerializeField] GameObject childObjectPrefab;
-    [SerializeField] Transform parent;
-    [SerializeField] Transform childObjectP;
+    [SerializeField] Transform[] parents;
     [SerializeField] GameObject itemPrefab;
     [SerializeField] GameObject kazuP;
     [SerializeField] GameObject titleP;
@@ -346,44 +344,47 @@ public class menuBtn : MonoBehaviour
         giftSumis.SetActive(true);
 
         //履歴表示の制御
-        //※30日前までの履歴を保管
-        TimeSpan month30 = new TimeSpan(0, 30, 0, 0);
-        DateTime kijyunbi = today - month30;
-        int count = AkagonohateData.giftTitle.Count;
+        //※最新100件の履歴を保管
         int num = 0;
-        for (int i = 0; i < count; i++)
+        //表示の初期化
+        for (int i = 0; i < 100; i++)
         {
-            if (AkagonohateData.giftTime[i] >= kijyunbi)
+            giftSumiBsae[i].SetActive(false);
+
+            //子オブジェクトの削除処理が必要
+
+        }
+        //データがあれば1件ずつ表示
+        for (int i = 0; i < 100; i++)
+        {
+            if (AkagonohateData.giftTitle[i] != "")
             {
-                //基準日(30日前)より後に受け取ったプレゼントであれば表示
-                Instantiate(childObjectPrefab, new Vector3(50, -150, 0), Quaternion.identity, parent);
-                Instantiate(kazuP, new Vector3(280, -90, 0), Quaternion.identity, parent);
-                Instantiate(titleP, new Vector3(846, 27, 0), Quaternion.identity, parent);
-                Instantiate(rirekiP, new Vector3(765, -65, 0), Quaternion.identity, parent);
+            //最新100件の受け取ったプレゼントを表示
+            giftSumiBsae[i].SetActive(true);
 
-                //獲得数の上書き
-                Text kazu = Instantiate(kazuPrefab);
-                kazu.text = "×"+(AkagonohateData.giftKosu[i] / 10).ToString();
+            Instantiate(kazuP, new Vector3(280, -90, 0), Quaternion.identity, parents[i]);
+            Instantiate(titleP, new Vector3(846, 27, 0), Quaternion.identity, parents[i]);
+            Instantiate(rirekiP, new Vector3(765, -65, 0), Quaternion.identity, parents[i]);
 
-                //プレゼント名の上書き
-                Text title = Instantiate(titlePrefab);
-                title.text = AkagonohateData.giftTitle[i];
+            //獲得数の上書き
+            Text kazu = Instantiate(kazuPrefab);
+            kazu.text = "×" + (AkagonohateData.giftKosu[i] / 10).ToString();
 
-                //獲得日の上書き
-                Text time = Instantiate(rirekiPrefab);
-                int year = AkagonohateData.giftTime[i].Year;
-                int month = AkagonohateData.giftTime[i].Month;
-                int day = AkagonohateData.giftTime[i].Day;
-                title.text = "獲得日：" + year + "/" + month + "/" + day;
+            //プレゼント名の上書き
+            Text title = Instantiate(titlePrefab);
+            title.text = AkagonohateData.giftTitle[i];
 
-                num++;
-            }
-            else
-            {
-                //基準日(30日前)より前に受け取ったプレゼントであればデータを削除
-                AkagonohateData.giftTime.Remove(AkagonohateData.giftTime[i]);
-                AkagonohateData.giftTitle.Remove(AkagonohateData.giftTitle[i]);
-                AkagonohateData.giftKosu.Remove(AkagonohateData.giftKosu[i]);
+            //獲得日の上書き
+            Text time = Instantiate(rirekiPrefab);
+            int year = AkagonohateData.giftTime[i].Year;
+            int month = AkagonohateData.giftTime[i].Month;
+            int day = AkagonohateData.giftTime[i].Day;
+            Debug.Log(AkagonohateData.giftTime[i].Year);
+            Debug.Log(AkagonohateData.giftTime[i].Month);
+            Debug.Log(AkagonohateData.giftTime[i].Day);
+            title.text = "獲得日：" + year + "/" + month + "/" + day;
+
+            num++;
             }
         }
 
@@ -782,6 +783,10 @@ public class menuBtn : MonoBehaviour
         //履歴をリストに格納　※タイトルは下のメソッドで追加(ボタン押下時の引数にタイトル名を指定)
         AkagonohateData.giftKosu.Add(giftNo);
         AkagonohateData.giftTime.Add(today);
+        //for (int i = 0; i < AkagonohateData.giftTime.Count; i++)
+        //{
+        //    Debug.Log(AkagonohateData.giftTime[i]);
+        //}
 
         //ポップアップ表示処理に飛ばす
         konyu(giftNo);

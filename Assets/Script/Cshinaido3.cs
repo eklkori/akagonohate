@@ -23,10 +23,10 @@ public class Cshinaido3 : MonoBehaviour
     private void Start()
     {
         //テスト用仮置き
-        AkagonohateData.kaiwaShichoFlg[1] = 1;
-        AkagonohateData.kaiwaShichoFlg[103] = 1;
-        AkagonohateData.dateShichoFlg[2] = 1;
-        AkagonohateData.dateShichoFlg[44] = 1;
+        //AkagonohateData.kaiwaShichoFlg[1] = 1;
+        //AkagonohateData.kaiwaShichoFlg[103] = 1;
+        //AkagonohateData.dateShichoFlg[2] = 1;
+        //AkagonohateData.dateShichoFlg[44] = 1;
         //テスト用仮置きEND
 
         //戻るボタンの遷移先を操作
@@ -105,18 +105,18 @@ public class Cshinaido3 : MonoBehaviour
                 miruBtnsD[i].SetActive(true);
             }
         }
-
+        Debug.Log("AkagonohateData.dateShichoFlg[200 + (who-1) * 20 + i]=" + AkagonohateData.dateShichoFlg[200 + (who - 1) * 20]);
         //未獲得報酬がある場合は文字アイコンを表示
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < mikakutokuAri.Length; i++)
         {
-            if (AkagonohateData.dateShichoFlg[200 + who * 20 + i] == 1 && AkagonohateData.dateShichoFlg[400 + who * 20 + i] == 1)
+            if (AkagonohateData.dateShichoFlg[200 + (who-1) * 20 + i] == 1 && AkagonohateData.dateShichoFlg[400 + (who - 1) * 20 + i] == 1)
             {
                 //2/2視聴済み
                 mikakutokuAri[i].SetActive(false);
                 DKaihou[i].text = "分岐：2/2閲覧済み";
                 Debug.Log("あ");
             }
-            else if (AkagonohateData.dateShichoFlg[200 + who * 20 + i] == 1 || AkagonohateData.dateShichoFlg[400 + who * 20 + i] == 1)
+            else if (AkagonohateData.dateShichoFlg[200 + (who-1) * 20 + i] == 1 || AkagonohateData.dateShichoFlg[400 + (who - 1) * 20 + i] == 1)
             {
                 //1/2視聴済み
                 mikakutokuAri[i].SetActive(true);
