@@ -50,11 +50,16 @@ public class menuBtn : MonoBehaviour
     [SerializeField] GameObject giftSumis;//獲得済みのプレゼント全て(スクロールバーごと)
     [SerializeField] GameObject[] giftMi;  //プレゼント(未獲得)のオブジェクト(長さ≒現在用意しているプレゼントの総数)
     [SerializeField] GameObject[] giftSumiBsae;//プレゼント(獲得済み)のオブジェクト(最新の100件を表示)
+    [SerializeField] Text[] kazuT;//プレゼント(獲得済み)の個数表示(最新の100件を表示)
+    [SerializeField] Text[] titleT;//プレゼント(獲得済み)の名前(最新の100件を表示)
+    [SerializeField] Text[] rirekiT;//プレゼント(獲得済み)の受け取り日時(最新の100件を表示)
     [SerializeField] Text[] giftKigenMi;  //プレゼント(未獲得)受け取り期限(長さ≒現在用意しているプレゼントの総数)
     [SerializeField] Text[] giftKigenSumi;//プレゼント(獲得済み)受取日履歴(長さ≒現在用意しているプレゼントの総数)
     [SerializeField] GameObject tuchi;　//通知の赤丸
     [SerializeField] GameObject[] arimasenT; //ありませんテキスト(0：未獲得、1；獲得履歴)
 
+    [SerializeField] Sprite[] giftItemImgs;  //獲得済みプレゼントのアイテム画像用
+    [SerializeField] Image[] rirekiImgs;  //獲得済みプレゼントのアイテム画像用
     [SerializeField] Transform[] parents;
     [SerializeField] GameObject itemPrefab;
     [SerializeField] GameObject kazuP;
@@ -351,40 +356,56 @@ public class menuBtn : MonoBehaviour
         {
             giftSumiBsae[i].SetActive(false);
 
-            //子オブジェクトの削除処理が必要
-
+            ////子オブジェクトの削除処理
+            //foreach (Transform child in giftSumiBsae[i].transform)
+            //{
+            //    GameObject.Destroy(child.gameObject);
+            //}
         }
         //データがあれば1件ずつ表示
         for (int i = 0; i < 100; i++)
         {
-            if (AkagonohateData.giftTitle[i] != "")
+            if (AkagonohateData.giftKosu[i] != 0)
             {
-            //最新100件の受け取ったプレゼントを表示
-            giftSumiBsae[i].SetActive(true);
+                //最新100件の受け取ったプレゼントを表示
+                giftSumiBsae[i].SetActive(true);
+                    Debug.Log("AkagonohateData.giftTitle[i]="+AkagonohateData.giftTitle[i]);
+                Debug.Log("AkagonohateData.giftKosu[i]=" + AkagonohateData.giftKosu[i]);
+                //Instantiate(kazuP, new Vector3(280, -90, 0), Quaternion.identity, parents[i]);
+                //Instantiate(titleP, new Vector3(846, 27, 0), Quaternion.identity, parents[i]);
+                //Instantiate(rirekiP, new Vector3(765, -65, 0), Quaternion.identity, parents[i]);
 
-            Instantiate(kazuP, new Vector3(280, -90, 0), Quaternion.identity, parents[i]);
-            Instantiate(titleP, new Vector3(846, 27, 0), Quaternion.identity, parents[i]);
-            Instantiate(rirekiP, new Vector3(765, -65, 0), Quaternion.identity, parents[i]);
+                //獲得数の上書き
+                kazuT[i].text = "×" + (AkagonohateData.giftKosu[i] / 10).ToString();
+                
+                //プレゼント名の上書き
+                //Text title = Instantiate(titlePrefab);
+                titleT[i].text = AkagonohateData.giftTitle[i];
+                
+                //獲得日の上書き
+                int year = AkagonohateData.giftTime[i].Year;
+                int month = AkagonohateData.giftTime[i].Month;
+                int day = AkagonohateData.giftTime[i].Day;
+                Debug.Log(AkagonohateData.giftTime[i].Year);
+                Debug.Log(AkagonohateData.giftTime[i].Month);
+                Debug.Log(AkagonohateData.giftTime[i].Day);
+                rirekiT[i].text = "獲得日：" + year + "/" + month + "/" + day;
 
-            //獲得数の上書き
-            Text kazu = Instantiate(kazuPrefab);
-            kazu.text = "×" + (AkagonohateData.giftKosu[i] / 10).ToString();
+                //アイテム画像の差し替え
+                //※giftKosu：引数の下1桁で商品画像(種類)、上n桁で購入数を判別
+                int item = AkagonohateData.giftKosu[i] % 10;
 
-            //プレゼント名の上書き
-            Text title = Instantiate(titlePrefab);
-            title.text = AkagonohateData.giftTitle[i];
+                switch (item)
+                {
+                    case 0: rirekiImgs[i].sprite = giftItemImgs[0]; rirekiImgs[i].rectTransform.sizeDelta = new Vector3(190, 190, 0); break;
+                    case 1: rirekiImgs[i].sprite = giftItemImgs[1]; rirekiImgs[i].rectTransform.sizeDelta = new Vector3(180, 180, 0); break;
+                    case 2: rirekiImgs[i].sprite = giftItemImgs[2]; rirekiImgs[i].rectTransform.sizeDelta = new Vector3(118, 118, 0); break; //rirekiImgs[i].rectTransform.position = new Vector3(860, 950, 0);
+                    case 3: rirekiImgs[i].sprite = giftItemImgs[3]; rirekiImgs[i].rectTransform.sizeDelta = new Vector3(100, 100, 0); break;
+                    case 4: rirekiImgs[i].sprite = giftItemImgs[4]; rirekiImgs[i].rectTransform.sizeDelta = new Vector3(100, 100, 0); break;
+                    case 5: rirekiImgs[i].sprite = giftItemImgs[5]; rirekiImgs[i].rectTransform.sizeDelta = new Vector3(100, 100, 0); break;
+                }
 
-            //獲得日の上書き
-            Text time = Instantiate(rirekiPrefab);
-            int year = AkagonohateData.giftTime[i].Year;
-            int month = AkagonohateData.giftTime[i].Month;
-            int day = AkagonohateData.giftTime[i].Day;
-            Debug.Log(AkagonohateData.giftTime[i].Year);
-            Debug.Log(AkagonohateData.giftTime[i].Month);
-            Debug.Log(AkagonohateData.giftTime[i].Day);
-            title.text = "獲得日：" + year + "/" + month + "/" + day;
-
-            num++;
+                num++;
             }
         }
 
@@ -780,9 +801,14 @@ public class menuBtn : MonoBehaviour
         //引数の上n桁で購入数を判別
         int itemKosu = giftNo / 10;
 
-        //履歴をリストに格納　※タイトルは下のメソッドで追加(ボタン押下時の引数にタイトル名を指定)
-        AkagonohateData.giftKosu.Add(giftNo);
-        AkagonohateData.giftTime.Add(today);
+        //履歴を配列に格納　※タイトルは下のメソッドで追加(ボタン押下時の引数にタイトル名を指定)
+        for (int i = 99; i > 0; i--)
+        {
+            AkagonohateData.giftKosu[i] = AkagonohateData.giftKosu[i - 1];
+            AkagonohateData.giftTime[i] = AkagonohateData.giftTime[i - 1];
+        }
+        AkagonohateData.giftKosu[0] = giftNo;
+        AkagonohateData.giftTime[0] = today;
         //for (int i = 0; i < AkagonohateData.giftTime.Count; i++)
         //{
         //    Debug.Log(AkagonohateData.giftTime[i]);
@@ -798,17 +824,26 @@ public class menuBtn : MonoBehaviour
     /// <param name="title"></param>
     public void giftKakutoku2(string title)
     {
-        //タイトルの最初の1文字(プレゼント通し番号数字)を切り分け
-        int giftNo = int.Parse(title.Substring(0, 1));
+        //タイトルの最初の2文字(プレゼント通し番号数字)を切り分け
+        int giftNo = int.Parse(title.Substring(0, 2));
+        if (title.Substring(0, 1) == "0")
+        {
+            //最初の1文字が0の場合は消去
+            giftNo = int.Parse(title.Substring(1, 1));
+        }
 
         //タイトルから通し番号を削除
-        string titleAfter = title.Remove(0, 1);
+        string titleAfter = title.Remove(0, 2);
 
         //ギフトフラグの書き換え(0→2)
         AkagonohateData.giftFlg[giftNo] = 2;
 
-        //履歴をリストに格納　※タイトルのみ
-        AkagonohateData.giftTitle.Add(title);
+        //履歴を配列に格納　※タイトルのみ
+        for (int i = 99; i > 0; i--)
+        {
+            AkagonohateData.giftTitle[i] = AkagonohateData.giftTitle[i - 1];
+        }
+        AkagonohateData.giftTitle[0] = titleAfter;
 
         //プレゼント受け取りポップアップ表示の更新
         cGift();
