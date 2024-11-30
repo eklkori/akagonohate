@@ -1,5 +1,7 @@
+using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -146,31 +148,45 @@ public class CTask : MonoBehaviour
         {
             switch (hyoujiTask)
             {
-                case 1: tmpList.Add(nikkas[i]); break;
-                case 2: tmpList.Add(syukans[i]); break;
-                case 3: tmpList.Add(events[i]); break;
+                case 1: tmpList.Add(nikkas[i]); Debug.Log(AkagonohateData.tasseiFlgN[i]); break;
+                case 2: tmpList.Add(syukans[i]); Debug.Log(AkagonohateData.tasseiFlgS[i]); break;
+                case 3: tmpList.Add(events[i]); Debug.Log(AkagonohateData.tasseiFlgE[i]); break;
             }
         }
 
         //ƒ\[ƒg
+        //‡@•ñV(ƒIƒuƒWƒFƒNƒg)‚Ì–¼‘O‡
+        tmpList.Sort((obj1, obj2) => string.Compare(obj1.name,obj2.name));
+
+        //‡AŠl“¾¨–¢Šl“¾¨Šl“¾Ï‚Ý‚Ì‡
+        switch (hyoujiTask)
+        {
+            case 1:
+                tmpList.Sort((obj1, obj2) => string.Compare(AkagonohateData.tasseiFlgN[int.Parse(obj1.name)].ToString(),
+                AkagonohateData.tasseiFlgN[int.Parse(obj2.name)].ToString()));
+                break;
+            case 2:
+                tmpList.Sort((obj1, obj2) => string.Compare(AkagonohateData.tasseiFlgS[int.Parse(obj1.name)].ToString(),
+                AkagonohateData.tasseiFlgS[int.Parse(obj2.name)].ToString()));
+                break;
+            case 3:
+                tmpList.Sort((obj1, obj2) => string.Compare(AkagonohateData.tasseiFlgE[int.Parse(obj1.name)].ToString(),
+                AkagonohateData.tasseiFlgE[int.Parse(obj2.name)].ToString()));
+                break;
+        }
         for (int i = 0; i < 6; i++)
         {
-            Debug.Log(AkagonohateData.tasseiFlgN[i]);
-        }
-        //tmpList.Sort((obj1, obj2) => string.Compare(AkagonohateData.tasseiFlgN[int.Parse(obj1.name)].ToString(),
-        //    AkagonohateData.tasseiFlgN[int.Parse(obj2.name)].ToString()));
-        for (int i = 0; i < 6; i++) {
             Debug.Log(tmpList[i]);
         }
 
-        //List‚Ì’†g‚ð”z—ñ‚É–ß‚·
+        //List‚Ì’†g‚ð”z—ñ‚É–ß‚·¨•\Ž¦‡˜‚Ì”½‰f
         for (int i = 0; i < kensu; i++)
         {
             switch (hyoujiTask)
             {
-                case 1: nikkas[i] = tmpList[i]; break;
-                case 2: syukans[i] = tmpList[i]; break;
-                case 3: events[i] = tmpList[i]; break;
+                case 1: nikkas[i] = tmpList[i]; nikkas[i].transform.SetSiblingIndex(i); break;
+                case 2: syukans[i] = tmpList[i]; syukans[i].transform.SetSiblingIndex(i); break;
+                case 3: events[i] = tmpList[i]; events[i].transform.SetSiblingIndex(i); break;
             }
         }
     }
