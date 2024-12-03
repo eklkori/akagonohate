@@ -1,0 +1,69 @@
+GS2TemplateFormatVersion: "2019-05-01"
+
+Globals:
+  Alias:
+    ApplicationUserName: default
+    KeyNamespaceName: default
+    KeyName: default
+    DistributorNamespaceName: default
+    GatewayNamespaceName: default
+    JobQueueNamespaceName: default
+
+Resources:
+
+  IdentifierApplicationUser:
+    Type: GS2::Identifier::User
+    Properties:
+      Name: ${ApplicationUserName}
+
+  IdentifierApplicationUserAttachPolicy:
+    Type: GS2::Identifier::AttachSecurityPolicy
+    Properties:
+      UserName: ${ApplicationUserName}
+      SecurityPolicyId: grn:gs2::system:identifier:securityPolicy:ApplicationAccess
+    DependsOn:
+      - IdentifierApplicationUser
+
+  IdentifierApplicationIdentifier:
+    Type: GS2::Identifier::Identifier
+    Properties:
+      UserName: ${ApplicationUserName}
+    DependsOn:
+      - IdentifierApplicationUser
+
+  KeyNamespace:
+    Type: GS2::Key::Namespace
+    Properties:
+      Name: ${KeyNamespaceName}
+
+  Key:
+    Type: GS2::Key::Key
+    Properties:
+      NamespaceName: ${KeyNamespaceName}
+      Name: ${KeyName}
+    DependsOn:
+      - KeyNamespace
+
+  GatewayNamespace:
+    Type: GS2::Gateway::Namespace
+    Properties:
+      Name: ${GatewayNamespaceName}
+
+  DistributorNamespace:
+    Type: GS2::Distributor::Namespace
+    Properties:
+      Name: ${DistributorNamespaceName}
+      AutoRunStampSheetNotification:
+        GatewayNamespaceId: !GetAttr GatewayNamespace.Item.NamespaceId
+
+  JobQueueNamespace:
+    Type: GS2::JobQueue::Namespace
+    Properties:
+      Name: ${JobQueueNamespaceName}
+      EnableAutoRun: true
+      RunNotification:
+        GatewayNamespaceId: !GetAttr GatewayNamespace.Item.NamespaceId
+
+Outputs:
+  ApplicationClientId: !GetAttr IdentifierApplicationIdentifier.Item.ClientId
+  ApplicationClientSecret: !GetAttr IdentifierApplicationIdentifier.ClientSecret

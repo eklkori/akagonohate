@@ -355,12 +355,6 @@ public class menuBtn : MonoBehaviour
         for (int i = 0; i < 100; i++)
         {
             giftSumiBsae[i].SetActive(false);
-
-            ////子オブジェクトの削除処理
-            //foreach (Transform child in giftSumiBsae[i].transform)
-            //{
-            //    GameObject.Destroy(child.gameObject);
-            //}
         }
         //データがあれば1件ずつ表示
         for (int i = 0; i < 100; i++)
@@ -371,15 +365,11 @@ public class menuBtn : MonoBehaviour
                 giftSumiBsae[i].SetActive(true);
                     Debug.Log("AkagonohateData.giftTitle[i]="+AkagonohateData.giftTitle[i]);
                 Debug.Log("AkagonohateData.giftKosu[i]=" + AkagonohateData.giftKosu[i]);
-                //Instantiate(kazuP, new Vector3(280, -90, 0), Quaternion.identity, parents[i]);
-                //Instantiate(titleP, new Vector3(846, 27, 0), Quaternion.identity, parents[i]);
-                //Instantiate(rirekiP, new Vector3(765, -65, 0), Quaternion.identity, parents[i]);
 
                 //獲得数の上書き
                 kazuT[i].text = "×" + (AkagonohateData.giftKosu[i] / 10).ToString();
                 
                 //プレゼント名の上書き
-                //Text title = Instantiate(titlePrefab);
                 titleT[i].text = AkagonohateData.giftTitle[i];
                 
                 //獲得日の上書き
@@ -863,20 +853,15 @@ public class menuBtn : MonoBehaviour
         int tmp = 5 - (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]);
         if (kaifukusu >= tmp)
         {
+            //上限の場合は+ボタンを非表示
             plusBtn.SetActive(false);
         }
         minusBtn.SetActive(true);
         kaifukuBtn.SetActive(true);
 
-        //上限の場合は+ボタンを非表示
-        //int tmp2 = 5 - (AkagonohateData.itemSyojisu[2] - AkagonohateData.itemSyojisu[6]);
         Debug.Log(AkagonohateData.itemSyojisu[2]);
         Debug.Log(AkagonohateData.itemSyojisu[6]);
         Debug.Log(tmp);
-        //if (tmp2 == kaifukusu)
-        //{
-        //    plusBtn.SetActive(false);
-        //}
     }
 
     public void pushMinus() {

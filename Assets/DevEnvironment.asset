@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19105343daad41a8b8370baabc6e10d4, type: 3}
+  m_Name: DevEnvironment
+  m_EditorClassIdentifier: 
+  name: dev
+  region: 0
+  clientId: GKINt_dh5Ul_3QYZ_jliGx0Drm0mQHrcpU1hKgtB_ITGmN55Yzgou6XL-4U9-hFhA7f1PQeNztLJdWTjB-xijlBI0WH11iJujPIKiae
+  clientSecret: iKLpGoqbixqmmAGiLjEyNyRhsShesFfq

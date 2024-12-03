@@ -10171,7 +10171,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1198967866}
-  - component: {fileID: 1198967867}
   m_Layer: 0
   m_Name: hosyuIchiranPopUp
   m_TagString: Untagged
@@ -10201,93 +10200,6 @@ Transform:
   - {fileID: 1590635969}
   m_Father: {fileID: 2131789405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1198967867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1198967865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648080eb393816440830093fd0a93f72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  kyaraSyousaiPopUp: {fileID: 2131789401}
-  kyaraImages:
-  - {fileID: 301478691}
-  - {fileID: 830487580}
-  - {fileID: 1957744301}
-  - {fileID: 2012493200}
-  - {fileID: 835858766}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 580139633}
-  - {fileID: 1156596246}
-  - {fileID: 978691474}
-  - {fileID: 980929398}
-  - {fileID: 1943185931}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 1514443765}
-  - {fileID: 1782399969}
-  - {fileID: 1290838916}
-  - {fileID: 454448443}
-  - {fileID: 1831582807}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 1144806121}
-  - {fileID: 2136284297}
-  - {fileID: 1982861174}
-  - {fileID: 1635322105}
-  - {fileID: 1263403905}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 1013358936}
-  - {fileID: 473001445}
-  - {fileID: 635563918}
-  - {fileID: 592085679}
-  - {fileID: 494383123}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 403980200}
-  - {fileID: 1863132172}
-  - {fileID: 798110240}
-  - {fileID: 116417219}
-  - {fileID: 1136215542}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  - {fileID: 641497390}
-  haikei:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  hoshi:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  nameT: {fileID: 0}
-  setsumei: {fileID: 0}
-  biT: {fileID: 0}
-  huT: {fileID: 0}
-  eveT: {fileID: 0}
 --- !u!1 &1204415481
 GameObject:
   m_ObjectHideFlags: 0
