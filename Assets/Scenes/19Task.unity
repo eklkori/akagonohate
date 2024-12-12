@@ -838,7 +838,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1605,7 +1605,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2395,7 +2395,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2772,7 +2772,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5646,7 +5646,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6009,7 +6009,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9086,7 +9086,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12165,7 +12165,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12430,7 +12430,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14221,7 +14221,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14365,7 +14365,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14509,7 +14509,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15290,7 +15290,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15477,7 +15477,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16298,7 +16298,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 656503630}
         m_TargetAssemblyTypeName: CTask, Assembly-CSharp
-        m_MethodName: pushBtn
+        m_MethodName: kari
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

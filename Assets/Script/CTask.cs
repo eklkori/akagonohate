@@ -1,7 +1,10 @@
+using Cysharp.Threading.Tasks;
 using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -200,11 +203,26 @@ public class CTask : MonoBehaviour
         btnNo = num / 10;
     }
 
+    string hosyuKari = "";
+
+    /// <summary>
+    /// ①の処理が先に確実に行われるよう、0.1秒待つ処理を通してから②を実行
+    /// </summary>
+    /// <param name="hosyu"></param>
+    public void kari(string hosyu)
+    {
+        hosyuKari = hosyu;
+        Invoke("pushBtn", 0.1f);
+    }
+
     /// <summary>
     /// 獲得ボタン押下時の処理②
     /// ※hosyu：貰えるアイテムの個数
     /// </summary>
-    public void pushBtn(string hosyu) {
+    void pushBtn() {
+        //①の処理が先に確実に行われるよう、0.1秒待つ
+        string hosyu = hosyuKari;
+
         //ポップアップ表示
         kakutokuPopup.SetActive(true);
         zeni.SetActive(false);

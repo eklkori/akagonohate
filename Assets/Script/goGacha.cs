@@ -23,6 +23,9 @@ public class goGacha : MonoBehaviour
         //テスト用処理START
         //AkagonohateData.itemSyojisu[1] = 150;
         //テスト用処理END
+
+        //前シーンを強制的に05Homeに変更
+        AkagonohateData.maeScene = "05Home";
     }
     public void gachaPopUp(int num) {
         gachaFlg = num;

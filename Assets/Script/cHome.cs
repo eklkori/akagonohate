@@ -91,7 +91,7 @@ public class cHome : MonoBehaviour
         int countWeek = 0;
         for (int i = 0; i < 6; i++)
         {
-            //誰かの最終会話日が今日であれば、countDayTMPが1になるので次のif文を通る
+            //誰かの最終会話日が今日であれば、countDayが1になるので次のif文を通る
             if (AkagonohateData.kaiwaRireki[i] == today.Date)
             {
                 countDay++;
@@ -102,25 +102,25 @@ public class cHome : MonoBehaviour
         {
             if (AkagonohateData.countDay[0] >= 1) 
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgN[0] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgN[0] = 0;
                 }
             }
             if (AkagonohateData.countDay[0] >= 3)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgN[1] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgN[1] = 0;
                 }
             }
             if (AkagonohateData.countDay[0] >= 6)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgN[2] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgN[2] = 0;
                 }
             }
@@ -130,25 +130,25 @@ public class cHome : MonoBehaviour
         {
             if (AkagonohateData.countDay[1] >= 1)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgN[3] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgN[3] = 0;
                 }
             }
             if (AkagonohateData.countDay[1] >= 5)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgN[4] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgN[4] = 0;
                 }
             }
             if (AkagonohateData.countDay[1] >= 10)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgN[5] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgN[5] = 0;
                 }
             }
@@ -168,25 +168,25 @@ public class cHome : MonoBehaviour
         {
             if (AkagonohateData.countDay[3] >= 10)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[0] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[0] = 0;
                 }
             }
             if (AkagonohateData.countDay[3] >= 20)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[1] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[1] = 0;
                 }
             }
             if (AkagonohateData.countDay[3] >= 30)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[2] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[2] = 0;
                 }
             }
@@ -197,49 +197,49 @@ public class cHome : MonoBehaviour
         {
             if (AkagonohateData.countDay[3] >= 15)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[3] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[3] = 0;
                 }
             }
             if (AkagonohateData.countDay[3] >= 25)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[4] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[4] = 0;
                 }
             }
             if (AkagonohateData.countDay[3] >= 35)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[5] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[5] = 0;
                 }
             }
             if (AkagonohateData.countDay[3] >= 50)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[6] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[6] = 0;
                 }
             }
             if (AkagonohateData.countDay[3] >= 60)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[7] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[7] = 0;
                 }
             }
             if (AkagonohateData.countDay[3] >= 70)
             {
-                iconFlg++;
                 if (AkagonohateData.tasseiFlgS[8] != 2)
                 {
+                    iconFlg++;
                     AkagonohateData.tasseiFlgS[8] = 0;
                 }
             }

@@ -211,7 +211,8 @@ public class CRunwayRes : MonoBehaviour
 
         //‰æ–Ê‘JˆÚ
         SceneManager.LoadScene("11Runway", LoadSceneMode.Additive);
-        SceneManager.UnloadSceneAsync("12CRunwayRes");
+        SceneManager.UnloadSceneAsync("12RunwayRes");
+        Debug.Log("’Ê‰ß");
     }
 
     /// <summary>
